@@ -1,0 +1,15 @@
+body {
+  color: black;
+}
+
+ruby {
+  ruby-position: over;
+  ruby-align: center;
+  ruby-align: space-around;
+}
+
+rtc {
+  ruby-position: under;
+  ruby-align: center;
+  ruby-align: space-around;
+}

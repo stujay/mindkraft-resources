@@ -1,0 +1,52 @@
+Abbreviation	Meaning	Type of abbreviation
+AA	All after (used after question mark to request a repetition)	operating signal
+AB	All before (similarly)	operating signal
+ADRS	Address 	operating signal
+ADS 	Address	operating signal
+AGN	Again	operating signal
+AR 	End of transmission.	operating signal
+AS	Wait	operating signal
+BK	Break (to pause transmission of a message, say)	operating signal
+BN	All between	operating signal
+C	Yes ; correct	operating signal
+CFM	Confirm	operating signal
+CK	Check	
+CL	Closing (I am closing my station)	operating signal
+CQ	Calling ... (calling all stations, any station)	operating signal
+CQD	All stations distress (used preceding SOS to let all operators know of an impending distress signal)	operating signal
+CS	Call sign (used to request a call sign)	
+DE	From (or "this is")	operating signal
+DX	Distance (sometimes refers to long distance contact), foreign countries	
+FM	From	operating signal
+FWD	Forward	
+II	I say again	
+K	Invitation to transmit	operating signal
+KN	Over to you; only the station named should respond (e.g. W7PTH DE W1AW  KN )	operating signal
+LID	Poor operator	
+MSG	Prefix indicating a message to or from the master of a ship concerning its operation or navigation	
+N	No ; nine 	
+NIL	I have nothing to send you	
+NR	Number follows	operating signal
+OK	Okay 	operating signal
+PLS	Please	
+PPR	Paper	
+PSE	Please	
+PX	Prefix 	
+R	Received as transmitted (origin of "Roger")	operating signal
+RPT	Report / Repeat please / I repeat as follows	
+RST	Signal report format (Readability-Signal Strength-Tone)	operating signal
+SFR	So far (proword)	
+SIG	Signature 	
+SK	Out (prosign), end of contact	operating signal
+SK	Silent Key (a deceased radio amateur)	
+SVP	Please ( French : "S'il vous plaît")	
+TU	Thank You	#ERR
+W	Word / Words	
+WA	Word after	operating signal
+WB	Word before	operating signal
+WC	Wilco 	operating signal
+WD	Word / Words	
+WX	Weather / Weather report follows	
+Z	Zulu time i.e. UTC	operating signal
+73	Best regards 	92 Code
+88	Love and kisses 	92 Code
