@@ -1,0 +1,45 @@
+Symbol	varga-original	varga-current	action-current	action-original	Name_Thai	Name_RTGS	Name_Meaning	RTGS _Initial	RTGS _Final	IPA_Initial	IPA_Final	Class
+ก	gutteral	gutteral	stopped	stopped	ก ไก่	ko kai	chicken	k	k	[k]	[k̚]	mid
+ข	gutteral	gutteral	aspirated	aspirated	ข ไข่	kho khai	egg	kh	k	[kʰ]	[k̚]	high
+ฃ	gutteral	gutteral	aspirated	aspirated	ฃ ขวด	kho khuat	bottle (obsolete)	kh	k	[kʰ]	[k̚]	high
+ค	gutteral	gutteral	aspirated	voiced	ค ควาย	kho khwai	buffalo	kh	k	[kʰ]	[k̚]	low
+ฅ	gutteral	gutteral	aspirated	voiced	ฅ คน	kho khon	person (obsolete)	kh	k	[kʰ]	[k̚]	low
+ฆ	gutteral	gutteral	voiced-aspirated	voiced-aspirated	ฆ ระฆัง	kho ra-khang	bell	kh	k	[kʰ]	[k̚]	low
+ง	gutteral	gutteral	nasal	nasal	ง งู	ngo ngu	snake	ng	ng	[ŋ]	[ŋ]	low
+จ	palatal	palatal	stopped	stopped	จ จาน	cho chan	plate	ch	t	[tɕ]	[t̚]	mid
+ฉ	palatal	palatal	aspirated	aspirated	ฉ ฉิ่ง	cho ching	cymbals	ch	–	[tɕʰ]	–	high
+ช	palatal	palatal	aspirated	voiced	ช ช้าง	cho chang	elephant	ch	t	[tɕʰ]	[t̚]	low
+ซ	palatal	palatal	aspirated	voiced	ซ โซ่	so so	chain	s	t	[s]	[t̚]	low
+ฌ	palatal	palatal	aspirated	voiced-aspirated	ฌ เฌอ	cho choe	tree	ch	–	[tɕʰ]	–	low
+ญ [a]	palatal	palatal	nasal	nasal	ญ หญิง	yo ying	woman	y	n	[j]	[n]	low
+ฎ	cerebral	dental	stopped	stopped	ฎ ชฎา	do cha-da	headdress	d	t	[d]	[t̚]	mid
+ฏ	cerebral	dental	stopped	stopped	ฏ ปฏัก	to pa-tak	goad , javelin	t	t	[t]	[t̚]	mid
+ฐ [b]	cerebral	dental	aspirated	aspirated	ฐ ฐาน	tho than	pedestal	th	t	[tʰ]	[t̚]	high
+ฑ	cerebral	dental	aspirated	voiced	ฑ มณโฑ	tho montho	Montho , character from Ramayana	th or d	t	[tʰ] or [d]	[t̚]	low
+ฒ	cerebral	dental	aspirated	voiced-aspirated	ฒ ผู้เฒ่า	tho phu-thao	elder	th	t	[tʰ]	[t̚]	low
+ณ	cerebral	dental	nasal	nasal	ณ เณร	no nen	samanera	n	n	[n]	[n]	low
+ด	dental	dental	stopped	stopped	ด เด็ก	do dek	child	d	t	[d]	[t̚]	mid
+ต	dental	dental	stopped	stopped	ต เต่า	to tao	turtle	t	t	[t]	[t̚]	mid
+ถ	dental	dental	aspirated	aspirated	ถ ถุง	tho thung	sack	th	t	[tʰ]	[t̚]	high
+ท	dental	dental	aspirated	voiced	ท ทหาร	tho thahan	soldier	th	t	[tʰ]	[t̚]	low
+ธ	dental	dental	aspirated	voiced-aspirated	ธ ธง	tho thong	flag	th	t	[tʰ]	[t̚]	low
+น	dental	dental	nasal	nasal	น หนู	no nu	mouse	n	n	[n]	[n]	low
+บ	labial	labial	stopped	stopped	บ ใบไม้	bo baimai	leaf	b	p	[b]	[p̚]	mid
+ป	labial	labial	stopped	stopped	ป ปลา	po pla	fish	p	p	[p]	[p̚]	mid
+ผ	labial	labial	aspirated	aspirated	ผ ผึ้ง	pho phueng	bee	ph	–	[pʰ]	–	high
+ฝ	labial	labial	aspirated	aspirated	ฝ ฝา	fo fa	lid	f	–	[f]	–	high
+พ	labial	labial	aspirated	voiced	พ พาน	pho phan	phan	ph	p	[pʰ]	[p̚]	low
+ฟ	labial	labial	aspirated	voiced	ฟ ฟัน	fo fan	teeth	f	p	[f]	[p̚]	low
+ภ	labial	labial	aspirated	voiced-aspirated	ภ สำเภา	pho sam-phao	junk	ph	p	[pʰ]	[p̚]	low
+ม	labial	labial	voiced	voiced	ม ม้า	mo ma	horse	m	m	[m]	[m]	low
+ย	palatal	palatal	voiced	voiced	ย ยักษ์	yo yak	giant, yaksha	y	–  or n [c]	[j]	–  or [n]	low
+ร	cerebral	cerebral	voiced	voiced	ร เรือ	ro ruea	boat	r	n	[r]	[n]	low
+ล	dental	dental	voiced	voiced	ล ลิง	lo ling	monkey	l	n	[l]	[n]	low
+ว	labial	labial	voiced	voiced	ว แหวน	wo waen	ring	w	– [d]	[w]	–	low
+ศ	palatal	palatal	sibilant	sibilant	ศ ศาลา	so sala	pavilion, sala	s	t	[s]	[t̚]	high
+ษ	cerebral	cerebral	sibilant	sibilant	ษ ฤๅษี	so rue-si	hermit	s	t	[s]	[t̚]	high
+ส	dental	dental	sibilant	sibilant	ส เสือ	so suea	tiger	s	t	[s]	[t̚]	high
+ห	-	-	aspirated	aspirated	ห หีบ	ho hip	chest, box	h	–	[h]	–	high
+ฬ	cerebral	cerebral	-	-	ฬ จุฬา	lo chu-la	kite	l	n	[l]	[n]	low
+อ	-	-	stopped	stopped	อ อ่าง	o ang	basin	– [e]	–	[ʔ]	–	mid
+ฮ	-	-	aspirated	aspirated	ฮ นกฮูก	ho nok-huk	owl	h	–	[h]	–	low
