@@ -1,33 +1,33 @@
-affix-type	affix	affix-ipa	root sample	derivation sample
-prefix	ter-	tər-	*kenal* (know)	*terkenal* (famous)
-prefix	se-	sə-	*lari* (run)	*selari* (parallel)
-infix	⟨el⟩	⟨əl⟩	*serak* (disperse)	*selerak* (messy)
-infix	⟨em⟩	⟨əm⟩	*cerlang* (radiant bright)	*cemerlang* (bright, excellent)
-infix	⟨er⟩	⟨ər⟩	*sabut* (husk)	*serabut* (dishevelled)
-circumfix	ke-...-an	kə-...-an	*barat* (west)	*kebaratan* (westernized)
-prefix	pe(r)- ~ peng-	pə(r)- ~ pəng-	*duduk* (sit)	*penduduk* (population)
-prefix	ke-	kə-	*hendak* (want)	*kehendak* (desire)
-infix	⟨el⟩	⟨əl⟩	*tunjuk* (point)	*telunjuk* (index finger, command)
-infix	⟨em⟩	⟨əm⟩	*kelut* (dishevelled)	*kemelut* (chaos, crisis)
-infix	⟨er⟩	⟨ər⟩	*gigi* (teeth)	*gerigi* (toothed blade)
-suffix	-an	-an	*bangun* (wake up, raise)	*bangunan* (building)
-circumfix	ke-...-an	kə-...-an	*raja* (king)	*kerajaan* (kingdom)
-circumfix	pe(r)-...-an peng-...-an	pə(r)-...-an pəng-...-an	*kerja* (work)	*pekerjaan* (occupation)
-prefix	ber-	bər-	*ajar* (teach)	*belajar* (to study)[63]
-prefix	meng-	məng-	*tolong* (help)	*menolong* (to help)
-prefix	di-	di-	*ambil* (take)	*diambil* (be taken)
-prefix	memper-	məmpər-	*panjang* (length)	*memperpanjang* (to lengthen)
-prefix	diper-	dipər-	*dalam* (deep)	*diperdalam* (be deepened)
-prefix	ter-	tər-	*makan* (eat)	*termakan* (to have accidentally eaten)
-suffix	-kan	-kan	*letak* (place, keep)	*letakkan* (keep, put)
-suffix	-i	-i	*jauh* (far)	*jauhi* (avoid)
-circumfix	ber-...-an	bər-...-an	*pasang* (pair)	*berpasangan* (in pairs)
-circumfix	ber-...-kan	bər-...-kan	*dasar* (base)	*berdasarkan* (based on)
-circumfix	meng-...-kan	məng-...-kan	*pasti* (sure)	*memastikan* (to make sure)
-circumfix	meng-...-i	məng-...-i	*teman* (company)	*menemani* (to accompany)
-circumfix	memper-...-kan	məmpər-...-kan	*guna* (use)	*mempergunakan* (to utilise, to exploit)
-circumfix	memper-...-i	məmpər-...-i	*ajar* (teach)	*mempelajari* (to study)
-circumfix	ke-...-an	kə-...-an	*hilang* (disappear)	*kehilangan* (to lose)
-circumfix	di-...-i	di-...-i	*sakit* (pain)	*disakiti* (to be hurt by)
-circumfix	di-...-kan	di-...-kan	*benar* (right)	*dibenarkan* (is allowed to)
-circumfix	diper-...-kan	dipər-...-kan	*kenal* (know, recognise)	*diperkenalkan* (is being introduced)
+affix-type	affix	affix-ipa	root sample	derivation sample	description
+prefix	ter-	tər-	*kenal* (know)	*terkenal* (famous)	superlative - the most
+prefix	se-	sə-	*lari* (run)	*selari* (parallel)	'one', 'single', 'uni', 'same'
+infix	⟨el⟩	⟨əl⟩	*serak* (disperse)	*selerak* (messy)	intensive result of 'x'
+infix	⟨em⟩	⟨əm⟩	*cerlang* (radiant bright)	*cemerlang* (bright, excellent)	exertion of or superlative action
+infix	⟨er⟩	⟨ər⟩	*sabut* (husk)	*serabut* (dishevelled)	variety / set of 'x'
+circumfix	ke-...-an	kə-...-an	*barat* (west)	*kebaratan* (westernized)	unintentionally 'X' or received negative repercussions of 'X'
+prefix	pe(r)- ~ peng-	pə(r)- ~ pəng-	*duduk* (sit)	*penduduk* (population)	the 'doer' or 'instrument' of 'x'
+prefix	ke-	kə-	*hendak* (want)	*kehendak* (desire)	'-ness' kind of noun from 'x'
+infix	⟨el⟩	⟨əl⟩	*tunjuk* (point)	*telunjuk* (index finger, command)	subset of 'x'
+infix	⟨em⟩	⟨əm⟩	*kelut* (dishevelled)	*kemelut* (chaos, crisis)	exertion of or superlative action
+infix	⟨er⟩	⟨ər⟩	*gigi* (teeth)	*gerigi* (toothed blade)	set of 'x'
+suffix	-an	-an	*bangun* (wake up, raise)	*bangunan* (building)	that which is 'x'
+circumfix	ke-...-an	kə-...-an	*raja* (king)	*kerajaan* (kingdom)	x-ness
+circumfix	pe(r)-...-an peng-...-an	pə(r)-...-an pəng-...-an	*kerja* (work)	*pekerjaan* (occupation)	'ness' noun build from 'me-' or 'be-' verb
+prefix	ber-	bər-	*ajar* (teach)	*belajar* (to study)[63]	to 'receive' or 'have' 'x'
+prefix	meng-	məng-	*tolong* (help)	*menolong* (to help)	verb - 'x' in action
+prefix	di-	di-	*ambil* (take)	*diambil* (be taken)	passive - is x'd
+prefix	memper-	məmpər-	*panjang* (length)	*memperpanjang* (to lengthen)	transitive or to extend property of 'x'
+prefix	diper-	dipər-	*dalam* (deep)	*diperdalam* (be deepened)	passive - extended property of 'x'
+prefix	ter-	tər-	*makan* (eat)	*termakan* (to have accidentally eaten)	unintentional reciptient of 'x'
+suffix	-kan	-kan	*letak* (place, keep)	*letakkan* (keep, put)	to make 'x'
+suffix	-i	-i	*jauh* (far)	*jauhi* (avoid)	to make 'x'
+circumfix	ber-...-an	bər-...-an	*pasang* (pair)	*berpasangan* (in pairs)	to have the noun of 'x'
+circumfix	ber-...-kan	bər-...-kan	*dasar* (base)	*berdasarkan* (based on)	to have the result of the action of 'x'
+circumfix	meng-...-kan	məng-...-kan	*pasti* (sure)	*memastikan* (to make sure)	to make something have the result of 'x'
+circumfix	meng-...-i	məng-...-i	*teman* (company)	*menemani* (to accompany)	to make something have the result of 'x'
+circumfix	memper-...-kan	məmpər-...-kan	*guna* (use)	*mempergunakan* (to utilise, to exploit)	to implement or cause implementation of 'x'
+circumfix	memper-...-i	məmpər-...-i	*ajar* (teach)	*mempelajari* (to study)	to execute 'x' on somthing
+circumfix	ke-...-an	kə-...-an	*hilang* (disappear)	*kehilangan* (to lose)	receive negative effects of 'x'
+circumfix	di-...-i	di-...-i	*sakit* (pain)	*disakiti* (to be hurt by)	passive - having been made 'x'
+circumfix	di-...-kan	di-...-kan	*benar* (right)	*dibenarkan* (is allowed to)	passive - having been made 'x'
+circumfix	diper-...-kan	dipər-...-kan	*kenal* (know, recognise)	*diperkenalkan* (is being introduced)	passive of memper - 
