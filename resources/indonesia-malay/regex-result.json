@@ -1,0 +1,1874 @@
+[
+  [
+    {
+      "content": "nyelamatkan",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 34,
+      "endPos": 45
+    },
+    {
+      "content": "n",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 34,
+      "endPos": 35
+    },
+    {
+      "content": "yelamatkan",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 35,
+      "endPos": 45
+    }
+  ],
+  [
+    {
+      "content": "i",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 77,
+      "endPos": 78
+    },
+    {
+      "content": "",
+      "isParticipating": false,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": -1,
+      "endPos": -1
+    },
+    {
+      "content": "i",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 77,
+      "endPos": 78
+    }
+  ],
+  [
+    {
+      "content": "nyelamatkan",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 153,
+      "endPos": 164
+    },
+    {
+      "content": "n",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 153,
+      "endPos": 154
+    },
+    {
+      "content": "yelamatkan",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 154,
+      "endPos": 164
+    }
+  ],
+  [
+    {
+      "content": "nggendong",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 221,
+      "endPos": 230
+    },
+    {
+      "content": "ng",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 221,
+      "endPos": 223
+    },
+    {
+      "content": "gendong",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 223,
+      "endPos": 230
+    }
+  ],
+  [
+    {
+      "content": "rdeka",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 279,
+      "endPos": 284
+    },
+    {
+      "content": "",
+      "isParticipating": false,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": -1,
+      "endPos": -1
+    },
+    {
+      "content": "rdeka",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 279,
+      "endPos": 284
+    }
+  ],
+  [
+    {
+      "content": "ngumumkan",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 331,
+      "endPos": 340
+    },
+    {
+      "content": "ng",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 331,
+      "endPos": 333
+    },
+    {
+      "content": "umumkan",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 333,
+      "endPos": 340
+    }
+  ],
+  [
+    {
+      "content": "ngatakan",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 429,
+      "endPos": 437
+    },
+    {
+      "content": "ng",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 429,
+      "endPos": 431
+    },
+    {
+      "content": "atakan",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 431,
+      "endPos": 437
+    }
+  ],
+  [
+    {
+      "content": "ngatakan",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 590,
+      "endPos": 598
+    },
+    {
+      "content": "ng",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 590,
+      "endPos": 592
+    },
+    {
+      "content": "atakan",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 592,
+      "endPos": 598
+    }
+  ],
+  [
+    {
+      "content": "nyerbu",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 659,
+      "endPos": 665
+    },
+    {
+      "content": "n",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 659,
+      "endPos": 660
+    },
+    {
+      "content": "yerbu",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 660,
+      "endPos": 665
+    }
+  ],
+  [
+    {
+      "content": "mukuli",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 710,
+      "endPos": 716
+    },
+    {
+      "content": "m",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 710,
+      "endPos": 711
+    },
+    {
+      "content": "ukuli",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 711,
+      "endPos": 716
+    }
+  ],
+  [
+    {
+      "content": "nyiksa",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 723,
+      "endPos": 729
+    },
+    {
+      "content": "n",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 723,
+      "endPos": 724
+    },
+    {
+      "content": "yiksa",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 724,
+      "endPos": 729
+    }
+  ],
+  [
+    {
+      "content": "mbunuh",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 785,
+      "endPos": 791
+    },
+    {
+      "content": "m",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 785,
+      "endPos": 786
+    },
+    {
+      "content": "bunuh",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 786,
+      "endPos": 791
+    }
+  ],
+  [
+    {
+      "content": "ngungkapkan",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 846,
+      "endPos": 857
+    },
+    {
+      "content": "ng",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 846,
+      "endPos": 848
+    },
+    {
+      "content": "ungkapkan",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 848,
+      "endPos": 857
+    }
+  ],
+  [
+    {
+      "content": "mbawa",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 868,
+      "endPos": 873
+    },
+    {
+      "content": "m",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 868,
+      "endPos": 869
+    },
+    {
+      "content": "bawa",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 869,
+      "endPos": 873
+    }
+  ],
+  [
+    {
+      "content": "nurut",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 915,
+      "endPos": 920
+    },
+    {
+      "content": "n",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 915,
+      "endPos": 916
+    },
+    {
+      "content": "urut",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 916,
+      "endPos": 920
+    }
+  ],
+  [
+    {
+      "content": "ngepung",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 964,
+      "endPos": 971
+    },
+    {
+      "content": "ng",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 964,
+      "endPos": 966
+    },
+    {
+      "content": "epung",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 966,
+      "endPos": 971
+    }
+  ],
+  [
+    {
+      "content": "reka",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 1023,
+      "endPos": 1027
+    },
+    {
+      "content": "",
+      "isParticipating": false,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": -1,
+      "endPos": -1
+    },
+    {
+      "content": "reka",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 1023,
+      "endPos": 1027
+    }
+  ],
+  [
+    {
+      "content": "ngumpulkan",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 1030,
+      "endPos": 1040
+    },
+    {
+      "content": "ng",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 1030,
+      "endPos": 1032
+    },
+    {
+      "content": "umpulkan",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 1032,
+      "endPos": 1040
+    }
+  ],
+  [
+    {
+      "content": "maksa",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 1056,
+      "endPos": 1061
+    },
+    {
+      "content": "m",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 1056,
+      "endPos": 1057
+    },
+    {
+      "content": "aksa",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 1057,
+      "endPos": 1061
+    }
+  ],
+  [
+    {
+      "content": "reka",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 1064,
+      "endPos": 1068
+    },
+    {
+      "content": "",
+      "isParticipating": false,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": -1,
+      "endPos": -1
+    },
+    {
+      "content": "reka",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 1064,
+      "endPos": 1068
+    }
+  ],
+  [
+    {
+      "content": "mbawa",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 1093,
+      "endPos": 1098
+    },
+    {
+      "content": "m",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 1093,
+      "endPos": 1094
+    },
+    {
+      "content": "bawa",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 1094,
+      "endPos": 1098
+    }
+  ],
+  [
+    {
+      "content": "reka",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 1101,
+      "endPos": 1105
+    },
+    {
+      "content": "",
+      "isParticipating": false,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": -1,
+      "endPos": -1
+    },
+    {
+      "content": "reka",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 1101,
+      "endPos": 1105
+    }
+  ],
+  [
+    {
+      "content": "nyerbu",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 1181,
+      "endPos": 1187
+    },
+    {
+      "content": "n",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 1181,
+      "endPos": 1182
+    },
+    {
+      "content": "yerbu",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 1182,
+      "endPos": 1187
+    }
+  ],
+  [
+    {
+      "content": "ndengar",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 1232,
+      "endPos": 1239
+    },
+    {
+      "content": "n",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 1232,
+      "endPos": 1233
+    },
+    {
+      "content": "dengar",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 1233,
+      "endPos": 1239
+    }
+  ],
+  [
+    {
+      "content": "reka",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 1242,
+      "endPos": 1246
+    },
+    {
+      "content": "",
+      "isParticipating": false,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": -1,
+      "endPos": -1
+    },
+    {
+      "content": "reka",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 1242,
+      "endPos": 1246
+    }
+  ],
+  [
+    {
+      "content": "nyelamatkan",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 1292,
+      "endPos": 1303
+    },
+    {
+      "content": "n",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 1292,
+      "endPos": 1293
+    },
+    {
+      "content": "yelamatkan",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 1293,
+      "endPos": 1303
+    }
+  ],
+  [
+    {
+      "content": "reka",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 1326,
+      "endPos": 1330
+    },
+    {
+      "content": "",
+      "isParticipating": false,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": -1,
+      "endPos": -1
+    },
+    {
+      "content": "reka",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 1326,
+      "endPos": 1330
+    }
+  ],
+  [
+    {
+      "content": "njebol",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 1333,
+      "endPos": 1339
+    },
+    {
+      "content": "n",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 1333,
+      "endPos": 1334
+    },
+    {
+      "content": "jebol",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 1334,
+      "endPos": 1339
+    }
+  ],
+  [
+    {
+      "content": "makai",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 1385,
+      "endPos": 1390
+    },
+    {
+      "content": "m",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 1385,
+      "endPos": 1386
+    },
+    {
+      "content": "akai",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 1386,
+      "endPos": 1390
+    }
+  ],
+  [
+    {
+      "content": "nodongkan",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 1415,
+      "endPos": 1424
+    },
+    {
+      "content": "n",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 1415,
+      "endPos": 1416
+    },
+    {
+      "content": "odongkan",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 1416,
+      "endPos": 1424
+    }
+  ],
+  [
+    {
+      "content": "reka",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 1443,
+      "endPos": 1447
+    },
+    {
+      "content": "",
+      "isParticipating": false,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": -1,
+      "endPos": -1
+    },
+    {
+      "content": "reka",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 1443,
+      "endPos": 1447
+    }
+  ],
+  [
+    {
+      "content": "ngatakan",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 1527,
+      "endPos": 1535
+    },
+    {
+      "content": "ng",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 1527,
+      "endPos": 1529
+    },
+    {
+      "content": "atakan",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 1529,
+      "endPos": 1535
+    }
+  ],
+  [
+    {
+      "content": "reka",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 1601,
+      "endPos": 1605
+    },
+    {
+      "content": "",
+      "isParticipating": false,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": -1,
+      "endPos": -1
+    },
+    {
+      "content": "reka",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 1601,
+      "endPos": 1605
+    }
+  ],
+  [
+    {
+      "content": "reka",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 1640,
+      "endPos": 1644
+    },
+    {
+      "content": "",
+      "isParticipating": false,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": -1,
+      "endPos": -1
+    },
+    {
+      "content": "reka",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 1640,
+      "endPos": 1644
+    }
+  ],
+  [
+    {
+      "content": "ngapa",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 1660,
+      "endPos": 1665
+    },
+    {
+      "content": "ng",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 1660,
+      "endPos": 1662
+    },
+    {
+      "content": "apa",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 1662,
+      "endPos": 1665
+    }
+  ],
+  [
+    {
+      "content": "reka",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 1686,
+      "endPos": 1690
+    },
+    {
+      "content": "",
+      "isParticipating": false,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": -1,
+      "endPos": -1
+    },
+    {
+      "content": "reka",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 1686,
+      "endPos": 1690
+    }
+  ],
+  [
+    {
+      "content": "ngikat",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 1693,
+      "endPos": 1699
+    },
+    {
+      "content": "ng",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 1693,
+      "endPos": 1695
+    },
+    {
+      "content": "ikat",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 1695,
+      "endPos": 1699
+    }
+  ],
+  [
+    {
+      "content": "mukuli",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 1713,
+      "endPos": 1719
+    },
+    {
+      "content": "m",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 1713,
+      "endPos": 1714
+    },
+    {
+      "content": "ukuli",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 1714,
+      "endPos": 1719
+    }
+  ],
+  [
+    {
+      "content": "mbawa",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 1726,
+      "endPos": 1731
+    },
+    {
+      "content": "m",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 1726,
+      "endPos": 1727
+    },
+    {
+      "content": "bawa",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 1727,
+      "endPos": 1731
+    }
+  ],
+  [
+    {
+      "content": "reka",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 1859,
+      "endPos": 1863
+    },
+    {
+      "content": "",
+      "isParticipating": false,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": -1,
+      "endPos": -1
+    },
+    {
+      "content": "reka",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 1859,
+      "endPos": 1863
+    }
+  ],
+  [
+    {
+      "content": "ngaku",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 1866,
+      "endPos": 1871
+    },
+    {
+      "content": "ng",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 1866,
+      "endPos": 1868
+    },
+    {
+      "content": "aku",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 1868,
+      "endPos": 1871
+    }
+  ],
+  [
+    {
+      "content": "reka",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 1903,
+      "endPos": 1907
+    },
+    {
+      "content": "",
+      "isParticipating": false,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": -1,
+      "endPos": -1
+    },
+    {
+      "content": "reka",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 1903,
+      "endPos": 1907
+    }
+  ],
+  [
+    {
+      "content": "ngatakan",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 1910,
+      "endPos": 1918
+    },
+    {
+      "content": "ng",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 1910,
+      "endPos": 1912
+    },
+    {
+      "content": "atakan",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 1912,
+      "endPos": 1918
+    }
+  ],
+  [
+    {
+      "content": "njadi",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 2018,
+      "endPos": 2023
+    },
+    {
+      "content": "n",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 2018,
+      "endPos": 2019
+    },
+    {
+      "content": "jadi",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 2019,
+      "endPos": 2023
+    }
+  ],
+  [
+    {
+      "content": "nggambarkan",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 2063,
+      "endPos": 2074
+    },
+    {
+      "content": "ng",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 2063,
+      "endPos": 2065
+    },
+    {
+      "content": "gambarkan",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 2065,
+      "endPos": 2074
+    }
+  ],
+  [
+    {
+      "content": "reka",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 2086,
+      "endPos": 2090
+    },
+    {
+      "content": "",
+      "isParticipating": false,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": -1,
+      "endPos": -1
+    },
+    {
+      "content": "reka",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 2086,
+      "endPos": 2090
+    }
+  ],
+  [
+    {
+      "content": "nteri",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 2255,
+      "endPos": 2260
+    },
+    {
+      "content": "n",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 2255,
+      "endPos": 2256
+    },
+    {
+      "content": "teri",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 2256,
+      "endPos": 2260
+    }
+  ],
+  [
+    {
+      "content": "nyangkal",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 2302,
+      "endPos": 2310
+    },
+    {
+      "content": "n",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 2302,
+      "endPos": 2303
+    },
+    {
+      "content": "yangkal",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 2303,
+      "endPos": 2310
+    }
+  ],
+  [
+    {
+      "content": "mbantah",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 2337,
+      "endPos": 2344
+    },
+    {
+      "content": "m",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 2337,
+      "endPos": 2338
+    },
+    {
+      "content": "bantah",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 2338,
+      "endPos": 2344
+    }
+  ],
+  [
+    {
+      "content": "ngatakan",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 2366,
+      "endPos": 2374
+    },
+    {
+      "content": "ng",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 2366,
+      "endPos": 2368
+    },
+    {
+      "content": "atakan",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 2368,
+      "endPos": 2374
+    }
+  ],
+  [
+    {
+      "content": "ndengar",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 2443,
+      "endPos": 2450
+    },
+    {
+      "content": "n",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 2443,
+      "endPos": 2444
+    },
+    {
+      "content": "dengar",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 2444,
+      "endPos": 2450
+    }
+  ],
+  [
+    {
+      "content": "reka",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 2472,
+      "endPos": 2476
+    },
+    {
+      "content": "",
+      "isParticipating": false,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": -1,
+      "endPos": -1
+    },
+    {
+      "content": "reka",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 2472,
+      "endPos": 2476
+    }
+  ],
+  [
+    {
+      "content": "ngatakan",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 2547,
+      "endPos": 2555
+    },
+    {
+      "content": "ng",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 2547,
+      "endPos": 2549
+    },
+    {
+      "content": "atakan",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 2549,
+      "endPos": 2555
+    }
+  ],
+  [
+    {
+      "content": "ningkat",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 2607,
+      "endPos": 2614
+    },
+    {
+      "content": "n",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 2607,
+      "endPos": 2608
+    },
+    {
+      "content": "ingkat",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 2608,
+      "endPos": 2614
+    }
+  ],
+  [
+    {
+      "content": "ngecam",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 2634,
+      "endPos": 2640
+    },
+    {
+      "content": "ng",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 2634,
+      "endPos": 2636
+    },
+    {
+      "content": "ecam",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 2636,
+      "endPos": 2640
+    }
+  ],
+  [
+    {
+      "content": "lawan",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 2802,
+      "endPos": 2807
+    },
+    {
+      "content": "",
+      "isParticipating": false,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": -1,
+      "endPos": -1
+    },
+    {
+      "content": "lawan",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 2802,
+      "endPos": 2807
+    }
+  ],
+  [
+    {
+      "content": "njadi",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 2932,
+      "endPos": 2937
+    },
+    {
+      "content": "n",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 2932,
+      "endPos": 2933
+    },
+    {
+      "content": "jadi",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 2933,
+      "endPos": 2937
+    }
+  ],
+  [
+    {
+      "content": "mperkirakan",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 3033,
+      "endPos": 3044
+    },
+    {
+      "content": "m",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 3033,
+      "endPos": 3034
+    },
+    {
+      "content": "perkirakan",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 3034,
+      "endPos": 3044
+    }
+  ],
+  [
+    {
+      "content": "nampung",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 3084,
+      "endPos": 3091
+    },
+    {
+      "content": "n",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 3084,
+      "endPos": 3085
+    },
+    {
+      "content": "ampung",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 3085,
+      "endPos": 3091
+    }
+  ],
+  [
+    {
+      "content": "ngungsi",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 3128,
+      "endPos": 3135
+    },
+    {
+      "content": "ng",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 3128,
+      "endPos": 3130
+    },
+    {
+      "content": "ungsi",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 3130,
+      "endPos": 3135
+    }
+  ],
+  [
+    {
+      "content": "nteri",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 3175,
+      "endPos": 3180
+    },
+    {
+      "content": "n",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 3175,
+      "endPos": 3176
+    },
+    {
+      "content": "teri",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 3176,
+      "endPos": 3180
+    }
+  ],
+  [
+    {
+      "content": "ngatakan",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 3213,
+      "endPos": 3221
+    },
+    {
+      "content": "ng",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 3213,
+      "endPos": 3215
+    },
+    {
+      "content": "atakan",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 3215,
+      "endPos": 3221
+    }
+  ],
+  [
+    {
+      "content": "nghubungi",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 3367,
+      "endPos": 3376
+    },
+    {
+      "content": "ng",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 3367,
+      "endPos": 3369
+    },
+    {
+      "content": "hubungi",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 3369,
+      "endPos": 3376
+    }
+  ],
+  [
+    {
+      "content": "nteri",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 3394,
+      "endPos": 3399
+    },
+    {
+      "content": "n",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 3394,
+      "endPos": 3395
+    },
+    {
+      "content": "teri",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 3395,
+      "endPos": 3399
+    }
+  ],
+  [
+    {
+      "content": "nteri",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 3415,
+      "endPos": 3420
+    },
+    {
+      "content": "n",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 3415,
+      "endPos": 3416
+    },
+    {
+      "content": "teri",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 3416,
+      "endPos": 3420
+    }
+  ],
+  [
+    {
+      "content": "mperlihatkan",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 3557,
+      "endPos": 3569
+    },
+    {
+      "content": "m",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 3557,
+      "endPos": 3558
+    },
+    {
+      "content": "perlihatkan",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 3558,
+      "endPos": 3569
+    }
+  ],
+  [
+    {
+      "content": "ngatakan",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 3782,
+      "endPos": 3790
+    },
+    {
+      "content": "ng",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 3782,
+      "endPos": 3784
+    },
+    {
+      "content": "atakan",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 3784,
+      "endPos": 3790
+    }
+  ],
+  [
+    {
+      "content": "mbunuh",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 3847,
+      "endPos": 3853
+    },
+    {
+      "content": "m",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 3847,
+      "endPos": 3848
+    },
+    {
+      "content": "bunuh",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 3848,
+      "endPos": 3853
+    }
+  ],
+  [
+    {
+      "content": "ngambil",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 3922,
+      "endPos": 3929
+    },
+    {
+      "content": "ng",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 3922,
+      "endPos": 3924
+    },
+    {
+      "content": "ambil",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 3924,
+      "endPos": 3929
+    }
+  ],
+  [
+    {
+      "content": "lahirkan",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 3997,
+      "endPos": 4005
+    },
+    {
+      "content": "",
+      "isParticipating": false,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": -1,
+      "endPos": -1
+    },
+    {
+      "content": "lahirkan",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 3997,
+      "endPos": 4005
+    }
+  ],
+  [
+    {
+      "content": "ngerikan",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 4018,
+      "endPos": 4026
+    },
+    {
+      "content": "ng",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 4018,
+      "endPos": 4020
+    },
+    {
+      "content": "erikan",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 4020,
+      "endPos": 4026
+    }
+  ],
+  [
+    {
+      "content": "dis",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 4033,
+      "endPos": 4036
+    },
+    {
+      "content": "",
+      "isParticipating": false,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": -1,
+      "endPos": -1
+    },
+    {
+      "content": "dis",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 4033,
+      "endPos": 4036
+    }
+  ]
+]
