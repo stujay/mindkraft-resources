@@ -487,3 +487,5 @@ nmap <CR> o<Esc>
 nnoremap <leader>W :Vimwiki2HTMLBrowse <CR>
 nnoremap <leader>H :VimwikiAll2HTML <CR>
 noremap <leader>u :w<Home>silent <End> !urlview<CR>
+
+let g:ruby_host_prog="rvm system do neovim-ruby-host"
