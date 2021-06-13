@@ -173,15 +173,15 @@ let g:closetag_close_shortcut = '<leader>>'
 Plug 'vimwiki/vimwiki'
 let g:vimwiki_list = [{'path': '~/$USER-wiki/',
                        \ 'syntax': 'markdown', 'ext': '.md',
-					   \'path_html': '~/$USER-wiki-html/',
+					   \'path_html': '~/$USER-wiki-html/', 
 					   \ 'custom_wiki2html': '~/dotfiles/stubin/wiki2html.sh'}]
 
 autocmd FileType vimwiki call SetMarkdownOptions()
 
-  function! SetMarkdownOptions()
-    call VimwikiSet('syntax', 'markdown')
-    call VimwikiSet('custom_wiki2html', '~/dotfiles/stubin/wiki2html.sh')
-  endfunction
+function! SetMarkdownOptions()
+	call VimwikiSet('syntax', 'markdown')
+	call VimwikiSet('custom_wiki2html', '~/dotfiles/stubin/wiki2html.sh')
+endfunction
 
 Plug 'mustache/vim-mustache-handlebars'
 Plug 'sheerun/vim-polyglot'
@@ -191,10 +191,10 @@ autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 "filetype plugin on
 "
 " Brief help
-" :PluginList       - lists configured plugins
-" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
+" :PluginList	   - lists configured plugins
+" :PluginInstall	- installs plugins; append `!` to update or just :PluginUpdate
 " :PluginSearch foo - searches for foo; append `!` to refresh local cache
-" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
+" :PluginClean	  - confirms removal of unused plugins; append `!` to auto-approve removal
 
 " LaTeX plugin
 Plug 'lervag/vimtex'
@@ -277,12 +277,12 @@ nnoremap cT 0:s/\<\(\w\)\(\w*\)\>/\u\1\L\2/g <CR>$
 nnoremap c" :%s/\(”\|“\)/"/g <CR>
 " Toggle spellchecking
 function! ToggleSpellCheck()
-  set spell!
-  if &spell
-    echo "Spellcheck ON"
-  else
-    echo "Spellcheck OFF"
-  endif
+	set spell!
+	if &spell
+		echo "Spellcheck ON"
+	else
+		echo "Spellcheck OFF"
+	endif
 endfunction
 
 nnoremap <silent> <Leader>Z :call ToggleSpellCheck()<CR>
@@ -297,11 +297,11 @@ set wildmenu
 " heavy
 autocmd FileType markdown,octopress let b:surround_{char2nr('i')} = "*\r*"
 autocmd FileType markdown,octopress let b:surround_{char2nr('h')} = "**\r**"
-	"Replace all double quotes ¿ Quote¿ 
-"    %s/¿\|¿/\"/g
-	"Replace all single quotes ¿ ¿ ¿
-"    %s/¿\|¿/\'/g
-    " Move cursor to original position
+"Replace all double quotes ¿ Quote¿ 
+"	%s/¿\|¿/\"/g
+"Replace all single quotes ¿ ¿ ¿
+"	%s/¿\|¿/\'/g
+" Move cursor to original position
 
 nnoremap cQ :%s/¿\\|¿/\"/g <CR>
 nnoremap cq :%s/\¿\\|\¿/\'/g <CR>
@@ -326,23 +326,23 @@ highlight CursorLineNr gui=bold guifg=DarkRed guibg=#c0d0e0
 let mapleader=" "
 au BufRead,BufNewFile *.md "setlocal textwidth=80
 function! SetupCommandAbbrs(from, to)
-  exec 'cnoreabbrev <expr> '.a:from
-        \ .' ((getcmdtype() ==# ":" && getcmdline() ==# "'.a:from.'")'
-        \ .'? ("'.a:to.'") : ("'.a:from.'"))'
+	exec 'cnoreabbrev <expr> '.a:from
+				\ .' ((getcmdtype() ==# ":" && getcmdline() ==# "'.a:from.'")'
+				\ .'? ("'.a:to.'") : ("'.a:from.'"))'
 endfunction
 
 " Use C to open coc config
 call SetupCommandAbbrs('C', 'CocConfig')
 " use <tab> for trigger completion and navigate to the next complete item
 function! s:check_back_space() abort
-  let col = col('.') - 1
-  return !col || getline('.')[col - 1]  =~ '\s'
+	let col = col('.') - 1
+	return !col || getline('.')[col - 1]  =~ '\s'
 endfunction
 
 inoremap <silent><expr> <Tab>
-      \ pumvisible() ? "\<C-n>" :
-      \ <SID>check_back_space() ? "\<Tab>" :
-      \ coc#refresh()
+			\ pumvisible() ? "\<C-n>" :
+			\ <SID>check_back_space() ? "\<Tab>" :
+			\ coc#refresh()
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
@@ -384,9 +384,9 @@ nnoremap <leader>b :wincmd b<CR>
 nnoremap <leader>u :UndotreeShow<CR>
 nnoremap <leader>ps :Rg<CR>
 "FZF fuzzyfind mappings - 
- map <C-f> <Esc><Esc>:Files!<CR>
- inoremap <C-f> <Esc><Esc>:Blines!<CR>
- map <C-g> <Esc><Esc>:BCommits!<CR>
+map <C-f> <Esc><Esc>:Files!<CR>
+inoremap <C-f> <Esc><Esc>:Blines!<CR>
+map <C-g> <Esc><Esc>:BCommits!<CR>
 
 
 
@@ -407,35 +407,35 @@ autocmd vimenter * colorscheme gruvbox
 "  VIMTEX OPTIONS
 "  ----------------------------------------------------------------------------
 if has('unix')
-    if has('mac')
-        let g:vimtex_view_method = "skim"
-        let g:vimtex_view_general_viewer
-                \ = '/Applications/Skim.app/Contents/SharedSupport/displayline'
-        let g:vimtex_view_general_options = '-r @line @pdf @tex'
+	if has('mac')
+		let g:vimtex_view_method = "skim"
+		let g:vimtex_view_general_viewer
+					\ = '/Applications/Skim.app/Contents/SharedSupport/displayline'
+		let g:vimtex_view_general_options = '-r @line @pdf @tex'
 
-        " This adds a callback hook that updates Skim after compilation
-        let g:vimtex_compiler_callback_hooks = ['UpdateSkim']
-        function! UpdateSkim(status)
-            if !a:status | return | endif
+		" This adds a callback hook that updates Skim after compilation
+		let g:vimtex_compiler_callback_hooks = ['UpdateSkim']
+		function! UpdateSkim(status)
+			if !a:status | return | endif
 
-            let l:out = b:vimtex.out()
-            let l:tex = expand('%:p')
-            let l:cmd = [g:vimex_view_general_viewer, '-r']
-            if !empty(system('pgrep Skim'))
-            call extend(l:cmd, ['-g'])
-            endif
-            if has('nvim')
-            call jobstart(l:cmd + [line('.'), l:out, l:tex])
-            elseif has('job')
-            call job_start(l:cmd + [line('.'), l:out, l:tex])
-            else
-            call system(join(l:cmd + [line('.'), shellescape(l:out), shellescape(l:tex)], ' '))
-            endif
-        endfunction
-    else
-        let g:latex_view_general_viewer = "zathura"
-        let g:vimtex_view_method = "zathura"
-    endif
+			let l:out = b:vimtex.out()
+			let l:tex = expand('%:p')
+			let l:cmd = [g:vimex_view_general_viewer, '-r']
+			if !empty(system('pgrep Skim'))
+				call extend(l:cmd, ['-g'])
+			endif
+			if has('nvim')
+				call jobstart(l:cmd + [line('.'), l:out, l:tex])
+			elseif has('job')
+				call job_start(l:cmd + [line('.'), l:out, l:tex])
+			else
+				call system(join(l:cmd + [line('.'), shellescape(l:out), shellescape(l:tex)], ' '))
+			endif
+		endfunction
+	else
+		let g:latex_view_general_viewer = "zathura"
+		let g:vimtex_view_method = "zathura"
+	endif
 elseif has('win32')
 
 endif
@@ -444,7 +444,7 @@ let g:tex_flavor = "latex"
 let g:vimtex_quickfix_open_on_warning = 0
 let g:vimtex_quickfix_mode = 2
 if has('nvim')
-    let g:vimtex_compiler_progname = 'nvr'
+	let g:vimtex_compiler_progname = 'nvr'
 endif
 
 " One of the neosnippet plugins will conceal symbols in LaTeX which is
@@ -455,30 +455,30 @@ let g:tex_conceal = ""
 " Quickfix with Neovim is broken or something
 " https://github.com/lervag/vimtex/issues/773
 let g:vimtex_quickfix_latexlog = {
-            \ 'default' : 1,
-            \ 'fix_paths' : 0,
-            \ 'general' : 1,
-            \ 'references' : 1,
-            \ 'overfull' : 1,
-            \ 'underfull' : 1,
-            \ 'font' : 1,
-            \ 'packages' : {
-            \   'default' : 1,
-            \   'natbib' : 1,
-            \   'biblatex' : 1,
-            \   'babel' : 1,
-            \   'hyperref' : 1,
-            \   'scrreprt' : 1,
-            \   'fixltx2e' : 1,
-            \   'titlesec' : 1,
-            \ },
-            \}
+			\ 'default' : 1,
+			\ 'fix_paths' : 0,
+			\ 'general' : 1,
+			\ 'references' : 1,
+			\ 'overfull' : 1,
+			\ 'underfull' : 1,
+			\ 'font' : 1,
+			\ 'packages' : {
+			\   'default' : 1,
+			\   'natbib' : 1,
+			\   'biblatex' : 1,
+			\   'babel' : 1,
+			\   'hyperref' : 1,
+			\   'scrreprt' : 1,
+			\   'fixltx2e' : 1,
+			\   'titlesec' : 1,
+			\ },
+			\}
 " Mappings for compiling Latex file
 autocmd FileType tex nmap <buffer> <C-T> :!xelatex %<CR>
 autocmd FileType tex nmap <buffer> T :!open -a Skim %:r.pdf<CR><CR>
 if has("nvim")
-    let g:python_host_prog = $HOME . "/.venv/bin/python"
-    let g:python3_host_prog = $HOME . "/.venv/bin/python3"
+	let g:python_host_prog = $HOME . "/.venv/bin/python"
+	let g:python3_host_prog = $HOME . "/.venv/bin/python3"
 endif
 " Allow putting a new line in at cursor without entering insert mode -
 " shift-enter
@@ -489,3 +489,4 @@ nnoremap <leader>H :VimwikiAll2HTML <CR>
 noremap <leader>u :w<Home>silent <End> !urlview<CR>
 
 let g:ruby_host_prog="rvm system do neovim-ruby-host"
+
