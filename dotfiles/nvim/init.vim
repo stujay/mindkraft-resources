@@ -1,4 +1,3 @@
-
 " set up by Stu Jay Raj
 set nocompatible              " be iMproved, required
 set clipboard+=unnamedplus
