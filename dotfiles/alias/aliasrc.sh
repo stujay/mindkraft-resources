@@ -19,7 +19,7 @@ awk 'BEGIN{ FS="," }
        { for(fn=1;fn<=NF;fn++) {print fn" = "$fn;}; exit; }
       ' $1 
 }
-alias lines='find . -maxdepth 1 -exec sh -c '[ -f "$0" ] &&  printf "%6s\t\t%s\t%s\n" "$(wc -l<"$0")" "$0"' {} \;'
+#alias lines=find . -maxdepth 1 -exec sh -c '[ -f "$0" ] &&  printf "%6s\t\t%s\t%s\n" "$(wc -l<"$0")" "$0"' {} \;' 
 alias pg='pg_ctl -D /usr/local/var/postgres start'
 alias pgstop='pg_ctl -D /usr/local/var/postgres stop'
 export PATH="/usr/local/opt/icu4c/bin:$PATH"
@@ -33,3 +33,4 @@ alias wififull='sudo iwlist wlan0 scanning | egrep "Cell |Encryption|Quality|Las
 alias swifi='sudo iwlist wlan0 scanning | egrep "ESSID"'
 alias zzz='xset dpms force off'
 set -o vi
+alias perms="ls -a | xargs stat --printf='Name: %n\nPermissions: %a\n%A\n\n'"
