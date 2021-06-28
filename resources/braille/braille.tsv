@@ -1,0 +1,65 @@
+Braille ASCII	Braille	Meaning	Unicode Char. Number
+	⠀	‹ › (space)	U+2800
+	⠄	‹'› (apostrophe)	U+2804
+!	⠮	«the-», “the”	U+282e
+"	⠐	{contraction5} (a contraction prefix)	U+2810
+#	⠼	{number}, ‹#›, «-ble»	U+283c
+$	⠫	«ed»	U+282b
+%	⠩	«sh»	U+2829
+&	⠯	«and»	U+282f
+(	⠷	“of”	U+2837
+)	⠾	“with”	U+283e
+*	⠡	«ch», “child”	U+2821
++	⠬	«ing»	U+282c
+,	⠠	{capital}, {contraction6}	U+2820
+-	⠤	«com-», ‹-› (hyphen)	U+2824
+.	⠨	{italic}, ‹.› (decimal point), {contraction46}	U+2828
+/	⠌	«st», ‹/› (slash), “still”	U+280c
+0	⠴	“was”, “by”, ‹”› (close-quote)	U+2834
+1	⠂	«ea», ‹,› (comma)	U+2802
+2	⠆	«-bb-», ‹;› (semicolon)	U+2806
+3	⠒	«-cc-», «con-», ‹:› (colon)	U+2812
+4	⠲	«dis-», «-dd-», ‹.› (period)	U+2832
+5	⠢	«en»	U+2822
+6	⠖	‹!› (excl. mark), “to”	U+2816
+7	⠶	‹(›, ‹)› (parens), «-gg-»	U+2836
+8	⠦	“his”, ‹“› (open-quote)	U+2826
+9	⠔	«in»	U+2814
+:	⠱	«wh»	U+2831
+;	⠰	{letter}, {contraction56}	U+2830
+<	⠣	«gh»	U+2823
+=	⠿	“for”	U+283f
+>	⠜	«ar»	U+281c
+?	⠹	«th»	U+2839
+@	⠈	{accent indicator}	U+2808
+[	⠪	«ow»	U+282a
+\	⠳	«ou», “out”	U+2833
+]	⠻	«er»	U+283b
+^	⠘	{contraction45} (a contraction prefix)	U+2818
+_	⠸	{contraction456}	U+2838
+a	⠁	‹a›, ‹1› (one)	U+2801
+b	⠃	‹b›, ‹2›, “but”	U+2803
+c	⠉	‹c›, ‹3›, “can”	U+2809
+d	⠙	‹d›, ‹4›, “do”	U+2819
+e	⠑	‹e›, ‹5›, “every”	U+2811
+f	⠋	‹f›, ‹6›, “from”	U+280b
+g	⠛	‹g›, ‹7›, “go”	U+281b
+h	⠓	‹h›, ‹8›, “have”	U+2813
+i	⠊	‹i›, ‹9›	U+280a
+j	⠚	‹j›, ‹0› (zero), “just”	U+281a
+k	⠅	‹k›, “knowledge”	U+2805
+l	⠇	‹l› (ell), “like”	U+2807
+m	⠍	‹m›, “more”	U+280d
+n	⠝	‹n›, “not”	U+281d
+o	⠕	‹o› (letter oh)	U+2815
+p	⠏	‹p›, “people”	U+280f
+q	⠟	‹q›, “quite”	U+281f
+r	⠗	‹r›, “rather”	U+2817
+s	⠎	‹s›, “so”	U+280e
+t	⠞	‹t›, “that”	U+281e
+u	⠥	‹u›, “us”	U+2825
+v	⠧	‹v›, “very”	U+2827
+w	⠺	‹w›, “will”	U+283a
+x	⠭	‹x›, “it”	U+282d
+y	⠽	‹y›, “you”	U+283d
+z	⠵	‹z›, “as”	U+2835
