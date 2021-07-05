@@ -34,3 +34,4 @@ alias swifi='sudo iwlist wlan0 scanning | egrep "ESSID"'
 alias zzz='xset dpms force off'
 set -o vi
 alias perms="ls -a | xargs stat --printf='Name: %n\nPermissions: %a\n%A\n\n'"
+alias getlarge="du -ah ./ | sort -n -r | head -n 20"
