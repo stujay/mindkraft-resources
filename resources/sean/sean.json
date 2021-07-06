@@ -1,0 +1,298 @@
+{
+  "students": [
+    {
+      "name": "Sean",
+      "learningFields": [
+        {
+          "field": "Language",
+          "topics": [
+            {
+              "topic": "Chinese",
+              "skills": [
+                "Chinese Phonetics",
+                "Developing Native Prosody",
+                "Training the Muscles to Write like a Native",
+                "Traditional vs. Simplified Characters",
+                "Identifying Regional Accents",
+                "Mimicking Sound Shifts",
+                "General Conversation",
+                "Humour"
+              ]
+            },
+            {
+              "topic": "English",
+              "skills": [
+                "Creative Writing",
+                "Research",
+                "Referencing",
+                "Reading Comprehension",
+                "Presentation Skills"
+              ]
+            },
+            {
+              "topic": "Norwegian",
+              "skills": [
+                "Grammar",
+                "Spaced Repetition",
+                "Phonetics",
+                "Comparative Scandinavian Language Phonetics"
+              ]
+            },
+            {
+              "topic": "Spanish",
+              "skills": [
+                "Reading Comprehension",
+                "Developing Native Prosody",
+                "Identifying Regional Accents",
+                "Mimicking Sound Shifts",
+                "General Conversation"
+              ]
+            }
+          ]
+        },
+        {
+          "field": "I.T.",
+          "topics": [
+            {
+              "topic": "Network Security",
+              "skills": [
+                "Understanding Network Protocols",
+                "Monitoring Network Traffic (Wireshark)",
+                "Reconnaissance",
+                "Social Media Privacy",
+                "MAC Spoofing",
+                "Router Security",
+                "Penetration Testing - Public / Private WIFI",
+                "Encryption",
+                "TOR / Deepweb"
+              ]
+            },
+            {
+              "topic": "Linux / Terminal",
+              "skills": [
+                "Bash",
+                "Z-Terminal",
+                "OSX Flavours",
+                "Bash Scripting",
+                "Developing tools to help you work more efficiently",
+                "Building your own VPN",
+                "Setting up a Server",
+                "Using Cloud Services",
+                "SSH - Remote Terminals",
+                "Reverse Shells"
+              ]
+            },
+            {
+              "topic": "Coding",
+              "skills": [
+                "HTML",
+                "CSS",
+                "SCSS",
+                "BASH Scripting",
+                "C",
+                "Javascript",
+                "React",
+                "React Native",
+                "Game Coding - Unity Engine",
+                "Google Apps Script (GAS)",
+                "Using GIT",
+                "Project Collaboration",
+                "Planning"
+              ]
+            },
+            {
+              "topic": "VIM",
+              "skills": [
+                "Setting up VIM",
+                "Increasing your Content Creation Efficiency",
+                "Setting up an IDE in VIM",
+                "Markdown",
+                "LaTeX"
+              ]
+            },
+            {
+              "topic": "OSINT (Open Source Intelligence Gathering)",
+              "skills": [
+                "Social Media Scanning",
+                "Using Kali Linux / Parrot OS Tools",
+                "TWINT",
+                "Maltego Case Building",
+                "Due Dilligence",
+                "Multi Lingual Data Searching"
+              ]
+            },
+            {
+              "topic": "3D and Graphics",
+              "skills": [
+                "Vector Graphics",
+                "Adobe Illustrator",
+                "GIMP",
+                "Photoshop",
+                "Character Animator",
+                "Blender 3D",
+                "Unity Game Engine",
+                "Vectary - Online 3D"
+              ]
+            }
+          ]
+        },
+        {
+          "field": "Math and Logic",
+          "topics": [
+            {
+              "topic": "General Math / School Work",
+              "skills": ["Arithmetic", "Algebra", "Logic", "General Math"]
+            },
+            {
+              "topic": "Abacus",
+              "skills": [
+                "Abacus Basics",
+                "Addition",
+                "Subtraction",
+                "Multiplication",
+                "Division",
+                "Developing Muscle Memory"
+              ]
+            },
+            {
+              "topic": "Logic",
+              "skills": [
+                "Rubik's Cube",
+                "Puzzle Solving",
+                "Recognising Patterns",
+                "Passing Logic / IQ Tests",
+                "Logic and Reading Comprehension",
+                "Logic Gates and Notation",
+                "Logic Math",
+                "Binary Math"
+              ]
+            },
+            {
+              "topic": "Cryptography - Old and New",
+              "skills": [
+                "ciphers",
+                "Passwords",
+                "Salting",
+                "Encrypting Locally",
+                "Message Encryption",
+                "Encryption Protocols"
+              ]
+            }
+          ]
+        },
+        {
+          "field": "Music",
+          "topics": [
+            {
+              "topic": "Jazz Theory",
+              "skills": [
+                "Understanding Harmony",
+                "Physics / Math of Music",
+                "Cycle of 5ths",
+                "Reverse Harmony",
+                "Reharmonisation",
+                "Analysing Standards / Structure",
+                "Building Voicings",
+                "Substitution"
+              ]
+            },
+            {
+              "topic": "Performance",
+              "skills": [
+                "Piano Performance",
+                "Making a connection with the audience",
+                "Telling a Story",
+                "Projecting Confidence and Rapport"
+              ]
+            },
+            {
+              "topic": "Piano",
+              "skills": [
+                "Jazz Piano",
+                "Classical Piano",
+                "Pop Piano",
+                "Other Keyboards"
+              ]
+            },
+            {
+              "topic": "Ear Training",
+              "skills": [
+                "Perfect Pitch",
+                "Interval Training",
+                "Transcribing what you hear",
+                "Site Singing"
+              ]
+            },
+            {
+              "topic": "Music Programming",
+              "skills": [
+                "Sequencing",
+                "MIDI",
+                "Sampling",
+                "Quantizing",
+                "Recording and Looping",
+                "Multitrack recording",
+                "Audio Engineering",
+                "Sound Post Production"
+              ]
+            }
+          ]
+        },
+        {
+          "field": "Personal Development",
+          "topics": [
+            {
+              "topic": "Critical Thinking",
+              "skills": [
+                "Debating",
+                "Researching Opposing Opinions",
+                "Understanding Why People Think the way they Do",
+                "MICE / RICE - Reward, Ideology, Coersion, Ego",
+                "Thought Exercises"
+              ]
+            },
+            {
+              "topic": "Hypnosis",
+              "skills": ["Self Hypnosis", "Overcoming Fear", "Inducing Sleep"]
+            },
+            {
+              "topic": "Developing Self Confidence",
+              "skills": [
+                "Understanding Our Strengths",
+                "Presentation Skills",
+                "Developing Mastery",
+                "Learning to Coach"
+              ]
+            },
+            { "topic": "Identifying People's Needs",
+			"skills":[
+				"Identifying Needs",
+				"Selling Benefits",
+				"Active Listening"
+			]},
+            { "topic": "Time Management",
+			"skills":[
+				"Manage Learning Time Schedule",
+				"Blocking Time",
+				"Rewards for Achieving Goals"
+			]},
+            { "topic": "Memory Techniques",
+			"skills":[
+				"Major Technique",
+				"Mnemonics",
+				"Thinking Loud",
+				"Simultaneous Language Acquisition / Linking"
+			]},
+            { "topic": "Situational Awareness",
+			"skills":[
+				"Observing the world around us",
+				"Noticing Differences",
+				"Analysing Motives"
+			]}
+          ]
+        }
+      ]
+    }
+  ]
+}
+
