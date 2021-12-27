@@ -6,7 +6,7 @@ export PATH="$HOME/usr/local/bin/composer:$PATH"
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 alias yta='youtube-dl --extract-audio --audio-format mp3 '
-
+alias yti='youtube-dl --write-thumbnail --skip-download'
 function getvoice(){
 	[ -z "$1" ] && voicename='Karen' || voicename=$1
 	say -v ? | grep $voicename | awk 'BEGIN {FS="\#"}; {print $2}' | say -v $voicename
