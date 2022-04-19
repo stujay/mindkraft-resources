@@ -40,6 +40,7 @@ Plug 'lyuts/vim-rtags'
 Plug 'vim-utils/vim-man'
 Plug 'tomtom/tcomment_vim'
 Plug 'neoclide/coc.nvim', {'do': { -> coc#util#install()}}
+Plug 'rodrigore/coc-tailwind-intellisense', {'do': 'npm install'}
 
 " NERDTree Options
 autocmd VimEnter * NERDTree
@@ -304,7 +305,7 @@ autocmd FileType markdown,octopress let b:surround_{char2nr('h')} = "**\r**"
 
 nnoremap cQ :%s/¿\\|¿/\"/g <CR>
 nnoremap cq :%s/\¿\\|\¿/\'/g <CR>
-
+nnoremap cC :call coc#float#close_all()<CR>
 " Take a link from the clipboard and create a link from current position to
 " end of line
 let @l ='bys$]%a(jjpa) jj'
@@ -381,6 +382,7 @@ nnoremap <leader>l :wincmd l<CR>
 nnoremap <leader>t :wincmd t<CR>
 nnoremap <leader>b :wincmd b<CR>
 nnoremap <leader>u :UndotreeShow<CR>
+nnoremap <leader>w :exec 'resize ' . winheight('.')/2<CR>
 nnoremap <leader>ps :Rg<CR>
 "FZF fuzzyfind mappings - 
 map <C-f> <Esc><Esc>:Files!<CR>
@@ -489,3 +491,4 @@ noremap <leader>u :w<Home>silent <End> !urlview<CR>
 
 let g:ruby_host_prog="rvm system do neovim-ruby-host"
 nnoremap <leader>rp :%smagic/[,!?.'"#-:()]//g<CR>
+
