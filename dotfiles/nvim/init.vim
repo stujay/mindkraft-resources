@@ -214,7 +214,14 @@ Plug 'junegunn/fzf.vim'
 " Markdown viewer for browser
 Plug 'MikeCoder/markdown-preview.vim'
 Plug 'jiangmiao/auto-pairs'
+
+" Install vim-Go plugin for Golang
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+
+" Vimspector Debugging
+Plug 'puremourning/vimspector'
 call plug#end()
+
 
 
 " Put your non-Plugin stuff after this line
@@ -491,4 +498,22 @@ noremap <leader>u :w<Home>silent <End> !urlview<CR>
 
 let g:ruby_host_prog="rvm system do neovim-ruby-host"
 nnoremap <leader>rp :%smagic/[,!?.'"#-:()]//g<CR>
+" VIMINSPECTOR BINDINGS
+" mnemonic 'di' = 'debug inspect' (pick your own, if you prefer!)
+let g:vimspector_enable_mappings = 'HUMAN'
+" for normal mode - the word under the cursor
+nmap <Leader>di <Plug>VimspectorBalloonEval
+" for visual mode, the visually selected text
 
+xmap <Leader>di <Plug>VimspectorBalloonEval
+nnoremap <Leader>dd :call vimspector#Launch()<CR>
+nnoremap <Leader>de :call vimspector#Reset()<CR>
+nnoremap <Leader>dc :call vimspector#Continue()<CR>
+
+nnoremap <Leader>dt :call vimspector#ToggleBreakpoint()<CR>
+nnoremap <Leader>dT :call vimspector#ClearBreakpoints()<CR>
+
+nmap <Leader>dk <Plug>VimspectorRestart
+nmap <Leader>dh <Plug>VimspectorStepOut
+nmap <Leader>dl <Plug>VimspectorStepInto
+nmap <Leader>dj <Plug>VimspectorStepOver
