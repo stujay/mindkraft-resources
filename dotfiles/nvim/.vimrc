@@ -28,7 +28,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'morhetz/gruvbox'
-
+"Coc - note installed via vim v8 native plugin manager
 "Set gruvbox colorscheme
 autocmd vimenter * colorscheme gruvbox
 
