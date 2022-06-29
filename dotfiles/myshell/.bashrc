@@ -32,3 +32,6 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
+alias hotelintel-server='ssh -i ~/.ssh/jaykey root@128.199.139.64'
+alias mindkraft-server='ssh -i ~/.ssh/jaykey root@mindkraft.me'
+
