@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+
+echo "Printing $1"
+printf "$1" | curl -F-=\<- qrenco.de

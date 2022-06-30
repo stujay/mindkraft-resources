@@ -34,4 +34,4 @@ export NVM_DIR="$HOME/.nvm"
 
 alias hotelintel-server='ssh -i ~/.ssh/jaykey root@128.199.139.64'
 alias mindkraft-server='ssh -i ~/.ssh/jaykey root@mindkraft.me'
-
+export PATH="~/dotfiles/stubin:$PATH"
