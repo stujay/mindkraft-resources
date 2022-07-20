@@ -1,0 +1,1923 @@
+ 
+[ ] Open main menu
+
+  • Home
+  • Random
+
+  • Log in
+
+  • Settings
+
+  • Donate
+
+  • About Wikisource
+  • Disclaimers
+
+Wikisource
+[                    ]
+Search
+Grammar of the Burmese Language
+
+Page Discussion
+
+  • Language
+  • Watch
+  • Edit
+
+
+
+Grammar of the Burmese Language  (1883) 
+by Adoniram Judson
+
+  • Related Portals.related portals: Languages and literatures of Eastern Asia,
+    Myanmar.
+  • Sister Projects.sister projects: Wikipedia article, travel guide, Wikidata
+    item.
+
+281026Grammar of the Burmese Language1883Adoniram Judson
+​
+
+GRAMMAR
+
+OF THE
+
+BURMESE LANGUAGE,
+
+
+BY A. JUDSON.
+
+
+
+
+[100px-Rule_Se]●[40px]●[100px-Rule_Se]
+
+
+
+
+RANGOON;
+
+AMERICAN BAPTIST MISSION PRESS,
+
+F. D. Phinney, Supt.
+
+1883.
+
+​
+
+PREFATORY NOTE.
+
+This is the same as Appendix B in the new edition of Dr. Judson's Burmese and
+English Dictionary. It consists of that Grammar of the Burmese language, which
+was published in the quarto edition, with the addition of critical notes.
+Everything added in this way is carefully indicated by the letters st., which
+form an abbreviation for the name of the present editor,
+
+E. O. STEVENS.
+
+Prome, June 5th, 1883.
+
+​
+
+A GRAMMAR
+OF THE
+BURMESE LANGUAGE.
+
+[50px-R]*[50px-R]
+
+PRELIMINARY REMARKS.
+
+§1. The Burmese language is written from left to right, and without any
+division of words.
+
+§2. The pure Burmese is monosyllabic, every word consisting of one syllable
+only; but the introduction of the Pali language, with the Boodhistic religion,
+has occasioned the incorporation of many polysyllabic words of Pali origin into
+the pure Burmese.
+
+§3. The form of the letters, the order of the vowels and consonants and the
+classification of the latter, prove that the Burmese alphabet is but one
+modification of the ancient Nagari; as the Pali language itself as used by the
+Burmese, is but a modification of the Sanscrit.
+
+[50px-R]*[50px-R]
+
+THE ALPHABET.
+
+§4. The Burmese alphabet consists of ten vowels (သရ), and thirty-two consonants
+(ဗျည်း).
+
+§5. The ten vowels are:—အ, a, အာ, a, ဣ, ee, ဤ, ee, ဥ, ဥိ, oo, ဦ, oo, ဧ, aa, [or
+ey in they, St.] အဲ, ai, ဩ, ဩော, au, ဪ, au,—to which may be added the diphthong, အို
+, o.
+
+§6. The thirty-two consonants are:—
+
+က, ka,  ခ, ʻka,  ဂ, ga,      ဃ, ga,      င, nga,
+စ, tsa, ဆ, ʻtsa, ဇ, dza,     ဈ, dza,     ည, nya,
+ဋ, ta,  ဌ, ʻta,  ဍ, da,      ဎ, da,      ဏ, na,
+တ, ta,  ထ, ʻta,  ဒ, da,      ဓ, da,      န, na,
+ပ, pa,  ဖ, ʻpa,  ဗ, ba,      ဘ, ba,      မ, ma,
+ယ, ya,  ရ, ra,   လ, la,      ဝ, wa,      သ, tha,
+ဟ, ha,  ဠ, la;–  to which may be added the character
+(◌ံ) an.                                   
+
+​§7. According to the foregoing arrangement, the first twenty-five consonants
+are distributed into five classes. The letters of the first or က class are
+gutturals (ကဏ္ဍဇာ^[1]); those of the second or စ class are palatals (‌တာလုဇာ); those
+of the third or ဋ class are cerebrals (မုဒ္ဓဇာ); those of the fourth or တ class
+are dentals (ဒန္တ‌ဇာ); and those of the fifth or ပ class are labials (ဩဋ္ဌဇာ).
+
+§8. The first letter of each class is a simple articulation, smooth and soft;
+the third is the same, rough and hard; the second is the aspirate of the first;
+the fourth, according to the Nagari system, is the aspirate of the third, but
+according to the Burmese pronunciation, is the same; and the fifth is the
+corresponding nasal.
+
+§9. The pronunciation of the cerebrals and the dentals, though different in the
+Nagari, is the same in the Burmese.
+
+§10. Of the seven remaining consonants, five, viz; ယ, ရ, လ, ဝ, and ဠ are
+liquids; သ is properly a sibilant, but pronounced th, and ဟ is an aspirate.
+
+§11. The cerebrals and the letter ဠ are found in words only of Pali origin.
+
+vowels.
+
+§12. The names and powers of the vowels are as follows:—
+
+အ, a or ah                                                      as a in America
+                                                                .
+အာ, a or ah                                                      as a in father.
+                                                                as i in pin,
+ဣ, ee                                                           [or ee in been.
+                                                                St.]
+ဤ, ee                                                           as ee in feet.
+ဥ,     } {\displaystyle \scriptstyle {\left.{\begin{matrix}\    as oo in good,
+ဥိ, \\\ \end{matrix}}\right\}\,}} \scriptstyle {\left.{\begin oo or u in full.
+   {matrix}\ \\\ \end{matrix}}\right\}\,}
+ဦ, oo                                                           as oo in food,
+                                                                or u in rule.
+ဧ, aa or ay                                                     as a in fate. ​
+အဲ  ai                                                           as ai in hair.
+ဩ      } {\displaystyle \scriptstyle {\left.{\begin{matrix}\
+ဩော  \\\ \end{matrix}}\right\}\,}} \scriptstyle {\left.{\begin au as o in on.
+   {matrix}\ \\\ \end{matrix}}\right\}\,}
+ဪ  au^[2]                                                       as au in
+                                                                audience.
+အို  o                                                            as o in note.
+
+consonants.
+
+§13. The names and powers of the consonants are as follows:—
+
+ကကြီး,                      great ka,       k, as in king.
+ခခွေ,                      curved ʻka,     ʻk, k aspirated, [pron. as if written
+                                          ခခွေး. St.]
+ဂငယ်                      small ga,       g, as in good.
+ဃကြီး,                      great ga,       the same.
+င,                        nga,            ng, as in rang, when final; when
+                                          initial, not to be exemplified in
+                                          English.
+စလုံး,                       round tsa,      ts.
+ဆလိမ်,                     twisted ʻtsa,   ʻts, ts aspirated.
+ဇခွဲ,                      divided dza,    dz.
+ဈ or Burmese letter jha   bridle dza,     the same, [pron. as if written 
+variant glyph.svg,                        ဈမြင်ဆွဲ. St.]
+ဈမြင်းဆွဲ,
+ဉ or ည,                   nya, [ngya, St. ny, [ngy, St.]
+                          ]
+ဋသံလျင်းချိတ်,               bier-hook ta,   t, as in time.
+ဌဝမ်းဘဲ,                    duck ʻta,       ʻt, t aspirated.
+ဍရင်ကောက်,                  crooked-breast  d, as in done.
+                          da,
+ဎရေမှုတ်,                   water-dipper    the same.
+                          da,
+ဏကြီး,                      great na,       n, as in not.
+တဝမ်းပူ,                    abdominous ta,  t, as in time.
+ထဆင်ထူး,                    elephant-fetter ʻt, t aspirated
+                          ʻta,
+ဒထွေး,                      confused da,    d, as in done.
+ဓအောက်ချိုက်,                 bottom-indented da,
+(formerly written Burmese letter dha      the same.
+variant glyph.svg,)
+နငယ်,                     small na,       n, as in not. ​
+ပစောက်,                     steep or deep   p, as in part.
+                          pa,
+ဖဦးထုပ်,                    capped ʻpa,     ʻp, p aspirated.
+ဗထက်ချိုက်‌,                top-indented    b, as in book.
+                          ba,
+ဘကုန်း,                     hump-backed ba, the same.
+မ,                        ma,             m, as in make.
+ယပက်လက်                   supine ya,      y, as in young.
+ရကောက်‌,                    crooked ra,     r, as in run, or y, as above.
+လ,                        la,             l, as in love.
+ဝ,                        wa,             w, as in word.
+သ,                        tha,            th, soft, as in thin, or th, hard, as
+                                          in this.
+ဟ                         ha,             h, as in home.
+ဠကြီး,                      great la,       l, as in love.
+
+§14. The character (ံ) called သေးသေးတင်, small thing placed above, is placed over
+the letter with which it is combined, and has the power of a final န, or a
+final မ, divested of its inherent heavy accent (see Accents); thus အံ, an, သံ,
+than.
+
+compound consonants.
+
+§15. Compound Consonants are formed by combining one or more of the letters ယ,
+ရ, ဝ, and ဟ, under symbolic forms with simple consonants, according to the
+following table, in which မ is selected as the principal, because that is the
+only letter which admits all the adjuncts:—
+
+§16.
+
+Letter.    Symbol. Name of Symbol.        Junction with မ. Power.
+ယ          ျ       ယပင်း, ya combined,     မျ               mya.
+ရ          ြ       ရရစ်, ra curved round, မြ               mra or mya.
+ဝ          ွ       ဝဆွဲ, wa suspended,     မွ               mwa.
+ယ and ဝ    ျွ      ယပင်း, and ဝဆွဲ,         မျွ              mywa.
+ရ and ဝ    ြွ      ရရစ် and ဝဆွဲ,          မြွ              mrwa.
+ဟ          ှ       ဟထိုး, ha thrust out,     မှ               ʻma.
+ယ and ဟ    ျှ      ယပင်း and ဟထိုး,           မျှ              ʻmya.
+ရ and ဟ    ြှ      ရရစ် and ဟထိုး,           မြှ              ʻmra or ʻmya.
+ဝ and ဟ    ွှ      ဝဆွဲ and ဟထိုး,            မွှ              ʻmwa.
+ရ, ဝ and ဟ ြွှ     ရရစ်, ဝဆွဲ and ဟထိုး,      မြွှ             ʻmrwa or ʻmywa.
+
+​§17. The letter ဟ, in the capacity of an aspirate, may be combined with the
+nasals, as ငှ, ညှ, ဏှ, နှ, မှ, and with the liquids လ and ဝ, as လှ, ဝှ. But
+when combined with ယ or ရ, the compound has the power of sh, as ရှန်, shan. လျှ
+, ʻlya also is frequently pronounced sha, and သျှ has the same power. ငြ is
+equivalent to ည, nya, and ယျ to ယ, ya.
+
+combinations of vowels with consonants.
+
+§18. The vowel အ is supposed to be inherent in every consonant that is not
+furnished with the symbol of another vowel, or marked as final.
+
+§19. The other vowels are combined with consonants, simple or compound, under
+symbolic forms, according to the following table:—
+
+§20.
+
+Letter. Symbol. Name of Symbol.                             Junction     Power.
+                                                            with က.
+အာ       ာor ါ    ချ, placed down,                            ကာ            ka.
+ဣ       ိ        လုံးကြီးတင်, large round placed on,              ကိ            kee.
+ဤ       ီ        လုံးကြီးတင်ဆန်ခတ်, large round placed on and     ကီ            kee.
+                kernel inserted,
+ဥ       ု        တချောင်းငင်, one line drawn,                   ကု            koo.
+ဦ       ူ        နှစ်ချောင်းငင်, two lines drawn,               ကူ            koo.
+ဧ       ေ        သဝေထိုး, tha-waa thrust out,                    ကေ            kaa.
+အဲ       ဲ        နောက်သို့ပြစ်, thrown back,                      ကဲ            kai.
+ဩော       ော        သဝေထိုးချ, as above,                            ကော            kau.
+ဪ       ော်       သဝေထိုးချရှေ့ထိုး, as above and thrust forward,      ကော်           kau.
+အို       ို        လုံးကြီးတင်တချောင်းငင်, as above,                   ကို            ko.
+
+§21. The second symbol of the vowel အာ (ါ) is used whenever the use of the first
+would convert the consonant into another letter,—also with ခ and င, as ခါ, not 
+ခာ. The latter part of the symbols of ဩော and ဪ, is similarly modified in the same
+circumstances, as ခေါ်, not ခော်.
+
+§22. The symbol of any vowel may be combined with the vowel အ, in which case
+the compound has the power of the vowel which the symbol represents; thus အိ is
+equivalent to ဣ, အု to ဥ, &c.
+
+​
+
+final consonants.
+
+§23. When a consonant is deprived of its inherent vowel အ, and not furnished
+with the symbol of another, it becomes final in the syllable. The absence of
+the inherent vowel အ, is denoted by the mark (်) called that, [th as in thin, 
+St.] signifying killed, placed above the consonant thus, က်, or by another
+consonant subjoined, thus က္ခ; in which case the subjoined consonant becomes the
+initial of the next syllable, thus ကတ္တ, kat-ta.
+
+§24. One consonant however is sometimes placed under another as a mere
+abbreviation, and does not therefore deprive the preceding consonant of its
+inherent vowel; thus သ္မား is equivalent to သမား, and is to be read, not thma, but
+tha-ma.
+
+§25. ည has two forms, ဉ (single), and ည (double). In elementary works,
+therefore, the double form may be well distinguished by subjoining a double
+tail, thus Burmese letter nnya variant glyph.svg.
+
+§26. ဋ with ဌ subjoined is sometimes written ဌ, but frequently and more
+properly ဋ္ဌ. A double သ is written ဿ.
+
+§27. Final consonants generally assume a new and peculiar power, and also
+modify the preceding vowel. These permutations, as they occur in words of pure
+Burmese origin, are exhibited in the following table:—
+
+§28. အ            ဣ              ဥ         ဩော          အို
+အက်, et.                                   ဩောက်, ouk.  အိုက်, aik.^[3]
+အင်, en, een,^[4]                          ဩောင်, oung. အိုင်, aing.^[3]
+အစ်, eet,^[5]
+အည်, een, ee.
+အတ်, at.          အိမ်, eing.^[6] အုတ်, ōk.
+အန်, an.          အိတ်, eik.      အုန်, ōng.
+အပ်, at.          အိန်, eing.     အုပ်, ōk.
+အမ်, an.          အိပ်, eik.      အုမ်, ōng.
+အယ်, ai.^[7]
+အံ, an.                           အုံ, ōng.
+
+​§29. The final syllables, as here exhibited, are combined with any consonant
+simple or compound, as ကက် ket, ကျင် kyeen, &c. without any change in their
+pronunciation, except in two cases, viz: ဝ before တ် or ပ်, is commonly
+pronounce wŏt^[8] not wat, and before န်, မ်, or (ံ), wŏn or woon not wan; and
+consonants compounded with ဝ, as ကွ, စွ, &c. before တ် or ပ်, are commonly
+pronounced kooat,^[9] tsooat; and before န်, မ်, or (ံ), kooan,^[9] tsooan^[9],
+&c. [These final consonants are not pronounced as distinctly as in English. St.
+]
+
+§30. There are also many words of Pali origin, in which consonants, final in a
+syllable, are subject to permutations somewhat similar to the above, and others
+of a peculiar character. A key to the whole is furnished in the following
+table:—
+
+§31. အ                               ဣ          ဥ         ဧ          ဩော
+                                                               eet,
+အက်                                  ဣက်, eik.^ ဥက်, ōk.  ဧက်, [or   ဩောက်, ouk.
+                                          [10]                 it. 
+                       } {\                                    St.]
+အင်  displaystyle \                  ဣင်, eing. ဥင်, ōng.            ဩောင်, oung.
+အစ်  scriptstyle {\left.{\           ဣစ်, eik.  ဥစ်, ōk.  ဧစ်, eet.  ဩောစ်, oot.
+အည်  begin{matrix}\ \\\\\ \\\        ဣည်, eing. ဥည်, ōng. ဧည်, een,  ဩောည်  oon.
+     \\\ \\\ \\\ \\\ \\\ \ \  as                               ee.
+အတ်  end{matrix}}\right\}\,}} above. ဣတ်, eik.  ဥတ်, ōk.  ဧတ်, eet.  ဩောတ်, oot.
+အန်  \scriptstyle {\left.{\          ဣန်, eing. ဥန်, ōng. ဧန်, een.  ဩောန်, oon.
+အပ်  begin{matrix}\ \\\\\ \\\        ဣပ်, eik.  ဥပ်, ōk.  ဧပ်, eet.  ဩောပ်, oot.
+     \\\ \\\ \\\ \\\ \\\ \ \                                   een.
+     end{matrix}}\right\}\,}                                   ee as
+အမ်                                  ဣမ်, eing. ဥမ်, ōng. ဧမ်, in    ဩောမ်, oon.
+                                                               been.
+                                                               St.
+အယ်
+အရ်, an.                                                  ဧရ်, ee.
+အလ်, an.                             ဣလ်, eing. ဥလ်, ōng. ဧလ်, een.  ဩောလ်, oon.
+အသ်, at.                             ဣသ်, eik.  ဥသ်, ōk.  ဧသ်, eet.  ဩောသ်, oot.
+အံ,   an.                             အိံ,   eing. အုံ,   ōng.
+
+§32. In the preceding table, final consonants are marked (်), for the sake of
+simplifying the tabular view; but though there are some instances of that kind,
+as ဥပုသ်, oo-pōk, မထေရ်, ma-ʻtee, in almost all cases derived from the Pali,
+final consonants are made so by having other consonants subjoined, as ဣန္ဒြေ eing
+-dray, or by modification (see §23), ein-dray, ဥစ္စာ, ōk-tsa, or by modification
+ōt-tsa, မေတ္တာ, meet-ta,^[11] ဩောတ္တပ္ပ, oot-tap-pa.
+
+​§33. As an appendix to both the preceding tables, note:—
+
+1st. Cerebrals, when final, are the same as dentals; thus အဋ္ဌမ is pronounced at
+-ta-ma, as if written အတ္ထမ.
+
+2d. The third letter of each class is the same as the first; thus ပြဿဒ်,
+pronounced pyat-that, as if written ပြဿတ်.
+
+3d. The second and fourth letters of each class never occur as finals, except
+in some words derived from the Pali,—when they are mute; as မိုဃ်း, from မေဃ, the
+sky, pronounced mo.
+
+4th. ယ်, ရ်, ဝ်, ဟ်, and ဠ်, after အို, are mute, e.g. ကိုယ်, ko, မြင်းမိုရ်, Myeen-mo
+, ဗိုလ်, bo, ထိုဝ်, ʻto, ဂြိုဟ်, gyo, သီဟိုဠ်, Thee-ho.
+
+5th. အာ before a final gives the syllable the same power as အ, thus အာရ် is
+pronounced, an, as if written အရ်, e.g. မာရ်နတ် man-nat.
+
+§34. The sound of a final consonant is frequently modified by the initial
+consonant of the following syllable or word, as အက္ခရာ, ek-ka-ra, [ek-kha-ra, St.
+] not et-ka-ra, သင်္ဘော, them-bau, not then-bau. But these permutations, being
+dictates of nature, will be naturally acquired without rule.
+
+§35. There is another permutation of perpetual occurrence, which may be thus
+stated:—when two syllables are in juxtaposition, so as to form one word, the
+first syllable ending in a vowel (except အ), [expressed, St.] or a nasal, and
+the initial letter of the second syllable being the first or second letter of
+either of the five classes of consonants, it frequently takes the sound of the
+third letter of the same class; that is, က and ခ are pronounced as ဂ; စ and ဆ,
+as ဇ; ဋ and ဌ, as ဎ; တ and ထ, as ဒ; ပ and ဖ, as ဗ; thus စကား, a word, is
+pronounced, not tsa-kah, but tsa-gah, as if written စဂါး, and အင်တန်,
+considerably, is pronounced, not en-tan, but en-dan, as if written အင်ဒန်.
+
+§36. But there are so many exceptions to this general rule, that regard to the
+coalescence of sounds as exhibited in common practice is recommended as the
+only true guide.
+
+​
+
+accents.
+
+§37. There are two accents, the short, light accent (့), and the short, heavy
+accent (း).
+
+§38. The short, light accent (့), called အမြစ်, the အ stop, (formerly a small
+subscriptive အ,) or အောက်​မြစ်, the under stop, is placed under the letter, thus 
+ကန့်. It is used with the vowels ဧ, အဲ, ဩော, အို, and the nasal consonants.
+
+§39. The short heavy accent (း), called ဝတ်​စ​နှစ်​လုံး, the two round woot-tsahs,
+or ရှေ့​ပေါက်, the dots before (after), is placed after the latter, thus ကန်း. It
+is used with the vowels အာ, ဤ, ဦ, ဧ, အို, and the nasal consonants. This accent is
+considered as inherent in the vowel အဲ (unless superseded by the light accent),
+and in the final consonant မ်, when combined with the vowel အ. In the latter
+case it is frequently omitted as superfluous; and in the former case, almost
+uniformly, in modern usage.
+
+[50px-R]*[50px-R]
+
+abbreviations.
+
+§40. ၏ for . . . . ဧည့်      မှ် for        . . . . မည်^[12]
+(ံ) "       . . . . က်       ၍ "            . . . . ရွေ့
+(when placed over ာ,         လှ် "          . . . . လည်
+in the symbol of ဩော.)        ၎င် or ၎င်္ for . . . . လည်းကောင်း
+ငေ်း for     . . . . ကောင်း      လုင် for        . . . . လုလင်
+ငေ့် "       . . . . ကြောင့်     သှ် "          . . . . သည်
+ကျွန်ုပ် "  . . . . ကျွန်နုပ် ၆ or ၆ေ for     . . . . သော
+၌ "        . . . . နှိုက်     သွောံ "           . . . . သွေးသောက်
+
+§41. ယ is sometimes represented by its symbol, after က်, as ယောက်ျား for ယောက်​ယား,
+လက်ျာ for လက်​ယာ, &c.
+
+§42. င် or င်း is frequently removed from its natural situation in the line, and
+placed over the following letter, as သင်္ကန်း for သင်ကန်း. [In this position it is
+called ကင်းစီး. St.] In the case of င်း, the accent is omitted, without affecting
+the pronunciation; as သင်္ဘော for သင်း​ဘော.
+
+​
+
+NUMERICAL FIGURES.
+
+§43.
+
+၁, ၂, ၃, ၄, ၅, ၆, ၇, ၈, ၉, ၁၀.
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10.
+
+[50px-R]*[50px-R]
+
+PUNCTUATION.
+
+§44. The mark ။ called ပိုက် or အပုဒ်, a stop, is used to separate sentences, and
+the clauses of a sentence. The double mark ။ ။, ပုဒ်​ကြီး, a great stop, is used
+to divide paragraphs.
+
+§45. The mark ပုဒ်​က​လေး, a little stop, begins to be used in printed books, as an
+equivalent to the English comma, (a great desideratum in Burmese writing)
+leaving the ။ to supply the place of the semicolon and period.
+
+[50px-R]*[50px-R]
+
+PARTS OF SPEECH.
+
+§46. The Etymology of Burmese Grammar may be exhibited under the six classes of
+Nouns, Pronouns, Adjectives, Verbs, Adverbs, and Interjections.
+
+[50px-R]*[50px-R]
+
+nouns.
+
+§47. The usual division of nouns into common and proper obtains in the Burmese,
+as in all other languages.
+
+§48. Under common nouns are included three kinds of derivatives; the simple,
+the reduplicative, and the compound.
+
+§49. Simple derivatives are mostly formed from verbal roots, by prefixing အ, as
+အ​လင်း, light, from လင်း to be light; but in composition the အ, is commonly
+dropped; thus အ​စာ, food, from စား, to eat, when combined with ည, evening, becomes
+ညစာ evening food, or supper.
+
+§50. The same is true of all nouns, whose initial is a syllable အ; thus အရည်,
+liquor, when combined with ပျား, a bee, becomes ပျား​ရည်, honey; and sometimes even
+when a syllable or word is added; thus အရောင်, brightness, when followed by ခြည်,
+a ray, becomes ရောင်​ခြည်, a ray of brightness.
+
+​§51. Reduplicative derivatives are formed from nouns of one syllable, by
+prefixing အ to the noun reduplicated, or from nouns of two syllables, the first
+being a syllabic အ, by dropping the အ in the second number of the
+reduplication; and such derivations imply generality or universality; thus from
+ပြည် a country, is formed အပြည်​ပြည်​တို့ (with the plural affix), many or all
+countries; and for အမျိုး, a race, အမျိုး​မျိုး​တို့ many or all races.
+
+§52. Compound derivatives will be considered under the head of verbal nouns.
+
+number.
+
+§53. Nouns have two numbers, the singular and plural. The simple noun may be
+regarded as being in the singular number, as လူ, a man; though the noun in its
+simple state, without any definite adjunct, has frequently a generic meaning,
+as လူ​သေ​တတ်​သည်, man is mortal.
+
+§54. The plural is formed by affixing တို့ (pronounced ဒို့), do, to the singular, as
+လူ, a man, လူတို့ men. The adjective များ is sometimes used instead of တို့, and
+sometimes both are combined, as လူများ, or လူ​များ​တို့, men.
+
+gender.
+
+§55. The Burmese language recognizes no grammatical or artificial gender, but
+that only which consists in the distinction of the sexes, viz, the masculine
+and the feminine.
+
+§56. The two genders are distinguished, sometimes by different words, as ယောက်ျား,
+a man, မိမ္မ, a woman; sometimes by regarding the simple noun as masculine, and
+affixing မ for feminine, as ရဟန်း, a priest (of Boodh), ရဟန်းမ, a priestess; and
+sometimes by affixing ထီး, or ဖ, or ဖို, for the masculine, and မ for the feminine;
+as ခွေးထီး, a dog, ခွေးမ, a bitch; ကြက်ဖ, a cock, ကြက်မ, a hen; ငန်းဖို, a gander, ငန်းမ,
+a goose.
+
+case.
+
+§57. The relations of nouns expressed in most languages by prepositions or
+inflections, are in the Burmese language expressed ​by particles affixed to the
+noun, without any inflection of the noun itself.
+
+§58. The noun affixes may be distributed into nine classes, viz, the
+Nominative, the Objective, the Possessive, the Dative, the Causative, the
+Instrumentive, the Connective, the Locative, and the Ablative.
+
+nominative.
+
+§59. သည် is the most common nominative affix, denoting the agent or subject of
+the verb; as ထို​လူ​သည်​ကောင်း​၏, that man is good; but in simple sentences, it is
+most commonly omitted; as သူ​ကောင်း​သည်, he is good; also in participial clauses, 
+ဆ​ရာ​ပြော​သော​စ​ကား the words which the teacher speaks.
+
+§60. ကား, သည်​ကား, and မူကား (by abbreviation မူ), are also nominative affixes,
+denoting the agent or subject, but rather more definitive or distinctive than 
+သည်, and from the latter quality, are much used in adversative clauses, as 
+ငအ​ကျင့်​ကား​ကောင်း​၏၊ သု​အ​ကျင့်​ကား​မ​ကောင်း, my conduct is good; his conduct is not good.
+These affixes are frequently equivalent to as to, concerning, in regard to, a
+substantive verb being understood, as အ​ကြောင်း​မူ​ကား, as to the reason, (it is as
+follows).
+
+§61. ကား is sometimes used emphatically after another noun affix, as 
+အ​ရိုက်​ကား​ခံ​နှိုင်​ပါ​သ​လော, can you indeed bear the beating? Also repeated after
+successive clauses intended to be set adversatively, as 
+မြေ​အ​ပြင်​၌​ကား​မြင်​သာ​သည်၊ ရေ​ထဲ​၌​ကား​မ​မြင်​နှိုင်, on the land it is easy to see;
+in the water (we) cannot see. In such cases ကား is used adverbially.
+
+objective.
+
+§62. ကို is the true objective affix, denoting the object on which an action
+terminates; as ရေ​ကို​သောက်​သည်, to drink water; sometimes, with some latitude of
+application, it denotes the object to which a thing is given; as ငကို​ပေး​ပါ, give
+to me; or the object ​to which motion is directed; as အိမ်​ကို​သွား​တော့ go to the
+house! or the material out of which a thing is made; as ရွှေ​ကို​လုပ်​သော​တန်​ဆာ, an
+implement made of gold. In the first and most proper application, it is
+frequently understood; as ရေ​ပေး​ပါ for ရေ​ကို​ပေး​ပါ, give water.
+
+§63. သို့ is an objective affix, denoting the object towards which or unto which
+motion is directed, as အိမ်​သို့​သွား​တော့, go to the house! though frequently, in
+colloquial style, it is superceded by ကို, as above. Various applications may
+seem to require the aid of various prepositions in English, as လက်​သို့​အပ်​သည် to
+deliver into (his) hand, အ​လို​သို့​လိုက်​သည်, to follow (his) will, or according to (
+his) will, မြို့​သို့​ရောက်​သည်, to arrive at the town; but in all such cases, it will
+be evident, on a little reflection, that the legitimate import of the affix is
+preserved.
+
+POSSESSIVE.
+
+§64. ၏ is the possessive affix denoting possession, as သူ​၏​အ​သက်, the life of
+man. This affix is very frequently understood; in which case the preceding
+syllable, if capable of taking the short, light accent, is pronounced
+accordingly; thus အ​ဖေ​၏​အ​ဖေ, a father's father, if written အ​ဖေ​အ​ဖေ, is
+pronounced as if written, အ​ဖေ့​အ​ဖေ.
+
+DATIVE.
+
+§65. အား is the proper dative affix, equivalent in various applications to to or
+per in English, as င​အား​ပေး​ပါ, give to me. It is sometimes used for the objective
+affix ကို.
+
+ငှါ, for, in order to, is used only with အလို, desire, as အ​စာ​အ​လို​ငှါ, for food,
+or for the sake of food; or with verbals in ခြင်း, as စား​ခြင်း​ငှါ, or
+စား​ခြင်း​အ​လို​ငှါ, in order to eating; or with verbs used substantively, as 
+စား​အံ့​သော​ငှါ, or စား​လို​သော​ငှါ, in order to eat. (See under verbal nouns, §124, and
+verbs used substantively, §122.)
+
+​
+
+causative.
+
+§66. ကြောင့်, because, on account of, from အကြောင်း a cause or reason, is used with
+simple nouns, as အပြစ်​ကြောင့်, because of the fault; but its great use is in
+connection with verbs used substantively, as အပြစ်​ရှိ​သော့​ကြောင့်, because of the
+fault. (See verbs used substantively, §122.) မို့ is equivalent to ကြောင့် but seldom
+used in writing.
+
+instrumentive.
+
+§67. ဖြင့်, by, with, by means of, as လက်​ဖြင့်​ကိုင်​သည်, to hold with the hand,
+is the proper instrumentive affix; but it is more frequently superceded by the
+connective affix နှင့်, as လက်​နှင့်​ကိုင်​သည်, of the same import; or used in
+connection with the secondary noun အား, in the sense of means, literally strength
+. (See secondary nouns, §74.)
+
+connective.
+
+§68, The connective affix နှင့် signifies 1st, with, together with, as 
+လူ​နှင့်​လိုက်​သည်, to follow with the man. In this sense it is much used with the
+secondary nouns အတူ, အညီ, &c. (See secondary nouns, §74.)
+
+2d. It supplies the place of the copulative conjunction and between nouns, as 
+ရွှေ​နှင့်​ငွေ​ကို​ရှာ​သည် to seek gold and silver.
+
+3d. It is frequently used for the instrumentive affix ဖြင့်, as stated above.
+
+locative.
+
+§69. တွင်, ၌, and မှာ, are locative affixes, signifying in, at, among, as 
+အိမ်​တွင်, အိမ်၌, အိမ်​မှာ, in the house. They sometimes have a possessive import,
+as ငါ၌​ဥစ္စာ​များ​သည်, the goods with me (or my goods) are many.
+
+မှာ, like the nominative affixes ကား, မူကား, &c., frequently signifies as to,
+concerning, in regard to.
+
+ဝယ် signifies in, but is commonly restricted to nouns of place and time.
+
+​
+
+ablative.
+
+§70. The ablative affix မှ signifies from, out of, separate from, besides, as 
+တော​မှ​လာ​သည်, to come from the wood; ထို​မှ​တပါး, besides that, one thing more); 
+ထို​နေ့​မှ​စ​၍, beginning from that day, that is, from that day forth, 
+င​အိမ်​မှ​စ​၍​င​ဥစ္စာ​ရှိ​သ​မျှ, all my property, beginning with my house.
+
+§71. က is an ablative affix of the same import with မှ, but has frequently the
+additional power of a nominative affix, particularly to verbs of speaking or
+communicating in any way, when the speech or matter communicated comes between
+the nominative and the verb; as ဘု​ရား​သ​ခင်​က​အ​လင်း​ဖြစ်​စေ​ဟု​မိန့်​တော်​မူ​၏။ God
+said, let there be light.
+
+§72. Certain verbal affixes, as တုံ, လေ, ပေ, ပါ, and ပေါ့, when affixed to nouns, are
+merely expletive.
+
+§73. The vocative is expressed by the noun in a simple state divested of all
+affixes. Sometimes in grave discourse, it is indicated by အို prefixed, as အို​ဆ​ရာ,
+O teacher.
+
+SECONDARY NOUNS.
+
+§74. Some relations of nouns are expressed by means of secondary nouns which
+take some of the preceding affixes, and are connected with the principal nouns
+by ၏ (dropping the formative အ) the sign of the possessive, expressed or
+understood, as in the following examples:—
+
+            } {\displaystyle \          {       {\displaystyle \    အိမ်၏အပေါ်မှာ,
+      scriptstyle {\left.{\begin        scriptstyle {\left\{{\begin or 
+      {matrix}\ \\\\\ \ \end      an    {matrix}\ \\\\\ \ \end      အိမ်ပေါ်မှာ,
+အပေါ်, {matrix}}\right\}\,}} \     upper {matrix}}\right.}} \        အိမ်ထက်မှာ,
+အထက်, scriptstyle {\left.{\begin  part; scriptstyle {\left\{{\begin above, over
+      {matrix}\ \\\\\ \ \end            {matrix}\ \\\\\ \ \end      , or
+      {matrix}}\right\}\,}              {matrix}}\right.}           upon the
+                                                                    house.
+
+    အောက်, an under part; အိမ်အောက်မှာ, under the house.
+    ရှေ့, a fore part; အိမ်ရှေ့မှာ, before the house.
+    နောက်, a hind part; အိမ်နောက်မှာ, behind the house.
+
+             } {\displaystyle \scriptstyle {\left.{\begin   an outside; 
+အပ,    {matrix}\ \\\\\ \ \end{matrix}}\right\}\,}} \        အိမ်ပမှါ, အိမ်ပြင်မှာ,
+အပြင်, scriptstyle {\left.{\begin{matrix}\ \\\\\ \ \end     without the house.
+       {matrix}}\right\}\,}
+             } {\displaystyle \scriptstyle {\left.{\begin   an inside; အိမ်ထဲမှာ,
+အထဲ,    {matrix}\ \\\\\ \ \end{matrix}}\right\}\,}} \        အိမ်တွင်းမှာ, within
+အတွင်း, scriptstyle {\left.{\begin{matrix}\ \\\\\ \ \end     the house.
+       {matrix}}\right\}\,}
+
+​
+
+    အနား, a side; အိမ်​နား​မှာ, by the house.
+    အနီး, a near part, nearness; အိမ်​နီး​မှာ, near the house.
+    အထံ, presence; မင်း​ထံ​မှာ, in presence of the governor.
+    ဆီ, ditto; မင်း​ဆီ​မှာ, ditto.
+    အညာ, an upper part; မြစ်​ညာ​သို့, up the river.
+    အကြေ, a lower part; မြစ်​ကြေ​သို့, down the river.
+    အတွက်, account, sake; လူမျိုး​အ​တွက်​ကြောင့်, on account, or for the sake of
+    mankind.
+
+§75. The following secondary nouns are commonly used without an affix; and in
+some instances, are connected with the principal nouns by နှင့် instead of ၏.
+
+    အဖို့, a part, portion; အိမ်ဖို့ or သို့, for the house.
+    အထက်ဆုံး, summit, extremity; အသက်​ထက်ဆုံး, through, or to the end of life.
+    ပတ်လည်, a circuit; အိမ်​ပတ်​လည်, round the house.
+    ဝန်းကျင်, ditto; အိမ်​ဝန်း​ကျင်, ditto.
+    ထက်ဝန်းကျင်, ditto; အိမ်​ထက်​ဝန်း​ကျင်, ditto.
+    ပတ်လုံး, a whole circuit; ကာ​လ​ပတ်လုံး, during or throughout the time.
+    အတူ, likeness; ထိုနည်းတူ, in like manner.
+    အလောက်, about so much, (obsolete); လူလောက်​ကြီး​သည်, to be about as large as a man
+    .
+    အခန့်, about so much; တနှစ်​ခန့်, about a year.
+    အညီ, evenness, accordance; အလို​နှင့်​အ​ညီ, or အလို​၏​အညီ according to (his) will.
+    အတိုင်း,measurement; အလို​နှင့်​အတိုင်း, or အလို​၏​​အတိုင်း, do.
+    အလျောက်, an agreeing with; အလို​နှင့်​အ​လျောက်, or အလို​၏​အ​လျောက်, ditto.
+    အမျှ, as much as; ဆရာ​နှင့်​အမျှ​တတ်​သည်, to know as much as the teacher.
+    အစား, stead; ကိုယ်​စား, instead of self.
+    အတူ, a being with; ဆရာ​နှင့်​အတူ, with the teacher.
+    အကွ, ditto; ဆရာ​နှင့်​အကွ, ditto.
+
+N. B. In some instances, စ or တ, is optionally substituted for the formative အ,
+as ကာ​လ​စ​လိုက်, for ကာ​လ​အ​လိုက်, ဆရာ​နှင့်​တမျှ, ဆရာ​နှင့်တကွ, &c.
+
+​§76. Some relations of nouns are expressed by means of verbs also, as from 
+တိုင်​သည် to arrive at, reach, may be formed,—
+
+    အိမ်တိုင်အောင် (with a continuative affix), unto, or as far as the house;
+    ကာလတိုင်အောင်, until the time;
+    ပြည်တိုင်တိုင် (the root doubled), through the country;
+    ကာလတိုင်တိုင်, during the time; in which cases ကို or သို့ is understood after the
+    noun, and sometimes expressed.
+
+[50px-R]*[50px-R]
+
+PRONOUNS.
+
+§77. ငါ, I, masculine or feminine, is used by a person in speaking to himself
+of himself, and in addressing inferiors.
+
+ကျွန်နုပ်, ကျွန်ုပ်, or ကျုပ်, I, masculine or feminine, is used in addressing
+equals, and in addressing inferiors politely.
+
+ကျွန်တော် a servant, ကျွန်​တော်မ, ကျွန်မ, or ကျမ, a female servant, တပည့်​တော်, a
+disciple, and တပည့်​တော်မ, a female disciple, are used as first personals in
+addressing superiors.
+
+အကျွန်, I, feminine, is of similar import with ကျွန်မ, but not in common use.
+
+N. B. The plural affix တို့ is sometimes used for the plural of the first
+personal.
+
+ကိုယ်တော်, thou, masculine or feminine, is used to a superior; မင်း,^[13] you,
+masculine, to an equal or an inferior; မောင်​မင့်, you, masculine, to an inferior;
+မောင်​မင်း you, rather imperious and disrespectful; မင်း​မာ, you, masculine, to an
+inferior, expressive of disapprobation; ညည်း or ညဲ, you, feminine, to an equal or
+inferior; မယ်​မင်း, you, feminine, to any woman, expressive of disrespect or
+anger; and နင် you, masculine or feminine, to children, or persons very
+inferior.
+
+သင် thou, or you, masculine or feminine, is used chiefly in writing, and is
+irrespective of the relative rank of the parties. ချင်း, you, masculine or
+feminine, is used in judicial language.
+
+​ကွယ်, you, masculine or feminine, familiar, and ဟယ်, you, masculine or
+feminine, disrespectful, are used vocatively only. ကွယ် makes ကွရို့, and ဟယ်, ဟရို့,
+in the plural.
+
+သူ, a person, masculine or feminine, supplies the place of the third personals,
+he and she.
+
+သင်း,^[14] that (thing), neuter, may also be regarded as a third personal.
+
+ကိုယ် and ကိုယ်​ကိုယ်, one's self (i. e. myself, yourself, or himself), masculine or
+feminine, are of either person as the connection requires.
+
+မိမိ, one's self, masculine or feminine, is confined to the second and third
+persons.
+
+§78. The pronouns ငါ, သင်, and သူ, in the singular number, not preceded or
+followed by any adjective or participial adjunct, become င, သင့်, and သု, before
+the oblique, unaspirated affixes (except သို့), viz. ကို, အား, ကြောင့်, တွင်, and ၏
+understood; but when used nominatively, or followed by သို့, or by ၏ expressed, or
+by an aspirated affix, ဖြင့်, နှင့်, ၌, မှာ, or မှ, they retain their proper form.
+Other pronouns, ending in a nasal, are similarly inflected.
+
+[50px-R]*[50px-R]
+
+ADJECTIVES.
+
+§79. Adjectives are of three kinds, pronominal, verbal, and numeral.
+
+§80. Adjectives of either kind are prefixed to their nouns, by means of the
+connective သည် or သော, if singular, and the same, or ကုန်​သည်, or ကုန်​သော, if
+plural, or directly affixed. But to this general rule there are several
+exceptions, particularly in the pronominals.
+
+§81. An adjective and noun united in either way form a compound word, which
+admits the plural affix and the affixes of cases, the same as a simple noun.
+
+​
+
+pronominal adjectives.
+
+§82. The following pronominals are prefixed to their nouns, in some cases with,
+and in some without a connective,—ရော, နင့်, or နံ့, being occasionally substituted
+for သော, before words of time:—
+
+    ဤ, this, as ဤလူ, this man; ဤသည်​နေ့, this day.
+    သည်, this.
+    ထို, that, as ထိုသူ, that person; ထိုသော​အခါ, or ထိုရော​အခါ, that time.
+    ယင်း, that,—infrequent.
+    အနည်, this or that,—infrequent.
+    ဟို and ဟုပ်, that,—colloquial.
+    အဘယ်, or ဘယ်, what?—occasionally contracted to အ, before သူ, as အသူ, for 
+    အသယ်သူ, who?—and to ဘ before ဟာ, as ဘဟာ, what thing? In negative sentences, it
+    combines with the negative particle သင်း, to signify none, as ဘယ်​သူ​မရှိ
+    there is no one. When combined with သင်း, that (thing), it means which; as 
+    အဘယ်​သင်း, which (thing)?
+    အတီ, what?—infrequent.
+    အကြင်, whatever.
+    မည်, what? whatever. N. B. မည်​သည်, ditto, is directly prefixed or affixed.
+    ဤမည်, such, referring to what has been specified. [Its most common use
+    appears to be indefinite, such and such, such or such. St.]
+
+§83. The following pronominals are prefixed to their nouns, with the usual
+connectives:—
+
+    သို့, such.
+    ဤသို့, သည်သို့, such, of this sort.
+    ထိုသို့, ယင်းသို့, such, of that sort.
+    အဘယ်သို့, အသို့, ဘယ်သို့, မည်သို့, of what sort.
+    အကြင်သို့, of whatever sort.
+    ကဲသို့, and its compounds, such as. ​§84. The following, viz. အချို့ and တချို့,
+    some, အခြား, တခြား, and တပါး, other, ခပ်​သိမ်း and အလုံးစုံ, all, are joined to their
+    nouns according to the general rule, except that when prefixed, the
+    connective is in some instances omitted. ခပ်​သိမ်းစုံ, all is prefixed with a
+    connective.
+
+§85. တထူး, other, တကာ, many, အားလုံး all, and အလုံး, all, the whole, are uniformly
+affixed.
+
+§86. အလုံး, when affixed to a noun or a numeral auxiliary, frequently drops the အ,
+or changes it to စ, as အိမ်လုံး, or အိမ်​စလုံး, the whole house; အိမ်​သုံး​ခုလုံး, or 
+အိမ်​သုံး​ခု​စလုံး, all the three houses. When affixed to a singular noun, the compound
+occasionally takes the numeral တ, one, before it, without a change of meaning,
+as တအိမ်လုံး, or တအိမ်​စလုံး, the whole house; သင်္ဘော​တ​စင်းလုံး, the whole ship.
+
+§87. ဘယ်​နှစ်, how many? is directly prefixed to numeral auxiliaries, or words
+denoting a part or quantity of a thing, as သရက်​သီး​ဘယ်​နှစ်လုံး, how many mangoes? 
+သရက်​သီး​ဘယ်​နှစ်​တင်း, How many baskets of mangoes?
+
+§88. So much, How much? &c., are expressed by combining pronominals with such
+nouns as အမျှ, အလောက်, &c., denoting quantity, as ဤမျှ, so much, ဘယ်​လောက်,
+ဘယ်​မျှ​လောက်, how much?
+
+§89. Some pronominals are doubled to form a kind of plural, as ထိုထို​ဥစ္စာ, those
+goods.
+
+§90. Pronominals are frequently used substantively, and in that character admit
+the noun affixes.
+
+verbal adjectives.
+
+§91. Verbal adjectives are made by joining verbal roots to nouns, according to
+the general rule, as မြတ်​သောလူ, or လူမြတ်, an excellent man; but as the verbal
+root, when prefixed, is susceptible of the accidents of verbs, it is more
+correct to regard that construction as participial. See under participial
+affixes, §114.
+
+§92. Verbal adjectives are also formed from verbal roots by prefixing အ, as 
+အသစ်, new, and by reduplicating the root, as ကောင်း​ကောင်း, good. Such adjectives are
+commonly affixed to ​their nouns ; but အများ, from များ to be many, follows the
+general rule, as အများသောဆရာ, or ဆရာအများ, many teachers.
+
+§93. The imperfect degree of comparison is sometimes made by shortening and
+reduplicating the verbal root, as ချို့ချို့, sweetish, from ချို, to be sweet, ခခ,
+bitterish, from ခါး, to be bitter; sometimes, by affixing ခပ်, to the root
+reduplicated, or reduplicated and shortened, as ခပ်ဆိုးဆိုး, rather bad; and
+sometimes by affixing reduplicated chiming increments, having တ for an initial
+to the root in its natural state or shortened, to express a slight degree of
+the quality, as ချိုတိုတို, or ချို့တို့တို့, slightly sweetish.
+
+§94. The comparative degree is made, by means of the secondary noun အထက်, or 
+အောက်, and verb, as အိမ်​ထက်​ကြီး​သည်, to be greater than the house, or by a
+circumlocution of verbs, as သာ​၍​ကြီး​သည်, to exceed in greatness, or be greater.
+
+§95. The superlative degree is made, by prefixing အ, and affixing ဆုံး to the
+verbal root, as အမြတ်ဆုံး, most excellent; and is joined to nouns according to the
+general rule, as အမြတ်​ဆုံး​သာ​လူ, or လူ​အမြတ်​ဆုံး, the most excellent man.
+
+numeral adjectives.
+
+§96. Numerals are generally combined with a word descriptive of some quality in
+the noun to which they belong, and in that state are joined to nouns according
+to the general rule.
+
+§97. If the numeral is less than ten, the auxiliary word is affixed to it (the
+formative အ, whenever it occurs, being dropped), as ခွက်​နှစ်လုံး, or 
+နှစ်​လုံး​သော​ခွက်, two cups, from ခွက်, a cup, နှစ်, two, and အလုံး, round; if it is a
+capital number, as ten, twenty, thirty, two hundred, three hundred, &c., the
+auxiliary is prefixed to it, as ခွက်​အ​လုံး​နှစ်​ဆယ်, or အလုံး​နှစ်​ဆယ်​သော​ခွက်,
+twenty cups; and if it is a numeral, intervening between the capitals, the
+auxiliary is both prefixed and affixed, as ခွက်​အ​လုံး​နှစ်​ဆယ်​နှစ်​လုံး, or 
+အလုံး​နှစ်​ဆယ်​နှစ်​လုံး​သော​ခွက်, twenty-two cups. But in any case in which the
+auxiliary is prefixed, it may be omitted, as ဆရာ​အ​ပါး​နှစ်​ဆယ်, or 
+အပါး​နှစ်​ဆယ်​သော​ဆ​ရာ, twenty teachers, may be written ဆရာ​နှစ်​ဆယ်, or 
+နှစ်​ဆယ်​သော​ဆ​ရာ, and ဆရာ​အ​ပါး​နှစ်​ဆယ်​နှစ်​ပါး, or အပါး​နှစ်​ဆယ်​နှင့်​ပါး​သော​ဆ​ရာ,
+twenty-two ​teachers, may be written ဆရာ​​နှစ်​​ဆယ်​​နှစ်​​ပါး, or 
+​နှစ်​​ဆယ်​​နှစ်​ပါး​​သော​​ဆ​​ရာ.
+
+§98. The following is a list of the most common numeral auxiliaries, arranged
+alphabetically, with the classes of things to which they are applied:—
+
+Numeral Auxiliaries.                Classes of Things.
+                                    Rational beings, considered as chief or
+အဦး, a chief.                        having subordinates, as ကုန်​သည်​တဦး, one
+                                    merchant.
+အကောင်, a brute animal.               Brute animals, as မျောက်​နှစ်​ကောင်, two
+                                    monkeys.
+အကြောင်း, a line.                      Things extended in a line, as ခရီး​သုံး​ကြောင်း,
+                                    three roads.
+အကွင်း, a circle, or ring.           Rings, nooses, and such like, as 
+                                    လက်​စွပ်​လေး​ကွင်း, four rings.
+                                    Things which admit no other word more
+                                    descriptive, as ခုတင်​ငါးခု, five bedsteads, 
+အခု, an individual thing.            ကုလား​ထိုင်​ငါးခု, five chairs,—frequently used
+                                    also instead of a more appropriate numeral
+                                    auxiliary.
+အချပ်, what is flat.                Things flat and thin, as ဖျာ​ခြောက်​ချပ်, six
+                                    mats.
+အချောင်း, a bar, or long piece.        Things long and straight, or nearly so, as 
+                                    အပ်​ခု​နှစ်​ချောင်း, seven needles.
+အခွန်း, voice.                       Words, speech, as စကား​ရှစ်​ခွန်း, eight
+                                    words.
+                                    Things long and straight, or nearly so, as 
+အစင်း, an extended line.             လှံကိုး​စင်း, nine spears, သင်္ဘော​ဆယ်​စင်း, ten
+                                    ships.
+                                    Beasts of burden, vehicles of conveyance,
+အစီး, what is ridden upon.            as မြင်း​တစီး, one horse; လှည်း​နှစ်​စီး, two
+                                    carts. ​
+အစောင် (uncertain).                   Writings, as စာ​သုံး​စောင်, three books, or
+                                    writings.
+အဆူ (uncertain).                     Deities, as ဘုရား​လေး​ဆူ four gods; also
+                                    [gardens, St.] pagodas, and some other
+                                    articles.
+အဆောင်, a building.                   Buildings, as အိမ်​ငါး​ဆောင်, five houses.
+အတန်, intervening space.            Whatever occurs at intervals of time or
+                                    place, as အကျိုး​ခြောက်​တန်, six rewards.
+အထည်, a piece of cloth.             Wearing apparel, as အင်္ကျီ​ခု​နှစ်​ထည်, seven
+                                    coats.
+အပင်, a tree or plant.              Trees, plants, as သရက်​ပင်​ရှစ်​ပင်, eight
+                                    mango trees; also thread, hair, &c.
+အပါး (uncertain).                    Deities, ecclesiatics, persons in power,
+                                    any respectable characters, things
+                                    immaterial, as ဆရာကိုးပါး, nine teachers, 
+                                    သီလ​ဆယ်​ပါး, ten duties.
+အပြား, what is flat.                  Things which are flat, as ပျည်​တ​ပြား, one
+                                    board.
+အဖက်, one of a pair.                Things which are naturally joined in pairs,
+                                    as လက်​နှစ်​ဖက်, two hands.
+အလက်, an arm, or hand.              Weapons, tools, whatever is used by the
+                                    hand, as သေ​နတ်​သုံး​လက်, three guns.
+အလုံး, what is round.                  Things round or cubical, or approaching
+                                    those forms, as အိုး​လေး​လုံး, four pots, 
+                                    သစ်​တာ​ငါး​လုံး, five boxes. ​
+                                    Things small in bulk, compared to the
+အသွယ်, what is slender.             length, as မြစ်​ခြောက်​သွယ် six rivers, 
+                                    လမ်း​ခု​နှစ်​သွယ်, seven paths.
+ယောက်, (uncertain.)                   Rational beings,—generally mankind, or
+                                    superior beings, as လူ​ရှစ်​ယောက်, eight men.
+
+§99. Sometimes the noun itself becomes the numeral auxiliary, or is substituted
+for a descriptive word, as ရွာ​ကိုး​ရွာ, nine villages, မင်း​ဆယ်​မင်း, ten governors.
+
+§100. Words denoting some part or quantity of a thing are combined with
+numerals in the same manner as words descriptive of a quality, there being no
+other difference in the cases, excepting that in the latter the number of
+individual things merely is expressed; in the former, the number of the parts
+or quantities of the thing, as ရေ​နှစ်​ခွက်, or နှစ်​ခွက်​သော​ရေ, two cups of
+water; စက္ကူ​အထုပ်​နှစ်​ဆယ်, or အထုပ်​နှစ်​ဆယ်​သော​စက္ကူ, twenty bundles of paper; 
+နှစ်​ရက်, two days (ကာလ, time, being understood), literally, two days of time.
+
+§101. The numeral တ, one, combined with a numeral auxiliary reduplicated, as 
+တခုခု, တယောက်​ယောက်, denotes any one, some one (out of several); when combined with a
+numeral auxiliary, and the combination reduplicated, as တခု​တခု, တယောက်​တ​ယောက်, it
+denotes one after another (whether every one or several); when combined with a
+numeral auxiliary, and followed by the same numeral combined with လေ, as တခု​တ​လေ,
+တယောက်​တ​လေ (sometimes reversed), it denotes a few, now and then one, here and
+there one; when combined with a numeral auxiliary, and preceded by the same
+numeral, combined with စုံ, as တစုံ​တခု, တစုံ​တ​ယောက်, it denotes some one, indefinite.
+Such combinations may be regarded as pronominal adjectives. They are joined to
+their nouns, according to the general rule.
+
+§102. Ordinal numerals are of Pali origin, and are prefixed to their nouns, as 
+ဒုတိ​ယ​ခဏ်း, the second section. Ordinals are also made by affixing မြောက်, to
+raise, to cardinal numerals, ​modified as above, as နှစ်​ယောက်​မြောက်​သော​သား, the
+second son; နှစ်​ရက်​မြောက်​သော​နေ့, the second day.
+
+§103. There are a few adjectives which, on account of some peculiarity, cannot
+be placed in either of the foregoing classes. Some of them are prefixed to
+their nouns, as မဟာ, great, အာ​ကာ,extraordinary; some are either prefixed or
+affixed, as အနန္တ, infinite, သာ​မည, ordinary; and some are affixed, as ကလေး, small;
+တော်, honorific, မ, principal, chief among many; ချင်း, single one, only, as 
+တနေ့​ချင်း​တွင်, in a single day; တည်း only, no more, used with numerals, as 
+တခု​တည်း, one only.
+
+§104. Nouns used adjectively may be distributed into three classes, viz:—
+
+1st. Names of races of men, of countries, towns, &c. when used to qualify a
+following noun, as အင်္ဂ​လိတ်, an Englishman, အင်္ဂ​လိတ်​လူ, ditto, အင်္ဂ​လိတ်​ပြည်,
+England, the country of the English; မြမ္မာ, a Burmese, မြမ္မာ​စ​ကား, the Burmese
+language; ရန်​ကုန်, Rangoon, the town of Rangoon, ရန်​ကုန်​မြို့, ditto ရန်​ကုန်​သား,
+or ရန်​ကုန်​မြို့​သား, a son, or native of Rangoon.
+
+2nd. Common nouns used to qualify a following noun, as ရွှေ,gold, ရွှေ​ဖ​လား, a
+golden cup; မြောက်, the north, မြောက်​လမ်း, the northern path; အညာ, the upper part (
+of a country), အညာသား, an up-conntry person.
+
+3rd. Names of trees, plants, and their parts, which are only used in
+combination with a following noun; thus from သံလွင်, the olive, are formed 
+သံလွင်​ပင်, an olive tree, သံလွင်​ပွင့်, an olive blossom, သံလွင်​သီး, an olive (
+fruit), သံလွင်​ရွက်, an olive leaf.
+
+[50px-R]*[50px-R]
+
+VERBS.
+
+§105. Verbs are of two kinds, transitive, which express actions that pass from
+the agent to the object, as ရိုက်​သည်, to strike, ချစ်​သည်, to love; and
+intransitive, which express being, or some state of being, or an action which
+is confined to the agent, as ​ဖြစ်​သည်, to be, နေ​သည်, to remain, ကောင်း​သည်, to be
+good, ပျက်​သည်, to be ruined, or in a state of ruin.
+
+§106. Many transitive verbs are formed from intransitive ones, by aspirating
+the initial letter. If the initial is the first letter of the first or fifth
+class of consonants, it is changed for its corresponding aspirate, the second
+letter of the class, as ကျသည်, to fall, ချသည် to throw down, or cause to fall; 
+ပျက်​သည်, to be ruined, ဖျက်​သည်, to ruin. If the initial is a nasal, or an
+unclassed letter, it is combined with the letter ဟ, as ညွတ်​သည်, to be bent
+down, ညွှတ်​သည်, to bend down; လွတ်​သည်, to be free, လွှတ်​သည်, to make free.
+
+accidents of verbs.
+
+§107. The accidents of verbs, expressed in most languages by inflections or
+auxiliary verbs, are here expressed by particles affixed to the verb, without
+any inflection of the verb itself. The verbal affixes are as follows:—
+
+§108. assertive affixes.
+
+သည်, simply assertive, as သွား​သည်, he goes; in certain combinations, written သော။
+
+၏, same as သည်။
+
+ဘူး, simply assertive, in negative sentences, as မသွား​ဘူး, he goes not,—chiefly
+colloquial.
+
+ဆဲ, present, but scarcely used except substantively, as သွား​ဆဲ​ဖြင်​သည်, he is
+going (see Verbs used substantively, §122), or in a participial clause,
+according to the note below, as ယခု​ဖြစ်​ဆဲ​သော​အမှု, the business that now is, or
+the present business. In the substantive construction, it may be combined with
+a preceding future affix, as သွား​လုဆဲ, or reduplicated, as သွား​မည်​ဆဲ​ဆဲ​တွင်, when
+he was just about going.
+
+ပြီ, past, as သွားပြီ, he went, or has gone; sometimes future.
+
+​အံ့, future, as သွားအံ့, he will go; sometimes equivalent to the continuative affix 
+လျှင်, which see.
+
+မည်, future.
+
+လတံ့, or လတ္တန့် future.
+
+N. B. The assertive affixes of tense, ဆဲ, ပြီ, အံ့, မည်, and လတံ့ occasionally lose
+their assertive power, and become auxiliary to a continuative, participial, or
+simply asertive affix, in which case ပြီ becomes ပြီး.
+
+§109. continuative affixes.
+
+လျက်, denoting the continuance of an action, or state of being during another,
+as သွား​လျက်​စား​သည်, he eats as he goes; sometimes equivalent to လျှင်.
+
+ကာ, equivalent to လျက်, but commonly repeated after the same or another verb, as
+ဆက်​ကာ​ဆက်​ကာ, joining one with another; စုန်​ကာ​ဆန်​ကာ, going up and down,—used
+also as a verbal formative.
+
+လျက်နှင့်, denoting the continuance of an action, or state of being during
+another, but somewhat inconsistent with it, as သွား​လျက်​နှင့်​စား​သည်, though going
+he eats.
+
+လျှင်, denoting first, the completion of an action or state of being prior to
+another, as သွား​လျှင်​သေ​သည်, having gone, he died; second, supposition or
+conditionality, as သွား​လျှင်​သေ​မည်, if he go, he will die.
+
+သော်, same as လျှင်.
+
+မူ, မူကား, ရကား, တမူ​ကား, and တပြီး​ကား, in some combinations equivalent to လျှင်.
+
+မှ, denoting the completion of an action prior to another.
+
+ကတည်းက, from the first of, as သွား​က​တည်းက, from the first of his going.
+
+​သော်လည်း, though, notwithstanding, as သွား​သော်​လည်း​မသေ, though he go, he will not die
+.
+
+ကစား, or လင့်ကစား, လှည့်ကာ, ditto,—infrequent.
+
+မချည်း, ကတည်း ditto,—colloquial.
+
+အောင်, first, that, noting a consequence, so that, so as to, as သေ​အောင်​သွား​သည်, he
+went, so that he died; second, that, noting a final end, in order to, as 
+သေ​အောင်​သွား​သည်, he went, that he might die.
+
+၍ and, as သွား၍သေသည်, he went and died; (sometimes pronounced လို့;) sometimes
+equivalent to လျှင်.
+
+§110. interrogative affixes.
+
+(Connected with the verbal root by the assertive affix သည်, being commonly
+abbreviated to သ.)
+
+                                           } {\displaystyle \
+                                       scriptstyle {\left.{\
+လော,—formal,                             begin{matrix}\ \\\ \end  as သွားသည်လော, does
+လား,—familiar,                           {matrix}}\right\}\,}} \  he go?
+                                       scriptstyle {\left.{\
+                                       begin{matrix}\ \\\ \end
+                                       {matrix}}\right\}\,}
+နည်း,—formal,
+         } {\displaystyle \                    } {\displaystyle Used in
+     scriptstyle {\left.{\             \scriptstyle {\left.{\   connection with
+     begin{matrix}\ \\\ \              begin{matrix}\ \\\\\ \\\ an
+လည်း, end{matrix}}\right\}   —familiar, \ \end{matrix}}\right\}  interrogative
+လဲ,   \,}} \scriptstyle {\              \,}} \scriptstyle {\     pronominal, as 
+     left.{\begin{matrix}\             left.{\begin{matrix}\ \\ ဘယ်ကိုသွားသနည်း,
+     \\\ \end{matrix}}\                \\\ \\\ \ \end{matrix}}\ whither does he
+     right\}\,}                        right\}\,}               go?
+တုံး,—colloquial,
+
+စင့်, or စံ့, affixed to the root without an intervening affix, as သွား​စင့်, does he
+go?—rather infrequent.
+
+§111. imperative affixes.
+
+စို့, or စို့၏, first person plural, as သွားစို့, let us go.
+
+ကြကုန်အံ့, [—formal, St.] ditto, preceded by the first personal, as 
+ငါ​တို့​သည်​သွား​ကြ​ကုန်​အံ့, let us go, or we will go.
+
+လော့ [formal, St.] imperative proper, as သွား​လော့, go.
+
+လည့်, ditto,—infrequent.
+
+နှင့်, prohibitory, မ being prefixed to the verb, as မသွား​နှင့် go not.
+
+လင့်, ditto.
+
+§112. The simple root also is imperative, as well as when combined with certain
+of the euphonic or qualifying affixes, as ပါ, တော့, ပေ, လေ, ချေ, ခဲ့, ဘိ, လိုက်, စေ, ရော့, ဦး,
+ရစ်, စမ်း, ​&c. Some of these affixes are also variously combined with one
+another, and with the imperative affixes, to convey the ideas of entreaty,
+authority, &c.
+
+§113. precative affixes.
+
+စေသော, may, as သွား​စေ​သော, may he go. [It is commonly combined with ပါ, as သွား​ပါ​စေ​သော။ 
+St.]
+
+စေသတည်း, ditto, authoritatively, as ဖြစ်​စေ​သ​တည်း, be it so.
+
+စေခလို, ditto,—infrequent.
+
+§114. participial affixes.
+
+သော, connecting the verb with a subsequent noun, being equivalent to the relative
+pronoun in most languages, as မြတ်​သော​လူ, the excelling man or the man who
+excels; ပြေး​သော​မြင်း, the running horse, or the horse which runs; ရောက်​သော​သင်္ဘော, the
+arriving ship, or the ship which arrives; sometimes contracted to သ, as ရှိသမျှ,
+as much as there is; sometimes dispensing with the verb altogether, as 
+တတ်​အား​သ​မျှ, for တတ်​အား​ရှိ​သ​မျှ, (do) as much as possible commonly omitted
+after the assertive future affix မည်.
+
+သည်, ditto.
+
+§115. auxiliary affixes of tense.
+
+သေး, denoting present continuance, as သွား​သေး​သည်, he is still going; မသွား​သေး, he is
+still not gone, or he is not yet gone; sometimes denoting beside, more than, in
+addition, as ငစ​ကား​သာ​မ​ဟုတ်၊ စာ​ရှိ​သေး​သည်, there is not only my word, but there is
+scripture also.
+
+ခဲ့, just past, as သွား​ခဲ့​သည်, he has just gone; frequently written ကဲ့; very
+frequently euphonic.
+
+ဘူး, past indefinite, as သွား​ဘူး​သည်, he went. In negative sentences, prefixed by စ,
+it becomes ဖူး, and signifies (not) ever, as မသွား​စ​ဖူး, he never went. စသီး and စတောင်း
+are of similar import, but infrequent.
+
+​နှင့်, prior-past, or prior-future, according to the connection, as 
+သွား​​နှင့်​ပြီ, he had gone, သွား​နှင့်​မည်, he will go (before another goes).
+
+လင့်, prior-past or prior-future,—infrequent.
+
+ခင်, ditto,—rather infrequent.
+
+လု, near future, about to, on the point of, retaining its meaning, whatever
+affixes of tense are superadded, as သွား​လု​သည်, သွား​လု​ပြီ, or သွား​လု​မည်, he is about
+to go, or is near going; sometimes used substantively, though not an assertive
+affix, as သွား​လု​နီး​ပြီ, ditto.
+
+§116. affixes of number.
+
+ကြ, ကုန်, ကြ​ကုန်, denoting the plural, as သွား​ကြ​သည်, they go;—frequently
+omitted, and the idea of plurality left to be conveyed by the noun affix of
+number, or gathered from the connection.
+
+§117. qualifying affixes.
+(arranged alphabetically.)
+
+ဦး (pron. အုံး,) more or again, commonly used with an assertive future affix, as 
+သောက်​ဦး​မည်, he will drink more, or again; in prohibitive sentences, (not) yet,
+as မသောက်​နှင့်​ဦး, do not drink yet.
+
+ကုန်, entirely, wholly, (from ကုန်, to come to an end), as သေ​ကုန်​ပြီ, they are all
+dead.
+
+ကောင်း, with the verb repeated, probably, as သေ​ကောင်း​သေ​မည်, he will probably die.
+
+ခင်, see မှီ.
+
+ခဲ့ (see Dictionary).
+
+ချင်, optative, to wish, desire, as ပြု​ချင်​သည်, to wish to do; also, to have a
+tendency to, as ဖျား​ချင်​ထည်, to be disposed to fever.
+
+ချင်း, with မ prefixed to the root and to itself, and a continuative affix or
+clause, commonly တိုင်​အောင်, expressed or understood, until, as 
+မသွား​မ​ချင်း​တိုင်​အောင်​လုပ်​လျက်​နေ​သည်, he continued working until he went.
+
+​စေ causal (from စေ to send, order), as ပြု​စေ​သည် he makes (him) do, ဖြစ်​စေ let it
+be; when affixed to intransitive verbs, equivalent to the aspirated initial; as
+လွတ်​စေ​သည်, equivalent to လွှတ်​သည်, to make free, from လွတ်​သည်, to be free.
+
+When used as an imperative or precative, the shade of meaning is frequently 
+determinded by an intervening euphonic affix, as ဖြစ်​ပါ​လေ​စေ, may it be, 
+ပြေး​ပါ​လေ​စေ, let it run. Combined with အုံ it makes စိမ့်.
+
+စောက် with မ prefixed to the root, and followed by တော့ or သကဲ့​သို့, not proper, or
+desirable, as မသွား​စောက်​တော့, or မသွား​စောက်​သ​ကဲ့​သို့​ဖြစ်​သည်, it was not well to go, (on
+account of some evil that has just befallen).
+
+စွ slightly intensive or emphatic, – commonly connected with the verb by a
+euphonic affix, and sometimes superseding the assertive affix, as ကြီး​လေစွ, it is
+great, indeed.
+
+စွာ intensive, – mostly used before the participial affix သော, as ဖြတ်​စွာ​သော​သူ, a
+very excellent person.
+
+ဆန်း, with the verb repeated, just that and no more, merely, nothing more, as 
+ကြီး​ဆန်း​ကြီး​သည်, to be large merely.
+
+ဆိတ် (from ဆိတ်, to be quiet), to be quiet, unmoved (though the occasion calls
+for exertion); as နေ​ဆိတ်​အည်, to remain unmoved.
+
+ဆဲ, though put down by Pali grammarians as denoting the present tense, denotes
+in common usage the immediate future, as ရောက်​ဆဲရှိ​သည်, to be about to arrive, or
+on the point of arriving, equivalent to ရောက်​လု​ပြီ; and when repeated, and
+especially when prefixed by a future affix, is more directly future, as ရောက်​ဆဲဆဲ,
+or ရောက်​မည်​ဆဲဆဲ, to be about arriving before long.
+
+တုံ, sometimes euphonic, but when repeated after a following verb, partaking of
+the nature of a continuative, and denoting alternation; as ငုတ်​တုံ​ပေါ်​တုံ​ရှိ​သည်,
+to be sinking and appearing by turns.
+
+တော့, denoting a slight necessity.
+
+​တည့်, directly, at once, as သွား​တည့်​သည်, to go directly, at once.
+
+နှိုင်, sometimes in converation နိုင်, potential, to be able (from နိုင်, to
+prevail, overcome), as သွား​နှိုင်​သည်, to be able to go.
+
+ပြန်, again (from ပြန်, to return), as ပြု​ပြန်​သည်, to do again:
+
+ဘဲ, with မ prefixed to the root, and a continuative affix expressed or
+understood, without, as မစား​ဘဲ​သွား​သည်, he went without eating.
+
+မိ, implying carelessness or fault, as ပြော​မိ​ပြီ he has said it (and therefore
+committed himself); sometimes euphonic.
+
+မှီ, with မ prefixed to the root, and a continuative affix expressed or
+understood, before, as မသွား​မှီ​စား​သည်, he ate before going; combined with 
+တိုင်​အောင်, until, as မသွား​မှီ​တိုင်​အောင် nutil he went;​—​sometimes taking a noun
+affix, as မသွား​မှီ၌, before going.
+
+ရ, must, as သွား​ရ​မည် he must go; frequently euphonic.
+
+ရက်, to be capable, (in regard to feeling), as သတ်​ရက်​သည်, to be unfeeling
+enough to kill; မကွာ​ရက်, he cannot bear to part.
+
+ရစ်, remaining behind, as ပြုရစ်​သည်, to do (it), remaining behind, နေ​ရစ်​သည်,
+to stay behind.
+
+ရော့, denoting disapprobation or regret; sometimes euphonic, particularly when
+used imperatively.
+
+ရှာ, denoting affection or sympathy in the speaker, as သွား​ရှာ​သည်, he goes, alas!
+
+လွန်း, denoting excess, (from လွန်, to exceed), as ကောင်း​လွန်း​သည်, to be too good.
+
+လှ, very, as ကြီး​လှ​သည်, to be very great.
+
+To these may be added a number of verbs, which are occasionally used to qualify
+a principal verb, as,—
+
+အပ်, to be right, proper, as သွား​အပ်​သည်, it is right to go; sometimes passive,
+in translation from the Pali, particularly when used as an adversative to တတ်;
+frequently euphonic.
+
+အား to be at leisure, as သွား​အား​သည်, to be at leisure to go.
+
+ကောင်း, to be good, as သွား​ကောင်း​သည်, it is good to go.
+
+​ခဲ, to be hard, difficult, as ရခဲ​သည်, it is difficult to obtain.
+
+စမ်း, to try, make trial, as ပြုစမ်း​သည်, to do by way of trial; sometimes but
+little more than euphonic.
+
+တတ်, to know how, be skilled in, as ပြုတတ်​သည်, to know how to do; sometimes
+denoting the way, custom, usual course, as လူသေ​တတ်​သည်, man is mortal.
+
+တန်, to be suitable, as ပြုတန်​သည်, it is suitable to be done.
+
+ထိုက်, to be worthy, deserving of, as သေ​ထိုက်​သည်, to deserve to die.
+
+နေ, to remain, continue, as ပြုနေ​သည်, to continue doing.
+
+ပျင်း, to be reluctant, averse to, as မြင်​ပျင်း​သည်, to hate to see.
+
+ဖြစ်, to be practicable, as မသွား​ဖြစ်, it is not practicable to go.
+
+ဖွယ်, to be most suitable, fit for, as အံ့ဖွယ်​သော​အမှု, a wonderful affair.
+
+ရာ, similar to အပ်; frequently euphonic.
+
+လောက်, to be enough, as စား​လောက်​အောင်​ရှိ​သည်, there is enough to eat.
+
+လို, to desire, as ပြုလို​သည်, equivalent to ပြုချင်​သည်.
+
+လွယ်, to be easy, as ပြုလွယ်​သည်, it is easy to do.
+
+ဝံ့, to dare, as ပြုဝံ့​သည်, to dare to do.
+
+သင့်, to be suitable, proper, becoming, as ပြော​သင့်​သည်, it is suitable to say.
+
+သာ, to be easy, pleasant, as ပြော​သာ​သည်, it is pleasant to say; with the
+imperative affix ပါ, and the verb repeated, as စား​သာ​စား​ပါ, eat freely, or without
+hesitation.
+
+N. B. The idea of progress is conveyed by လာ or သွား connected with the principal
+verb by ၍, expressed or understood, as မှည့်​၍​လာ​သည် it ripens, ဆိုး​၍​သွား​သည်, it
+grows worse.
+
+§118. euphonic affixes.
+
+ချေ, when combined with အံ့, ချိမ့်; when repeated after a following verb, similar
+to တုံ, which see under Qualifying Affixes.
+
+​ငြား, mostly need before the continuative affix သော်ထည်း, and the assertive future
+affix အံ့, when used for လျှင်.
+
+စ, in certain combinations, noticed in their places.
+
+ခေ, mostly used before the participial affixes, when several successive
+participial clauses precede a noun, in commendatory discourse.
+
+ပါ, conciliatory – polite – respectful.
+
+ပေ, when combined with အံ့, ပိမ့်.
+
+ဘိ‚ mostly used before the assertive affix သည်, abbreviated to သ, in connection
+with the noun affix ကဲ့သို့, as သွား​ဘိ​သ​ကဲ့​သို့, like as he went; also, before the
+closing affix ချင်း, in which case it is rather intensive, as များ​ဘိ​ချင်း, there
+are very many.
+
+လင့်, mostly used in the invitation to listen, နာ​လင့်​ကုန်, listen ye!
+
+လတ်, mostly used before the continuative affix သော်.
+
+လေ‚ when combined with အံ့, လိမ့်, which combination is mostly used before the
+future affix မည်; when repeated after a following verb, it denotes
+correspondence or reciprocity, as လိုက်​လေ​ပြေး​လေ, as (one) pursues, (the other)
+runs.
+
+လိုက်, mostly used with transitive verbs; sometimes giving a transitive meaning
+to an intransitive verb.
+
+လှာ, mostly used with arriving, coming, &c.
+
+§119. closing affixes.
+
+ဟု, that, noting indication, viz, namely (from ဟူ, to say, declare, mean), – used
+at the close of a sentence, which is the subject of a subsequent assertion, as 
+သိ​သည်​ဟု​ပြော​သည်, he says that he knows, – also, after a word which is
+explanatory of a subsequent word, as မင်း​ရှင်​စော​ဟု​ဘွဲ့​ကို​ပေး​သည်, he gave (him) the
+title of Menshen zau; – sometimes it takes a verbal affix, but ought then to be
+written ဟူ, and parsed as a verb.
+
+တည်း, used at the close of a simple sentence, equivalent to the substantive verb
+ရှိလည်, to be, the nominative being generally ​made by ကား, as အမည်​ကား​မောင်​လောက်​တည်း,
+his name is Moung Louk,—sometimes taking ပေ, or ပေ​လျှင်, immediately before it;
+also, at the close of a parenthetic sentence, or a distinct paragraph, closing
+in သည်, commonly abbreviated to သ, as သွား​သ​တည်း, he went,—sometimes taking လျှင်
+, or က, or လျှင်က, immediately before it.
+
+တတ်, ditto, at the close of a parenthesis or paragraph.
+
+တကား, emphatic, or indicative of some emotion, as သေား​က​လေး​သေ​ပြီ​တ​ကား, my little son
+is dead, alas! မသွား​ပါ​တ​ကား, he goes not, indeed.
+
+ရကား, sometimes equivalent to တကား.
+
+ချင်း, ditto, commonly expressive of regret, as ဖြစ်​ရ​လေ​ချင်း, it is so, alas!
+
+စွ, see under Qualifying affixes.
+
+တောင်း, intensive,—commonly connected with the verb by another affix, as ကြီး​ပေ​တောင်း,
+it is great, indeed!
+
+တမုံ့, or တမူ, expletive, after an assertive or precative affix, သွား​သည်​တမုံ့,
+(obsolete).
+
+The following are colloquial only:—
+
+နော်, soliciting acquiescence, as သွား​တော့​မည်​နော်, I will go, shall I? သွား​တော့​နော်, go,
+will you?
+
+လေ, or လား​လေ, slightly emphatic or persistive, is used after the assertive
+affixes, as ရှိ​သည်​လား​လေ, it is certainly, or I assure you.
+
+ပ, or ပေါ့, familiar,—without or after the assertive affix.
+
+ကော, or ကော​လေ, ditto, sometimes superseding the assertive affix.
+
+တည့်, (pron. ဒဲ့), denoting that the words to which it is affixed, are repeated
+from the mouth of another person, as ရှိ​သည်​တည့်, it is, he says.
+
+negation.
+
+§120. The negative is made by prefixing မ to the verb, which, beside its
+negative power, has the privilege of occasionally dispensing with the assertive
+affixes, or of conveying an ​assertive power to the root, or to the qualifying
+and euphonic affixes of number, and the auxiliary affixes of tense, all of
+which, in affirmative sentences, require an assertive affix, thus သွား​သည်, he
+goes, မ​သွား, or မ​သွား​ဘူး, he goes not; သွား​သေး​သည်, he is still going, သွား​သေး, he is
+not yet gone; သွား​နှိုင်​သည်, he can go, မသွားနှိုင်, he cannot go.
+
+§121. In colloquial discourse, a strong negative is sometimes made by affixing 
+ရိုး​လား, to the root, or မို့​တုံး, a contraction of မတုတ်​တုံး, to an assertive affix, as 
+သွား​ရိုး​လား, or သွား​သည်​မို့​တုံး, he goes not.
+
+verbs used substantively.
+
+§122. Verbs terminating in the assertive affix သည် (occasionally changed to သ, 
+သော or သော့), are frequently used substantively, and in that character, admit the
+noun affixes. Verbs terminating in an assertive affix of tense, are capable of
+being used in the same manner, but the termination သည် or သော is, in some cases,
+superadded to qualify them for the substantive construction.
+
+§123. examples.
+
+သွား​သည်​မှန်​သည်, or သွား​သည်​ကား​မှန်​သည်, it is right, or true, that he goes.
+
+သွား​သည်​နောက်မှ (နောက် being a verb,) or သွား​သည်​နောက်, after he goes.
+
+သွား​သည်​ကို​သိသည်, he knows that he goes.
+
+သွား​သည်​တိုင်​အောင် (ကို or သို့ understood,) until he goes.
+
+သွား​သည်​၏​အ​တိုင်း or သွား​သည်​အ​တိုင်း, according as he goes.
+
+N. B. When verbs are constructed with a following noun, the possessive affix ၏
+is commonly omitted, as သွား​သည်​အ​ရပ်, the place of going, or where he goes; 
+သွား​သည်​အ​ခါ, the time of going, or when he goes; သွား​သည်​အ​စည်, while he goes; 
+သွား​သည်​အ​ကြောင်း, the reason of going; သွား​သည်​နည်း​တူ, in the same manner as he
+goes; သွား​သည်​အား​ဖြင့်, by means of going, &c.
+
+​သွား​အံ့​သော​ငှါ (with the assertive future affix), in order to go.
+
+သွား​သော့​ကြောင့်, because he goes.
+
+သွား​သည်​မို့, ditto,—colloquial.
+
+သွား​သ​ဖြင့်, by means of going, when he goes.
+
+သွား​သည်​နှင့်, with going, when he goes.
+
+သွား​သည်​နှင့်​အညီ, in accordance with the going.
+
+သွား​သည်​တွန်, ၌, or မှာ, going, while he goes.
+
+သွား​သည်က, or မှ, from going.
+
+သွား​သ​ကဲ့​သို့, like as he goes.
+
+သွား​သော​သ​ဖွယ်, ditto.
+
+သွား​သည်လို, ditto.
+
+သွား​သည်​လိုလို, a little like, &c.
+
+§124. When a verb used substantively, and connected by the affix ၏ with a
+following noun, whose initial is a syllabic အ, drops both the noun affix and
+the verbal, and takes the noun into union with itself, by rejecting or
+modifying the initial letter, the abbreviated compound becomes a verbal noun of
+the same import as the original clause, thus သွား​သည်​၏​အ​ခါ becomes သွား​ခါ, the
+time of going; နေ​သည်​၏​အ​စည်, နေ​စည်, while remaining; ပြော​သည်​၏​အစ, ပြောစ, the
+beginning of speaking.
+
+§125. Several cases of verbal nouns, on account of their frequent occurrence,
+deserve particular mention.
+
+1st. The verbal in ခြင်း, from အခြင်း, an act, deed denotes action or being, in
+the abstract, as သွား​ခြင်း, a going, or the act of going, ကောင်း​ခြင်း, being good,
+or the state of being good.
+
+2nd. The verbal in ရာ, from အရာ, a thing, subject, matter, denotes the object of
+an action, or the place where a thing is, or is done, as နှစ်​သက်​ရာ, an object
+of love; နေ​ရာ, a remaining place; စွန့်​ပြစ်​ရာ, a place of throwing away.
+
+3rd. The verbal in ရာ, from အလျာ or အလျှာ, what is for, commonly written စရာ, the
+verbal in ဖို့, or ဘို့, from အဖို့, a portion, and the verbal in ရန် (from ရန်​သည်, to
+appropriate), denote what is for some purpose, as စား​စ​ရာ, what is for eating, ​
+or to be eaten; ကြည့်​ဘို့ what is to be looked at; ပြုရန်, what is to be done.
+
+4th. The verbal in ဖွယ် or ဘွယ်, sometimes စချင်​ဘွယ်, from ဘဖွယ်, what is
+suitable, denotes what is fit for, adapted to, or worthy of some use or
+purpose, as စား​ဘွယ်, what is good to eat, an eatable; အံ့ဘွယ် what is wonderful; 
+ချစ်​စ​ချင်​ဘွယ်, what is lovely. But this verbal seems frequently to partake
+of the nature of an adjective.
+
+N. B. The terminations ခမန်း, or ဂမန်း (according to one acceptation), လိ and လိလိ,
+are of similar import with the termination ဖွယ် but used in a bad sense only.
+Several of these are sometimes combined, as ရွံစလိ (စ euphonic), ရွံစ​ဖွယ်လိ, 
+ရွံဖွယ်​လိ​ခ​မန်း, what is disgusting.
+
+The terminations ခမန်း (according to another acceptation), ဘိနန်း, or ဘနန်း and 
+မတတ်, form verbals denoting nearness of accomplishment, occasionally taking လု
+before them, as လောင်​ခ​မန်း or လောင်​လု​ခ​မန်း, what is near burning; မြုပ်​လု​မ​တတ်,
+what is near sinking; ကုန်​မ​တတ်, nearly the whole.
+
+The termination နိုး, နိုးနိုး, or စနိုး, followed by a verb expressive of opinion,
+denotes, what is likely to be or to take place, sometimes admitting an affix of
+tense between itself and the root, as သင်္ဘော​ရောက်​နိုး​နိုး​ထင်​သည်, or 
+ရောက်​မည်​နိုး​နိုး​ထင်​သည်, he thinks that the ship will probably arrive.
+
+5th. There are several other verbals, formed from nouns, which being obsolete,
+or never occurring in their full form, or in any other connection, connot be so
+satisfactorily analyzed, as most of the preceding; thus the verbal in တုန်း,
+perhaps from အထုန်း, time being, denotes the time of action or being, as 
+သွား​တုန်း​တွင်, or သွား​တုန်း​ခါ, equivalent to သွား​စည်​တွင်, or သွား​စည်​အ​ခါ, the time
+of going, while going.
+
+The verbal in ရုံ, perhaps from အရုံ, just so much and no more, confines the action
+or being to what is expressed by the root, as ပြော​ရုံ​ပြု​သည်, or ပြော​ရုံ​မျှ​ပြု​သည်,
+he just speaks, i. e. does no more than speaking.
+
+​The particle ကာ is of somewhat similar import with ရို, as ရိပ်​လာ​ပြော​သည်, he
+speaks illusively merely; ပြော​ကာ​မျှ​အား​ဖြင့်, by means of speaking merely.
+
+The particle ချင်း, single one only, limits the time to the continuance of the
+action expressed, as စား​စား​ချင်း​သေ​သည်, (fully) စား​လျှင်​စား​ချင်း​တွင်​သေ​သည်, he died
+as soon as he ate it, i. e. instantly, without an interval.
+
+The verbal formative မှန်း, from မှန် to be right, true, is used chiefly in
+negative sentences, as ရောက်​မှန်း​ကို​မ​သိ, or ရောက်​မှန်း​မ​သိ, (he) knows not the fact
+of the arrival. It is sometimes used without a verbal root, as ဘူရား​မှန်း​မသိ။
+တရား​မှန်း​မသိ, (he) knows nothing about God or religion.
+
+မိ—ရာ, affixed to the root repeated, as in the phrase, နေ​မိ​နေ​ရာ​နေ​သည်, denotes
+inadvertence or inconsideration.
+
+6th. Beside verbal nouns formed from verbs used substantively, there is another
+kind which may be termed the honorific verbal, formed by combining the verbal
+root with the adjective တော်. This verbal, followed by the verb မူသည်, to do,
+perform, is always used instead of the simple verb, in speaking becomingly of
+deities, kings, or any exalted personage, as မိန့်​တော်​မူ​သည်, (the deity or king)
+speaks, literally, does divine or royal speaking, မိန့်​တော်​မမူ, he speaks not;
+followed by a noun, it may be regarded as a noun in the possessive, as 
+စား​တော်​ကွမ်း, betel eaten by the king, ပန်​တော်​ပန်း, flowers used in royal adornment
+.
+
+Most verbal nouns retain the same power of government as their verbs, that is,
+cause the preceding noun to take the same affix as their verbs do, as 
+ဇာတ်​ကို​ဟော​စ​ပြု​သည်, he makes a beginning of rehearsing the zat; ဇာတ်​ကို​ဟော​တော်​မူ​သည်,
+he rehearses the zat, or he does rehearsing the zat; but some, particularly the
+verbal in ခြင်း, govern the preceding noun in the possessive, as ဇာတ်​၏​ဟော​ခြင်း,
+the rehearsing of the zat.
+
+​
+
+ADVERBS.
+
+§126. Adverbs are of nine kinds, viz:—
+
+1. Adverbs proper, as ဧကန်, certainly, အလ​ကား, in vain, လား​လား, an intensive before
+a negative, as လား​လား​မ​ပြော, he says nothing at all, ခပ်, rather, prefixed to
+adjectives, formed from verbal roots by reduplication.
+
+2. Pronominal adjectives used to modify a following verb, as အဘယ်​သို့​နေ​သ​နည်း,
+how does (he) remain? ထို​သို့​နေ​သည်, (he) remains thus; or combined with a
+secondary noun and similarly applied, as ဘယ်​လောက်​ကြီး​သ​နည်း, how large is (it)? 
+သည်​က​လောက်, properly သည်​ခန့်​လောက်​ကြီး​သည်, (it) is so large. How? in what manner?
+and thus, in this manner, are also expressed by combining pronominals, lightly
+accented with နှယ်, manner, as ဘဲ့​နှယ်, how? သည့်​နှယ်, thus.
+
+3. Adverbs formed from simple or compound verbs:—
+
+(a.) from simple verbs—by prefixing အ or တ, as အလွှန်​ကြီး​သည်, to be very great,
+အလျှင်​သွား, go quick; တစောင်း​ကြည့်​သည်, to look sideways;—by affixing စွာ, as ကောင်း​စွာ
+, well;—by reduplication, as ကောင်း​ကောင်း, well;—by reduplication with အ prefixed,
+as အပြား​ပြား, variously;—by reduplication with တ prefixed, implying repetition or
+continuance, as တလဲ​လဲ, by turns, တမတ်​မတ် in a standing posture; by
+reduplication, with အ prefixed to each member, as အသီး​အသီး, separately;—
+
+(b.) from compound verbs—by affixing စွာ, as ကောင်း​မြတ်​စွာ, excellently;—by
+prefixing အ to each member, as အကွပ်​အ​ညပ်, penally, by way of punishment;—by
+prefixing အ to the first member, and တ to the latter, as အဆော​တ​လျင်, quickly, 
+အငြတ်​တ​နိုး, affectionately;—by prefixing အ or တ to the first, and reduplicating
+the latter, as အလျင်​မြန်​မြန်, fast, တစိုး​ရိမ်​ရိမ်, anxiously;—by prefixing အ to
+the first, and တ to the latter reduplicated, as အမွှေး​တ​ကြိုင်​ကြိုင် fragrantly;—by
+reduplicating ​the second member, in which case the adverb is a diminutive, as 
+နက်​ကျုတ်​ကျုတ်, rather black;—by reduplicating both members, as ထူး​ထူး​ဆန်း​ဆန်း
+extraordinarily;—by prefixing အ or တ to each member reduplicated, as 
+အထူး​ထူး​အ​ဆန်း​ဆန်း, ditto; တလည်​လည်​တ​ဝိုက်​ဝိုက်, circuitously;—by prefixing က or ပ
+(pronounced ဂ and ဗ) to each member, as ကရောက်​က​ရက်, disorderly, ပရုန်း​ပ​ရင်း,
+tumultuously.
+
+Under this head may be classed a few of anomalous construction, made up in
+imitation of some of the above forms, as အမှတ်​တ​မဲ့, without notice, အစိုး​တရ, as
+having power, ကြောက်​လန့်​တ​ကြား, frightedly, အတျွေး​အ​ငမ်း, in expectance of payment;
+also a few formed from negatives, by affixing chiming increments, as 
+မ​ကောင်း​တ​ရောင်း, not well, မ​လှ​တမ, not handsome, not agreeable.
+
+4. Adverbs formed from verbal roots, by reduplication, prefixing the negative မ
+to the first member, and တ to the second, thus intending to convey both the
+ideas of affirming, and denying, as မ​လောက်​တ​လောက်, just enough, and hardly that, 
+မ​မှီ​တ​မှီ, just reaching, and yet not quite reaching.
+
+5. Adverbs formed from nouns by reduplication, dropping the syllabic အ, in the
+latter member, if it is the initial of the noun, and prefixing it to the former
+member, if the noun begins with a consonant, as အခါ​ခါ, repeatedly, from အခါ, a
+time; အလို​လို, of one's own accord, from အလို, will, pleasure; အသောင်း​သောင်း, thousands,
+from အသောင်း, ten thousand; အပြည်​ပြည် of various countries, or from country to
+country, from ပြည်, a country.
+
+N. B. Adverbs formed from verbs or nouns are sometimes used adjectively, as 
+အပြား​ပြား​သော​အ​ကြောင်း​တို့, various reasons, အပြည်​ပြည်​သော​မင်း​တို့, kings of sundry or all
+countries.
+
+6. Adverbs formed from nouns, beginning with a syllabic အ, by dropping the အ,
+prefixing တ, one, and affixing တည်း, only, as တညီ​တ​ညီ, even, all together, from 
+အညီ, evenness, uniformity.
+
+​7. Incomplete clauses, as အကယ်၍, certainly, for အကယ်​ဖြစ်၍; အထူး​သ​ဖြင့်,
+exceedingly, for အထူး​ဖြစ်​သ​ဖြင့်.
+
+8. Adverbial affixes, as follows:—
+
+ကဲ့သို့, as, like as.
+
+ချည်း, only, merely, nothing but, as လူတို့​ချည်း, men only, nothing but men, 
+သွား​သည်​ချည်း; he only goes, does nothing but go.
+
+စင်, even, slightly emphatic.
+
+စီ, each, as တယောက်စီ, each one, ကိုယ်စီ, ditto; apiece, as တခုစီ one a piece.
+
+တစေ, same as ချည်း.
+
+တည်း, used to designate an object with some particularity, as 
+မိမိ​သား​ငယ်​ကို​တည်း​ပေး​သည်, he gives to his youngest son,—particularly—or in
+distinction from the other;—in this sense, used frequently in connection with 
+ဟူ​သော, or ဟု, after a word explanatory of a subsequent word, as 
+ကောင်း​မှု​တည်း​ဟူ​သော​မျိုး​စေ့ seed-grain, which means merit; မောင်​လောက်​တည်း​ဟု​အ​မည်​ရှိ​သည်,
+he has the name of Monng Louk;—used also, in asking questions, to designate the
+point on which the question turns, and frequently repeated after those words or
+clauses, in successive questions, which are intended to be set adversatively,
+as အသီး​ဧ​ကို​တည်း​စား​လို​သ​လော၊ အသီး​ပူ​ကို​တည်း​စား​လို​သ​လော, do you wish to eat cold fruit or
+hot? ငါ၌​အ​ပြစ်​ရှိ​၍​တည်း​နှစ်​လုံး​မ​သာ​ရှိ​တော်​မူ​သ​လော၊
+ကိုယ်​တော်​၌​တ​စုံ​တ​ခု​စိုး​ရိမ်​ဘွယ်​ရှိ​၍​တည်း​နှစ်​လုံး​မ​သာ​ရှိ​တော်​မူ​သ​လော, is thy mind
+distressed because there is some fault in me, or because there is some cause of
+concern in thee?
+
+ပင်, even, slightly emphatic.
+
+ဖြစ်စေ, see သော်၎င်.
+
+ဘက်, ditto,—colloquial.
+
+မျှ (from အမျှ, as much as), frequently pronounced မှ, used as an intensive in
+negative sentences, as ဘယ်​သူ​မျှ​မရှိ, there is not so much as one person, or
+there is not even one person; ဘဟာ​ကို​မျှ​မရ, ​ or briefly ဘာ​မှ​မရ, (he) obtains
+nothing at all; ရောက်​သည်​ကို​မျှ​မ​သိ, (he) knows not even of the arrival;
+sometimes expletive, as ရုန်း​ရင်း​ခတ်​မျှ​ပြု​သည်, to make a disturbance.
+
+လည်း, also; sometimes used familiarly for the continuative affix လျှင်.
+
+လည်း​ကောင်း, both—and, placed after other affixes, and repeated at the close of
+successive clauses, as ငကို​၎င်​သေား​ကို​၎င်​မြင်​သည်, he sees both me and my son; in
+modern style, equivalent to the pronominal adjective လို, that, as ၎င်​နေ့ that day
+, ၎င်​နည်း, in the same manner.
+
+လျှင်, distributive, as တလ​လျှင်​တ​တင်း, a basket a month; sometimes definitive
+or emphatic.
+
+သော်၎င်, either—or, placed after other affixes, and repeated at the close of
+successive clauses, as ရွှေ​နှင့်​သော်​၎င်​ငွေ​နှင့်​သော်​၎င်, either with gold or with
+silver.
+
+သာ, only.
+
+9. Verbal affixes are used adverbially, when placed after an adverbial or noun
+affix. The same is true of noun affixes, when placed after a verbal or
+adverbial affix (see under Nouns, §61).
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+INTERJECTIONS.
+
+§127. A few of the most common are as follows:—
+
+အစာ, အစာစာ, fie!
+
+အည်း, eh! expressive of pain.
+
+အမယ်, အမယ်​လေး, အမယ်​ကြီး​လေး, mother! denoting surprise or distress.
+
+အလယ်, အလယ်​လေး oh! expressive of pain.
+
+အလို, အလို​လေး, oh! expressive of pain.
+
+အိမ်း, pronounced eh, yes! expressive of assent.
+
+အေ, don't, disapprobatory—prohibitive.
+
+အေ့ဟေ, aa haa! aha! contemptuous.
+
+​အေး, အေးအေး, yes!
+
+အဲ, အဲအဲ, that's right.
+
+အော, O! of various applications.
+
+အောအော, O! expressive of satisfaction.
+
+အော်, ah! oh!
+
+အို, O! vocative, or indicative of pain.
+
+ဖြစ်လေချင်း, ဖြစ်ရလေချင်း alas! expressive of sorrow.
+
+လော there now! expressive of disapprobation.
+
+လော့, here! take it!
+
+လားလား, threatening.
+
+သယ်, wonderful! rather ironical or disapprobatory.
+
+သာမု, well done!
+
+ဟေ့, haa! a familiar vocative, rather disrespectful.
+
+ဟဲ့, heh! censuring, threatening.
+
+ဟော, there! pointing to an object.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+APPENDIX.
+
+§128. numerals.
+
+                Cardinal.                                   Ordinal.
+တစ်, or တ, ၁, one,                         ပဌမ, first,
+နှစ်, ၂, two,                              ဒုတိယ, second,
+သုံး, ၃, three,                               တတိယ, third,
+လေး, ၄, four,                                စတုတ္ထ, fourth,
+ငါး, ၅, five,                               ပည္စမ, fifth,
+ခြောက်, ၆, six,                              ဆဌမ, sixth
+ခုနစ်, ၇, seven,                            သတ္တမ, seventh,
+ရှစ်, ၈, eight,                            အဌမ, eighth,
+ကိုး, ၉, nine,                                နဝမ, ninth,
+တဆယ်, ၁၀, ten,                             ဒသမ, tenth,
+တဆယ်တစ်, ၁၁, eleven,                       ဧကာဒသမ, eleventh,
+တဆယ်နှစ်, ၁၂, twelve, &c.                  ဒွါဒသမ twelfth,
+နှစ်ဆယ်, ၂၀, twenty,                       ဝီသတိမ, twentieth,
+သုံးဆယ်, ၃၀, thirty, &c.                      တိံသမ, thirtieth.
+
+​
+
+    တရာ, ၁၀၀, one hundred,
+    တထောင်, ၁၀၀၀, one thousand,
+    တသောင်း, ၁၀၀၀၀, ten thousand,
+    တသိန်း, ၁၀၀၀၀၀, one hundred thousand,
+    တသန်း, ၁၀၀၀၀၀၀, one million,
+    တကုဋေ, ၁၀၀၀၀၀၀၀, ten millions.
+
+§129. One half is expressed by တ​ဝက်, or ဝက်, placed after the noun of
+dimension or quantity, as ယူ​ဇ​နာ​တ​ဝက်, or ယူ​ဇ​နာ​ဝက်, half a yoozana; one and a
+half, two and a half, &c. by တ, နှစ်, &c. placed before, and ခွဲ after, as 
+တ​ယူ​ဇ​နာ​ခွဲ, one yoozana and a half, နှစ်​ယူ​ဇ​နာ​ခွဲ two yoozanas and a half, &c.
+One and a quarter, &c. is expressed by prefixing တ, &c. and affixing တ​စိတ်,
+connected to the noun by နှင့်, as တ​ယူ​ဇ​နာ​နှင့်​တ​စိတ် one yoozana and a quarter,
+&c. All fractions, except one half, are commonly expressed by the help of အစု, a
+collection; thus သုံး​စု​တွင်​တစု, one third, လေး​စု​တွင်​တစု, one quarter, ငါး​စု​တွင်​သုံးစု
+, three fifths.
+
+time.
+
+§130. The true epoch of Burman time is the annihilation of Gaudama, the last
+Boodh or deity, which is placed five hundred and fourty-four years before
+Christ; but the vulgar epoch is placed eleven hundred and eighty-two years
+later, or six hundred and thirty-eight years after Christ.
+
+§131. Time is measured by lunar months, consisting of twenty-nine, and thirty
+days alternately.
+
+Twelve lunar months make a common year, and seven years out of nineteen admit
+an intercalar month of thirty days each. The names of the months are as
+follows:—
+
+တံကူး, April (nearly), သတင်းကျွတ်, October,
+ကဆုန်, May,          တန်ဆောင်မုန်း, November,
+နယုန်, June,         နတ်တော်, December,
+ဝါဆို, July,          ပြာသို, January,
+ဝါခေါင်, August,     တပို့တွဲ, February,
+တော်သလင်း, September,  တပေါင်း, March.
+
+​§132. တံ​ကူး consists of twenty-nine days, ကဆုန် of thirty, and so on. In
+leap-year, the month ဝါ​ဆို is repeated, under the name of ဒုတိ​ယ​ဝ​ဆို, second July.
+
+§133. A month is distinguished into two parts, the waxing, လဆန်း, and the wane, 
+လပြည့်​ကျော် [or လဆုတ်, St.] The full moon, လပြည့်, falls on the fifteenth of the
+waxing, after which a new count of days begins, and the change or disappearing
+of the moon, လကွယ်, falls on the fourteenth or fifteenth of the wane.
+
+§134. The days of worship are the eighth of the waxing, the full, the eighth of
+the wane, and the change.
+
+§135. Time is also divided into weeks, or periods of seven days, which are, of
+course, independent of the lunar arrangement, and follow the same order that
+obtains in all other parts of the world, viz:—
+
+တနင်္ဂနွေ, Sunday, ကြာသပတေး, Thursday,
+တနင်္လာ, Monday,   သောက်ကြာ, Friday,
+အင်္ဂါ, Tuesday,  စနေ, Saturday.
+ဗုဒ္ဓဟူး, Wednesday,
+
+§136. The day and the night are each divided into four periods, which as they
+terminate, are designated by their appropriate beat of drum. The single beat, 
+တချက်​တီး, accords with 9 o'clock, morning or evening; the double beat, 
+နှစ်​ချက်​တီး, accords with 12 o'clock; the triple beat, သုံး​ချက်​တီး, with 3
+o'clock; and the quadruple beat, လေး​ချက်​တီး, with 6 o'clock.
+
+§137. A natural day is also divided into sixty equal parts, called နာရီ, which
+are again subject to various subdivisions seldom used but in astrological
+works.
+
+weights.
+
+§138. ချင်​ရွေး, the seed of the abrus precatorius, marked (ွေ), as ၁ွေ, တရွေး.
+
+ရွေး​ကြီး, the seed of the adenanthera pavonina, double the weight of the above,
+marked the same.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Notes
+
+ 1. ↑ The Sanscrit authorities, it is true, give the second letter of the class
+    as the adjunct to the nasal ဏ; but the Pali authorities give the third,
+    which is here adopted.
+ 2. ↑ Pronounced with the rising inflection of the voice, St.
+ 3. ↑ ^3.0 ^3.1 Ai, as in aisle. St.
+ 4. ↑ The latter sound especially obtains, when the initial letter is ည, ယ, ရ,
+    or a consonant compounded with the symbol ယ or ရ [ee, as in been. St.]
+ 5. ↑ Or it. St.
+ 6. ↑ Ei, as in vein, skein, St.
+ 7. ↑ Ai, as in air. St.
+ 8. ↑ Ŏ, as oo in foot. St.
+ 9. ↑ ^9.0 ^9.1 ^9.2 Ooa, as oo in foot, or soon. St.
+10. ↑ Ei as in vein, skein, St.
+11. ↑ Pron. myit-ta. St.
+12. ↑ Pron. မျည် St.
+13. ↑ မင်း is also feminine. St.
+14. ↑ သ like th in the. St.
+
+[48px-]
+
+This work was published before January 1, 1927, and is in the public domain
+worldwide because the author died at least 100 years ago.
+
+ 
+Public domainPublic domainfalsefalse
+*
+Retrieved from "https://en.wikisource.org/w/index.php?title=
+Grammar_of_the_Burmese_Language&oldid=11376998"
+ 
+Last edited on 8 June 2021, at 23:52
+Wikisource
+
+  • This page was last edited on 8 June 2021, at 23:52.
+  • Content is available under CC BY-SA 3.0 unless otherwise noted.
+
+  • Privacy policy
+  • About Wikisource
+  • Disclaimers
+  • Terms of Use
+  • Desktop
+  • Developers
+  • Statistics
+  • Cookie statement
+

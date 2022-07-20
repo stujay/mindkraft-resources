@@ -1,0 +1,9 @@
+# Copy url to the tmux or the X paste buffer
+extbrowser7 url=%s && printf %s "$url" | xargs tmux set-buffer
+extbrowser8 url=%s && printf %s "$url" | xsel && printf %s "$url" | xsel -b &
+
+# Auto enable VIM html file type for editor command
+editor vim -c "set filetype=html"
+
+# run external viewers/commands in background
+bgextviewer 1
