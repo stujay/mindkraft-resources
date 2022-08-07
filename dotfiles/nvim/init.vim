@@ -32,6 +32,8 @@ Plug 'SirVer/ultisnips'
 nnoremap <leader>gl :YcmCompleter GoToDeclaration<CR>
 nnoremap <leader>gf :YcmCompleter GoToDefinition<CR>
 nnoremap <leader>gg :YcmCompleter GoToDefinitionElseDeclaration<CR>
+" Install Omni for C Sharp 
+Plug 'OmniSharp/omnisharp-vim'
 Plug 'morhetz/gruvbox'
 Plug 'jremmen/vim-ripgrep'
 Plug 'leafgarland/typescript-vim'
@@ -538,7 +540,7 @@ let g:SuperTabClosePreviewOnPopupClose = 1
 "don't autoselect first item in omnicomplete, show if only one item (for preview)
 "remove preview if you don't want to see any documentation whatsoever.
 set completeopt=longest,menuone,preview
-
+let g:OmniSharp_server_use_mono = 1
 "Move the preview window (code documentation) to the bottom of the screen, so it doesn't move the code!
 "You might also want to look at the echodoc plugin
 set splitbelow
@@ -613,3 +615,18 @@ nnoremap <leader>th :OmniSharpHighlightTypes<cr>
 "extract text selected in visual mode as variable
 vnoremap <leader>ev cvariable<esc>O<esc>pIvar variable = <esc>A;<esc>==w<F2>
 set hidden
+inoremap <silent><expr> <TAB>
+      \ pumvisible() ? coc#_select_confirm() :
+      \ coc#expandableOrJumpable() ?
+      \ "\<C-r>=coc#rpc#request('doKeymap', ['snippets-expand-jump',''])\<CR>" :
+      \ <SID>check_back_space() ? "\<TAB>" :
+      \ coc#refresh()
+
+    function! s:check_back_space() abort
+      let col = col('.') - 1
+      return !col || getline('.')[col - 1]  =~# '\s'
+    endfunction
+
+    let g:coc_snippet_next = '<tab>'
+
+let g:OmniSharp_selector_ui = 'fzf'    " Use fzf

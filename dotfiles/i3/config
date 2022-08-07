@@ -1,5 +1,5 @@
-
 set_from_resource $darkred     color1  #000000
+
 set_from_resource $red         color9  #000000
 set_from_resource $darkgreen   color2  #000000
 set_from_resource $green       color10 #000000
@@ -50,7 +50,7 @@ bindsym $mod+r mode "resize"
 bindsym $mod+Shift+f exec /home/koromicha/.config/i3/bin/rofifinder
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id ~/.config/i3/bin/rofi_app_launcher
+#bindsym $mod+d exec --no-startup-id ~/.config/i3/bin/rofi_app_launcher
 # Enable Print Screen
 #bindsym --release $mod+Print exec gnome-screenshot -i
 bindsym --release $mod+Print exec shutter -s
@@ -59,7 +59,7 @@ bindsym --release $mod+Print exec shutter -s
 bindsym $mod+q kill
 
 # start dmenu (a program launcher)
-#bindsym $mod+d exec --no-startup-id ~/.config/i3/bin/rofi_app_launcher
+bindsym $mod+d exec --no-startup-id ~/.config/i3/bin/rofi_app_launcher
 
 
 # change focus
@@ -124,7 +124,6 @@ set $ws6 "6:"
 set $ws7 "7:"
 set $ws8 "8: "
 set $ws9 "9: "
-
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1
@@ -304,7 +303,7 @@ exec --no-startup-id exec mate-screensaver
 exec --no-startup-id exec mate-power-manager
 exec --no-startup-id exec nm-applet
 
-exec --no-startup-id "setxkbmap -model pc105 -layout us,th,zh,ru -option grp:alt_shift_toggle"
+exec always "setxkbmap -model pc105 -layout us,th,zh,ru -option grp:alt_shift_toggle"
 
 # move focused workspace between monitors
 bindsym $mod+Ctrl+Right move workspace to output right
