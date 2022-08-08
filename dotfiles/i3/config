@@ -43,13 +43,14 @@ bindsym $mod+x exec $terminator
 
 # Custom bindsyms
 bindsym $mod+p exec ~/.config/i3/bin/logout
-bindsym $mod+Ctrl+Shift+l exec i3lock -i /usr/share/backgrounds/grid-lock.png -t
+#bindsym $mod+Ctrl+Shift+l exec i3lock -i /usr/share/backgrounds/grid-lock.png -t
+bindsym $mod+Ctrl+Shift+l exec i3lock -c 000000
 bindsym $mod+c exec firefox
 bindsym $mod+Shift+C google-chrome
 bindsym $mod+r mode "resize"
 bindsym $mod+Shift+f exec /home/koromicha/.config/i3/bin/rofifinder
 # use i3lock-fancy
-bindsym $mod+z exec i3lock-fancy
+bindsym $mod+Shift+z exec i3lock-fancy
 # start dmenu (a program launcher)
 #bindsym $mod+d exec --no-startup-id ~/.config/i3/bin/rofi_app_launcher
 # Enable Print Screen
