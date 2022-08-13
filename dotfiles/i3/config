@@ -55,7 +55,8 @@ bindsym $mod+Shift+z exec i3lock-fancy
 #bindsym $mod+d exec --no-startup-id ~/.config/i3/bin/rofi_app_launcher
 # Enable Print Screen
 #bindsym --release $mod+Print exec gnome-screenshot -i
-bindsym --release $mod+Print exec shutter -s
+#bindsym --release $mod+Print exec shutter -s
+bindsym --release $mod+\\ exec shutter -s
 
 # kill focused window
 bindsym $mod+q kill
@@ -67,7 +68,7 @@ bindsym $mod+d exec --no-startup-id ~/.config/i3/bin/rofi_app_launcher
 # change focus
 bindsym $mod+h focus left
 bindsym $mod+j focus down
- bindsym $mod+k focus up
+bindsym $mod+k focus up
 bindsym $mod+l focus right
 
 # alternatively, you can use the cursor keys:
@@ -282,7 +283,7 @@ mode $power_mode {
     bindsym s         exec sudo systemctl suspend
     bindsym Return    mode "default"
     bindsym Escape    mode "default"
-}
+} 
 
 # Floating windows
 for_window [window_role="task_dialog|bubble|page-info|Preferences|pop-up"] floating enable

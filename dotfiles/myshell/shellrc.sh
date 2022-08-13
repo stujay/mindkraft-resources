@@ -81,3 +81,5 @@ bindkey -M vicmd v edit-command-line
 export HOMEBREW_NO_AUTO_UPDATE=1
 
 alias lt='find . -mtime -1 -type f -print'
+# Note that lastpass-cli must be installed to use lpass functions
+alias lp="lpass ls | fzf | sed 's/.*\[id\:\s\([^]]*\)\].*/\1/g' | xargs -I{} lpass show -p {} | xclip -selection clipboard && xclip -out -selection clipboard"
