@@ -27,6 +27,7 @@ filetype plugin indent on
 call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
+Plugin 'rust-lang/rust.vim'
 Plug 'SirVer/ultisnips'
 
 nnoremap <leader>gl :YcmCompleter GoToDeclaration<CR>
