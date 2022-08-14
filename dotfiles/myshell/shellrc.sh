@@ -84,5 +84,6 @@ alias lt='find . -mtime -1 -type f -print'
 # Note that lastpass-cli must be installed to use lpass functions - this is copy the password to clipboard
 alias lp="lpass ls | fzf | sed 's/.*\[id\:\s\([^]]*\)\].*/\1/g' | xargs -I{} lpass show -p {} | xclip -selection clipboard"
 
+alias lpp="lpass ls | fzf | sed 's/.*\[id\:\s\([^]]*\)\].*/\1/g' | xargs -I{} lpass show  {}" 
 # Use the one below if you want to actually show the password in the shell as well as copy to clipboard
 # alias lp="lpass ls | fzf | sed 's/.*\[id\:\s\([^]]*\)\].*/\1/g' | xargs -I{} lpass show -p {} | xclip -selection clipboard && xclip -out -selection clipboard"
