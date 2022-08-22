@@ -1,0 +1,310 @@
+[
+ {
+   "consonant": "ก",
+   "brahmi-parent": "क",
+   "transliteration": "g",
+   "index": 0,
+   "ipa": "k"
+ },
+ {
+   "consonant": "ข",
+   "brahmi-parent": "ख",
+   "transliteration": "k",
+   "index": 0,
+   "ipa": "kʰ"
+ },
+ {
+   "consonant": "ฃ",
+   "brahmi-parent": "ख",
+   "transliteration": "k",
+   "index": 1,
+   "ipa": "kʰ"
+ },
+ {
+   "consonant": "ค",
+   "brahmi-parent": "ग",
+   "transliteration": "k",
+   "index": 0,
+   "ipa": "kʰ"
+ },
+ {
+   "consonant": "ฅ",
+   "brahmi-parent": "ग",
+   "transliteration": "k",
+   "index": 1,
+   "ipa": "kʰ"
+ },
+ {
+   "consonant": "ฆ",
+   "brahmi-parent": "घ",
+   "transliteration": "k",
+   "index": 0,
+   "ipa": "kʰ"
+ },
+ {
+   "consonant": "ง",
+   "brahmi-parent": "ङ",
+   "transliteration": "ng",
+   "index": 0,
+   "ipa":"ŋ"
+ },
+ {
+   "consonant": "จ",
+   "brahmi-parent": "च",
+   "transliteration": "j",
+   "index": 0,
+   "ipa": "tɕ"
+ },
+ {
+   "consonant": "ฉ",
+   "brahmi-parent": "छ",
+   "transliteration": "ch",
+   "index": 0,
+   "ipa": "tɕʰ"
+ },
+ {
+   "consonant": "ช",
+   "brahmi-parent": "ज",
+   "transliteration": "ch",
+   "index": 0,
+   "ipa": "tɕʰ"
+ },
+ {
+   "consonant": "ซ",
+   "brahmi-parent": "ज",
+   "transliteration": "s",
+   "index": 1,
+   "ipa": "s"
+ },
+ {
+   "consonant": "ฌ",
+   "brahmi-parent": "झ",
+   "transliteration": "ch",
+   "index": 0,
+   "ipa": "tɕʰ"
+ },
+ {
+   "consonant": "ญ",
+   "brahmi-parent": "ञ",
+   "transliteration": "ny",
+   "index": 0,
+   "ipa": "j"
+ },
+ {
+   "consonant": "ฎ",
+   "brahmi-parent": "ट",
+   "transliteration": "d",
+   "index": 0,
+   "ipa": "d"
+ },
+ {
+   "consonant": "ฏ",
+   "brahmi-parent": "ट",
+   "transliteration": "dt",
+   "index": 1,
+   "ipa": "t"
+ },
+ {
+   "consonant": "ฐ",
+   "brahmi-parent": "ठ",
+   "transliteration": "t",
+   "index": 0,
+   "ipa": "tʰ"
+ },
+ {
+   "consonant": "ฑ",
+   "brahmi-parent": "ड",
+   "transliteration": "t",
+   "index": 0,
+   "ipa": "tʰ"
+ },
+ {
+   "consonant": "ฒ",
+   "brahmi-parent": "ढ",
+   "transliteration": "t",
+   "index": 0,
+   "ipa": "tʰ"
+ },
+ {
+   "consonant": "ณ",
+   "brahmi-parent": "ण",
+   "transliteration": "n",
+   "index": 0,
+   "ipa": "n"
+ },
+ {
+   "consonant": "ด",
+   "brahmi-parent": "त",
+   "transliteration": "d",
+   "index": 0,
+   "ipa": "d"
+ },
+ {
+   "consonant": "ต",
+   "brahmi-parent": "त",
+   "transliteration": "dt",
+   "index": 1,
+   "ipa": "t"
+ },
+ {
+   "consonant": "ถ",
+   "brahmi-parent": "थ",
+   "transliteration": "t",
+   "index": 0,
+   "ipa": "tʰ"
+ },
+ {
+   "consonant": "ท",
+   "brahmi-parent": "द",
+   "transliteration": "t",
+   "index": 0,
+   "ipa": "tʰ"
+ },
+ {
+   "consonant": "ธ",
+   "brahmi-parent": "ध",
+   "transliteration": "t",
+   "index": 0,
+   "ipa": "tʰ"
+ },
+ {
+   "consonant": "น",
+   "brahmi-parent": "न",
+   "transliteration": "n",
+   "index": 0,
+   "ipa": "n"
+ },
+ {
+   "consonant": "บ",
+   "brahmi-parent": "प",
+   "transliteration": "b",
+   "index": 0,
+   "ipa": "b"
+ },
+ {
+   "consonant": "ป",
+   "brahmi-parent": "प",
+   "transliteration": "bp",
+   "index": 1,
+   "ipa": "p"
+ },
+ {
+   "consonant": "ผ",
+   "brahmi-parent": "फ",
+   "transliteration": "p",
+   "index": 0,
+   "ipa": "pʰ"
+ },
+ {
+   "consonant": "ฝ",
+   "brahmi-parent": "फ",
+   "transliteration": "f",
+   "index": 1,
+   "ipa": "f"
+ },
+ {
+   "consonant": "พ",
+   "brahmi-parent": "ब",
+   "transliteration": "p",
+   "index": 0,
+   "ipa": "pʰ"
+ },
+ {
+   "consonant": "ฟ",
+   "brahmi-parent": "ब",
+   "transliteration": "f",
+   "index": 1,
+   "ipa": "f"
+ },
+ {
+   "consonant": "ภ",
+   "brahmi-parent": "भ",
+   "transliteration": "p",
+   "index": 0,
+   "ipa": "pʰ"
+ },
+ {
+   "consonant": "ม",
+   "brahmi-parent": "म",
+   "transliteration": "m",
+   "index": 0,
+   "ipa": "m"
+ },
+ {
+   "consonant": "ย",
+   "brahmi-parent": "य",
+   "transliteration": "y",
+   "index": 0,
+   "ipa": "j"
+ },
+ {
+   "consonant": "ร",
+   "brahmi-parent": "र",
+   "transliteration": "r",
+   "index": 0,
+   "ipa": "r"
+ },
+ {
+   "consonant": "ล",
+   "brahmi-parent": "ल",
+   "transliteration": "l",
+   "index": 0,
+   "ipa": "l"
+ },
+ {
+   "consonant": "ว",
+   "brahmi-parent": "व",
+   "transliteration": "w",
+   "index": 0,
+   "ipa": "w"
+ },
+ {
+   "consonant": "ศ",
+   "brahmi-parent": "श",
+   "transliteration": "s",
+   "index": 0,
+   "ipa": "s"
+ },
+ {
+   "consonant": "ษ",
+   "brahmi-parent": "ष",
+   "transliteration": "s",
+   "index": 0,
+   "ipa": "s"
+ },
+ {
+   "consonant": "ส",
+   "brahmi-parent": "स",
+   "transliteration": "s",
+   "index": 0,
+   "ipa": "s"
+ },
+ {
+   "consonant": "ห",
+   "brahmi-parent": "ह",
+   "transliteration": "h",
+   "index": 0,
+   "ipa": "h"
+ },
+ {
+   "consonant": "ฬ",
+   "brahmi-parent": "ळ",
+   "transliteration": "l",
+   "index": 0,
+   "ipa": "l"
+ },
+ {
+   "consonant": "อ",
+   "brahmi-parent": "अ",
+   "transliteration": "ɔ",
+   "index": 0,
+   "ipa": "ʔ"
+ },
+ {
+   "consonant": "ฮ",
+   "brahmi-parent": "र",
+   "transliteration": "h",
+   "index": 0,
+   "ipa": "h"
+ }
+]

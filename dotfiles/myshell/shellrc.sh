@@ -82,3 +82,9 @@ export HOMEBREW_NO_AUTO_UPDATE=1
 
 alias lt='find . -mtime -1 -type f -print'
 # Note that lastpass-cli must be installed to use lpass functions - this is copy the password to clipboard
+
+function cheatsheet(){
+    curl cheat.sh\/$1;
+}
+
+alias cs=cheatsheet;

@@ -631,3 +631,4 @@ inoremap <silent><expr> <TAB>
     let g:coc_snippet_next = '<tab>'
 
 let g:OmniSharp_selector_ui = 'fzf'    " Use fzf
+nnoremap <silent> <Leader>f :Ag<CR>
