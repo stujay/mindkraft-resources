@@ -232,7 +232,7 @@ exec_always --no-startup-id nm-applet
 
 # Bind App to workspace
 # Check class by using xprop command
-assign [class="chromium"] $ws2
+assign [class="chromium"] $ws3
 assign [class="Foxit Reader"] $ws3
 assign [class="Pcmanfm"] $ws4
 assign [class="VirtualBox"] $ws5
