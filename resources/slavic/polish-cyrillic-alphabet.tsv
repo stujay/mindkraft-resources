@@ -1,0 +1,38 @@
+cyrilic	latin	strength	type
+а	a	hard	vowel
+я	ia/ja	soft	vowel
+э	e	hard	vowel
+е	ie/je	soft	vowel
+ы	y	hard	vowel
+и	i	soft	vowel
+о	o	hard	vowel
+ë	io/jo	soft	vowel
+у	ó u	hard	vowel
+ю	ió/jó iu/ju	soft	vowel
+ѫ	ą	hard	vowel
+ѭ	ią/ją	soft	vowel
+ѧ	ę	hard	vowel
+ѩ	ię/ję	soft	vowel
+п	p	hard	consonant
+б	b	hard	consonant
+ф	f	hard	consonant
+в	w	hard	consonant
+т	t, ć	hard	consonant
+д	d, dź	hard	consonant
+с	s, ś	hard	consonant
+з	z, ź	hard	consonant
+к	k	hard	consonant
+г	g	hard	consonant
+х	ch,h	hard	consonant
+ш	sz	hard	consonant
+ж	ż	hard	consonant
+ч	cz	hard	consonant
+щ	szcz	hard	consonant
+ц	c	hard	consonant
+м	m	hard	consonant
+н	n	hard	consonant
+л	ł, l	hard	consonant
+р	r, rz	hard	consonant
+й	j	hard	consonant
+ь	-		function
+ъ	-		function
