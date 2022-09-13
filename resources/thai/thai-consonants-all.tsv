@@ -1,0 +1,45 @@
+cons_th	sanskrit_parent	rarity_index	abugida_index	grid_position	cons_phonemic_th	cons_name_paiboon	thai_cons_class	varga_original	varga_current	action_current	action_original	cons_name_th	cons_name_full_paiboon	name_rtgs	cons_assoc_word_th	cons_assoc_word_en	cons_assoc_word_en	cons_assoc_word_en_helptext	cons_assoc_word_paiboon	initial_paiboon	final_paiboon	initial_rtgs	final_rtgs	initial_ipa	final_ipa
+ก	क	common	1,0,0	1,0,0	กอ	gɔɔ	mid	gutteral	gutteral	stopped	stopped	ก ไก่	gɔɔ gài	ko kai	ไก่	chicken	Chicken		gài	g	k	k	k	[k]	[k̚]
+ข	ख	common	1,1,0	1,1,1	ขอ	kɔ̌ɔ	high	gutteral	gutteral	aspirated	aspirated	ข ไข่	kɔ̌ɔ kài	kho khai	ไข่	egg	Egg		kài	k	k	kh	k	[kʰ]	[k̚]
+ฃ	ख	obsolete	1,1,1	1,1,2	ฃอ	kɔ̌ɔ	high	gutteral	gutteral	aspirated	aspirated	ฃ ขวด	kɔ̌ɔ kùat	kho khuat	ขวด	bottle (obsolete)	Bottle*	Today, 'bottle' is spelled ขวด	kùat	k	k	kh	k	[kʰ]	[k̚]
+ค	ग	common	1,2,0	1,2,1	คอ	kɔɔ	low	gutteral	gutteral	aspirated	voiced	ค ควาย	kɔɔ kwaai	kho khwai	ควาย	buffalo	Buffalo		kwaai	k	k	kh	k	[kʰ]	[k̚]
+ฅ	ग	obsolete	1,2,1	1,2,2	ฅอ	kɔɔ	low	gutteral	gutteral	aspirated	voiced	ฅ คน	kɔɔ kon	kho khon	คน	person (obsolete)	Person*	Today, 'person' is spelled คน	kon	k	k	kh	k	[kʰ]	[k̚]
+ฆ	घ	rare	1,3,0	1,3,0	ฆอ	kɔɔ	low	gutteral	gutteral	voiced-aspirated	voiced-aspirated	ฆ ระฆัง	kɔɔ rá-kang	kho ra-khang	ระฆัง	bell	Bell		kang-rá	k	k	kh	k	[kʰ]	[k̚]
+ง	ङ	common	1,4,0	1,4,0	งอ	ngɔɔ	low	gutteral	gutteral	nasal	nasal	ง งู	ngɔɔ nguu	ngo ngu	งู	snake	Snake		nguu	n	n	ng	ng	[ŋ]	[ŋ]
+จ	च	common	2,0,0	2,0,0	จอ	jɔɔ	mid	palatal	palatal	stopped	stopped	จ จาน	jɔɔ jaan	cho chan	จาน	plate	Plate		jaan	j	t	ch	t	[tɕ]	[t̚]
+ฉ	छ	common	2,1,0	2,1,0	ฉอ	chɔ̌ɔ	high	palatal	palatal	aspirated	aspirated	ฉ ฉิ่ง	chɔ̌ɔ chìng	cho ching	ฉิ่ง	cymbals	Cymbals		chìng	c	t	ch	–	[tɕʰ]	–
+ช	ज	common	2,2,0	2,2,1	ชอ	chɔɔ	low	palatal	palatal	aspirated	voiced	ช ช้าง	chɔɔ cháang	cho chang	ช้าง	elephant	Elephant		cháang	c	t	ch	t	[tɕʰ]	[t̚]
+ซ	ज	less common	2,2,1	2,2,2	ซอ	sɔɔ	low	palatal	palatal	aspirated	voiced	ซ โซ่	sɔɔ sôo	so so	โซ่	chain	Chain		sôo	s	t	s	t	[s]	[t̚]
+ฌ	झ	rare	2,3,0	2,3,0	ฌอ	chɔɔ	low	palatal	palatal	aspirated	voiced-aspirated	ฌ เฌอ	chɔɔ chəə	cho choe	เฌอ	tree	Tree	Specific type of tree called 'euphorbia tirucalli'	chəə	c	t	ch	–	[tɕʰ]	–
+ญ	ञ	common	2,4,0	2,4,0	ญอ	yɔɔ	low	palatal	palatal	nasal	nasal	ญ หญิง	yɔɔ yǐng	yo ying	หญิง	woman	Woman		yǐng	y	y	y	n	[j]	[n]
+ฎ	ट	rare	3,0,0	3,0,1	ฎอ	dɔɔ	mid	cerebral	dental	stopped	stopped	ฎ ชฎา	dɔɔ daa-chá	do cha-da	ชฎา	headdress	Headdress	Traditional ceremonial headress	daa-chá	d	t	d	t	[d]	[t̚]
+ฏ	ट	rare	3,0,1	3,0,2	ฏอ	dtɔɔ	mid	cerebral	dental	stopped	stopped	ฏ ปฏัก	dtɔɔ dtàk-bpà	to pa-tak	ปฏัก	goad , javelin	Javelin		dtàk-bpà	d	t	t	t	[t]	[t̚]
+ฐ	ठ	rare	3,1,0	3,1,0	ฐอ	tɔ̌ɔ	high	cerebral	dental	aspirated	aspirated	ฐ ฐาน	tɔ̌ɔ tǎan	tho than	ฐาน	pedestal	Pedestal	Often used as the general word for 'base'	tǎan	t	t	th	t	[tʰ]	[t̚]
+ฑ	ड	rare	3,2,0	3,2,0	ฑอ	tɔɔ	low	cerebral	dental	aspirated	voiced	ฑ มณโฑ	tɔɔ too-mon	tho montho	มณโฑ	Montho , character from Ramayana	Montho	Character from Ramayana	too-mon	t	t	th or d	t	[tʰ] or [d]	[t̚]
+ฒ	ढ	rare	3,3,0	3,3,0	ฒอ	tɔɔ	low	cerebral	dental	aspirated	voiced-aspirated	ฒ ผู้เฒ่า	tɔɔ tâo-pûu	tho phu-thao	ผู้เฒ่า	elder	Elder	Literally translates to 'old person'	tâo-pûu	t	t	th	t	[tʰ]	[t̚]
+ณ	ण	less common	3,4,0	3,4,0	ณอ	nɔɔ	low	cerebral	dental	nasal	nasal	ณ เณร	nɔɔ neen	no nen	เณร	samanera	Samanera	Novice Monk	neen	n	n	n	n	[n]	[n]
+ด	त	common	4,0,0	4,0,1	ดอ	dɔɔ	mid	dental	dental	stopped	stopped	ด เด็ก	dɔɔ dèk	do dek	เด็ก	child	Child		dèk	d	t	d	t	[d]	[t̚]
+ต	त	common	4,0,1	4,0,2	ตอ	dtɔɔ	mid	dental	dental	stopped	stopped	ต เต่า	dtɔɔ dtào	to tao	เต่า	turtle	Turtle		dtào	d	t	t	t	[t]	[t̚]
+ถ	थ	common	4,1,0	4,1,0	ถอ	tɔ̌ɔ	high	dental	dental	aspirated	aspirated	ถ ถุง	tɔ̌ɔ tǔng	tho thung	ถุง	sack	Sack		tǔng	t	t	th	t	[tʰ]	[t̚]
+ท	द	common	4,2,0	4,2,0	ทอ	tɔɔ	low	dental	dental	aspirated	voiced	ท ทหาร	tɔɔ hǎan-tá	tho thahan	ทหาร	soldier	Soldier		hǎan-tá	h	t	th	t	[tʰ]	[t̚]
+ธ	ध	less common	4,3,0	4,3,0	ธอ	tɔɔ	low	dental	dental	aspirated	voiced-aspirated	ธ ธง	tɔɔ tong	tho thong	ธง	flag	Flag		tong	t	t	th	t	[tʰ]	[t̚]
+น	न	common	4,4,0	4,4,0	นอ	nɔɔ	low	dental	dental	nasal	nasal	น หนู	nɔɔ nǔu	no nu	หนู	mouse	Mouse		nǔu	n	n	n	n	[n]	[n]
+บ	प	common	5,0,0	5,0,1	บอ	bɔɔ	mid	labial	labial	stopped	stopped	บ ใบไม้	bɔɔ mái-bai	bo baimai	ใบไม้	leaf	Leaf		mái-bai	m	m	b	p	[b]	[p̚]
+ป	प	common	5,0,1	5,0,2	ปอ	bpɔɔ	mid	labial	labial	stopped	stopped	ป ปลา	bpɔɔ bplaa	po pla	ปลา	fish	Fish		bplaa	b	p	p	p	[p]	[p̚]
+ผ	फ	common	5,1,0	5,1,1	ผอ	pɔ̌ɔ	high	labial	labial	aspirated	aspirated	ผ ผึ้ง	pɔ̌ɔ pʉ̂ng	pho phueng	ผึ้ง	bee	Bee		pʉ̂ng	p	p	ph	–	[pʰ]	–
+ฝ	फ	common	5,1,1	5,1,2	ฝอ	fɔ̌ɔ	high	labial	labial	aspirated	aspirated	ฝ ฝา	fɔ̌ɔ fǎa	fo fa	ฝา	lid	Lid		fǎa	f	p	f	–	[f]	–
+พ	ब	common	5,2,0	5,2,1	พอ	pɔɔ	low	labial	labial	aspirated	voiced	พ พาน	pɔɔ paan	pho phan	พาน	phan	Phan	Ceremonial plate	paan	p	p	ph	p	[pʰ]	[p̚]
+ฟ	ब	common	5,2,1	5,2,2	ฟอ	fɔɔ	low	labial	labial	aspirated	voiced	ฟ ฟัน	fɔɔ fan	fo fan	ฟัน	teeth	Teeth		fan	f	p	f	p	[f]	[p̚]
+ภ	भ	less common	5,3,0	5,3,0	ภอ	pɔɔ	low	labial	labial	aspirated	voiced-aspirated	ภ สำเภา	pɔɔ pao-sǎm	pho sam-phao	สำเภา	junk	Junk	Type of boat	pao-sǎm	p	p	ph	p	[pʰ]	[p̚]
+ม	म	common	5,4,0	5,4,0	มอ	mɔɔ	low	labial	labial	voiced	voiced	ม ม้า	mɔɔ máa	mo ma	ม้า	horse	Horse		máa	m	m	m	m	[m]	[m]
+ย	य	common	2,5,0	2,5,0	ยอ	yɔɔ	low	palatal	palatal	voiced	voiced	ย ยักษ์	yɔɔ yák	yo yak	ยักษ์	giant, yaksha	Giant	From the Hindu mythical giant "Yaksha"	yák	y	y	y	–  or n [c]	[j]	–  or [n]
+ร	र	common	3,5,0	3,5,1	รอ	rɔɔ	low	cerebral	cerebral	voiced	voiced	ร เรือ	rɔɔ rʉa	ro ruea	เรือ	boat	Boat		rʉa	r	n	r	n	[r]	[n]
+ล	ल	common	4,5,0	4,5,0	ลอ	lɔɔ	low	dental	dental	voiced	voiced	ล ลิง	lɔɔ ling	lo ling	ลิง	monkey	Monkey		ling	l	n	l	n	[l]	[n]
+ว	व	common	5,5,0	5,5,0	วอ	wɔɔ	low	labial	labial	voiced	voiced	ว แหวน	wɔɔ wɛ̌ɛn	wo waen	แหวน	ring	Ring		wɛ̌ɛn	w	o	w	– [d]	[w]	–
+ศ	श	less common	2,6,0	2,6,0	ศอ	sɔ̌ɔ	high	palatal	palatal	sibilant	sibilant	ศ ศาลา	sɔ̌ɔ laa-sǎa	so sala	ศาลา	pavilion, sala	Pavillion	An unwalled outdoor room	laa-sǎa	l	n	s	t	[s]	[t̚]
+ษ	ष	less common	3,6,0	3,6,0	ษอ	sɔ̌ɔ	high	cerebral	cerebral	sibilant	sibilant	ษ ฤๅษี	sɔ̌ɔ sǐi-rʉʉ	so rue-si	ฤๅษี	hermit	Hermit		sǐi-rʉʉ	s	t	s	t	[s]	[t̚]
+ส	स	common	4,6,0	4,6,0	สอ	sɔ̌ɔ	high	dental	dental	sibilant	sibilant	ส เสือ	sɔ̌ɔ sʉ̌a	so suea	เสือ	tiger	Tiger		sʉ̌a	s	t	s	t	[s]	[t̚]
+ห	ह	common	0,7,0	0,7,0	หอ	hɔ̌ɔ	high	-	-	aspirated	aspirated	ห หีบ	hɔ̌ɔ hìip	ho hip	หีบ	chest, box	Chest	Any large, sturdy box, such as a coffin, toy chest, or treasure chest	hìip	h	-	h	–	[h]	–
+ฬ	ळ	rare	4,8,0	4,8,0	ฬอ	lɔɔ	low	cerebral	cerebral	-	-	ฬ จุฬา	lɔɔ laa-jù	lo chu-la	จุฬา	kite	Kite*	Specific type of tradional kite	laa-jù	l	n	l	n	[l]	[n]
+อ	अ	common	0,9,0	0,9,0	ออ	ɔɔ	mid	-	-	stopped	stopped	อ อ่าง	ɔɔ àang	o ang	อ่าง	basin	Basin		àang	inherit-vowel-frame	ɔɔ	– [e]	–	[ʔ]	–
+ฮ	र	rare	3,5,1	3,5,2	ฮอ	hɔɔ	low	-	-	aspirated	aspirated	ฮ นกฮูก	hɔɔ hûuk-nók	ho nok-huk	นกฮูก	owl	Owl		hûuk-nók	h	-	h	–	[h]	–
