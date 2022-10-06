@@ -1,0 +1,714 @@
+no.	category	english	arabic	arabic-translit	hebrew	hebrew-niqud	hebrew-ipa	hebrew-iw-translit
+1	Animal	dog	الكلب	alkalb	כלב	כָּלָב	Kaːˈlaːv	klb
+2	Animal	cat	قط	qut	חתול	חָתוּל	χaːˈtuːl	ḥtwl
+3	Animal	fish	سمك	smak	דג	דָג	ˈdaːg	dg
+4	Animal	bird	طائر	tayir	ציפור	צִפֹּוֹר	tsippoːˈvːoːʁ	ṣypwr
+5	Animal	cow	بقرة	baqara	פרה	פָּרָה	paːˈʁaːh	prh
+6	Animal	sheep	خروف	khuruf	כבשים	כְבָשִׂיָם	χevaːsiˈjaːm	kbšym
+7	Animal	goat	ماعز	maeiz	עיזים	עִזִים	ʔiˈziːm	ʿyzym
+8	Animal	pig	خنزير	khinzir	חזיר	חֲזִיר	χaˈziːʁ	ḥzyr
+9	Animal	mouse	فأر	far	עכבר	עַכְבָּר	ʔaχˈbaːʁ	ʿkbr
+10	Animal	rat	فأر	far	עכברוש	עַכְבּרוֹש	ʔaχbˈʁoːʃ	ʿkbrwš
+11	Animal	horse	حصان	hisan	סוס	סוֹּס	ˈsuːs	sws
+12	Animal	wing	جناح	junah	אגף	אַגַף	ʔaˈgaf	ʾgp
+13	Animal	animal	حيوان	hayawan	בעל║חיים	בַּעַל║חַיִיִם	ˈbaʔal║χajiˈjim	bʿl ḥyym
+14	Transportation	train	قطار	qitar	רכבת	רַכָּבֶת	ʁakˈkaːvet	rkbt
+15	Transportation	aeroplane	طائرة	tayira	מטוס	מָטוֹס	maːˈtoːs	mṭws
+16	Transportation	car	سيارة	sayara	אוטו	אוֹטוֹ	ʔoːˈtoː	ʾwṭw
+17	Transportation	truck	شاحنة	shahina	משאית	מַשְאִית	maʃˈʔiːt	mšʾyt
+18	Transportation	bicycle	دراجة	diraja	אופניים	אוֹפְנִיִיִם	ʔoːfenijiˈjim	ʾwpnyym
+19	Transportation	motorcycle	دراجة نارية	dirajat naria	אופנוע	אוֹפַּנוֹעַ	ʔoːppaˈnoːaʔ	ʾwpnwʿ
+20	Transportation	bus	حافلة	hafila	אוטובוס	אוֹטוֹבּוֹס	ʔoːtoːbˈboːs	ʾwṭwbws
+21	Transportation	boat	قارب	qarib	סירה	סִיָרָה	sijaːˈʁaːh	syrh
+22	Transportation	ship	سفينة	safina	ספינה	סְפִּיָנָה	sepijaːˈnaːh	spynh
+23	Transportation	tire	إطار العجلة	iitar aleajala	צמיג	צְמִיִג	tsemiˈjig	ṣmyg
+24	Transportation	gasoline	الغازولين	alghazulin	בנזין	בִּנְזִיָן	binziˈjaːn	bnzyn
+25	Transportation	engine	محرك	muharak	מנוע	מִנֹוֹעַ	minoːˈvːoːaʔ	mnwʿ
+26	Transportation	train ticket	تذكرة القطار	tadhkirat alqitar	כרטיס║רכבת	כָּרְטִיִס║רַכָבֶת	kaːʁetiˈjis║ʁaˈχaːvet	krṭys rkbt
+27	Transportation	transportation	وسائل النقل	wasayil alnaql	תחבורה	תַחְבֻּוֹּרָה	taχbuvːoːˈʁaːh	tḥbwrh
+28	Location	city	المدينة	almadina	העיר	הָעִיָר	haːʔiˈjaːʁ	hʿyr
+29	Location	house	بيت	bayt	בית	בֵּיִת	beːˈjit	byt
+30	Location	apartment	شقة	shaqa	דירה	דִיָרָה	dijaːˈʁaːh	dyrh
+31	Location	street/road	الشارع / الطريق	alshsharie / altariq	רחוב║/║כביש	רְחֹוֹב║/║כְּבִיש	ʁeχoːˈvːoːv║/║keˈviːʃ	rḥwb / kbyš
+32	Location	airport	مطار	matar	נמל║תעופה	נִמְל║תָּעֹוֹּפָה	ˈniml║taːʔoːvːoːˈfaːh	nml tʿwph
+33	Location	train station	محطة القطار	mahatat alqitar	תחנת║רכבת	תַחְנְתָ║רַכֶּבֶת	taχneˈtaː║ʁakˈkevet	tḥnt rkbt
+34	Location	bridge	جسر	jisr	גשר	גָּשֶר	ˈgaːʃeʁ	gšr
+35	Location	hotel	الفندق	alfunduq	מלון	מִלוֹן	miˈloːn	mlwn
+36	Location	restaurant	مطعم	mateam	מסעדה	מִסַעֵדָה	misaʔeːˈdaːh	msʿdh
+37	Location	farm	مزرعة	mazraea	חווה║חקלאית	חַוָוָה║חַקְלָאִיִת	χavaːˈvaːh║χaklaːʔiˈjit	ḥwwh ḥqlʾyt
+38	Location	court	محكمة	mahkama	בית║משפט	בֵּית║מִשְפָּט	ˈbeiːt║miʃˈpaːt	byt mšpṭ
+39	Location	school	المدرسة	almadrasa	בית║ספר	בֵּיִת║סְפֹר	beːˈjit║seˈfoːʁ	byt spr
+40	Location	office	مكتب	maktab	משרד	מִשָׂרָד	misaːˈʁaːd	mšrd
+41	Location	room	غرفة	ghurfa	בחדר	בְּחַדֵר	beχaˈdeːʁ	bḥdr
+42	Location	town	بلدة	balda	העיר	הָעִיִר	haːʔiˈjiʁ	hʿyr
+43	Location	university	جامعة	jamiea	באוניברסיטה	בָּאוֹנִיַבָרְסִיטָה	baːʔoːnijavaːʁesiːˈtaːh	bʾwnybrsyṭh
+44	Location	club	النادي	alnnadi	מועדון	מוֹעֲדוֹן	moːʔaˈdoːn	mwʿdwn
+45	Location	bar	بار	bar	בר	בָּר	ˈbaːʁ	br
+46	Location	park	منتزه	muntazah	פרק	פֶּרַק	ˈpeʁak	prq
+47	Location	camp	مخيم	mukhayam	המחנה	הַמַחְנֶה	hamaχˈneh	hmḥnh
+48	Location	store/shop	مخزن / متجر	mukhzin / matjar	חנות║/║חנות	חַנוֹת║/║חַנוֹת	χaˈnoːt║/║χaˈnoːt	ḥnwt / ḥnwt
+49	Location	theater	مسرح	masrah	תיאטרון	תֵּיאַטְרוֹן	teiːʔatˈʁoːn	tyʾṭrwn
+50	Location	library	مكتبة	maktaba	הספרייה	הַסְפַּרִיָיָה	haspaʁijaːˈjaːh	hspryyh
+51	Location	hospital	مستشفى	mustashfaa	בית║חולים	בִּיַתָ║חֻוֹלִים	bijaˈtaː║χuvːoːˈliːm	byt ḥwlym
+52	Location	temple	معبد	maebad	בית║המקדש	בֵּיִת║הַמִקְדָש	beːˈjit║hamikˈdaːʃ	byt hmqdš
+53	Location	church	كنيسة	kanisa	הכנסייה	הַכְּנֵסִיָיָה	hakkeneːsijaːˈjaːh	hknsyyh
+54	Location	market	سوق	suq	בשוק	בָּשוֹּק	baːˈʃuːk	bšwq
+55	Location	country	بلد	balad	מדינה	מָדִיָנָה	maːdijaːˈnaːh	mdynh
+56	Location	nation	دولة	dawla	אומה	אֻוֹמָה	ʔuvːoːˈmaːh	ʾwmh
+57	Location	state	حالة	hala	מדינה	מָדִיָנָה	maːdijaːˈnaːh	mdynh
+58	Location	province	ولاية	wilaya	במחוז	בִּמְחוֹז	bimˈχoːz	bmḥwz
+59	Location	district	حي	hayi	מחוז	מְחוֹז	meˈχoːz	mḥwz
+60	Location	building	بناء	bina'	בניין	בִּנְיָיִן	binˈjaːjin	bnyyn
+61	Location	ground	أرض	ard	קרקע,║אדמה	קַרְקַע,║אֲדָמָה	kaʁˈkaʔ,║ʔadaːˈmaːh	qrqʿundefined ʾdmh
+62	Location	outer space	الفضاء الخارجي	alfada' alkharijiu	חלל║חיצון	חֲלָל║חִיצוֹן	χaˈlaːl║χiːˈtsoːn	ḥll ḥyṣwn
+63	Location	bank	بنك	bank	בנק	בַּנָק	baˈnaːk	bnq
+64	Location	location	موقع	mawqie	מקום	מִקוֹם	miˈkoːm	mqwm
+65	Countries	United States of America	الولايات المتحدة	alwilayat almutahida	ארצות║הברית	אַרְצוֹתָ║הַבְּרִית	ʔaʁtsoːˈtaː║habbeˈʁiːt	ʾrṣwt hbryt
+66	Countries	Australia	أستراليا	usturalia	אוסטרליה	אוֹסְטְרַלִיָה	ʔoːseteʁaliˈjaːh	ʾwsṭrlyh
+67	Countries	Thailand	تايلاند	tayland	תאילנד	תֵאִילַנְד	teːʔiːˈland	tʾylnd
+68	Countries	China	الصين	alsiyn	סין	סִיָן	siˈjaːn	syn
+69	Countries	United Kingdom	المملكة المتحدة	almamlakat almutahida	הממלכה║המאוחדת	הַמַמְלָכָהָ║הַמְאֻחַדֶת	hamamlaːχaːˈhaː║hammeʔuχaˈdet	hmmlkh hmʾwḥdt
+70	Countries	England	إنكلترا	iinkiltira	אנגליה	אַנְגְּלִיָהָ	ʔangelijaːˈhaː	ʾnglyh
+71	Countries	Spain	إسبانيا	iisbania	ספרד	סְפָרַד	sefaːˈʁad	sprd
+72	Countries	Germany	ألمانيا	almania	גרמניה	גֶּרְמַנִיָהָ	geʁmanijaːˈhaː	grmnyh
+73	Countries	France	فرنسا	faransa	צרפת	צָרְפַת	tsaːʁeˈfat	ṣrpt
+74	Countries	Middle East	الشرق الأوسط	alsharq al'awsat	המזרח║התיכון	הַמִזְרָחַ║הַתִיכֹוֹן	hamizˈʁaːaχ║hatiːχoːˈvːoːn	hmzrḥ htykwn
+75	Clothing	hat	قبعة	qabea	כובע	כּוֹבָע	koːˈvaːʔ	kwbʿ
+76	Clothing	dress	فستان	fusatan	שמלה	שִׂמְלָה	simˈlaːh	šmlh
+77	Clothing	suit	بدلة	badala	חליפה	חֲלִיָפָה	χalijaːˈfaːh	ḥlyph
+78	Clothing	skirt	تنورة	tanwra	חצאית	חֲצָאִית	χatsaːˈʔiːt	ḥṣʾyt
+79	Clothing	shirt	قميص	qamis	חולצה	חֻוֹלְצָה	χuvːoːleˈtsaːh	ḥwlṣh
+80	Clothing	T-shirt	تى شيرت	taa shayirt	חולצה║קצרה	חֻוֹלְצָה║קִצְרָה	χuvːoːleˈtsaːh║kitsˈʁaːh	ḥwlṣh qṣrh
+81	Clothing	pants	بنطال	binital	מכנסיים	מִכְנְסַיִים	miχnesaˈjiːm	mknsyym
+82	Clothing	shoes	أحذية	ahadhiya	נעליים	נַעֲלַיִם	naʔaˈlajim	nʿlyym
+83	Clothing	pocket	جيب	jayb	כיס	כִּיס	ˈkiːs	kys
+84	Clothing	coat	معطف	maetif	מעיל	מְעִיל	meˈʔiːl	mʿyl
+85	Clothing	stain	وصمة	wasima	כתם	כֹתֹם	χoːˈtoːm	ktm
+86	Clothing	socks	جورب	jurib	גרביים	גַרְבִּיִים	gaʁbiˈjiːm	grbyym
+87	Clothing	gloves	قفازات	qafazat	כפפות	כְּפָפוֹּת	kefaːˈfuːt	kppwt
+88	Clothing	necktie	ربطة عنق	rabtat eanq	עֲנִיבָה	עֲַנִִיָבָָה	ʔaaniijaːˈvaːaːh	ʿănîbāh
+89	Clothing	vest	سترة	satra	אפוד	אָפֹוֹד	ʔaːfoːˈvːoːd	ʾpwd
+90	Clothing	scarf	وشاح	washah	צעיף	צָעִיף	tsaːˈʔiːf	ṣʿyp
+91	Clothing	clothing	ملابس	mulabis	בגדים	בְּגָדִים	begaːˈdiːm	bgdym
+92	Colour	red	أحمر	ahmar	אדום	אָדֹוֹם	ʔaːdoːˈvːoːm	ʾdwm
+93	Colour	green	أخضر	akhdir	ירוק	יָרֹוֹק	jaːʁoːˈvːoːk	yrwq
+94	Colour	light blue	أزرق فاتح	azraq fatih	כחול║בהיר	כְּחֹוֹל║בְּהִיר	keχoːˈvːoːl║beˈhiːʁ	kḥwl bhyr
+95	Colour	dark blue	ازرق غامق	azraq ghamiq	כחול║כהה	כְּחֻוֹל║כָּהָה	keχuˈvːoːl║kaːˈhaːh	kḥwl khh
+96	Colour	yellow	أصفر	asfar	צהוב	צָהֻוֹב	tsaːhuˈvːoːv	ṣhwb
+97	Colour	brown	بنى	bunaa	חום	חֹוֹם	χoːˈvːoːm	ḥwm
+98	Colour	pink	وردي	waradi	ורוד	וְרֹוֹד	veʁoːˈvːoːd	wrwd
+99	Colour	purple	بنفسجي	binafsajiin	סגול	סָגֹוֹל	saːgoːˈvːoːl	sgwl
+100	Colour	silver	فضي	fadi	כסף	כָּסָף	Kaːˈsaːf	ksp
+101	Colour	gold	ذهب	dhahab	זהב	זָהָב	zaːˈhaːv	zhb
+102	Colour	orange	البرتقالي	alburtuqaliu	תפוז	תִפֹּוֹז	tippoːˈvːoːz	tpwz
+103	Colour	black	أسود	aswad	שחור	שָחֹוֹר	ʃaːχoːˈvːoːʁ	šḥwr
+104	Colour	white	أبيض	abyad	לבן	לָבָן	laːˈvaːn	lbn
+105	Colour	gray	رمادي	rmady	אפור	אָפֹוֹר	ʔaːfoːˈvːoːʁ	ʾpwr
+106	Colour	colour	اللون	allawn	צבע	צָבֹעַ	tsaːˈvoːaʔ	ṣbʿ
+107	People	son*	ابن*	abn*	בן║*	בָּן║	ˈbaːn║	bn *
+108	People	daughter*	ابنة*	abnat*	בתו║*	בּתוֹ║	bˈtoː║	btw *
+109	People	mother	أم	um	אמא	אִמָא	ʔiˈmaː	ʾmʾ
+110	People	father	الآب	alab	אבא	אַבָּא	ʔabˈbaː	ʾbʾ
+111	People	parents	أم الوالدين - والد	ama alwalidayn - walida	הורים	הֻוָרִיִם	huvaːʁiˈjim	hwrym
+112	People	baby	حبيبي	hubibi	תינוק	תִּינֹוֹק	tiːnoːˈvːoːk	tynwq
+113	People	man	رجل	rajul	איש	אִיש	ˈʔiːʃ	ʾyš
+114	People	woman	امرأة	aimra'a	אישה	אִישָּה	ʔiːˈʃaːh	ʾyšh
+115	People	brother*	أخ*	akh*	אח║*	אָח║	ˈʔaːχ║	ʾḥ *
+116	People	sister*	أخت*	akht*	אחות║*	אֲחוֹת║	ʔaˈχoːt║	ʾḥwt *
+117	People	family	عائلة	eayila	המשפחה	הַמִשְפָּחָה	hamiʃpaːˈχaːh	hmšpḥh
+118	People	grandfather	جد	jid	סבא	סֹבָּא	soːbˈbaː	sbʾ
+119	People	grandmother	جدة	jida	סבתא	סַבְתָּא	savˈtaː	sbtʾ
+120	People	husband*	الزوج*	alzawj*	בעל║*	בָּעַל║	baːˈʔal║	bʿl *
+121	People	wife*	زوجة*	zawajat*	אשה*	אִשָה	ʔiˈʃaːh	ʾšh*
+122	People	king	ملك	malik	מלך	מַלָךְ	maˈlaːχ	mlk
+123	People	queen	ملكة	malika	מלכה	מַלְכָּה	malˈkaːh	mlkh
+124	People	president	رئيس	rayiys	נשיא	נָשִׂיָא	naːsiˈjaː	nšyʾ
+125	People	neighbor	جار	jar	שכן	שָׁכֵן	ʃaːˈχeːn	škn
+126	People	boy	صبي	sibi	ילד	יֶלד	jeˈld	yld
+127	People	girl	فتاة	fata	ילדה	יַלְדָה	jalˈdaːh	yldh
+128	People	child boy	الصبي الطفل	alsabiu altifl	ילד║ילד	יַלְדִ║יָלָד	jalˈdi║jaːˈlaːd	yld yld
+129	People	child girl	الطفلة	altifila	ילדה	יַלְדָה	jalˈdaːh	yldh
+130	People	adult man	رجل الكبار	rajul alkibar	גבר║מבוגר	גָבָר║מְבֹּוֹגֵר	gaːˈvaːʁ║meboːvːoːˈgeːʁ	gbr mbwgr
+131	People	adult woman	امرأة الكبار	aimra'at alkibar	אישה║בוגרת	אִישָה║בֹּוֹגַרֶת	ʔiːˈʃaːh║boːvːoːgaˈʁet	ʾyšh bwgrt
+132	People	human	الانسان	al'iinsan	בן║אנוש	בּן║אַנוֹּש	ˈbn║ʔaˈnuːʃ	bn ʾnwš
+133	People	friend	صديق	sadiq	חבר	חֹבֵר	χoːˈveːʁ	ḥbr
+134	People	victim	ضحية	dahia	קורבן	קֻוֹרְבָן	kuvːoːʁeˈvaːn	qwrbn
+135	People	player	لاعب	laeib	שחקן	שַחָקָן	ʃaχaːˈkaːn	šḥqn
+136	People	fan	مروحة	muruha	אוהד	אֻוַהַד	ʔuˈvahad	ʾwhd
+137	People	crowd	حشد	hashd	קהל	קָהַל	kaːˈhal	qhl
+138	People	person	شخص	shakhs	אדם	אָדָם	ʔaːˈdaːm	ʾdm
+139	Job	Teacher	مدرس	mudaris	מורה	מֻוֹרָה	muvːoːˈʁaːh	mwrh
+140	Job	student	طالب علم	talab eilm	סטודנט	סַטֹוֹדָנָט	satoːvːoːdaːˈnaːt	sṭwdnṭ
+141	Job	lawyer	محام	muham	עורך║דין	עִוֹרֵךְ║דִיָן	ʔivːoːˈʁeːχ║diˈjaːn	ʿwrk dyn
+142	Job	doctor	دكتور	duktur	רופא	רֻוֹפָא	ʁuvːoːˈfaː	rwpʾ
+143	Job	patient	المريض	almarid	סבלני	סַבְּלָנִי	sabbelaːˈniː	sblny
+144	Job	waiter	النادل	alnnadil	מלצר	מַלְצַר	malˈtsaʁ	mlṣr
+145	Job	secretary	أمين	amin	מזכיר	מַזְכִּיָר	mazkiˈjaːʁ	mzkyr
+146	Job	priest	كاهن	kahin	כומר	כֹּוֹמֶר	koːˈvːoːmeʁ	kwmr
+147	Job	police	شرطة	shurta	המשטרה	הַמִשְטָרָה	hamiʃtaːˈʁaːh	hmšṭrh
+148	Job	army	جيش	jaysh	צבא	צָבָא	tsaːˈvaː	ṣbʾ
+149	Job	soldier	جندي	jundiin	חייל	חַיָיל	χaˈjaiːl	ḥyyl
+150	Job	artist	فنان	fannan	אמן	אָמֵן	ʔaːˈmeːn	ʾmn
+151	Job	engineer	مهندس	muhandis	מהנדס	מֵהַנְדֵס	meːhanˈdeːs	mhnds
+152	Job	author	مؤلف	mualaf	המחבר	הַמְחַבֵר	hammeχaˈveːʁ	hmḥbr
+153	Job	manager	مدير	mudir	מנהל	מְנַהֵל	menaˈheːl	mnhl
+154	Job	reporter	صحافي	sahafiin	כתבתי	כָּתָבְתִי	kaːtaːveˈtiː	ktbty
+155	Job	actor	الممثل	almumathil	שחקן	שַחֲקָן	ʃaχaˈkaːn	šḥqn
+156	Job	job	وظيفة	wazifa	עבודה	עֲבֻוֹדָה	ʔavuvːoːˈdaːh	ʿbwdh
+157	Society	religion	دين	din	דת	דָת	ˈdaːt	dt
+158	Society	heaven	الجنة	aljana	גן║העדן	גַן║הַעֲדָן	ˈgan║haʔaˈdaːn	gn hʿdn
+159	Society	hell	الجحيم	aljahim	לעזאזל	לָעֲזָאזֵל	laːʔazaːˈzeːl	lʿzʾzl
+160	Society	god	الله	allah	אלוהים	אֱלֻוֹהִיָם	ʔeluvːoːhiˈjaːm	ʾlwhym
+161	Society	devil	إبليس	iiblis	השטן	הַשָׂטָן	hasaːˈtaːn	hšṭn
+162	Society	angel	ملاك	malak	מלאך	מַלָאָךְ	malaːˈʔaːχ	mlʾk
+163	Society	fairy	جنية	juniya	פיות	פִּיוֹת	piˈjoːt	pywt
+164	Society	spirit	روح	rwh	רוח	רוֹחַ	ˈʁoːaχ	rwḥ
+165	Society	demon	شيطان	shaytan	שד	שָד	ˈʃaːd	šd
+166	Society	death	الموت	almawt	מוות	מָוֶוֹת	maːveˈvːoːt	mwwt
+167	Society	medicine	الدواء	aldiwa'	תרופה	תָּרֻוֹּפָה	taːʁuvːoːˈfaːh	trwph
+168	Society	money	مال	mal	כסף	כָּסָף	kaːˈsaːf	ksp
+169	Society	dollar	دولار	dular	דולר	דּוֹלָר	doːˈlaːʁ	dwlr
+170	Society	bill	فاتورة	fatura	שטר║כסף	שְטָרַ║כְּסָף	ʃetaːˈʁa║keˈsaːf	šṭr ksp
+171	Society	marriage*	زواج*	zawajan*	נישואים*	נִישׂוּאִים	niːsuːˈʔiːm	nyšwʾym*
+172	Society	wedding*	حفل زواج*	hafl zawaj*an	חתונה║*	חֲתֻוּנָה║	χatuvvˈnaːh║	ḥtwnh *
+173	Society	team	الفريق	alfariq	צוות	צְוֹוֹת	tsevːoːˈvːoːt	ṣwwt
+174	Society	ethnicity	العرق	alearaq	מוצא║אתני	מֻוֹצָאַ║אַתָנִי	muvːoːtsaːˈʔa║ʔataːˈniː	mwṣʾ ʾtny
+175	Society	sexual intercourse	جماع جنسي	jamae jinsiin	קיום║יחסי║מין	קִיוֹםִ║יַחְסִי║מִין	kijoːˈmi║jaχˈsiː║ˈmiːn	qywm yḥsy myn
+176	Society	gender	جنس	juns	מגדר	מִגַדֵר	migaˈdeːʁ	mgdr
+177	Society	murder	القتل العمد	alqatl aleamad	רצח	רָצַחַ	ʁaːˈtsaaχ	rṣḥ
+178	Society	prison	السجن	alsijn	בית║כלא	בֵּיְת║כָּלָא	beːˈjet║kaːˈlaː	byt klʾ
+179	Society	technology	تكنولوجيا	tiknulwjia	טכנולוגיה	טַכָּנוֹלוֹגְיָה	takkaːnoːloːgeˈjaːh	ṭknwlwgyh
+180	Society	energy	طاقة	taqa	אנרגיה	אַנְרַגִיָה	ʔanʁagiˈjaːh	ʾnrgyh
+181	Society	war	حرب	harb	מלחמה	מִלָחָמָה	milaːχaːˈmaːh	mlḥmh
+182	Society	peace	سلام	salam	שלום	שָלוֹם	ʃaːˈloːm	šlwm
+183	Society	attack	هجوم	hujum	התקפה	הַתִקָפָה	hatikaːˈfaːh	htqph
+184	Society	democracy	ديمقراطية	dimuqratia	דמוקרטיה	דְמוֹקַרַטִיָה	demoːkaʁatiˈjaːh	dmwqrṭyh
+185	Society	capitalism	رأسمالية	ra'asmalia	קפיטליזם	קַפִּיטַלִיִזָם	kappiːtalijiˈzaːm	qpyṭlyzm
+186	Society	socialism	اشتراكية	aishtirakia	סוציאליזם	סוֹצְיַאַלִיִזָם	soːtsejaʔalijiˈzaːm	swṣyʾlyzm
+187	Society	communism	شيوعية	shiueia	קומוניזם	קוֹמוֹנִיזָם	koːmoːniːˈzaːm	qwmwnyzm
+188	Society	dictator	دكتاتور	diktatur	דיקטטור	דִיקְטַטֹוֹר	diːktatoːˈvːoːʁ	dyqṭṭwr
+189	Society	election	انتخاب	aintikhab	בחירות	בְּחִירוֹּת	beχiːˈʁuːt	bḥyrwt
+190	Society	magazine	مجلة	majala	מגזין	מִגְזִיָן	migziˈjaːn	mgzyn
+191	Society	newspaper	جريدة	jarida	עיתון	עִתֻּוֹן	ʔittuˈvːoːn	ʿytwn
+192	Society	poison	سم	sma	רעל	רַעַל	ˈʁaʔal	rʿl
+193	Society	gun	بندقية	bunduqia	אקדח	אֶקַדֹחַ	ʔekaˈdoːaχ	ʾqdḥ
+194	Society	sport	رياضة	riada	ספורט	סְפֹּוֹרְט	sepoːvːoːˈʁet	spwrṭ
+195	Society	sport race	سباق الرياضة	sibaq alriyada	מירוץ║ספורט	מִיָרוֹץָ║סְפֹּוֹרְט	mijaːʁoːˈtsaː║sepoːvːoːˈʁet	myrwṣ spwrṭ
+196	Society	exercise	ممارسة	mumarasa	תרגיל	תַּרְגִיִל	taʁgiˈjil	trgyl
+197	Society	ball	كرة	kura	כדור	כָּדוֹר	kaːˈdoːʁ	kdwr
+198	Society	game	لعبة	lueba	משחק	מִשַׂחֵק	misaˈχeːk	mšḥq
+199	Society	price	السعر	alsier	מחיר	מֵחִיָר	meːχiˈjaːʁ	mḥyr
+200	Society	contract	عقد	eaqad	החוזה	הַחֹוֹזָה	haχoːvːoːˈzaːh	hḥwzh
+201	Society	drug	عقار	eaqaar	סמים	סַמִים	Saˈmiːm	smym
+202	Society	sign	لافته	lafath	סימן	סִימָן	siːˈmaːn	symn
+203	Society	science	العلوم	aleulum	מדע	מַדָעַ	maˈdaːaʔ	mdʿ
+204	Society	God	الله	allah	אלוהים	אֱלֻוֹהִיִם	ʔeluvːoːhiˈjim	ʾlwhym
+205	Art	band	فرقة	firqa	להקה	לָהַקָה	laːhaˈkaːh	lhqh
+206	Art	song	أغنية	aghnia	שיר	שִיָר	ʃiˈjaːʁ	šyr
+207	Art	musical instrument	آلة موسيقية	alat musiqia	כלי║נגינה	כְּלִי║נְגִינָה	keˈliː║negiːˈnaːh	kly ngynh
+208	Art	music	موسيقى	musiqaa	מוזיקה	מֻוֹזִיקָה	muvːoːziːˈkaːh	mwzyqh
+209	Art	painting	لوحة	lawha	ציור	צִיוֹר	tsiˈjoːʁ	ṣywr
+210	Art	photography	التصوير	altaswir	צילום	צִילּוֹּם	tsiːˈluːm	ṣylwm
+211	Art	movie	فيلم	film	סרט	סַרַט	ˈsaʁat	srṭ
+212	Art	art	فن	fan	אומנות	אֻמְנוֹּת	ʔumˈnuːt	ʾwmnwt
+213	Beverage	coffee	قهوة	qahua	קפה	קָפָּה	ˈkaːppaːh	qph
+214	Beverage	tea	شاي	shay	תה	תָה	ˈtaːh	th
+215	Beverage	wine	نبيذ	nabidh	יין	יִיִן	jiˈjin	yyn
+216	Beverage	beer	بيرة	bayra	בירה	בִּיָרָה	bijaːˈʁaːh	byrh
+217	Beverage	juice	عصير	easir	מיץ	מִיץ	ˈmiːts	myṣ
+218	Beverage	water	ماء	ma'an	מים	מִיָם	miˈjaːm	mym
+219	Beverage	milk	حليب	halib	חלב	חֹלֵב	χoːˈleːv	ḥlb
+220	Beverage	beverage	شراب	sharab	משקה	מַשְקָה	maʃˈkaːh	mšqh
+221	Food	egg	بيضة	bida	ביצה	בִּיָצָה	bijaːˈtsaːh	byṣh
+222	Food	cheese	جبن	jaban	גבינה	גְבִיָנָה	gevijaːˈnaːh	gbynh
+223	Food	bread	خبز	khabaz	לחם	לָחֶם	ˈlaːχem	lḥm
+224	Food	soup	حساء	hasa'	מרק	מֵרַק	meːˈʁak	mrq
+225	Food	cake	كعكة	kaeika	עוגה	עֻוֹּגָה	ʔuvːoːˈgaːh	ʿwgh
+226	Food	chicken	دجاج	dijaj	עוף	עֹוֹף	ʔoːˈvːoːf	ʿwp
+227	Food	pork	لحم خنزير	lahm khinzir	בשר║חזיר	בִּשַר║חֲזִיר	biˈʃaʁ║χaˈziːʁ	bšr ḥzyr
+228	Food	beef	لحم بقري	lahm biqari	בשר║בקר	בּשַר║בַּקָר	bˈʃaʁ║baˈkaːʁ	bšr bqr
+229	Food	apple	تفاحة	tafaha	תפוח║עץ	תִפֻּוֹחַ║עֵץ	tippuˈvːoːaχ║ˈʔeːts	tpwḥ ʿṣ
+230	Food	banana	موز	muz	בננה	בִּנְנָה	binˈnaːh	bnnh
+231	Food	orange	البرتقالي	alburtuqaliu	תפוז	תִּפֹּוֹּז	tippoːˈvːoːz	tpwz
+232	Food	lemon	ليمون	limun	לימון	לִימוֹן	liːˈmoːn	lymwn
+233	Food	corn	حبوب ذرة	hubub dhara	תירס	תִּיָרְס	tijaːˈʁes	tyrs
+234	Food	rice	الأرز	al'arz	אורז	אֹוֹרֵז	ʔoːvːoːˈʁeːz	ʾwrz
+235	Food	oil	نفط	nft	שמן	שֶמֶן	ˈʃemen	šmn
+236	Food	seed	بذرة	bidhara	זרע	זַרַעַ	zaˈʁaaʔ	zrʿ
+237	Food	knife	سكين	sakin	סכין	סַכִּין	sakˈkiːn	skyn
+238	Food	spoon	ملعقة	maleaqa	כף	כֹּף	ˈkoːf	kp
+239	Food	fork	شوكة	shawka	מזלג	מִזְלֵג	mizˈleːg	mzlg
+240	Food	plate	طبق	tabaq	צלחת	צַלַחַת	tsaˈlaχat	ṣlḥt
+241	Food	cup	كوب	kub	כוס	כֻּוֹס	kuˈvːoːs	kws
+242	Food	breakfast	وجبة افطار	wajabat 'iiftar	ארוחת║בוקר	אָרֻוֹחַתָ║בֹּוֹקֶר	ʔaːʁuvːoːχaˈtaː║boːˈvːoːkeʁ	ʾrwḥt bwqr
+243	Food	lunch	غداء	ghada'	ארוחת║צהריים	אַרֻוֹחֹתָ║צְהרַיִם	ʔaʁuvːoːχoːˈtaː║tsehˈʁajim	ʾrwḥt ṣhryym
+244	Food	dinner	طعام العشاء	taeam aleasha'	ארוחת║ערב	אָרֻוֹחִתָ║עֵרֶב	ʔaːʁuvːoːχiˈtaː║ˈʔeːʁev	ʾrwḥt ʿrb
+245	Food	sugar	السكر	alsukar	סוכר	סֻכֵּר	sukˈkeːʁ	swkr
+246	Food	salt	ملح	milh	מלח	מַלַח	ˈmalaχ	mlḥ
+247	Food	bottle	زجاجة	zujaja	בקבוק	בַּקְבֹּוֹק	bakboːˈvːoːk	bqbwq
+248	Food	food	طعام	taeam	מזון	מָזוֹן	maːˈzoːn	mzwn
+249	Home	table	جدول	jadwal	שולחן	שֻלְחַן	ʃulˈχan	šwlḥn
+250	Home	chair	كرسي	kursii	כיסא	כִּסֵא	kiˈseː	kysʾ
+251	Home	bed	سرير	sarir	מיטה	מִיַטָה	mijaˈtaːh	myṭh
+252	Home	dream	حلم	hulm	חולם	חֹוֹלָם	χoːvːoːˈlaːm	ḥwlm
+253	Home	window	نافذة	nafidha	חלון	חַלּוֹן	χalˈloːn	ḥlwn
+254	Home	door	باب	bab	דלת	דָלֶת	ˈdaːlet	dlt
+255	Home	bedroom	غرفة نوم	ghurfat nawm	חדר║שינה	חַדַר║שִיָנָה	ˈχadaʁ║ʃijaːˈnaːh	ḥdr šynh
+256	Home	kitchen	مطبخ	mutabikh	מטבח	מִטְבֵּחַ	mitˈbeːaχ	mṭbḥ
+257	Home	bathroom	حمام	hamam	חדר║רחצה	חַדֹר║רַחֲצָה	χaˈdoːʁ║ʁaχaˈtsaːh	ḥdr rḥṣh
+258	Home	pencil	قلم	qalam	עיפרון	עִפָּרוֹן	ʔippaːˈʁoːn	ʿyprwn
+259	Home	pen	قلم	qalam	עט	עֵט	ˈʔeːt	ʿṭ
+260	Home	photograph	تصوير	taswir	תצלום	תִצְלֹוֹם	titsloːˈvːoːm	tṣlwm
+261	Home	soap	صابون	sabun	סבון	סַבּוֹן	sabˈboːn	sbwn
+262	Home	book	كتاب	kitab	ספר	סַפֹּר	sapˈpoːʁ	spr
+263	Home	page	صفحة	safha	עמוד	עַמּוֹד	ʔamˈmoːd	ʿmwd
+264	Home	key	مفتاح	miftah	המפתח	הַמַפְתֵחַ	hamafˈteːaχ	hmptḥ
+265	Home	paint	رسم	rusim	לצבוע	לִצָבֹּוֹעַ	litsaːbboːˈvːoːaʔ	lṣbwʿ
+266	Home	letter	رسالة	risala	מכתב	מַכְתָב	maχˈtaːv	mktb
+267	Home	note	ملاحظة	mulahaza	הערה	הָעָרָה	haːʔaːˈʁaːh	hʿrh
+268	Home	wall	الجدار	aljidar	קיר	קִיָר	kiˈjaːʁ	qyr
+269	Home	brick	لبنة	labna	לבנים	לַבָנִים	lavaːˈniːm	lbnym
+270	Home	tile	قرميدة	qarmida	הריח	הֵרֵיִחַ	heːʁeːˈjiaχ	hryḥ
+271	Home	wood	خشب	khashab	עץ	עֵץ	ˈʔeːts	ʿṣ
+272	Home	concrete	الخرسانة	alkharsana	בטון	בָּטוֹן	baːˈtoːn	bṭwn
+273	Home	paper	ورقة	waraqa	עיתון	עִתֹּוֹן	ʔittoːˈvːoːn	ʿytwn
+274	Home	floor	أرضية	ardia	רצפה	רִצְפָה	ʁitsˈfaːh	rṣph
+275	Home	ceiling	سقف	saqf	תקרה	תִקְרָה	tikˈʁaːh	tqrh
+276	Home	roof	سطح البيت	sath albayt	גג	גַג	ˈgag	gg
+277	Home	pool	حوض السباحة	hawd alsabbaha	בריכה	בְּרִיכָה	beʁiːˈχaːh	brykh
+278	Home	lock	قفل	qafl	לנעול	לִנְעֹוֹל	linʔoːˈvːoːl	lnʿwl
+279	Home	telephone	هاتف	hatif	טלפון	טַלְפּוֹן	talˈpoːn	ṭlpwn
+280	Home	garden	حديقة	hadiqa	גן	גַן	ˈgan	gn
+281	Home	yard	حديقة منزل	hadiqat manzil	בחצר	בָּחָצֵר	baːχaːˈtseːʁ	bḥṣr
+282	Home	needle	إبرة	iibra	מחט	מַחַט	ˈmaχat	mḥṭ
+283	Home	bag	حقيبة	haqiba	תיק	תִּיֵק	tiˈjeːk	tyq
+284	Home	box	صندوق	sunduq	קופסא	קֻפְסָא	kufˈsaː	qwpsʾ
+285	Home	gift	هدية	hadia	מתנה	מַתָנָה	mataːˈnaːh	mtnh
+286	Home	card	بطاقة	bitaqa	כרטיס	כַּרְטִיס	kaʁˈtiːs	krṭys
+287	Home	ring	حلقة	halqa	טבעת	טַבָּעַת	tabbaːˈʔat	ṭbʿt
+288	Home	tool	أداة	ada	כלי	כַּלִי	kaˈliː	kly
+289	Electronics	clock	ساعة حائط	saeat hayit	שעון	שָעוֹן	ʃaːˈʔoːn	šʿwn
+290	Electronics	lamp	سراج	siraj	מנורה	מְנֹוֹרָה	menoːvːoːˈʁaːh	mnwrh
+291	Electronics	fan	مروحة	muruha	אוהד	אִוֹהֵד	ʔivːoːˈheːd	ʾwhd
+292	Electronics	cell phone	الهاتف الخلوي	alhatif alkhalawi	טלפון║נייד	טַלְפּוֹן║נִיִיִד	talˈpoːn║nijiˈjid	ṭlpwn nyyd
+293	Electronics	network	شبكة	shabaka	רשת	רַשֶת	ʁaˈʃet	ršt
+294	Electronics	computer	الحاسوب	alhasub	המחשב	הַמַחַשָב	hamaχaˈʃaːv	hmḥšb
+295	Electronics	computer program	برنامج الحاسب	barnamaj alhasib	תוכנת║מחשב	תֻּכְּנְתָ║מֵחֹשָב	tukkeneˈtaː║meːχoːˈʃaːv	twknt mḥšb
+296	Electronics	laptop	كمبيوتر محمول	kamibyutir mahmul	מחשב║נייד	מֵחַשָבּ║נִיָיד	meːχaʃaːbˈb║niˈjaiːd	mḥšb nyyd
+297	Electronics	screen	شاشة	shasha	מסך	מִסָךְ	miˈsaːχ	msk
+298	Electronics	camera	الة تصوير	alat taswir	מצלמה	מִצַלְמָה	mitsalˈmaːh	mṣlmh
+299	Electronics	television	تلفزيون	tilfizyun	טלוויזיה	טַלְוֹוִיזִיָה	talvːoːviːziˈjaːh	ṭlwwyzyh
+300	Electronics	internet	الإنترنت	al'intrnt	אינטרנט	אִינְטֶרַנְט	\ʔiːnteˈʁant	ʾynṭrnṭ
+301	Electronics	download	التحميل	altahmil	הורד	הֻוֹרַד	huvːoːˈʁad	hwrd
+302	Electronics	install	التثبيت	altathabiyat	להתקין	לְהִתְקִיֵן	lehitkiˈjeːn	lhtqyn
+303	Electronics	wifi	واي فاي	way fa'aya	וויי║-║פיי	וַוִיִי║-║פִּיֵי	vaviˈjiː║-║piˈjeiː	wwyy - pyy
+304	Electronics	radio	راديو	radiu	רדיו	רַדִיוֹ	ʁadiˈjoː	rdyw
+305	Body	head	رأس	ras	ראש	רֹאש	ˈʁoːʃ	rʾš
+306	Body	fur	فرو	fru	פרווה	פַּרְוָוָה	paʁvaːˈvaːh	prwwh
+307	Body	neck	العنق	aleunq	עורף	עֹוֹרֵף	ʔoːvːoːˈʁeːf	ʿwrp
+308	Body	face	وجه	wajah	הפנים	הַפָּנִיִם	happaːniˈjim	hpnym
+309	Body	beard	لحية	lahia	זקן	זָקֵן	zaːˈkeːn	zqn
+310	Body	hair	شعر	shaear	שיער	שֵׂיָעֵר	seːjaːˈʔeːʁ	šyʿr
+311	Body	eye	عين	eayan	עין	עַיִן	ˈʔajin	ʿyn
+312	Body	mouth	فم	fum	פה	פֹּה	ˈpoːh	ph
+313	Body	lips	شفاه	shafah	שפתיים	שְׂפָתַיִם	sefaːˈtajim	šptyym
+314	Body	nose	أنف	anf	אף	אַף	ˈʔaf	ʾp
+315	Body	tooth	سن	sini	שן	שָן	ˈʃaːn	šn
+316	Body	ear	إذن	iidhan	אוזן	אֹזֶן	ˈʔoːzen	ʾwzn
+317	Body	teardrop	دمعة	damea	דִמעָה	דִֻמְעָֻה	duimˈʔuaːh	dimʿāh
+318	Body	tongue	لسان	lisan	לשון	לָשוֹן	laːˈʃoːn	lšwn
+319	Body	back	الى الخلف	ila alkhlf	חזור	חֲזֹוֹר	χazoːˈvːoːʁ	ḥzwr
+320	Body	toe	اصبع القدم	iisbae alqadam	הבוהן	הַבֹּוֹהֶן	habboːˈvːoːhen	hbwhn
+321	Body	finger	اصبع اليد	iisbae alyad	אצבע	אֶצְבַּע	ʔetsˈbaʔ	ʾṣbʿ
+322	Body	foot	قدم	qadam	כף║רגל	כָף║רְגֵל	ˈχaːf║ʁeˈgeːl	kp rgl
+323	Body	hand	يد	yd	יד	יָד	ˈjaːd	yd
+324	Body	leg	ساق	saq	רגל	רָגֶל	ˈʁaːgel	rgl
+325	Body	arm	ذراع	dhirae	זרוע	זָרֹוֹעַ	zaːʁoːˈvːoːaʔ	zrwʿ
+326	Body	shoulder	كتف	kataf	כתף	כָּתֵף	kaːˈteːf	ktp
+327	Body	heart	قلب	qalb	לב	לֵב	ˈleːv	lb
+328	Body	blood	دم	dam	דם	דָם	ˈdaːm	dm
+329	Body	brain	دماغ	damagh	המוח	הַמֹוֹחַ	hamoːˈvːoːaχ	hmwḥ
+330	Body	knee	ركبة	rakba	הברך	הַבָּרֵךְ	habbaːˈʁeːχ	hbrk
+331	Body	sweat	عرق	earaq	זיעה	זִיעָה	ziːˈʔaːh	zyʿh
+332	Body	disease	مرض	marad	המחלה	הַמַחַלָה	hamaχaˈlaːh	hmḥlh
+333	Body	bone	عظم	eazam	עצם	עָצֵם	ʔaːˈtseːm	ʿṣm
+334	Body	voice	صوت	sawt	קול	קֹוֹל	koːˈvːoːl	qwl
+335	Body	skin	بشرة	bashara	עור	עִוֹר	ʔiˈvːoːʁ	ʿwr
+336	Body	fingernail	ظفر	zufur	ציפורן	צִפֹּוֹרֶן	tsippoːˈvːoːʁen	ṣypwrn
+337	Body	eyebrow	حاجب العين	hajib aleayn	גבה	גָבָה	gaːˈvaːh	gbh
+338	Body	eyelash	رمشة عين	ramshat ein	רִיס	רִִיִס	ʁiiˈjis	rîs
+339	Body	corpse	جثة	jutha	גופה	גֻּוֹּפָּה	guvːoːpˈpaːh	gwph
+340	Body	human body	جسم الإنسان	jism al'iinsan	גוף║האדם	גוֹּף║הָאָדָם	ˈguːf║haːʔaːˈdaːm	gwp hʾdm
+341	Nature	sea*	البحر *	albahr *	ים║*	יָם║	ˈjaːm║	ym *
+342	Nature	ocean*	محيط*	muhit*	אוקיינוס*	אוֹקְיָיָנוֹּס	ʔoːkejaːjaːˈnuːs	ʾwqyynws*
+343	Nature	river	نهر	nahr	נהר	נָהַר	naːˈhaʁ	nhr
+344	Nature	mountain	جبل	jabal	הר	הַר	ˈhaʁ	hr
+345	Nature	rain	مطر	mtr	גשם	גָשֵם	gaːˈʃeːm	gšm
+346	Nature	snow	ثلج	thalaj	שלג	שֶלָג	ʃeˈlaːg	šlg
+347	Nature	tree	شجرة	shajara	עץ	עֵץ	ˈʔeːts	ʿṣ
+348	Nature	sun	الشمس	alshams	שמש	שֶׁמֶש	ˈʃemeʃ	šmš
+349	Nature	moon	القمر	alqamar	ירח	יָרֵחַ	jaːˈʁeːaχ	yrḥ
+350	Nature	world	العالم	alealam	בעולם	בָּעֹוֹלָם	baːʔoːvːoːˈlaːm	bʿwlm
+351	Nature	Earth	أرض	ard	כדור║הארץ	כְּדֹוֹר║הָאַרֶץ	kedoːˈvːoːʁ║haːʔaˈʁets	kdwr hʾrṣ
+352	Nature	forest	غابة	ghaba	יער	יַעַר	ˈjaʔaʁ	yʿr
+353	Nature	sky	سماء	sama'	שמים	שָׁמַיִם	ʃaːˈmajim	šmym
+354	Nature	plant	النبات	alnabat	צמח	צָמַחַ	tsaːˈmaaχ	ṣmḥ
+355	Nature	wind	ريح	rih	רוח	רֹוַחַ	ʁoːˈvaaχ	rwḥ
+356	Nature	soil/earth	التربة / الأرض	alturabat / al'ard	אדמה║/║אדמה	אֲדָמָה║/║אָדָמָה	ʔadaːˈmaːh║/║ʔaːdaːˈmaːh	ʾdmh / ʾdmh
+357	Nature	flower	زهرة	zahra	פרח	פָּרַח	paːˈʁaχ	prḥ
+358	Nature	valley	الوادي	alwadi	העמק	הָעֹמֶק	haːˈʔoːmek	hʿmq
+359	Nature	root	جذر	jidhr	שורש	שֹרֶש	ˈʃoːʁeʃ	šwrš
+360	Nature	lake	بحيرة	buhayra	אגם	אָגַם	ʔaːˈgam	ʾgm
+361	Nature	star	نجمة	najima	כוכב	כֻּכָּב	kukˈkaːv	kwkb
+362	Nature	grass	عشب	eashab	דשא	דָשָא	daːˈʃaː	dšʾ
+363	Nature	leaf	ورقة الشجر	waraqat alshajar	עלה	עָלָה	ʔaːˈlaːh	ʿlh
+364	Nature	air	هواء	hawa'	אוויר	אֲוִיָר	ʔaviˈjaːʁ	ʾwwyr
+365	Nature	sand	رمل	ramal	חול	חֹוֹל	χoːˈvːoːl	ḥwl
+366	Nature	beach	شاطئ	shati	החוף	הַחֹוֹף	haχoːˈvːoːf	hḥwp
+367	Nature	wave	موجة	mawja	גל	גַל	ˈgal	gl
+368	Nature	fire	حريق	hariq	אש	אֵש	ˈʔeːʃ	ʾš
+369	Nature	ice	الثلج	althalj	קרח	קָרֵחַ	kaːˈʁeːaχ	qrḥ
+370	Nature	island	جزيرة	jazira	אי	אִי	ˈʔiː	ʾy
+371	Nature	hill	تل	tal	הגבעה	הַגִּבְעָה	haggivˈʔaːh	hgbʿh
+372	Nature	heat	حرارة	harara	חום	חֹוֹם	χoːˈvːoːm	ḥwm
+373	Nature	north	شمال	shamal	בצפון	בְּצָפוֹן	betsaːˈfoːn	bṣpwn
+374	Nature	south	جنوب	janub	בדרום	בִּדָרוֹם	bidaːˈʁoːm	bdrwm
+375	Nature	east	الشرق	alshrq	מזרח	מִזְרַחַ	mizˈʁaaχ	mzrḥ
+376	Nature	west	غرب	gharb	מערבה	מֵעֲרָבָה	meːʔaʁaːˈvaːh	mʿrbh
+377	Nature	northeast	شمالي شرقي	shamalii sharqii	מזרח	מִזְרַח	mizˈʁaχ	mzrḥ
+378	Nature	northwest	شمال غرب	shamal gharb	צפון║מערב	צָפֹוֹן║מֵעֲרֶב	tsaːfoːˈvːoːn║meːʔaˈʁev	ṣpwn mʿrb
+379	Nature	southeast	الجنوب الشرقي	aljanub alsharqi	מזרח	מִזְרַחַ	mizˈʁaaχ	mzrḥ
+380	Nature	southwest	جنوب غرب	janub gharb	מערב	מֵעֲרָב	meːʔaˈʁaːv	mʿrb
+381	Nature	north pole	القطب الشمالي	alqutb alshamaliu	הקוטב║הצפוני	הַקֹּוֹטְבָ║הַצָפֹּוֹנִי	hakkoːvːoːteˈvaː║hatsaːppoːvːoːˈniː	hqwṭb hṣpwny
+382	Nature	south pole	القطب الجنوبي	alqutb aljanubiu	קוטב║דרומי	קֻוֹטְב║דְרוֹמִי	kuvːoːˈtev║deʁoːˈmiː	qwṭb drwmy
+383	Nature	nature	طبيعة	tabiea	טבע	טַבַע	ˈtavaʔ	ṭbʿ
+384	Materials	glass	زجاج	zujaj	זכוכית	זְכוּכִית	zeχuːˈχiːt	zkwkyt
+385	Materials	metal	معدن	muedin	מתכת	מַתַּכַת	matˈtaχat	mtkt
+386	Materials	plastic	البلاستيك	albalastik	פלסטיק	פַּלַסְטִיִק	palastiˈjik	plsṭyq
+387	Materials	wood	خشب	khashab	עץ	עֵץ	ˈʔeːts	ʿṣ
+388	Materials	stone	حجر	hijr	אבן	אַבֶן	ʔaˈven	ʾbn
+389	Materials	diamond	الماس	almas	יהלום	יַהֲלֹוֹם	jahaloːˈvːoːm	yhlwm
+390	Materials	clay	طين	tin	חימר	חִמַר	χiˈmaʁ	ḥymr
+391	Materials	dust	غبار	ghabar	אבק	אַבַק	ʔaˈvak	ʾbq
+392	Materials	gold	ذهب	dhahab	זהב	זָהַב	zaːˈhav	zhb
+393	Materials	copper	نحاس	nahas	נחושת	נְחֹשֶת	neˈχoːʃet	nḥwšt
+394	Materials	silver	فضي	fadi	כסף	כָּסף	kaːˈsf	ksp
+395	Materials	material	مادة	mada	חומר	חֹוֹמֶר	χoːˈvːoːmeʁ	ḥwmr
+396	Math / Measurement	meter	متر	mitr	מטר	מַטָר	maˈtaːʁ	mṭr
+397	Math / Measurement	centimeter	سنتيمتر	santimtir	סנטימטר	סַנְטִימַטְר	santiːˈmatʁ	snṭymṭr
+398	Math / Measurement	kilogram	كيلوغرام	kilughram	קילו	קִיָלוֹ	kijaːˈloː	qylw
+399	Math / Measurement	inch	بوصة	busa	אינטש	אִינְטְש	ʔiːnˈteʃ	ʾynṭš
+400	Math / Measurement	foot	قدم	qadam	כף║רגל	כּף║רְגֵל	ˈkf║ʁeˈgeːl	kp rgl
+401	Math / Measurement	pound	جنيه	junayh	קילו	קִיֵלוֹ	kijeːˈloː	qylw
+402	Math / Measurement	half	نصف	nsf	מחצית	מַחֲצִית	maχaˈtsiːt	mḥṣyt
+403	Math / Measurement	circle	دائرة	dayira	מעגל	מַעְגָל	maʔˈgaːl	mʿgl
+404	Math / Measurement	square	مربع	murabae	כיכר	כִּיכֵּר	kiːˈkeːʁ	kykr
+405	Math / Measurement	temperature	درجه الحرارة	darajah alharara	טמפרטורה	טַמַפַּרְטוֹּרָה	tamappaʁtuːˈʁaːh	ṭmprṭwrh
+406	Math / Measurement	date	التاريخ	alttarikh	תאריך	תָאָרִיִךְ	taːʔaːʁiˈjiχ	tʾryk
+407	Math / Measurement	weight	الوزن	alwazn	משקל	מִשְקֵל	miʃˈkeːl	mšql
+408	Math / Measurement	edge	حافة	hafa	קצתי	קַצָתִי	katsaːˈtiː	qṣty
+409	Math / Measurement	corner	ركن	rukn	פינה	פִּיָנָה	pijaːˈnaːh	pynh
+410	Misc. Nouns	map	رسم خريطة	rusim kharita	מפת	מַפַּת	mapˈpat	mpt
+411	Misc. Nouns	dot	نقطة	nuqta	נקודה	נְקֻוֹּדָה	nekuvːoːˈdaːh	nqwdh
+412	Misc. Nouns	consonant	منسجم	munsajim	עִצוּר	עִַצוֹּר	ʔaiˈtsuːʁ	ʿiṣûr
+413	Misc. Nouns	vowel	حرف متحرك	harf mutaharik	לְנַקֵד	לְַנִַקֵד	laniaˈkeːd	lǝnaqēd
+414	Misc. Nouns	light	نور	nuwr	אור	אוֹר	ˈʔoːʁ	ʾwr
+415	Misc. Nouns	sound	صوت	sawt	נשמע	נִשְמַעַ	niʃˈmaaʔ	nšmʿ
+416	Misc. Nouns	yes	نعم فعلا	nem fielaan	כן	כֵּן	ˈkeːn	kn
+417	Misc. Nouns	no	لا	la	לא	לָא	ˈlaː	lʾ
+418	Misc. Nouns	piece	قطعة	qitea	חתיכה	חֲתִיכָה	χatiːˈχaːh	ḥtykh
+419	Misc. Nouns	pain	ألم	alam	כאב	כָּאַב	kaːˈʔav	kʾb
+420	Misc. Nouns	injury	ضرر	darar	פציעה	פְּצִיעָה	petsiːˈʔaːh	pṣyʿh
+421	Misc. Nouns	hole	ثقب	thaqab	חור	חֹוֹר	χoːˈvːoːʁ	ḥwr
+422	Misc. Nouns	image	صورة	sura	תמונה	תָּמֻוֹּנָה	taːmuvːoːˈnaːh	tmwnh
+423	Misc. Nouns	pattern	نمط	namat	דפוס	דָפוֹּס	daːˈfuːs	dpws
+424	Misc. Nouns	noun	إسم	iism	שם║עצם	שָם║עֲצֵם	ˈʃaːm║ʔaˈtseːm	šm ʿṣm
+425	Misc. Nouns	verb	الفعل	alfiel	פועל	פֹּוֹעַל	poːvːoːˈʔal	pwʿl
+426	Misc. Nouns	adjective	صفة	sifa	שם║תואר	שָם║תֹּאַר	ˈʃaːm║toːˈʔaʁ	šm twʾr
+427	Directions	top	أعلى	aelaa	חלק║עליון	חֲלָק║עֲלָיוֹן	χaˈlaːk║ʔalaːˈjoːn	ḥlq ʿlywn
+428	Directions	bottom	أسفل	asfal	בתחתית	בִּתַחְתִית	bitaχˈtiːt	btḥtyt
+429	Directions	side	جانب	janib	בצד	בָּצַד	baːˈtsad	bṣd
+430	Directions	front	جبهة	jabha	מול	מוֹל	ˈmoːl	mwl
+431	Directions	back	الى الخلف	ila alkhlf	חזור	חָזֹוֹר	χaːzoːˈvːoːʁ	ḥzwr
+432	Directions	outside	في الخارج	fi alkharij	בחוץ	בָּחוּץ	baːˈχuːts	bḥwṣ
+433	Directions	inside	في داخل	fi dakhil	בתוך	בּתוֹךָ	bˈtoːχaː	btwk
+434	Directions	up	إلى أعلى	iilaa 'aelaa	עד	עַד	ˈʔad	ʿd
+435	Directions	down	أسفل	asfal	מטה	מַטֵה	maˈteːh	mṭh
+436	Directions	left	اليسار	alyasar	שמאלה	שַמָאַלָה	ʃamaːʔaˈlaːh	šmʾlh
+437	Directions	right	الصحيح	alsahih	ימין	יַמִין	jaˈmiːn	ymyn
+438	Directions	straight	مباشرة	mubashara	ישר	יָשָר	jaːˈʃaːʁ	yšr
+439	Directions	beside	بجانب	bijanib	ליד	לִיָד	liˈjaːd	lyd
+440	Directions	at	في	fi	ב	ב	ˈv	b
+441	Directions	direction	اتجاه	aitijah	כיוון	כִּיוָן	kiːˈvaːn	kywwn
+442	Seasons	Summer	الصيف	alsayf	קיץ	קִיִץ	kiˈjits	qyṣ
+443	Seasons	Spring	ربيع	rbye	אביב	אָבִיָב	ʔaːviˈjaːv	ʾbyb
+444	Seasons	Winter	الشتاء	alshita'	החורף	הַחֹוֹרֵף	haχoːvːoːˈʁeːf	hḥwrp
+445	Seasons	dry season	فصل جاف	fasl jaf	עונה║יבשה	עֲוֹנֶהִ║יַבְשָה	ʔavːoːneˈhi║javˈʃaːh	ʿwnh ybšh
+446	Seasons	wet season	موسم الأمطار	mawsim al'amtar	עונה║רטובה	עֲוֹנָה║רְטֹוֹבָה	ʔavːoːˈnaːh║ʁetoːvːoːˈvaːh	ʿwnh rṭwbh
+447	Seasons	hot season	الموسم الساخن	almawsim alssakhin	עונה║חמה	עֲוֹנָה║חֵמָה	ʔavːoːˈnaːh║χeːˈmaːh	ʿwnh ḥmh
+448	Seasons	Fall	تقع	taqae	נפילה	נְפִילָה	nefiːˈlaːh	npylh
+449	Seasons	season	الموسم	almawsim	עונה	עֲוֹנָה	ʔavːoːˈnaːh	ʿwnh
+450	Numbers	zero	صفر	sifr	אפס	אַפֶס	ʔaˈfes	ʾps
+451	Numbers	one	واحد	wahid	אחד	אֶחָד	ʔeˈχaːd	ʾḥd
+452	Numbers	two	اثنان	athnan	שתיים	שָתָיִיִם	ʃaːtaːjiˈjim	štyym
+453	Numbers	three	ثلاثة	thlath	שלוש	שְלֹוֹש	ʃeloːˈvːoːʃ	šlwš
+454	Numbers	four	أربعة	arbe	ארבעה	אַרְבָּעָה	ʔaʁbaːˈʔaːh	ʾrbʿh
+455	Numbers	five	خمسة	khms	חמש	חֹמֹש	χoːˈmoːʃ	ḥmš
+456	Numbers	six	ستة	st	שש	שֵש	ˈʃeːʃ	šš
+457	Numbers	seven	سبعة	sbe	שבע	שָבַעַ	ʃaːˈvaaʔ	šbʿ
+458	Numbers	eight	ثمانية	thmany	שמונה	שְמֻוֹנָה	ʃemuvːoːˈnaːh	šmwnh
+459	Numbers	nine	تسعة	tse	תשע	תִשַעַ	tiˈʃaaʔ	tšʿ
+460	Numbers	ten	عشرة	eshr	עשר	עֶשָׂר	ʔeˈsaːʁ	ʿšr
+461	Numbers	eleven	احدى عشرة	ahda eshr	אחת║עשרה	אַחֹתָ║עֲשָרָה	ʔaχoːˈtaː║ʔaʃaːˈʁaːh	ʾḥt ʿšrh
+462	Numbers	twelve	اثني عشر	athnay eashar	שתיים║עשרה	שְתַיִם║עֲשֹׂרָה	ʃeˈtajim║ʔasoːˈʁaːh	štyym ʿšrh
+463	Numbers	thirteen	ثلاثة عشر	thlatht eshr	שלוש║עשרה	שְלוֹש║עֲשָׂרָה	ʃeˈloːʃ║ʔasaːˈʁaːh	šlwš ʿšrh
+464	Numbers	fourteen	أربعة عشرة	arbet eshr	ארבעה║עשר	אַרְבָּעָהָ║עֲשֶׂר	ʔaʁbaːʔaːˈhaː║ʔaˈseʁ	ʾrbʿh ʿšr
+465	Numbers	fifteen	fifiteen	fifiteen	חמש║עשרה	חֲמֹשֹ║עֲשֹׂרָה	χamoːˈʃoː║ʔasoːˈʁaːh	ḥmš ʿšrh
+466	Numbers	sixteen	السادس عشر	alssadis eashar	שש║עשרה	שֵשַ║עֲשֹׂרָה	ʃeːˈʃa║ʔasoːˈʁaːh	šš ʿšrh
+467	Numbers	seventeen	سبعه عشر	sabieah eshr	שבע║עשרה	שִבַּעַ║עֲשֹרָה	ʃibˈbaaʔ║ʔaʃoːˈʁaːh	šbʿ ʿšrh
+468	Numbers	eighteen	ثمانية عشرة	thmanyt eshr	שמונה║עשרה	שְמֹוֹנֵהָ║עֲשָרָה	ʃemoːvːoːneːˈhaː║ʔaʃaːˈʁaːh	šmwnh ʿšrh
+469	Numbers	nineteen	تسعة عشر	tiseat eashar	תשע║עשרה	תְּשַעַ║עִשֹרָה	teˈʃaaʔ║ʔiʃoːˈʁaːh	tšʿ ʿšrh
+470	Numbers	twenty	عشرون	eshrwn	עשרים	עֲשֹרִים	ʔaʃoːˈʁiːm	ʿšrym
+471	Numbers	twenty-one	واحد و عشرون	wahid w eshrwn	עשרים║ואחת	עֲשָׂרִים║וְאַחַת	ʔasaːˈʁiːm║veʔaˈχat	ʿšrym wʾḥt
+472	Numbers	twenty-two	اثنان وعشرون	athnan waeishrun	עשרים║ושתיים	עֶשֹרִיִם║וְּשְתַיִיִם	ʔeʃoːʁiˈjim║uːeʃetajiˈjim	ʿšrym wštyym
+473	Numbers	thirty	ثلاثون	thlathwn	שלושים	שְלֹוֹשִיִם	ʃeloːvːoːʃiˈjim	šlwšym
+474	Numbers	thirty-one	واحد وثلاثين	wahid wathalathin	שלושים║ואחת	שְלֻוֹשִיִם║וְאַחַת	ʃeluvːoːʃiˈjim║veʔaˈχat	šlwšym wʾḥt
+475	Numbers	thirty-two	اثنان و ثلاثون	athnan w thlathwn	שלושים║ושתיים	שֶׁלוֹשִיִם║וֹּשְתָיִיִם	ʃeloːʃiˈjim║uːʃetaːjiˈjim	šlwšym wštyym
+476	Numbers	forty	أربعون	arbaeun	ארבעים	אַרְבֵּעִיִם	ʔaʁbeːʔiˈjim	ʾrbʿym
+477	Numbers	forty-one	واحد وأربعون	wahid wa'arbaeun	ארבעים║ואחת	אֶרְבְּעִים║וְאַחֹת	ʔeʁbeˈʔiːm║veʔaˈχoːt	ʾrbʿym wʾḥt
+478	Numbers	forty-two	اثنان وأربعون	athnan wa'arbaeun	ארבעים║ושתיים	אֵרְבֵּעִיִם║וְשְתַּיִם	ʔeːʁebeːʔiˈjim║veʃeˈtajim	ʾrbʿym wštyym
+479	Numbers	fifty	خمسون	khamsun	חמישים	חָמִיֹשִיִם	χaːmijoːʃiˈjim	ḥmyšym
+480	Numbers	fifty-one	واحد وخمسون	wahid wakhamsun	חמישים║ואחד	חֲמִיֹשִיִם║וֹאַחַדָ	χamijoːʃiˈjim║oːʔaχaˈdaː	ḥmyšym wʾḥd
+481	Numbers	fifty-two	اثنان وخمسون	athnan wakhamsun	חמישים║ושתיים	חֲמִיִשִׁיִם║וֹּשְתַּיִם	χamijiʃiˈjim║uːʃeˈtajim	ḥmyšym wštyym
+482	Numbers	sixty	ستون	situn	שיש	שֶיֵש	ʃeˈjeːʃ	šyš
+483	Numbers	sixty-one	واحد وستون	wahid wstwn	שישים║ואחת	שִיְשִים║וֹאַחַת	ʃijˈʃiːm║oːʔaˈχat	šyšym wʾḥt
+484	Numbers	sixty-two	اثنان و ستون	athnan w situn	שישים║ושניים	שִיִשִיִם║וֹשְנִיִם	ʃijiʃiˈjim║oːʃeniˈjim	šyšym wšnyym
+485	Numbers	seventy	سبعون	sabeun	שבעים	שֶׁבְעִיִם	ʃevʔiˈjim	šbʿym
+486	Numbers	seventy-one	واحد وسبعون	wahid wasabeun	שבעים║ואחת	שִׁבְעִיִם║וֹאַחֹתָ	ʃivʔiˈjim║oːʔaχoːˈtaː	šbʿym wʾḥt
+487	Numbers	seventy-two	اثنان وسبعون	athnan wasabeun	שבעים║ושתיים	שֶבְעִיִםִ║וֹּשְתִיִים	ʃevʔijiˈmi║uːʃetiˈjiːm	šbʿym wštyym
+488	Numbers	eighty	ثمانون	thamanun	שמונים	שָמוֹנִיִם	ʃaːmoːniˈjim	šmwnym
+489	Numbers	eighty-one	واحد و ثمانون	wahid w thamanun	81	81	81	
+490	Numbers	eighty-two	اثنان وثمانون	athnan wathamanun	82	82	82	
+491	Numbers	ninety	تسعون	tseawn	תשעים	תִּשָעִים	tiʃaːˈʔiːm	tšʿym
+492	Numbers	ninety-one	واحد وتسعون	wahid watiseun	תשעים║ואחד	תִּשְעִים║וַאַחַד	tiʃˈʔiːm║vaʔaˈχad	tšʿym wʾḥd
+493	Numbers	ninety-two	إثنان وتسعون	ithnan watiseun	תשעים║ושתיים	תִּשְעִיִם║וֹּשְתִיִם	tiʃʔiˈjim║uːʃetiˈjim	tšʿym wštyym
+494	Numbers	one hundred	مائة	miaya	מאה	מֵאָה	meːˈʔaːh	mʾh
+495	Numbers	one hundred and one	مائة و واحد	miayat w wahid	מאה║ואחד	מֵאַהִ║וֹאַחַד	meːʔaˈhi║oːʔaˈχad	mʾh wʾḥd
+496	Numbers	one hundred and two	مئة و إثنين	miat w 'ithnyn	מאה║ושתיים	מֵאַהִ║וֹּשְתַיִם	meːʔaˈhi║uːʃeˈtajim	mʾh wštyym
+497	Numbers	one hundred and ten	مائة وعشرة	miayat waeashara	מאה║ועשר	מֵאַה║וֹעֲשֶׂר	meːˈʔah║oːʔaˈseʁ	mʾh wʿšr
+498	Numbers	one hundred and eleven	111	111	מאה║ואחת║עשרה	מֵאָה║וֹאַחֹתָ║עֲשָׂרָה	meːˈʔaːh║oːʔaχoːˈtaː║ʔasaːˈʁaːh	mʾh wʾḥt ʿšrh
+499	Numbers	one thousand	ألف	alf	אלף	אֵלֵף	ʔeːˈleːf	ʾlp
+500	Numbers	one thousand and one	الف ل	alf l	אלף║ואחד	אַלְף║וֹאַחַד	ˈʔalf║oːʔaˈχad	ʾlp wʾḥd
+501	Numbers	ten thousand	عشرة آلاف	eshrt alaf	עשרת║אלפים	עַשַרָתָ║אַלְפִּיִם	ʔaʃaʁaːˈtaː║ʔalpiˈjim	ʿšrt ʾlpym
+502	Numbers	one hundred thousand	مئة الف	miat 'alf	מאה║אלף	מֵאַה║אַלף	meːˈʔah║ʔaˈlf	mʾh ʾlp
+503	Numbers	one million	مليون واحد	milyun wahid	מיליון	מִילְיוֹן	miːlˈjoːn	mylywn
+504	Numbers	one billion	billioin واحد	billioin wahid	מליארד	מִלִיָאַרְד	milijaːˈʔaʁd	mlyʾrd
+505	Numbers	first	الأول	al'awal	ראשון	רִאשוֹן	ʁiˈʃoːn	rʾšwn
+506	Numbers	second	الثاني	alththani	ב	ב	ˈv	b
+507	Numbers	third	ثالث	thalith	ג	ג	ˈg	g
+508	Numbers	fourth	رابع	rabie	רביעי	רְבִיעִי	ʁeviːˈʔiː	rbyʿy
+509	Numbers	fifth	الخامس	alkhamis	חמישי	חֲמִישִי	χamiːˈʃiː	ḥmyšy
+510	Numbers	sixth	السادس	alssadis	ו	וֹ	ˈoː	w
+511	Months	January	كانون الثاني	kanun alththani	ינואר	יְנוֹּאַר	jenuːˈʔaʁ	ynwʾr
+512	Months	February	شهر فبراير	shahr fibrayir	פברואר	פַּבְרְוַאַר	pavʁeˈvaʔaʁ	pbrwʾr
+513	Months	March	مارس، يسير، يتقدم	mars, yasir, yataqadam	מרץ	מַרֶץ	maˈʁets	mrṣ
+514	Months	April	أبريل	abril	אפריל	אַפְּרִיָל	ʔappeʁiˈjaːl	ʾpryl
+515	Months	May	قد	qad	מאי	מַאִי	maˈʔiː	mʾy
+516	Months	June	حزيران	haziran	יוני	יוֹנִי	joːˈniː	ywny
+517	Months	July	يوليو	yuliu	יולי	יוֹלִי	joːˈliː	ywly
+518	Months	August	أغسطس	aghustus	אוגוסט	אוֹגוֹסְט	ʔoːgoːˈset	ʾwgwsṭ
+519	Months	September	سبتمبر	sibtambar	ספטמבר	סַפֶּטֶמְבֶּר	sappetemˈbeʁ	spṭmbr
+520	Months	October	تشرين اول	tishrin 'awal	אוקטובר	אוֹקְטוֹבֶר	ʔoːkeˈtoːveʁ	ʾwqṭwbr
+521	Months	November	تشرين الثاني	tishrin alththani	נובמבר	נוֹבֶמְבֶּר	noːvemˈbeʁ	nwbmbr
+522	Months	December	ديسمبر	disambir	דצמבר	דֶצֶמְבֶּר	detsemˈbeʁ	dṣmbr
+523	Days of Week	Monday	الإثنين	al'iithnin	יום║שני	יוֹם║שְנִי	ˈjoːm║ʃeˈniː	ywm šny
+524	Days of Week	Tuesday	الثلاثاء	althulatha'	יום║שלישי	יוֹם║שְלִישִי	ˈjoːm║ʃeliːˈʃiː	ywm šlyšy
+525	Days of Week	Wednesday	الأربعاء	al'arbiea'	יום║רביעי	יוֹם║רְבִיעִי	ˈjoːm║ʁeviːˈʔiː	ywm rbyʿy
+526	Days of Week	Thursday	الخميس	alkhamis	יום║חמישי	יוֹם║חְמִישִי	ˈjoːm║χemiːˈʃiː	ywm ḥmyšy
+527	Days of Week	Friday	الجمعة	aljumea	יום║שישי	יוֹם║שִישִי	ˈjoːm║ʃiːˈʃiː	ywm šyšy
+528	Days of Week	Saturday	السبت	alsabt	יום║שבת	יוֹם║שַבַתָ	ˈjoːm║ʃavaˈtaː	ywm šbt
+529	Days of Week	Sunday	الأحد	al'ahad	יום║ראשון	יוֹם║רִאשוֹן	ˈjoːm║ʁiˈʃoːn	ywm rʾšwn
+530	Time	year	سنة	sana	בשנה	בָּשָנָה	baːʃaːˈnaːh	bšnh
+531	Time	month	شهر	shahr	חודש	חֹוֹדש	χoːvːoːˈdʃ	ḥwdš
+532	Time	week	أسبوع	usbue	שבוע	שָבֻוֹעַ	ʃaːvuˈvːoːaʔ	šbwʿ
+533	Time	day	يوم	yawm	יום	יוֹם	ˈjoːm	ywm
+534	Time	hour	ساعة	saea	שעה	שָעָה	ʃaːˈʔaːh	šʿh
+535	Time	minute	دقيقة	daqiqa	דק	דַק	ˈdak	dq
+536	Time	second	الثاني	alththani	ב	ב	ˈv	b
+537	Time	morning	صباح	sabah	בוקר	בֹּוֹקֵר	boːvːoːˈkeːʁ	bwqr
+538	Time	afternoon	بعد الزوال	baed alzawal	אחרי║הצהריים	אַחֲרִי║הַצָהָרַיִם	ʔaχaˈʁiː║hatsaːhaːˈʁajim	ʾḥry hṣhryym
+539	Time	evening	اخر النهار	akhar alnahar	ערב	עֵרֵב	ʔeːˈʁeːv	ʿrb
+540	Time	night	ليل	layl	לילה	לַיָלָה	lajaːˈlaːh	lylh
+541	Time	time	مرة	mara	זמן	זְמַן	zeˈman	zmn
+542	Verbs	to work	للعمل	lileamal	לעבוד	לעָבֹוֹד	lʔaːvoːˈvːoːd	lʿbwd
+543	Verbs	to play	اللعب	allaeb	לשחק	לשַחַק	lˈʃaχak	lšḥq
+544	Verbs	to walk	للمشي	lilmashi	ללכת	לָלכת	laːlˈχt	llkt
+545	Verbs	to run	لتشغيل	litashghil	לרוץ	לָרוֹּץ	laːˈʁuːts	lrwṣ
+546	Verbs	to drive	لدفع	lidafe	לנהוג	לִנָהוֹג	linaːˈhoːg	lnhwg
+547	Verbs	to fly	للطيران	liltayaran	לעוף	לָעוֹף	laːˈʔoːf	lʿwp
+548	Verbs	to swim	السباحة	alsabbaha	לשחות	לִשחוֹת	liʃˈχoːt	lšḥwt
+549	Verbs	to go	للذهاب	lildhahab	ללכת	לָלָכת	laːlaːˈχt	llkt
+550	Verbs	to stop	لوقف	liwaqf	לעצור	לָעֲצֹוֹר	laːʔatsoːˈvːoːʁ	lʿṣwr
+551	Verbs	to follow	للمتابعة	lilmutabaea	לעקוב	לָעֲקֹוֹב	laːʔakoːˈvːoːv	lʿqwb
+552	Verbs	to think	التفكير	altafkir	לחשוב	לָחָשֹוֹב	laːχaːʃoːˈvːoːv	lḥšwb
+553	Verbs	to speak	ليتحدث	liatahadath	לדבר	לדָבֵר	ldaːˈveːʁ	ldbr
+554	Verbs	to say	ليقول	layaqul	לומר	לוֹמר	loːˈmʁ	lwmr
+555	Verbs	to chat	للدردشة	lilduradisha	לדבר	לדָבָר	ldaːˈvaːʁ	ldbr
+556	Verbs	to tell	أن أقول	an 'aqul	לספר	לִסִפֹר	lisiˈfoːʁ	lspr
+557	Verbs	to whisper	لتهمس	latahamas	ללחוש	לִלָחֹוֹש	lilaːχoːˈvːoːʃ	llḥwš
+558	Verbs	to yell	الصراخ	alsirakh	לצעוק	לִצעֹוֹק	litsʔoːˈvːoːk	lṣʿwq
+559	Verbs	to eat	لتناول الطعام	ltanawul altaeam	לאכול	לָאֱכוֹל	laːʔeˈχoːl	lʾkwl
+560	Verbs	to drink	ليشرب	liashrib	לשתות	לִשִתוֹת	liʃiˈtoːt	lštwt
+561	Verbs	to kill	لقتل	liqatal	להרוג	לַהָרוֹג	lahaːˈʁoːg	lhrwg
+562	Verbs	to die	حتى الموت	hataa almawt	למות	לָמוֹת	laːˈmoːt	lmwt
+563	Verbs	to win	للفوز	lilfawz	לנצח	לָנַצֵחַ	laːnaˈtseːaχ	lnṣḥ
+564	Verbs	to lose	لتخسر	latakhsur	לאבד	לַאַבֵד	laʔaˈveːd	lʾbd
+565	Verbs	to smile	لتبتسم	latabtasim	לחייך	לְחַיֵיִךָ	leχajeːjiˈχaː	lḥyyk
+566	Verbs	to laugh	لتضحك	litadhak	לצחוק	לִצְחֹוֹק	litsχoːˈvːoːk	lṣḥwq
+567	Verbs	to cry	البكاء	albika'	לבכות	לִבָכוֹת	livaːˈχoːt	lbkwt
+568	Verbs	to buy	لشراء	lishira'	לקנות	לִקְנוֹת	likˈnoːt	lqnwt
+569	Verbs	to pay	لتدفع	ltadfae	לשלם	לְשַלָם	leʃaˈlaːm	lšlm
+570	Verbs	to sell	بيع	baye	למכור	לִמָכֹוֹר	limaːχoːˈvːoːʁ	lmkwr
+571	Verbs	to shoot a gun	لاطلاق النار بندقية	li'iitlaq alnnar bunduqia	לירות║באקדח	לִיָרוֹת║בּאֶקדֹחַ	lijaːˈʁoːt║bekˈdoːaχ	lyrwt bʾqdḥ
+572	Verbs	to learn	لمعرفة	limaerifa	ללמוד	לִלְמֹוֹד	lilmoːˈvːoːd	llmwd
+573	Verbs	to jump	للقفز	lilqafz	לקפוץ	לִקפֹּוֹץ	likpoːˈvːoːts	lqpwṣ
+574	Verbs	to smell	يشم	yshm	להריח	לְהָרֵיחַ	lehaːˈʁeiːaχ	lhryḥ
+575	Verbs	to hear sound	لسماع الصوت	lisamae alsawt	לשמוע║קול	לִשִמֹוֹעַ║קוֹל	liʃimoːˈvːoːaʔ║ˈkoːl	lšmwʿ qwl
+576	Verbs	to listen to music	للاستماع إلى الموسيقى	lilaistimae 'iilaa almusiqaa	להקשיב║למוזיקה	לְהַקְשִיבּ║למוֹזִיקָה	lehakˈʃiːb║lmoːziːˈkaːh	lhqšyb lmwzyqh
+577	Verbs	to taste	الذوق	aldhawq	לטעום	לִטְעֹוֹם	litʔoːˈvːoːm	lṭʿwm
+578	Verbs	to touch	للمس	lalmasi	לגעת	לָגַעַת	laːˈgaʔat	lgʿt
+579	Verbs	to see a bird	لرؤية الطيور	liruyat altuyur	לראות║ציפור	לִראוֹת║צִיפֹּוֹר	liˈʁoːt║tsiːpoːˈvːoːʁ	lrʾwt ṣypwr
+580	Verbs	to watch tv	لمشاهدة التلفاز	limushahadat altilfaz	לצפות║בטלויזיה	לִצִפּוֹת║בּטְלוֹיזִיָה	litsipˈpoːt║btloiziˈjaːh	lṣpwt bṭlwyzyh
+581	Verbs	to kiss	لتقبيل	ltaqbil	לנשק	לַנִשֶק	laniˈʃek	lnšq
+582	Verbs	to burn	ليحرق	liuhariq	לשרוף	לִשָרֹוֹף	liʃaːʁoːˈvːoːf	lšrwp
+583	Verbs	to melt	يذوب	yadhub	כדי║להמס	כְּדִי║להַמֵס	keˈdiː║lhaˈmeːs	kdy lhms
+584	Verbs	to dig	لحفر	lahafr	לחפור	לַחַפֹּוֹר	laχappoːˈvːoːʁ	lḥpwr
+585	Verbs	to explode	لتنفجر	latanafajir	להתפוצץ	לְהִתפּוֹצֵץ	lehitpoːˈtseːts	lhtpwṣṣ
+586	Verbs	to sit	لأجلس	la'ajlas	לשבת	לָשִבֹּת	laːʃibˈboːt	lšbt
+587	Verbs	to stand	على الوقوف	ealaa alwuquf	לעמוד	לַעַמֹוֹד	laʔamoːˈvːoːd	lʿmwd
+588	Verbs	to love	يحب	yuhibu	לאהוב	לָאָהֹוֹּב	laːʔaːhoːˈvːoːv	lʾhwb
+589	Verbs	to pass by	ليمر	lymr	כדי║לעבור║ליד	כְּדִי║לעבֹּוֹר║לִיָד	keˈdiː║lʔboːˈvːoːʁ║liˈjaːd	kdy lʿbwr lyd
+590	Verbs	to cut	لقطع	liqate	לחתוך	לַחַתוֹךְ	laχaˈtoːχ	lḥtwk
+591	Verbs	to fight	لمحاربة	limuharaba	להלחם	להִלָחֵם	lhilaːˈχeːm	lhlḥm
+592	Verbs	to lie down	على الاستلقاء على الأرض	ealaa alaistilqa' ealaa al'ard	לשכב	לִשֹכֵב	liʃoːˈχeːv	lškb
+593	Verbs	to dance	الرقص	alraqs	לרקוד	לִרַקוֹד	liʁaˈkoːd	lrqwd
+594	Verbs	to sleep	الى النوم	iilaa alnuwm	לישון	לִיָשוֹן	lijaːˈʃoːn	lyšwn
+595	Verbs	to wake up	للإستيقاظ	lil'iistiqaz	להעיר	לְהָעִיר	lehaːˈʔiːʁ	lhʿyr
+596	Verbs	to sing	ليغني	lighni	לשיר	לַשִיָר	laʃiˈjaːʁ	lšyr
+597	Verbs	to count	الاعتماد	alaietimad	לספור	לִסְפֹּוֹר	lispoːˈvːoːʁ	lspwr
+598	Verbs	to marry	للزواج	lilziwaj	להינשא	לְהִינָשֵא	lehiːnaːˈʃeː	lhynšʾ
+599	Verbs	to pray	للصلاة	lilsala	להתפלל	לְהִתְפַלֵל	lehitfaˈleːl	lhtpll
+600	Verbs	to win	للفوز	lilfawz	לנצח	לָנַצַח	Laːˈnatsaχ	lnṣḥ
+601	Verbs	to lose	لتخسر	latakhsur	לאבד	לְאַבֵד	leʔaˈveːd	lʾbd
+602	Verbs	to mix/stir	خلط / ضجة	khalt / daja	לערבב║/║ומערבבים	לְעַרְבֵּב║/║ומְעַרְבְּבִים	leʔaʁˈbeːv║/║vmʔaʁbeˈviːm	lʿrbb / wmʿrbbym
+603	Verbs	to bend	لثني	lithni	לכופף	לכֻוֹפֵף	lχuvːoːˈfeːf	lkwpp
+604	Verbs	to wash	لغسل	lghasl	לשטוף	לִשִטֹוֹף	liʃitoːˈvːoːf	lšṭwp
+605	Verbs	to cook	لطهي الطعام	latahi altaeam	לבשל	לִבָשל	livaːˈʃl	lbšl
+606	Verbs	to open	لفتح	lifath	לפתוח	לִפְתוֹחַ	lifˈtoːaχ	lptwḥ
+607	Verbs	to close	ليغلق	liaghliq	לסגור	לִסְגֹוֹר	lisgoːˈvːoːʁ	lsgwr
+608	Verbs	to write	لكتابة	likitaba	לכתוב	לִכתֹוֹב	liχtoːˈvːoːv	lktwb
+609	Verbs	to call	للإتصال	lil'iitsal	להתקשר	להִתִקַשֵר	lhitikaˈʃeːʁ	lhtqšr
+610	Verbs	to turn	لتحويل	litahwil	לפנות	לִפנוֹת	lifˈnoːt	lpnwt
+611	Verbs	to build	لبناء	libina'	לבנות	לִבָנוֹת	livaːˈnoːt	lbnwt
+612	Verbs	to teach	لتعليم	litaelim	ללמד	לִלָמֹד	lilaːˈmoːd	llmd
+613	Verbs	to grow	لينمو	lynamu	לגדול	לִגָדֹוֹל	ligaːdoːˈvːoːl	lgdwl
+614	Verbs	to draw	رسم	rusim	לצייר	לְצַיֵיר	letsaˈjeiːʁ	lṣyyr
+615	Verbs	to feed	لتغذية	litaghdhia	להאכיל	להַאֲכִיל	lhaʔaˈχiːl	lhʾkyl
+616	Verbs	to catch	للقبض على	lilqabd ealaa	לתפוס	לִתָפֹּוֹס	litaːppoːˈvːoːs	ltpws
+617	Verbs	to throw	لرمي	larumi	לזרוק	לִזָרֹוֹק	lizaːʁoːˈvːoːk	lzrwq
+618	Verbs	to clean	لتنظيف	ltanzif	לנקות	לִנָקוֹת	linaːˈkoːt	lnqwt
+619	Verbs	to find	للعثور على	lileuthur ealaa	למצוא	לָמָצֹוֹא	laːmaːtsoːˈvːoː	lmṣwʾ
+620	Verbs	to fall	في الانخفاض	fi alainkhifad	ליפול	לִיפֹּוֹל	liːpoːˈvːoːl	lypwl
+621	Verbs	to stumble	تتعثر	tataeathar	למעוד	לִמְעֹוֹד	limʔoːˈvːoːd	lmʿwd
+622	Verbs	to fall in love	الوقوع في الحب	alwuque fi alhabi	להתאהב	לְהִתָאַהֵב	lehitaːʔaˈheːv	lhtʾhb
+623	Verbs	to push	لدفع	lidafe	לדחוף	לִדְחֹוֹף	lidχoːˈvːoːf	ldḥwp
+624	Verbs	to pull	لسحب	lisahb	למשוך	לִמְשֹוֹךְ	limʃoːˈvːoːχ	lmšwk
+625	Verbs	to carry	ليحمل	liahmil	לסחוב	לִסָחֹוֹב	lisaːχoːˈvːoːv	lsḥwb
+626	Verbs	to break	خرق	kharq	לשבור	לִשְבֹּוֹר	liʃboːˈvːoːʁ	lšbwr
+627	Verbs	to wear	لارتداء	liairtida'	ללבוש	לִלְבֹּוֹש	lilboːˈvːoːʃ	llbwš
+628	Verbs	to hang	لشنق	lshnq	לתלות	לִתָלוֹת	litaːˈloːt	ltlwt
+629	Verbs	to shake	أن يهز	an yahz	לנער	לְנֹעַר	lenoːˈʔaʁ	lnʿr
+630	Verbs	to sign	التوقيع	altawqie	לחתום	לַחְתֹם	laχˈtoːm	lḥtwm
+631	Verbs	to beat	ليهزم	liuhzim	להביס	לְהַבִּיֵס	lehabbiˈjeːs	lhbys
+632	Verbs	to lift	لرفع	lirafe	להרים	לְהָרִים	lehaːˈʁiːm	lhrym
+633	Adjectives	long	طويل	tawil	ארוך	אָרֹוֹךְ	ʔaːʁoːˈvːoːχ	ʾrwk
+634	Adjectives	short 	القصير والطويل	alqasir waltawil	קצר	קֹצֹר	koːˈtsoːʁ	qṣr
+635	Adjectives	tall	طويل	tawil	גבוה	גָבֹוֹה	gaːvoːˈvːoːh	gbwh
+636	Adjectives	short (vs tall)	باختصار (مقابل طويل القامة)	biaikhtisar (mqabl tawil alqama)	קצר║(לעומת║גבוה)	קָצֹר║(לָעֻמַת║גְבֹּוֹה)	kaːˈtsoːʁ║(laːʔuˈmat║geboːˈvːoːh)	qṣr (lʿwmt gbwh)
+637	Adjectives	wide	واسع	wasie	רחב	רָחַב	ʁaːˈχav	rḥb
+638	Adjectives	narrow	ضيق	dayq	צר	צַר	ˈtsaʁ	ṣr
+639	Adjectives	big - large	كبير - كبير	kabir - kabir	גדול║-║גדול	גָדֹל║-║גָדֹוֹל	gaːˈdoːl║-║gaːdoːˈvːoːl	gdwl - gdwl
+640	Adjectives	small - little	الصغيرة - قليلا	alsaghirat - qalilanaan	קטנטן	קַטַנְטֵן	katanˈteːn	qṭnṭn
+641	Adjectives	slow	بطيء	bati'	איטי	אִטִי	ʔiˈtiː	ʾyṭy
+642	Adjectives	fast	بسرعة	bsre	מהר	מַהַר	ˈmahaʁ	mhr
+643	Adjectives	hot	حار	har	חם	חַם	ˈχam	ḥm
+644	Adjectives	cold	برد	bard	קר	קֹר	ˈkoːʁ	qr
+645	Adjectives	warm	دافئ	dafi	חם	חֹם	ˈχoːm	ḥm
+646	Adjectives	cool	بارد	barid	מגניב	מַגְנִיֵב	magniˈjeːv	mgnyb
+647	Adjectives	new	جديد	jadid	חדש	חֹדָש	χoːˈdaːʃ	ḥdš
+648	Adjectives	old - new	قديم - جديد	qadim - jadid	ישן║חדש	יָשָן║חֹדֹש	jaːˈʃaːn║χoːˈdoːʃ	yšn ḥdš
+649	Adjectives	young	شاب	shab	צעיר	צָעִיר	tsaːˈʔiːʁ	ṣʿyr
+650	Adjectives	young and old	شاب و مسن	shabun w misan	צעיר║וזקן	צְעִיר║וֹזְקֶן	tseˈʔiːʁ║oːzeˈken	ṣʿyr wzqn
+651	Adjectives	good	جيد	jayid	טוב	טֹוֹב	toːˈvːoːv	ṭwb
+652	Adjectives	bad	سيئ	syy	רע	רַעַ	ˈʁaaʔ	rʿ
+653	Adjectives	wet	مبلل	mubalal	רטוב	רָטֹוֹב	ʁaːtoːˈvːoːv	rṭwb
+654	Adjectives	dry	جاف	jaf	יבש	יָבֹש	jaːˈvoːʃ	ybš
+655	Adjectives	sick	مريض	marid	חולה	חוֹלָה	χoːˈlaːh	ḥwlh
+656	Adjectives	healthy	صحي	sahi	בריא	בָּרִיָא	baːʁiˈjaː	bryʾ
+657	Adjectives	loud	صوت عال	sawt eal	רם	רָם	ˈʁaːm	rm
+658	Adjectives	quiet	هادئ	hadi	שקט	שֶׁקֵט	ʃeˈkeːt	šqṭ
+659	Adjectives	happy	سعيد	saeid	שמח	שָׂמֵחַ	saːˈmeːaχ	šmḥ
+660	Adjectives	sad	حزين	hazin	עצוב	עִצֻוֹב	ʔitsuˈvːoːv	ʿṣwb
+661	Adjectives	beautiful	جميل	jamil	יפה	יָפֹה	jaːˈfoːh	yph
+662	Adjectives	ugly	قبيح	qabih	מכוער	מְכֻוַעֵר	meχuvaˈʔeːʁ	mkwʿr
+663	Adjectives	cute	ضريف	darif	חמוד	חָמֻוֹד	χaːmuˈvːoːd	ḥmwd
+664	Adjectives	deaf	أصم	asam	חירש	חִירֵש	χiːˈʁeːʃ	ḥyrš
+665	Adjectives	blind	بليند	biliand	עיוור	עִוֵּוֹר	ʔivveːˈvːoːʁ	ʿywwr
+666	Adjectives	nice	لطيف	latif	נחמד	נֶחְמֹד	neχˈmoːd	nḥmd
+667	Adjectives	mean	تعني	taeni	מתכוון	מִתכֻוָּן	mitχuvˈvaːn	mtkwwn
+668	Adjectives	rich	غني	ghaniun	עשיר	עָשִיר	ʔaːˈʃiːʁ	ʿšyr
+669	Adjectives	poor	فقير	faqir	עני	עִנִי	ʔiˈniː	ʿny
+670	Adjectives	thick	سميك	samik	עבה	עָבָה	ʔaːˈvaːh	ʿbh
+671	Adjectives	thin	نحيف	nahif	דק	דַק	ˈdak	dq
+672	Adjectives	expensive	مكلفة	mukalifa	יקר	יִקַר	jiˈkaʁ	yqr
+673	Adjectives	cheap	رخيص	rakhis	זול	זוֹל	ˈzoːl	zwl
+674	Adjectives	flat	الشقة	alshuqa	שטוח	שָטוֹחַ	ʃaːˈtoːaχ	šṭwḥ
+675	Adjectives	curved	منحن	manhan	מעוקל	מעֻקֵל	mʔuˈkeːl	mʿwql
+676	Adjectives	male	ذكر	dhakar	זכר	זָכָר	zaːˈχaːʁ	zkr
+677	Adjectives	female	أنثى	anthaa	נקבה	נָקֵבָה	naːkeːˈvaːh	nqbh
+678	Adjectives	tight	ضيق	dayq	חזק	חֻזֵק	χuˈzeːk	ḥzq
+679	Adjectives	loose	فضفاض	fadafad	רופף	רֻוֹפֵף	ʁuvːoːˈfeːf	rwpp
+680	Adjectives	high	عالي	eali	גבוה	גָבֹוֹהַ	gaːvoːvːoːˈha	gbwh
+681	Adjectives	low	منخفض	munkhafid	נמוך	נָמוֹךְ	naːˈmoːχ	nmwk
+682	Adjectives	soft	ناعم	naem	רך	רַךְ	ˈʁaχ	rk
+683	Adjectives	hard	شاق	shaq	קשה	קָשָה	kaːˈʃaːh	qšh
+684	Adjectives	deep	عميق	eamiq	עמוק	עִמֹוֹק	ʔimoːˈvːoːk	ʿmwq
+685	Adjectives	shallow	ضحل	dahal	רדוד	רַדוֹד	ʁaˈdoːd	rdwd
+686	Adjectives	clean	نظيف	nazif	נקי	נִקִי	niˈkiː	nqy
+687	Adjectives	dirty	قذر	qadhar	מלוכלך	מלֻוכָּלָךְ	mluvkaːˈlaːχ	mlwklk
+688	Adjectives	strong	قوي	qawiun	חזק	חַזֵק	χaˈzeːk	ḥzq
+689	Adjectives	weak	ضعيف	daeif	חלש	חַלָש	χaˈlaːʃ	ḥlš
+690	Adjectives	dead	في ذمة الله تعالى	fi dhimat allah taealaa	מת	מֵת	ˈmeːt	mt
+691	Adjectives	alive	على قيد الحياة	ealaa qayd alhaya	בחיים	בְּחַיִים	beχaˈjiːm	bḥyym
+692	Adjectives	heavy	ثقيل	thaqil	כבד	כָּבַד	kaːˈvad	kbd
+693	Adjectives	lightweight	وزن خفيف	wazn khafif	קל	קַל	ˈkal	ql
+694	Adjectives	dark	داكن	dakn	אפל	אָפֶל	ˈʔaːfel	ʾpl
+695	Adjectives	light color	لون فاتح	lawn fatih	צבע║בהיר	צַבַעַ║בַּהִיר	tsaˈvaaʔ║baˈhiːʁ	ṣbʿ bhyr
+696	Adjectives	nuclear	نووي	nawawiun	גרעיני	גַרְעִינִי	gaʁʔiːˈniː	grʿyny
+697	Adjectives	famous	مشهور	mashhur	מפורסם	מִפֻּרְסָם	mippuʁˈsaːm	mpwrsm
+698	Pronouns	I	أنا	ana	אני	אֲנִי	ʔaˈniː	ʾny
+699	Pronouns	you	أنت	ant	אתה	אִתָה	ʔiˈtaːh	ʾth
+700	Pronouns	he	هو	hu	הוא	הוא	hˈv	hwʾ
+701	Pronouns	she	هي	hi	היא	הִיא	ˈhiː	hyʾ
+702	Pronouns	it	هو	hu	זה	זֶה	ˈzeh	zh
+703	Pronouns	we	نحن	nahn	אנחנו	אֲנַחְנוּ	ʔaˈnaχnuː	ʾnḥnw
+704	Pronouns	all of you	كلكم	klkum	כולכם	כֻּוָלכם	kuvaːlˈχm	kwlkm
+705	Pronouns	they	أنهم	anahum	הוא	הוָאַ	hvaːˈʔa	hwʾ
+706	Question Core Words	What?	ماذا؟	madha?	מה?	מָה?	ˈmaːh?	mh?
+707	Question Core Words	Which?	التي؟	alty?	איזה?	אֵיזֶה?	ʔeiːˈzeh?	ʾyzh?
+708	Question Core Words	Where?	أين؟	ayn?	איפה?	אֵיפֹה?	ʔeiːˈfoːh?	ʾyph?
+709	Question Core Words	Who?	من الذى؟	min aldhaa؟	מי?	מִי?	ˈmiː?	my?
+710	Question Core Words	Why?	لماذا ا؟	limadha a?	למה?	לָמָה?	Laːˈmaːh?	lmh?
+711	Question Core Words	How?	ماذا؟	madha?	איך?	אֵיֵךְ?	ʔeːˈjeːχ?	ʾyk?
+712	Question Core Words	How Much?	كم الثمن؟	kam althamana?	כמה?	כָּמָה?	Kaːˈmaːh?	kmh?
+713	Question Core Words	How Many?	كم العدد؟	kam aleidad?	כמה?	כָּמָה?	Kaːˈmaːh?	kmh?
