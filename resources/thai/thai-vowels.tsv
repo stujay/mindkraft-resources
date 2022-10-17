@@ -1,0 +1,50 @@
+vowel_frame	vowel_solo	name	name_paiboon	name_rtgs	natural	sound_ipa	sound_rtgs	variant	eng_rp_approx	type	height	row_index	column_index	front_line
+◌ะ  ◌  ◌ั◌	อะ	สระอะ	à	Sara a	TRUE	a	a	u	u in "nut"	simple	high	1	1	TRUE
+◌ิ  ◌ิ◌	อิ	สระอิ	ì	Sara i	TRUE	i	i		y in "greedy"	simple	high	3	1	TRUE
+◌ึ  ◌ึ◌	อึ	สระอึ	ʉ̀	Sara ue	TRUE	ɯ	ue	eu, u, uh	Can be approximated by pronouncing the oo in "look" with unrounded lips   German: the ü in Mücke	simple	high	2	1	TRUE
+◌ุ  ◌ุ◌	อุ	สระอุ	ù	Sara u	TRUE	u	u	oo	oo in "shoot"	simple	high	5	1	TRUE
+เ◌ะ  เ◌็◌	เอะ	สระเอะ	è	Sara e	TRUE	e	e		e in "neck"	simple	low	3	1	TRUE
+แ◌ะ  แ◌็◌	แอะ	สระแอะ	ɛ̀	Sara ae	TRUE	ɛ	ae	aeh, a	a in "at"	simple	low	4	1	TRUE
+โ◌ะ  ◌◌	โอะ	สระโอะ	ò	Sara o	TRUE	o	o		oa in "boat"	simple	low	5	1	TRUE
+เ◌าะ  ◌็อ◌	เอาะ	สระเอาะ	ɔ̀	Sara o	TRUE	ɔ	o	aw	o in "not"	simple	low	1	1	TRUE
+เ◌อะ	เออะ	สระเออะ	ə̀	Sara oe	TRUE	ɤʔ	oe	eu	e in "the"	simple	low	2	1	TRUE
+เ◌ียะ	เอียะ	สระเอียะ	ìa	Sara ia	FALSE	iaʔ	ia	iah, ear, ie	ea in "ear" with glottal stop	diphthong	low	3	1	FALSE
+เ◌ือะ	เอือะ	สระเอือะ	ʉ̀a	Sara uea	FALSE	ɯaʔ	uea	eua, ua	ure in "pure"	diphthong	high	2	1	FALSE
+◌ัวะ	อัวะ	สระอัวะ	ùa	Sara ua	FALSE	uaʔ	ua		ewe in "sewer"	diphthong	high	5	1	FALSE
+◌ิว	อิว	สระอิ + ว	iu	Sara i + wo waen	TRUE	iu; iw	io	iu, ew	ew in "few"	phonetic diphthong	low	2	1	FALSE
+เ◌็ว	เอ็ว	สระเอะ + ว	eo	Sara e + wo waen	TRUE	eu; ew	eo	eu, ew		phonetic diphthong	low	3	1	FALSE
+เ◌า	เอา	สระเอา	ao	Sara ao[e]	TRUE	au; aw	ao	aw, au, ow	ow in "cow"	phonetic diphthong	high	5	4	TRUE
+◌ัย	อัย	สระอะ + ย	ai	Sara a + yo yak	FALSE	ai; aj	ai	ay	i in "hi"	phonetic diphthong	high	1	1	FALSE
+ใ◌	ใอ	สระใอ	ai	Sara ai	TRUE	ai; aj	ai	ay	i in "hi"	diphthong	high	2	4	TRUE
+ไ◌	ไอ	สระไอ	ai	Sara ai	TRUE	ai; aj	ai	ay	i in "hi"	diphthong	high	3	4	TRUE
+ไ◌ย	ไอย	สระไอย	ai	Sara ai	FALSE	ai; aj	ai	ay	i in "hi"	diphthong	high	3	4	FALSE
+◌็อย	อ็อย	สระเอาะ + ย	ɔi	Sara o + yo yak	FALSE	ɔi; ɔj	oi	oy		diphthong	low	1		FALSE
+◌ุย	อุย	สระอุ + ย	ui	Sara u + yo yak	TRUE	ui; uj	ui	uy		diphthong	high	5		FALSE
+ำ	อำ	สระอำ	am	Sara am	TRUE	am	am	um	um in "sum"	extra	high	1	5	TRUE
+ฤ	ฤ	ฤ	rí	Rue	FALSE	rɯ ri rɤː	rue, ri, roe	ru, ri	rew in "grew", ry in "angry"	extra	high	2		FALSE
+ฦ	ฦ	ฦ	lʉʉ	Lue	TRUE	lɯ	lue	lu, li	lew in "blew"	extra	high	2		FALSE
+◌า  ◌า◌	อา	สระอา	aa	Sara a	TRUE	aː	a	ah, ar, aa	a in "father"	simple	high	1	2	TRUE
+◌ี  ◌ี◌	อี	สระอี	ii	Sara i	TRUE	iː	i	ee, ii, y	ee in "see"	simple	high	3	2	TRUE
+◌ือ  ◌ื◌	อือ	สระอือ	ʉʉ	Sara ue	TRUE	ɯː	ue	eu, u	Can be approximated by pronouncing the oo in RP "goose" with unrounded lips	simple	high	2	2	TRUE
+◌ู  ◌ู◌	อู	สระอู	uu	Sara u	TRUE	uː	u	oo, uu	oo in "too"	simple	high	5	2	TRUE
+เ◌  เ◌◌	เอ	สระเอ	ee	Sara e	TRUE	eː	e	ay, a, ae, ai, ei	a in "lame"	simple	low	3	2	TRUE
+แ◌  แ◌◌	แอ	สระแอ	ɛɛ	Sara ae	TRUE	ɛː	ae	a	a in "ham"	simple	low	4	2	TRUE
+โ◌  โ◌◌	โอ	สระโอ	oo	Sara o	TRUE	oː	o	or, oh, ô	o in "go"	simple	low	5	2	TRUE
+◌อ  ◌อ◌ ◌◌[a] ◌็[b]	ออ	สระออ	ɔɔ	Sara o	TRUE	ɔː	o	or, aw	aw in "saw"	simple	low	1	2	TRUE
+เ◌อ  เ◌ิ◌  เ◌อ◌[c]	เออ	สระเออ	əə	Sara oe	TRUE	ɤː ɤ	oe	er, eu, ur	u in "burn"	simple	low	2	2	TRUE
+เ◌ีย  เ◌ีย◌	เอีย	สระเอีย	ia	Sara ia	TRUE	ia	ia	ear, ere, ie	ear in "ear"	diphthong	high	3	3	TRUE
+เ◌ือ  เ◌ือ◌	เอือ	สระเอือ	ʉa	Sara uea	TRUE	ɯa	uea	eua, ua, ue	ure in "pure"	diphthong	high	2	3	TRUE
+◌ัว  ◌ว◌	อัว	สระอัว	ua	Sara ua	TRUE	ua	ua	uar	ewe in "newer"	diphthong	high	5	3	TRUE
+เ◌ว	เอว	สระเอ + ว	eeo	Sara e + wo waen	TRUE	eːu; eːw	eo	eu, ew	ai + ow in "rainbow"	phonetic diphthong	low	3		FALSE
+แ◌ว	แอว	สระแอ + ว	ɛɛo	Sara ae + wo waen	TRUE	ɛːu; ɛːw	aeo	aew, eo	a in "ham" + ow in "low"	phonetic diphthong	low	4		FALSE
+◌าว	อาว	สระอา + ว	aao	Sara a + wo waen	TRUE	aːu	ao	au	ow in "now"	phonetic diphthong	high	1		FALSE
+เ◌ียว	เอียว	สระเอีย + ว	iao	Sara ia + wo waen	TRUE	iau; iaw	iao	eaw, iew, iow	io in "trio"	phonetic diphthong	high	3		FALSE
+◌าย	อาย	สระอา + ย	aai	Sara a + yo yak	TRUE	aːi; aːj	ai	aai, aay, ay	ye in "bye"	phonetic diphthong	high	1		FALSE
+◌อย	ออย	สระออ + ย	ɔɔi	Sara o + yo yak	TRUE	ɔːi; ɔːj	oi	oy	oy in "boy"	phonetic diphthong	low	1		FALSE
+โ◌ย	โอย	สระโอ + ย	ooi	Sara o + yo yak	TRUE	oːi; oːj	oi	oy		phonetic diphthong	low	5		FALSE
+เ◌ย	เอย	สระเออ + ย	əəi	Sara oe + yo yak	TRUE	ɤːi; ɤːj	oei	oey	u in "burn" + y in "boy"	phonetic diphthong	low	2		FALSE
+◌วย	อวย	สระอัว + ย	uai	Sara ua + yo yak	TRUE	uai; uaj	uai	uay	uoy in "buoy"	phonetic diphthong	high	5		FALSE
+เ◌ือย	เอือย	สระเอือ + ย	ʉai	Sara uea + yo yak	TRUE	ɯai; ɯaj	ueai	uai		phonetic diphthong	high	2		FALSE
+ฤๅ	ฤๅ	ฤๅ	rʉʉ	Rue	FALSE	rɯː	rue	ruu		extra	high	2		FALSE
+ฦๅ	ฦๅ	ฦๅ	lʉʉ	Lue	FALSE	lɯː	lue	lu		extra	high	2		FALSE
+					FALSE									
