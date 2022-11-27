@@ -42,7 +42,8 @@ Plug 'mbbill/undotree'
 Plug 'lyuts/vim-rtags'
 Plug 'vim-utils/vim-man'
 Plug 'tomtom/tcomment_vim'
-Plug 'neoclide/coc.nvim', {'do': { -> coc#util#install()}}
+" Plug 'neoclide/coc.nvim', {'do': { -> coc#util#install()}}
+Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
 Plug 'rodrigore/coc-tailwind-intellisense', {'do': 'npm install'}
 
 " NERDTree Options
