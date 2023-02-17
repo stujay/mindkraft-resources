@@ -20,7 +20,7 @@ mkdir -p "$root_dir/src/routes/$1"
 touch "$root_dir/src/routes/$1/+page.svelte"
 touch "$root_dir/src/routes/$1/+page.server.ts"
 echo "<h1>$1</h1>" > "$root_dir/src/routes/$1/+page.svelte"
-echo "import type { Request } from '@sveltejs/kit';\n\nexport async function get(request: Request) {\n  return {\n    body: 'Hello from the $1 API endpoint!',\n  };\n}" > "$root_dir/src/routes/$1/+page.server.ts"
+echo "export function load (){;\n\n}"
 
 # Update the SvelteKit configuration to add the new route
 sed -i "s|\\],|\\],\n  { path: '/$1', src: './routes/$1', init: () => ({}) },|" "$root_dir/svelte.config.js"
