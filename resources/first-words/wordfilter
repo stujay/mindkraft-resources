@@ -1,0 +1,65 @@
+#!/bin/bash
+
+# check if the input file name and column headings are provided
+if [ $# -lt 2 ]; then
+  echo "Usage: $0 <input_file> <column_heading1> [<column_heading2> ...]"
+  exit 1
+fi
+
+# assign input parameters to variables
+input_file=$1
+shift
+column_headings=$@
+
+# determine the indices of the desired columns
+indices=""
+while read line; do
+  # split the line into columns using tab as the separator
+  IFS=$'\t' read -r -a cols <<< "$line"
+
+  # loop through the column headings and find their indices
+  for heading in $column_headings; do
+    index=0
+    for col in "${cols[@]}"; do
+      if [ "$col" == "$heading" ]; then
+        indices="$indices $index"
+        break
+      fi
+      index=$((index + 1))
+    done
+  done
+
+  # exit the loop if the indices are found
+  break
+done < $input_file
+
+# check if gawk is available and use it if it's available
+if command -v gawk &>/dev/null; then
+  gawk -F'\t' -v indices="$indices" 'BEGIN {
+    split(indices, idx_array, " ")
+    print_str = ""
+    for (i in idx_array) {
+      if (i > 1) {
+        print_str = sprintf("%s%s\$%d", print_str, OFS, idx_array[i])
+      } else {
+        print_str = sprintf("\$%d", idx_array[i])
+      }
+    }
+  } {
+    print sprintf("%s\n", print_str)
+  }' $input_file 
+else
+  awk -F'\t' -v indices="$indices" 'BEGIN {
+    split(indices, idx_array, " ")
+    print_str = ""
+    for (i in idx_array) {
+      if (i > 1) {
+        print_str = sprintf("%s%s\$%d", print_str, OFS, idx_array[i])
+      } else {
+        print_str = sprintf("\$%d", idx_array[i])
+      }
+    }
+  } {
+    print sprintf("%s\n", print_str)
+  }' $input_file 
+fi
