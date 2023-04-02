@@ -1,0 +1,30 @@
+#!/bin/bash
+
+# Get the current working directory
+root_dir=$(pwd)
+
+# Check if the root directory is a SvelteKit project
+if [ ! -f "$root_dir/package.json" ] || [ ! -d "$root_dir/src" ]; then
+  echo "Error: This is not a SvelteKit project."
+  exit 1
+fi
+
+# Check if the user entered a route name
+if [ -z "$1" ]; then
+  echo "Error: Please specify a route name."
+  exit 1
+fi
+
+# Create a new SvelteKit page component and server API endpoint for the route
+mkdir -p "$root_dir/src/routes/$1"
+touch "$root_dir/src/routes/$1/+page.svelte"
+touch "$root_dir/src/routes/$1/+page.server.ts"
+echo "<h1>$1</h1>" > "$root_dir/src/routes/$1/+page.svelte"
+echo "export function load (){;\n\n}"
+
+# Update the SvelteKit configuration to add the new route
+sed -i "s|\\],|\\],\n  { path: '/$1', src: './routes/$1', init: () => ({}) },|" "$root_dir/svelte.config.js"
+
+# Print a success message
+echo "Route '$1' has been added."
+
