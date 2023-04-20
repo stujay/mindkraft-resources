@@ -1,51 +1,27 @@
-" set up by Stu Jay Raj
-set nocompatible              " be iMproved, required
-set clipboard+=unnamedplus
-set exrc
-"set guicursor=
-set nu
-set nohlsearch
-set hidden
-set noerrorbells
-set smartindent
-set undodir=~/.vim/undodir
-set undofile
-set incsearch
-set termguicolors
-set scrolloff=8
-set signcolumn=yes
-set colorcolumn=80
-" set wrap
-" set linebreak
-set nolist
-nnoremap cc :call system('pbcopy',getreg(0))<CR>
-vnoremap <C-c> call system('pbcopy',getreg(0))
-set clipboard+=unnamedplus
-colo desert
-syntax on
-filetype plugin indent on
 call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
-Plugin 'rust-lang/rust.vim'
-Plug 'SirVer/ultisnips'
-
-nnoremap <leader>gl :YcmCompleter GoToDeclaration<CR>
-nnoremap <leader>gf :YcmCompleter GoToDefinition<CR>
-nnoremap <leader>gg :YcmCompleter GoToDefinitionElseDeclaration<CR>
+Plug 'rust-lang/rust.vim'
+" Plug 'SirVer/ultisnips'
 " Install Omni for C Sharp 
 Plug 'OmniSharp/omnisharp-vim'
+" This gives us the gruvbox theme
 Plug 'morhetz/gruvbox'
+" Use ripgrep in vim
 Plug 'jremmen/vim-ripgrep'
+" vim typescript support
 Plug 'leafgarland/typescript-vim'
 Plug 'mbbill/undotree'
+" vim-rtags - used to create tags for c++ code
 Plug 'lyuts/vim-rtags'
-Plug 'vim-utils/vim-man'
+" use gcc to comment in normal mode - single line, or visual mode for blocks -
+" this will toggle too
 Plug 'tomtom/tcomment_vim'
 " Plug 'neoclide/coc.nvim', {'do': { -> coc#util#install()}}
 Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
 Plug 'rodrigore/coc-tailwind-intellisense', {'do': 'npm install'}
 
+let g:coc_disable_startup_warning = 1
 " NERDTree Options
 autocmd VimEnter * NERDTree
 autocmd VimEnter * wincmd p
@@ -66,17 +42,10 @@ Plug 'tmhedberg/matchit'
 
 Plug 'tpope/vim-fugitive'
 
-" Git plugin not hosted on GitHub
-Plug 'git://git.wincent.com/command-t.git'
-" git repos on your local machine (i.e. when working on your own plugin)
-" Plugin 'file:///home/gmarik/path/to/plugin'
-" The sparkup vim script is in a subdirectory of this repo called vim.
-" Pass the path to set the runtimepath properly.
+" Temporary pulling command T to check for classes
+" Plug 'git://git.wincent.com/command-t.git'
 
 Plug 'rstacruz/sparkup', {'rtp': 'vim/'}
-" Install L9 and avoid a Naming conflict if you've already installed a
-" different version somewhere else.
-" Plugin 'ascenator/L9', {'name': 'newL9'}
 
 Plug 'godlygeek/tabular'
 
@@ -108,17 +77,11 @@ let g:user_emmet_settings = {
 Plug 'epilande/vim-es2015-snippets'
 
 " React code snippets
-Plug 'epilande/vim-react-snippets'
+"Plug 'epilande/vim-react-snippets'
 
 Plug 'w0rp/ale'
 " Of course, Ale is only the glue between Vim and the actual syntax checker that runs under the hood, which in this case would be ESLint.
 
-"Here's how to install ESLint:
-" $ yarn add --dev eslint babel-eslint eslint-plugin-react
-"and then configure it by runnning:
-
-"$ eslint --init
-"This will create an .eslintrc file, which you should check in to version control so that everybody is using the same style guide. You may want to have a chat with the other people working on your project, to make sure everybody agrees on which rules you¿ll enforce.
 
 "Ale works out of the box with ESLint, so there¿s no further setup needed. However, I found Ale more pleasant to use with a couple tweaks in my vimrc:
 "
@@ -126,9 +89,6 @@ Plug 'w0rp/ale'
 "let g:ale_sign_warning = '.'
 "let g:ale_lint_on_enter = 0 " Less distracting when opening a new file
 "
-"For Prettier - 
-"yarn add --dev prettier eslint-config-prettier eslint-plugin-prettier
-Plug 'skywind3000/asyncrun.vim'
 " Now, you should be able to run eslint --fix src/App.js, and src/App.js will be reformatted automatically.
 " prettier command for coc to prettify on each save
 " command! -nargs=0 Prettier :CocCommand prettier.formatFile
@@ -145,11 +105,9 @@ Plug 'alvan/vim-closetag'
 " filenames like *.xml, *.html, *.xhtml, ...
 " These are the file extensions where this plugin is enabled.
 let g:closetag_filenames = '*.html,*.xhtml,*.phtml'
-
 " filenames like *.xml, *.xhtml, ...
 " This will make the list of non-closing tags self-closing in the specified files.
 let g:closetag_xhtml_filenames = '*.xhtml,*.jsx'
-
 " filetypes like xml, html, xhtml, ...
 " These are the file types where this plugin is enabled.
 "
@@ -191,14 +149,6 @@ Plug 'mustache/vim-mustache-handlebars'
 Plug 'sheerun/vim-polyglot'
 
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
-" To ignore plugin indent changes, instead use:
-"filetype plugin on
-"
-" Brief help
-" :PluginList	   - lists configured plugins
-" :PluginInstall	- installs plugins; append `!` to update or just :PluginUpdate
-" :PluginSearch foo - searches for foo; append `!` to refresh local cache
-" :PluginClean	  - confirms removal of unused plugins; append `!` to auto-approve removal
 
 " LaTeX plugin
 Plug 'lervag/vimtex'
@@ -212,6 +162,7 @@ autocmd Filetype tex setl updatetime=1
 " Use mac's preview as the pdf viewr
 let g:livepreview_previewer = 'open -a Preview' 
 nmap <F12> :LLPStartPreview<cr>
+" Need both of the fzf below - don't delete
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
@@ -229,6 +180,40 @@ call plug#end()
 
 
 " Put your non-Plugin stuff after this line
+" set up by Stu Jay Raj
+set nocompatible              " be iMproved, required
+set clipboard+=unnamedplus
+set exrc
+"set guicursor=
+set nu
+set nohlsearch
+set hidden
+set noerrorbells
+set smartindent
+set undodir=~/.vim/undodir
+set undofile
+set incsearch
+set termguicolors
+set scrolloff=8
+set signcolumn=yes
+set colorcolumn=80
+" set wrap
+" set linebreak
+set nolist
+if match(system('echo $OSTYPE'), 'darwin') >= 0
+  " Mac OS X
+  nnoremap cc :call system('pbcopy',getreg('"'))<CR>
+  vnoremap <C-c> call system('pbcopy',getreg('"'))<CR>
+else
+  " Linux or other non-Mac OS
+  nnoremap cc :call system('xclip -selection clipboard', getreg('"'))<CR>
+  vnoremap <C-c> call system('xclip -selection clipboard', getreg('"'))<CR>
+endif
+
+set clipboard+=unnamedplus
+colo desert
+syntax on
+filetype plugin indent on
 tnoremap jj  <C-\><C-n>
 inoremap jj <esc>
 set ignorecase
@@ -489,8 +474,8 @@ let g:vimtex_quickfix_latexlog = {
 autocmd FileType tex nmap <buffer> <C-T> :!xelatex %<CR>
 autocmd FileType tex nmap <buffer> T :!open -a Skim %:r.pdf<CR><CR>
 if has("nvim")
-	let g:python_host_prog = $HOME . "/.venv/bin/python"
-	let g:python3_host_prog = $HOME . "/.venv/bin/python3"
+	let g:python_host_prog = $HOME . "/.pyenv/versions/2.7.18/bin/python2"
+	let g:python3_host_prog = $HOME . "/.pyenv/versions/3.10.10/bin/python3"
 endif
 " Allow putting a new line in at cursor without entering insert mode -
 " shift-enter
@@ -646,4 +631,4 @@ function! s:ZoomToggle() abort
     endif
 endfunction
 command! ZoomToggle call s:ZoomToggle()
-nnoremap <silent> <C-A> :ZoomToggle<CR>
+
