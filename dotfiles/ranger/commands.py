@@ -228,3 +228,15 @@ class fzf_select(Command):
                 self.fm.cd(fzf_file)
             else:
                 self.fm.select_file(fzf_file)
+
+from ranger.api.commands import Command
+
+class SudoEdit(Command):
+    def execute(self):
+        if self.arg(1):
+            self.fm.execute_command("sudo -E -s vim " + self.arg(1))
+        else:
+            self.fm.notify("Error: specify a file to edit with sudo", bad=True)
+
+    def tab(self, tabnum):
+        return self._tab_directory_content()

@@ -1,6 +1,7 @@
 call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'mattn/calendar-vim'  
 Plug 'rust-lang/rust.vim'
 " Plug 'SirVer/ultisnips'
 " Install Omni for C Sharp 
@@ -49,7 +50,11 @@ Plug 'rstacruz/sparkup', {'rtp': 'vim/'}
 
 Plug 'godlygeek/tabular'
 
-Plug 'gabrielelana/vim-markdown'
+" Plug 'gabrielelana/vim-markdown'
+Plug 'godlygeek/tabular'
+Plug 'preservim/vim-markdown'
+
+let g:vim_markdown_folding_disabled = 1
 
 Plug 'vim-pandoc/vim-pandoc'
 
@@ -133,35 +138,29 @@ let g:closetag_close_shortcut = '<leader>>'
 " All of your Plugins must be added before the following line
 
 Plug 'vimwiki/vimwiki'
+
+autocmd FileType vimwiki setlocal foldlevel=0
+autocmd FileType vimwiki setlocal filetype=markdown
+autocmd FileType markdown setlocal syntax=markdown.vim
+let g:vimwiki_use_calendar = 1
 let g:vimwiki_list = [{'path': '~/$USER-wiki/',
                        \ 'syntax': 'markdown', 'ext': '.md',
 					   \'path_html': '~/$USER-wiki-html/', 
 					   \ 'custom_wiki2html': '~/dotfiles/stubin/wiki2html.sh'}]
 
-autocmd FileType vimwiki call SetMarkdownOptions()
-
-function! SetMarkdownOptions()
-	call VimwikiSet('syntax', 'markdown')
-	call VimwikiSet('custom_wiki2html', '~/dotfiles/stubin/wiki2html.sh')
-endfunction
-
+" autocmd FileType vimwiki call SetMarkdownOptions()
+let g:vimwiki_auto_folding = 0
+let g:vimwiki_global_ext = 0
+" function! SetMarkdownOptions()
+" 	call VimwikiSet('syntax', 'markdown')
+" 	call VimwikiSet('custom_wiki2html', '~/dotfiles/stubin/wiki2html.sh')
+" endfunction
+"
 Plug 'mustache/vim-mustache-handlebars'
 Plug 'sheerun/vim-polyglot'
 
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 
-" LaTeX plugin
-Plug 'lervag/vimtex'
-" see :h vundle for more details or wiki for FAQ
-" Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
-Plug 'xuhdev/vim-latex-live-preview'
-
-Plug 'donRaphaco/neotex', { 'for': 'tex' }
-let g:tex_flavor = 'latex'
-autocmd Filetype tex setl updatetime=1
-" Use mac's preview as the pdf viewr
-let g:livepreview_previewer = 'open -a Preview' 
-nmap <F12> :LLPStartPreview<cr>
 " Need both of the fzf below - don't delete
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
@@ -403,80 +402,6 @@ autocmd vimenter * colorscheme gruvbox
 " -----------------------------------------------------------------------------
 "  VIMTEX OPTIONS
 "  ----------------------------------------------------------------------------
-if has('unix')
-	if has('mac')
-		let g:vimtex_view_method = "skim"
-		let g:vimtex_view_general_viewer
-					\ = '/Applications/Skim.app/Contents/SharedSupport/displayline'
-		let g:vimtex_view_general_options = '-r @line @pdf @tex'
-
-		" This adds a callback hook that updates Skim after compilation
-		let g:vimtex_compiler_callback_hooks = ['UpdateSkim']
-		function! UpdateSkim(status)
-			if !a:status | return | endif
-
-			let l:out = b:vimtex.out()
-			let l:tex = expand('%:p')
-			let l:cmd = [g:vimex_view_general_viewer, '-r']
-			if !empty(system('pgrep Skim'))
-				call extend(l:cmd, ['-g'])
-			endif
-			if has('nvim')
-				call jobstart(l:cmd + [line('.'), l:out, l:tex])
-			elseif has('job')
-				call job_start(l:cmd + [line('.'), l:out, l:tex])
-			else
-				call system(join(l:cmd + [line('.'), shellescape(l:out), shellescape(l:tex)], ' '))
-			endif
-		endfunction
-	else
-		let g:latex_view_general_viewer = "zathura"
-		let g:vimtex_view_method = "zathura"
-	endif
-elseif has('win32')
-
-endif
-
-let g:tex_flavor = "latex"
-let g:vimtex_quickfix_open_on_warning = 0
-let g:vimtex_quickfix_mode = 2
-if has('nvim')
-	let g:vimtex_compiler_progname = 'nvr'
-endif
-
-" One of the neosnippet plugins will conceal symbols in LaTeX which is
-" confusing
-let g:tex_conceal = ""
-
-" Can hide specifc warning messages from the quickfix window
-" Quickfix with Neovim is broken or something
-" https://github.com/lervag/vimtex/issues/773
-let g:vimtex_quickfix_latexlog = {
-			\ 'default' : 1,
-			\ 'fix_paths' : 0,
-			\ 'general' : 1,
-			\ 'references' : 1,
-			\ 'overfull' : 1,
-			\ 'underfull' : 1,
-			\ 'font' : 1,
-			\ 'packages' : {
-			\   'default' : 1,
-			\   'natbib' : 1,
-			\   'biblatex' : 1,
-			\   'babel' : 1,
-			\   'hyperref' : 1,
-			\   'scrreprt' : 1,
-			\   'fixltx2e' : 1,
-			\   'titlesec' : 1,
-			\ },
-			\}
-" Mappings for compiling Latex file
-autocmd FileType tex nmap <buffer> <C-T> :!xelatex %<CR>
-autocmd FileType tex nmap <buffer> T :!open -a Skim %:r.pdf<CR><CR>
-if has("nvim")
-	let g:python_host_prog = $HOME . "/.pyenv/versions/2.7.18/bin/python2"
-	let g:python3_host_prog = $HOME . "/.pyenv/versions/3.10.10/bin/python3"
-endif
 " Allow putting a new line in at cursor without entering insert mode -
 " shift-enter
 nmap <S-Enter> i<CR><Esc>
