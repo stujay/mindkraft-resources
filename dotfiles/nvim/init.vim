@@ -84,10 +84,18 @@ Plug 'epilande/vim-es2015-snippets'
 " React code snippets
 "Plug 'epilande/vim-react-snippets'
 
+
+Plug 'prettier/vim-prettier', { 'do': 'npm install' }
+
+" Configure Prettier
+let g:prettier#config#single_quote = 1   " Use single quotes for strings
+let g:prettier#autoformat = 1            " Autoformat on save
+let g:prettier#filetypes = ['javascript', 'typescript', 'css', 'scss', 'html', 'json', 'markdown']   " Enable Prettier for these filetypes
+
+" Map Prettier to a key binding
+nmap <leader>pf :call PrettierAsync()<CR>
 Plug 'w0rp/ale'
 " Of course, Ale is only the glue between Vim and the actual syntax checker that runs under the hood, which in this case would be ESLint.
-
-
 "Ale works out of the box with ESLint, so there¿s no further setup needed. However, I found Ale more pleasant to use with a couple tweaks in my vimrc:
 "
 "let g:ale_sign_error = '¿' " Less aggressive than the default '>>'
@@ -98,8 +106,6 @@ Plug 'w0rp/ale'
 " prettier command for coc to prettify on each save
 " command! -nargs=0 Prettier :CocCommand prettier.formatFile
 " post install (yarn install | npm install) then load plugin only for editing supported files
-Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
-
 Plug 'skywind3000/asyncrun.vim'
 
 " Then run command
