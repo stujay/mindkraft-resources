@@ -148,7 +148,7 @@ let g:vimwiki_list = [{'path': '~/$USER-wiki/',
 					   \'path_html': '~/$USER-wiki-html/', 
 					   \ 'custom_wiki2html': '~/mindkraft-resources/dotfiles/stubin/wiki2html.sh'}]
 
-let g:vimwiki_diary_header = "# Diary\n\nCreated on {{strftime('%Y %B %d, %A')}}\n\n"
+let g:vimwiki_diary_header = "# Diary\n\n" . "## " . strftime("%Y") . "\n\n" . "### " . strftime("%B") . "\n\n" . "- [" . strftime("%Y %B %d, %A") . "](%" . strftime("%Y-%m-%d") . ")\n" . "- [[../diary.md|Back to Diary]]\n" . "- [[../index.md|Back to Main Page]]\n"
 " autocmd FileType vimwiki call SetMarkdownOptions()
 let g:vimwiki_auto_folding = 0
 let g:vimwiki_global_ext = 0
