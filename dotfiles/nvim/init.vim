@@ -139,7 +139,6 @@ let g:closetag_close_shortcut = '<leader>>'
 
 Plug 'vimwiki/vimwiki'
 
-let g:vimwiki_html_header = ' <title>Stu Jay Raj Wiki</title> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins"> <style> body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif} body {font-size:16px;} .w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer} .w3-half img:hover{opacity:1} </style> '
 autocmd FileType vimwiki setlocal foldlevel=0
 autocmd FileType vimwiki setlocal filetype=markdown
 autocmd FileType markdown setlocal syntax=markdown.vim
@@ -147,7 +146,7 @@ let g:vimwiki_use_calendar = 1
 let g:vimwiki_list = [{'path': '~/$USER-wiki/',
                        \ 'syntax': 'markdown', 'ext': '.md',
 					   \'path_html': '~/$USER-wiki-html/', 
-					   \ 'custom_wiki2html': '~/dotfiles/stubin/wiki2html.sh'}]
+					   \ 'custom_wiki2html': '~/mindkraft-resources/dotfiles/stubin/wiki2html.sh'}]
 
 let g:vimwiki_diary_header = "# Diary\n\nCreated on {{strftime('%Y %B %d, %A')}}\n\n"
 " autocmd FileType vimwiki call SetMarkdownOptions()
