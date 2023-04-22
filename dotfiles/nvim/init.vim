@@ -564,3 +564,35 @@ function! s:ZoomToggle() abort
 endfunction
 command! ZoomToggle call s:ZoomToggle()
 
+function! InstallCocExtensions()
+  let s:extensions = [
+        \ 'coc-markdownlint',
+        \ 'coc-html',
+        \ 'coc-xml',
+        \ 'coc-svelte',
+        \ 'coc-sh',
+        \ 'coc-lua',
+        \ 'coc-omnisharp',
+        \ 'coc-clangd',
+        \ 'coc-rust-analyzer',
+        \ 'coc-tsserver',
+        \ 'coc-css',
+        \ 'coc-pyright',
+        \ 'coc-go',
+        \ 'coc-java',
+        \ 'coc-json',
+        \ 'coc-yaml',
+        \ 'coc-phpls',
+        \ 'coc-dart',
+        \ 'coc-kotlin',
+        \ 'coc-metals',
+        \ ]
+
+  for s:ext in s:extensions
+    if empty(glob('~/.config/coc/extensions/node_modules/' . s:ext))
+      call coc#util#install_extension(s:ext)
+    endif
+  endfor
+endfunction
+
+call InstallCocExtensions()
