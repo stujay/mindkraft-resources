@@ -21,7 +21,19 @@ Plug 'tomtom/tcomment_vim'
 " Plug 'neoclide/coc.nvim', {'do': { -> coc#util#install()}}
 Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
 Plug 'rodrigore/coc-tailwind-intellisense', {'do': 'npm install'}
+function! ToggleMarkdownLint()
+  let g:coc_markdownlint_disabled = get(g:, 'coc_markdownlint_disabled', 0)
+  if g:coc_markdownlint_disabled
+    let g:coc_markdownlint_disabled = 0
+    echom 'Markdownlint enabled'
+  else
+    let g:coc_markdownlint_disabled = 1
+    echom 'Markdownlint disabled'
+  endif
+  silent! CocRestart
+endfunction
 
+command! ToggleMarkdownLint call ToggleMarkdownLint()
 let g:coc_disable_startup_warning = 1
 " NERDTree Options
 autocmd VimEnter * NERDTree
