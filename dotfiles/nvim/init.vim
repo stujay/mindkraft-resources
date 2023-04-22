@@ -149,9 +149,14 @@ autocmd FileType vimwiki setlocal foldlevel=0
 autocmd FileType vimwiki setlocal filetype=markdown
 autocmd FileType markdown setlocal syntax=markdown.vim
 let g:vimwiki_use_calendar = 1
-let g:vimwiki_list = [{'path': '~/$USER-wiki/',
+
+let g:vimwiki_list = [{'path': "~/$USER-wiki/",
                        \ 'syntax': 'markdown', 'ext': '.md',
-					   \'path_html': '~/$USER-wiki-html/', 
+					   \'path_html': "~/$USER-wiki-html/", 
+					   \ 'custom_wiki2html': '~/mindkraft-resources/dotfiles/stubin/wiki2html.sh'},
+                       \{'path': '~/jay-wiki/',
+                       \ 'syntax': 'markdown', 'ext': '.md',
+					   \'path_html': '~/jay-wiki-html/', 
 					   \ 'custom_wiki2html': '~/mindkraft-resources/dotfiles/stubin/wiki2html.sh'}]
 
 let g:vimwiki_diary_header = "# Diary\n\n" . "## " . strftime("%Y") . "\n\n" . "### " . strftime("%B") . "\n\n" . "- [" . strftime("%Y %B %d, %A") . "](%" . strftime("%Y-%m-%d") . ")\n" . "- [[../diary.md|Back to Diary]]\n" . "- [[../index.md|Back to Main Page]]\n"
@@ -563,36 +568,3 @@ function! s:ZoomToggle() abort
     endif
 endfunction
 command! ZoomToggle call s:ZoomToggle()
-
-function! InstallCocExtensions()
-  let s:extensions = [
-        \ 'coc-markdownlint',
-        \ 'coc-html',
-        \ 'coc-xml',
-        \ 'coc-svelte',
-        \ 'coc-sh',
-        \ 'coc-lua',
-        \ 'coc-omnisharp',
-        \ 'coc-clangd',
-        \ 'coc-rust-analyzer',
-        \ 'coc-tsserver',
-        \ 'coc-css',
-        \ 'coc-pyright',
-        \ 'coc-go',
-        \ 'coc-java',
-        \ 'coc-json',
-        \ 'coc-yaml',
-        \ 'coc-phpls',
-        \ 'coc-dart',
-        \ 'coc-kotlin',
-        \ 'coc-metals',
-        \ ]
-
-  for s:ext in s:extensions
-    if empty(glob('~/.config/coc/extensions/node_modules/' . s:ext))
-      call coc#util#install_extension(s:ext)
-    endif
-  endfor
-endfunction
-
-call InstallCocExtensions()
