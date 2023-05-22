@@ -1,0 +1,18 @@
+#!/bin/bash
+# Name of the script: select_random_rows.sh
+# Usage: ./select_random_rows.sh file.tsv
+
+# Read the filename from command line arguments
+filename=$1
+
+# Define the column numbers for 'thai', 'phonetic', and 'definition' (modify if your file is different)
+thai_col=4
+phonetic_col=5
+definition_col=7
+
+# Print the headers for 'thai', 'phonetic', and 'definition'
+echo -e "Index\t$(head -n 1 $filename | awk -v thai=$thai_col -v phonetic=$phonetic_col -v definition=$definition_col -F"\t" 'BEGIN{OFS="\t"} {print $thai, $phonetic, $definition}')"
+
+# Print 10 random lines from the file, excluding the header, and only include 'thai', 'phonetic', and 'definition' columns. Add an index column in front.
+tail -n +2 $filename | awk -v thai=$thai_col -v phonetic=$phonetic_col -v definition=$definition_col -F"\t" 'BEGIN{OFS="\t"} {print $thai, $phonetic, $definition}' | shuf -n 10 | cat -n
+il -n +2 $filename | shuf -n 10
