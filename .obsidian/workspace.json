@@ -1,0 +1,154 @@
+{
+  "main": {
+    "id": "6a0630f930a9b050",
+    "type": "split",
+    "children": [
+      {
+        "id": "43e8ba717ece5a03",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ed2b20d9f8abbd97",
+            "type": "leaf",
+            "state": {
+              "type": "audio",
+              "state": {
+                "file": "resources/vietnamese/ENVNN-F1-GMS-A-0001.mp3"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b0a4cdf15aae83ce",
+    "type": "split",
+    "children": [
+      {
+        "id": "4fc7aaced469ff28",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c4f91573e68251e5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "39b4529d38299975",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1749757f0f2aaaaa",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f3abe05e349a7385",
+    "type": "split",
+    "children": [
+      {
+        "id": "577b742390f767b4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "28b79e7e55dedcc9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "resources/vietnamese/ENVNN-F1-GMS-A-0001.mp3",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "83b7b2efd3e7d4a4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "resources/vietnamese/ENVNN-F1-GMS-A-0001.mp3",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bd25a5676ddfde34",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "7541ebfebfbc5024",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "resources/vietnamese/ENVNN-F1-GMS-A-0001.mp3"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "ed2b20d9f8abbd97",
+  "lastOpenFiles": [
+    "resources/slavic/India-Sanskrit-Russian-links.pdf",
+    "resources/slavic/Russian-Sanskrit-Links-Paper.pdf",
+    "resources/chinese/cantonese/canto-story-北風同日頭.md",
+    "resources/thai/4000-sentences/legacy/4000-super-useful-expressions.md"
+  ]
+}

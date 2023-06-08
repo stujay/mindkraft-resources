@@ -68,7 +68,7 @@ function get_headers(){
 
 alias headers=get_headers
 export VISUAL='nvim'
-export EDIOR="$VISUAL"
+export EDITOR="$VISUAL"
 # Enable Ctrl-x-e to edit command line
 autoload -U edit-command-line
 # Emacs style
