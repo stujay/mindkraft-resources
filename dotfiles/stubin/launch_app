@@ -1,5 +1,15 @@
 #!/bin/bash
 
+# Function to display package details
+display_package_details() {
+    package=$1
+    if [[ "$OSTYPE" == "linux-gnu"* ]]; then
+        dpkg-query -W -f='${Description}' "$package"
+    elif [[ "$OSTYPE" == "darwin"* ]]; then
+        brew info "$package" | head -n 3
+    fi
+}
+
 # Check if the script was called with -s option
 if [[ $1 == "-s" ]]; then
     sudo_mode=true
@@ -7,12 +17,9 @@ else
     sudo_mode=false
 fi
 
-# Source the package_details.sh file
-source ./package_details.sh
-
 # Run the appropriate package listing command based on the operating system
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
-    package_list=$(dpkg -l)
+    package_list=$(dpkg -l | tail -n +6)
 elif [[ "$OSTYPE" == "darwin"* ]]; then
     package_list=$(brew list --formula)
 else
@@ -21,7 +28,7 @@ else
 fi
 
 # Run fzf on the package list and show package details in the preview window
-package=$(echo "$package_list" | awk '{print $2}' | fzf --preview 'display_package_details {}' --preview-window=right:70%)
+package=$(echo "$package_list" | awk '{print $2}' | fzf --preview 'bash -c "display_package_details {}"' --preview-window=right:70%)
 
 # Extract the package name from the selected line
 package_name=$(echo "$package" | awk '{print $1}')
