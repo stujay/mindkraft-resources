@@ -1,0 +1,33 @@
+#!/bin/bash
+
+# Check if the script was called with -s option
+if [[ $1 == "-s" ]]; then
+    sudo_mode=true
+else
+    sudo_mode=false
+fi
+
+# Run the appropriate package listing command based on the operating system
+if [[ "$OSTYPE" == "linux-gnu"* ]]; then
+    package_list=$(dpkg -l)
+elif [[ "$OSTYPE" == "darwin"* ]]; then
+    package_list=$(brew list --formula)
+else
+    echo "Unsupported operating system."
+    exit 1
+fi
+
+# Run fzf on the package list
+package=$(echo "$package_list" | fzf --height=50% --reverse --preview 'echo {} | awk "{print \$2}"')
+
+# Extract the package name from the selected line
+package_name=$(echo "$package" | awk '{print $2}')
+
+# Launch the selected application
+if [ -n "$package_name" ]; then
+    if [ "$sudo_mode" = true ]; then
+        sudo "$package_name"
+    else
+        "$package_name"
+    fi
+fi
