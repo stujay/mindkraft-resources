@@ -37,4 +37,4 @@ alias perms="ls -a | xargs stat --printf='Name: %n\nPermissions: %a\n%A\n\n'"
 alias getlarge="du -ah ./ | sort -n -r | head -n 20"
 
 alias airtraffic="sudo dump1090-mutability --interactive --net"
-alias launch="~/mindkraft-resources/dotfiles/stubin/launch_app"
+alias launch="~/mindkraft-resources/dotfiles/stubin/launch_app -s"

@@ -7,6 +7,9 @@ else
     sudo_mode=false
 fi
 
+# Source the package_details.sh file
+source ./package_details.sh
+
 # Run the appropriate package listing command based on the operating system
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
     package_list=$(dpkg -l)
@@ -17,11 +20,11 @@ else
     exit 1
 fi
 
-# Run fzf on the package list
-package=$(echo "$package_list" | fzf --height=50% --reverse --preview 'echo {} | awk "{print \$2}"')
+# Run fzf on the package list and show package details in the preview window
+package=$(echo "$package_list" | awk '{print $2}' | fzf --preview 'display_package_details {}' --preview-window=right:70%)
 
 # Extract the package name from the selected line
-package_name=$(echo "$package" | awk '{print $2}')
+package_name=$(echo "$package" | awk '{print $1}')
 
 # Launch the selected application
 if [ -n "$package_name" ]; then
@@ -31,3 +34,4 @@ if [ -n "$package_name" ]; then
         "$package_name"
     fi
 fi
+
