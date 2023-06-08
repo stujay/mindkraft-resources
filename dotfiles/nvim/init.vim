@@ -21,7 +21,19 @@ Plug 'tomtom/tcomment_vim'
 " Plug 'neoclide/coc.nvim', {'do': { -> coc#util#install()}}
 Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
 Plug 'rodrigore/coc-tailwind-intellisense', {'do': 'npm install'}
+function! ToggleMarkdownLint()
+  let g:coc_markdownlint_disabled = get(g:, 'coc_markdownlint_disabled', 0)
+  if g:coc_markdownlint_disabled
+    let g:coc_markdownlint_disabled = 0
+    echom 'Markdownlint enabled'
+  else
+    let g:coc_markdownlint_disabled = 1
+    echom 'Markdownlint disabled'
+  endif
+  silent! CocRestart
+endfunction
 
+command! ToggleMarkdownLint call ToggleMarkdownLint()
 let g:coc_disable_startup_warning = 1
 " NERDTree Options
 autocmd VimEnter * NERDTree
@@ -149,9 +161,14 @@ autocmd FileType vimwiki setlocal foldlevel=0
 autocmd FileType vimwiki setlocal filetype=markdown
 autocmd FileType markdown setlocal syntax=markdown.vim
 let g:vimwiki_use_calendar = 1
-let g:vimwiki_list = [{'path': '~/$USER-wiki/',
+
+let g:vimwiki_list = [{'path': "~/$USER-wiki/",
                        \ 'syntax': 'markdown', 'ext': '.md',
-					   \'path_html': '~/$USER-wiki-html/', 
+					   \'path_html': "~/$USER-wiki-html/", 
+					   \ 'custom_wiki2html': '~/mindkraft-resources/dotfiles/stubin/wiki2html.sh'},
+                       \{'path': '~/jay-wiki/',
+                       \ 'syntax': 'markdown', 'ext': '.md',
+					   \'path_html': '~/jay-wiki-html/', 
 					   \ 'custom_wiki2html': '~/mindkraft-resources/dotfiles/stubin/wiki2html.sh'}]
 
 let g:vimwiki_diary_header = "# Diary\n\n" . "## " . strftime("%Y") . "\n\n" . "### " . strftime("%B") . "\n\n" . "- [" . strftime("%Y %B %d, %A") . "](%" . strftime("%Y-%m-%d") . ")\n" . "- [[../diary.md|Back to Diary]]\n" . "- [[../index.md|Back to Main Page]]\n"
@@ -563,4 +580,3 @@ function! s:ZoomToggle() abort
     endif
 endfunction
 command! ZoomToggle call s:ZoomToggle()
-

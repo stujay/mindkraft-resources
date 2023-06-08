@@ -59,3 +59,5 @@ lp() {
         echo "Password for $selected_account copied to clipboard."
     fi
 }
+
+alias launch="~/mindkraft-resources/dotfiles/stubin/launch_app -s"
