@@ -1,0 +1,71 @@
+#!/usr/bin/env python3
+import pytz
+from datetime import datetime, timedelta
+from prettytable import PrettyTable
+
+# Extended city to timezone map
+city_timezone_map = {
+    'bangkok': 'Asia/Bangkok',
+    'sydney': 'Australia/Sydney',
+    'vilnius': 'Europe/Vilnius',
+    'zurich': 'Europe/Zurich',
+    # Add more mappings as needed
+}
+
+def convert_city_to_timezone(city):
+    """ Convert city names to their respective timezone strings. """
+    return city_timezone_map.get(city.lower(), city)
+
+def get_timezone(city):
+    """ Return the timezone for the given city. """
+    try:
+        timezone_name = convert_city_to_timezone(city)
+        return pytz.timezone(timezone_name)
+    except pytz.exceptions.UnknownTimeZoneError:
+        print(f"Timezone for '{city}' not found. Please enter a valid city.")
+        return None
+
+def color_time(hour):
+    """ Return terminal color code based on the hour. """
+    if 9 <= hour <= 17:
+        return '\033[92m'  # Green
+    elif 7 <= hour < 9 or 17 < hour <= 18:
+        return '\033[93m'  # Orange
+    else:
+        return '\033[0m'   # Default
+
+def main():
+    cities = []
+    while len(cities) < 3:
+        city = input(f"Enter city {len(cities)+1} (or leave blank to finish): ").strip()
+        if city:
+            timezone = get_timezone(city)
+            if timezone:
+                cities.append((city, timezone))
+                print(f"City {len(cities)} is {city.title()} in timezone {timezone}.")
+        elif cities:
+            break
+        else:
+            print("At least one city is required.")
+            continue
+
+    if cities:
+        table = PrettyTable()
+        table.field_names = [city.title() for city, _ in cities]
+
+        base_city_timezone = cities[0][1]
+        base_time = datetime.now(base_city_timezone).replace(hour=0, minute=0, second=0, microsecond=0)
+        for hour in range(24):
+            row_time = base_time + timedelta(hours=hour)
+            row = []
+            for _, tz in cities:
+                local_time = row_time.astimezone(tz)
+                formatted_time = local_time.strftime('%H:%M')
+                color = color_time(local_time.hour)
+                row.append(color + formatted_time + '\033[0m')
+            table.add_row(row)
+
+        print(table)
+
+if __name__ == "__main__":
+    main()
