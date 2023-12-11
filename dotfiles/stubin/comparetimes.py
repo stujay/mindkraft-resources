@@ -1,29 +1,14 @@
 #!/usr/bin/env python3
 import pytz
+from thefuzz import process
 from datetime import datetime, timedelta
 from prettytable import PrettyTable
 
-# Extended city to timezone map
-city_timezone_map = {
-    'bangkok': 'Asia/Bangkok',
-    'sydney': 'Australia/Sydney',
-    'vilnius': 'Europe/Vilnius',
-    'zurich': 'Europe/Zurich',
-    # Add more mappings as needed
-}
-
-def convert_city_to_timezone(city):
-    """ Convert city names to their respective timezone strings. """
-    return city_timezone_map.get(city.lower(), city)
-
-def get_timezone(city):
-    """ Return the timezone for the given city. """
-    try:
-        timezone_name = convert_city_to_timezone(city)
-        return pytz.timezone(timezone_name)
-    except pytz.exceptions.UnknownTimeZoneError:
-        print(f"Timezone for '{city}' not found. Please enter a valid city.")
-        return None
+def get_closest_timezone(input_city):
+    """ Find the closest matching time zone for the input city. """
+    all_timezones = pytz.all_timezones
+    closest_match = process.extractOne(input_city, all_timezones)
+    return closest_match[0] if closest_match else None
 
 def color_time(hour):
     """ Return terminal color code based on the hour. """
@@ -37,12 +22,18 @@ def color_time(hour):
 def main():
     cities = []
     while len(cities) < 3:
-        city = input(f"Enter city {len(cities)+1} (or leave blank to finish): ").strip()
-        if city:
-            timezone = get_timezone(city)
-            if timezone:
-                cities.append((city, timezone))
-                print(f"City {len(cities)} is {city.title()} in timezone {timezone}.")
+        input_city = input(f"Enter city {len(cities)+1} (or leave blank to finish): ").strip()
+        if input_city:
+            timezone_name = get_closest_timezone(input_city)
+            if timezone_name:
+                print(f"Did you mean '{timezone_name}'? [Y/n]: ", end='')
+                confirmation = input().strip().lower()
+                if confirmation in ['y', 'yes', '']:
+                    cities.append((timezone_name, pytz.timezone(timezone_name)))
+                else:
+                    print("Please try entering the city name again.")
+            else:
+                print("No matching timezone found. Please try again.")
         elif cities:
             break
         else:
@@ -51,14 +42,14 @@ def main():
 
     if cities:
         table = PrettyTable()
-        table.field_names = [city.title() for city, _ in cities]
+        table.field_names = [city for city, _ in cities]
 
         base_city_timezone = cities[0][1]
         base_time = datetime.now(base_city_timezone).replace(hour=0, minute=0, second=0, microsecond=0)
         for hour in range(24):
             row_time = base_time + timedelta(hours=hour)
             row = []
-            for _, tz in cities:
+            for city, tz in cities:
                 local_time = row_time.astimezone(tz)
                 formatted_time = local_time.strftime('%H:%M')
                 color = color_time(local_time.hour)
