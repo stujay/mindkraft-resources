@@ -3,6 +3,7 @@ import csv
 import subprocess
 import argparse
 import os
+import random
 import sys
 from pathlib import Path
 def check_fzf_installed():
@@ -49,9 +50,9 @@ def choose_column(headers, first_row, prompt):
     for i, header in enumerate(headers, start=1):
         sample = first_row[i-1] if len(first_row) >= i else 'No sample available'
         print(f"{i}. {header}\n    {sample}")
-    choice = input("Choose column by number or hit 'n' to continue: ")
-    if choice.lower() == 'n':
-        return None
+    choice = input("Choose column by number or just click enter if no more languages to continue: ")
+    if choice == '':
+        return None  # User pressed Enter without entering a number
     try:
         index = int(choice) - 1
         if index < 0 or index >= len(headers):
@@ -81,32 +82,46 @@ def list_voices_with_fzf(language):
         return None
 
 def play_sentences(filepath, delimiter, column_indexes, repetitions, voices):
-    headers, _ = read_file(filepath, delimiter)
+    _, _ = read_file(filepath, delimiter)  # No need to use headers here for display purposes
     while True:
-        try:
-            print("Select sentences to play (you can use 'fzf' multi-select).")
-            command = f"cat {filepath} | tail -n +2 | fzf --multi"
-            selected_lines = subprocess.check_output(command, shell=True).decode().splitlines()
-            
-            for line in selected_lines:
-                cols = line.split(delimiter)
-                for index, rep, voice in zip(column_indexes, repetitions, voices):
-                    if rep > 0 and voice:
-                        sentence = cols[index]
-                        print(f"{headers[index]}: {sentence}")
-                        for _ in range(rep):
-                            subprocess.run(["say", "-v", voice, sentence])
-                        
-        except subprocess.CalledProcessError:
-            # Handle case where fzf command is cancelled (e.g., via Ctrl+C or Esc)
-            continue
-        except EOFError:
-            # Handle EOF (Ctrl+D)
-            break
-        
-        action = input("Hit 'Enter' to continue or 'q' and Enter to exit: ").lower()
+        action = input("Hit 'Enter' to continue, 'q' to exit, or 'r' for a random sentence: ").lower()
         if action == 'q':
             break
+        elif action == 'r':
+            try:
+                with open(filepath, 'r', encoding='utf-8') as file:
+                    lines = file.readlines()[1:]  # Skip the header line
+                    random_line = random.choice(lines).strip().split(delimiter)
+                    print("Random sentence selected:")
+                    for i, (index, rep, voice) in enumerate(zip(column_indexes, repetitions, voices), start=1):
+                        if rep > 0 and voice:
+                            sentence = random_line[index]
+                            print(f"Language {i}: {sentence}")
+                            for _ in range(rep):
+                                subprocess.run(["say", "-v", voice, sentence])
+            except Exception as e:
+                print(f"Error selecting a random sentence: {e}")
+        else:
+            try:
+                print("Select sentences to play (you can use 'fzf' multi-select).")
+                command = f"cat {filepath} | tail -n +2 | fzf --multi"
+                selected_lines = subprocess.check_output(command, shell=True).decode().splitlines()
+                
+                for line in selected_lines:
+                    cols = line.split(delimiter)
+                    for i, (index, rep, voice) in enumerate(zip(column_indexes, repetitions, voices), start=1):
+                        if rep > 0 and voice:
+                            sentence = cols[index]
+                            print(f"Language {i}: {sentence}")
+                            for _ in range(rep):
+                                subprocess.run(["say", "-v", voice, sentence])
+                            
+            except subprocess.CalledProcessError:
+                # Handle case where fzf command is cancelled (e.g., via Ctrl+C or Esc)
+                continue
+            except EOFError:
+                # Handle EOF (Ctrl+D)
+                break
 
 if __name__ == "__main__":
     check_fzf_installed()
