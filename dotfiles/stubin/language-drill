@@ -1,0 +1,134 @@
+#!/usr/bin/env python3
+import csv
+import subprocess
+import argparse
+import os
+import sys
+from pathlib import Path
+def check_fzf_installed():
+    try:
+        subprocess.run(["fzf", "--version"], check=True, stdout=subprocess.DEVNULL)
+    except (subprocess.CalledProcessError, FileNotFoundError):
+        print("fzf is not installed. Please install fzf to continue.")
+        sys.exit(1)
+
+def parse_arguments():
+    parser = argparse.ArgumentParser(description='Language Drill CLI app for language learning.')
+    parser.add_argument('file', type=str, nargs='?', help='Path to the CSV/TSV file.')
+    args = parser.parse_args()
+
+    if args.file:
+        if not Path(args.file).is_file():
+            print("File does not exist. Please check the path and try again.")
+            sys.exit(1)
+        _, file_extension = os.path.splitext(args.file)
+        delimiter = '\t' if file_extension.lower() == '.tsv' else ','
+    else:
+        args.file = get_file_path()
+        _, file_extension = os.path.splitext(args.file)
+        delimiter = '\t' if file_extension.lower() == '.tsv' else ','
+
+    return args.file, delimiter
+
+def get_file_path():
+    filepath = input("What file would you like to choose? ")
+    if not Path(filepath).is_file():
+        print("File does not exist. Please check the path and try again.")
+        sys.exit(1)
+    return filepath
+
+def read_file(filepath, delimiter):
+    with open(filepath, newline='', encoding='utf-8') as csvfile:
+        reader = csv.reader(csvfile, delimiter=delimiter)
+        headers = next(reader)
+        first_row = next(reader)
+        return headers, first_row
+
+def choose_column(headers, first_row, prompt):
+    print(prompt)
+    for i, header in enumerate(headers, start=1):
+        sample = first_row[i-1] if len(first_row) >= i else 'No sample available'
+        print(f"{i}. {header}\n    {sample}")
+    choice = input("Choose column by number or hit 'n' to continue: ")
+    if choice.lower() == 'n':
+        return None
+    try:
+        index = int(choice) - 1
+        if index < 0 or index >= len(headers):
+            raise ValueError("Selected column is out of range.")
+        return index
+    except ValueError as e:
+        print(f"Invalid choice: {e}. Please try again.")
+        return choose_column(headers, first_row, prompt)
+
+def get_repetitions():
+    repetitions = input("How many repetitions? ")
+    try:
+        return max(int(repetitions), 0)
+    except ValueError:
+        print("Invalid number. Please enter a valid number.")
+        return get_repetitions()
+
+def list_voices_with_fzf(language):
+    print(f"Now choose a voice for {language} or hit 'n' for 'no more languages' and continue.")
+    process = subprocess.Popen(["say", "-v", "?"], stdout=subprocess.PIPE)
+    stdout, _ = process.communicate()
+    voices = stdout.decode()
+    try:
+        choice = subprocess.check_output(f"echo \"{voices}\" | fzf", shell=True).decode().strip()
+        return choice.split()[0]
+    except subprocess.CalledProcessError:
+        return None
+
+def play_sentences(filepath, delimiter, column_indexes, repetitions, voices):
+    headers, _ = read_file(filepath, delimiter)
+    while True:
+        try:
+            print("Select sentences to play (you can use 'fzf' multi-select).")
+            command = f"cat {filepath} | tail -n +2 | fzf --multi"
+            selected_lines = subprocess.check_output(command, shell=True).decode().splitlines()
+            
+            for line in selected_lines:
+                cols = line.split(delimiter)
+                for index, rep, voice in zip(column_indexes, repetitions, voices):
+                    if rep > 0 and voice:
+                        sentence = cols[index]
+                        print(f"{headers[index]}: {sentence}")
+                        for _ in range(rep):
+                            subprocess.run(["say", "-v", voice, sentence])
+                        
+        except subprocess.CalledProcessError:
+            # Handle case where fzf command is cancelled (e.g., via Ctrl+C or Esc)
+            continue
+        except EOFError:
+            # Handle EOF (Ctrl+D)
+            break
+        
+        action = input("Hit 'Enter' to continue or 'q' and Enter to exit: ").lower()
+        if action == 'q':
+            break
+
+if __name__ == "__main__":
+    check_fzf_installed()
+    filepath, delimiter = parse_arguments()
+
+    headers, first_row = read_file(filepath, delimiter)
+    column_indexes, repetitions, voices = [], [], []
+
+    while True:
+        column_index = choose_column(headers, first_row, "Select Language Column:")
+        if column_index is None:
+            break
+        language = headers[column_index]
+        repetitions_count = get_repetitions()
+        voice = list_voices_with_fzf(language) if repetitions_count > 0 else None
+        if voice is None and repetitions_count > 0:  # User opted out during voice selection
+            break
+        column_indexes.append(column_index)
+        repetitions.append(repetitions_count)
+        voices.append(voice)
+
+    if column_indexes:  # Only proceed if at least one column has been selected
+        play_sentences(filepath, delimiter, column_indexes, repetitions, voices)
+    else:
+        print("No columns selected. Exiting program.")
