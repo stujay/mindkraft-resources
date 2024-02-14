@@ -61,3 +61,5 @@ lp() {
 }
 
 alias launch="~/mindkraft-resources/dotfiles/stubin/launch_app -s"
+alias scim="sc-im" #spreadsheet vim ... need to install if not yet done
+alias scim=sc-im
