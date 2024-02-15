@@ -14,7 +14,7 @@ def check_fzf_installed():
         sys.exit(1)
 
 def parse_arguments():
-    parser = argparse.ArgumentParser(description='Language Drill CLI app for language learning.')
+    parser = argparse.ArgumentParser(description='Stu\'s Language Drill CLI app for language learning.')
     parser.add_argument('file', type=str, nargs='?', help='Path to the CSV/TSV file.')
     args = parser.parse_args()
 
@@ -103,7 +103,7 @@ def play_sentences(filepath, delimiter, column_indexes, repetitions, voices):
                 print(f"Error selecting a random sentence: {e}")
         else:
             try:
-                print("Select sentences to play (you can use 'fzf' multi-select).")
+                print("Select sentences to play (Hit 'TAB' to select multiple entries).")
                 command = f"cat {filepath} | tail -n +2 | fzf --multi"
                 selected_lines = subprocess.check_output(command, shell=True).decode().splitlines()
                 
