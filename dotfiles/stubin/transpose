@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# Check if at least one argument is provided
+if [ "$#" -lt 1 ]; then
+    echo "Usage: $0 <input.csv> [field_separator]"
+    exit 1
+fi
+
+input_file="$1"
+# Set field separator to the second argument or default to a comma
+field_separator="${2:-,}"
+
+awk -v FS="$field_separator" '
+{
+    for (i=1; i<=NF; i++) {
+        a[NR,i] = $i
+    }
+}
+NF>p { p = NF }
+END {
+    for(j=1; j<=p; j++) {
+        str=a[1,j]
+        for(i=2; i<=NR; i++){
+            str=str FS a[i,j]
+        }
+        print str
+    }
+}' "$input_file"
