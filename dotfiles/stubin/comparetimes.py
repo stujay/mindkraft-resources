@@ -21,7 +21,7 @@ def color_time(hour):
 
 def main():
     cities = []
-    while len(cities) < 3:
+    while len(cities) < 10:
         input_city = input(f"Enter city {len(cities)+1} (or leave blank to finish): ").strip()
         if input_city:
             timezone_name = get_closest_timezone(input_city)
