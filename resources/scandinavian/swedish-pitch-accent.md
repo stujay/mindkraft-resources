@@ -1,14 +1,28 @@
 # Swedish / Norwegian Pitch Accent and the Danish Stod
 
 # Swedish 
-Taken from youtube channel 'Academia Cervena' 
 
-https://www.youtube.com/watch?v=lXp7_Sjgm34 (Understanding Swedish Pitch Accent Part One)
-and
-https://www.youtube.com/watch?v=6_60Oec-8pg (Swedish Pitch Accent Revisited)
+***NOTE*** 
+
+> Taken from youtube channel 'Academia Cervena' 
+> 
+> https://www.youtube.com/watch?v=lXp7_Sjgm34 (Understanding Swedish Pitch Accent Part One)
+> and
+> https://www.youtube.com/watch?v=6_60Oec-8pg (Swedish Pitch Accent Revisited)
 
 
 ## Dialectical Variation
+
+### Single and Twin Peaks
+
+When speaking about Swedish Pitch Accent, we hear the term 'peaks' used referring to the way the pitch works across two key syllables.  Note that while these syllables may be adjacent to each other, these Accent patterns may 'split' across multisyllable blocks depending on the word / phrase.  
+
+
+|          | Syllable 1       | Syllable 2       |
+|----------|------------------|------------------|
+| Accent 1 | ˧˦˨              | ˨˨               |
+| Accent 2 | ˦˦˧              | ˥˨               |
+
 
 In this clip, speaking about East Central Swedish (Standard)- Stockholm / Upsalla
 
@@ -136,8 +150,8 @@ Characterised by a Double Peak in Pitch.
 
 | Swedish | English       |
 |---------|---------------|
-| vä́ninna | female friend |
-| kópia   | copy          |
+| väñinna | female friend |
+| kõpia   | copy          |
 
 ### Accent 2
 
@@ -164,7 +178,11 @@ Characterised by a Double Peak in Pitch.
 
 ### Problematic Words: -el, -en, -er
 
+
+***Nouns*** 
+
 ***Some nouns can have Either Accent***
+
 
 | Accent 1        | Accent 2         |
 |-----------------|------------------|
@@ -174,8 +192,8 @@ Characterised by a Double Peak in Pitch.
 
 ***Adjectives are Rulebound*** 
 
-- Adjectives in -el and -er, en take on Accent 1
-- Adjectives in -en take on Accent 2
+> - Adjectives in -el and -er, en take on Accent 1
+> - Adjectives in -en take on Accent 2
 
 | Accent 1           | Accent 2     |
 |--------------------|--------------|
@@ -186,8 +204,8 @@ Characterised by a Double Peak in Pitch.
 
 ***Verbs***
 
-- Present Tense Verbs in -er Always have Accent 1
-- Present Tense Verbs in -ar can have Accent 2
+> - Present Tense Verbs in -er Always have Accent 1
+> - Present Tense Verbs in -ar can have Accent 2
 
 | Accent 1        | Accent 2       |
 |-----------------|----------------|
@@ -198,6 +216,8 @@ Characterised by a Double Peak in Pitch.
 
 
 ***Plurals with Vowel Change***
+
+> Plurals where the core vowel changes - e.g. 'and' to 'änd+er' will take on **Accent 1** where unchanged (most nouns) take **Accent 2**.
 
 | Accent 1         | Accent 2       |
 |------------------|----------------|
@@ -213,12 +233,12 @@ So with all of this, we can see that accents will shift within a single paradigm
 
 ***Example***
 
-| Swedish | English Equivalent  |
-|---------|---------------------|
-| lä́se    | to read, infinitive |
-| lä́ser   | reads, present      |
-| lä̃ste   | read, past          |
-| lä́st    | read, supine        |
+| Swedish | English Equivalent  | Reason                                      |
+|---------|---------------------|---------------------------------------------|
+| lä̃sa    | to read, infinitive | More than 1 syllable - recognisable ending. |
+| lä́ser   | reads, present      | Present tense verb ending on standard 'er'. |
+| lä̃ste   | read, past          | More than 1 syllable - recognisable ending. |
+| lä́st    | read, supine        | One syllable word.                          |
 
 
 | Swedish Sentence       | English Equivalent                  |
@@ -259,21 +279,25 @@ Vs.
 
 The supine in Swedish is crucial for forming compound tenses that reflect completed actions, much like the past participle in English. However, the term "supine" is not typically used in English grammar; instead, we refer to this form as the past participle when discussing perfect tenses.
 
-***More Examples***
+***More Examples Where Accent Changes on Same Word Root***
 
-| Swedish | English Translation    | Explanation                                                                                                                                      |
-|---------|------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| kõmma   | to come (infinitive)   | Infinitive form, expressing the idea of coming without a specific time frame.                                                                    |
-| kómmer  | comes (present)        | Present tense, indicating a current action of coming.                                                                                            |
-| kóm     | came (past)            | Simple past tense, indicating an action of coming that happened in the past.                                                                     |
-| kõmmit  | has/have come (supine) | Supine form used with "har" (has/have) to form the present perfect tense, indicating that the action of coming is completed at the present time. |
+Using the root 'kom' - to come. 
 
-| Swedish  | English Translation | Explanation                                                                                      |
-|----------|---------------------|--------------------------------------------------------------------------------------------------|
-| én katt  | a cat               | Indefinite singular form, referring to any cat.                                                  |
-| kátten   | the cat             | Definite singular form, referring to a specific cat.                                             |
-| kãtter   | cats                | Indefinite plural form, referring to cats in general without specifying which ones.              |
-| kãtterna | the cats            | Definite plural form, referring to specific cats previously mentioned or known from the context. |
+| Swedish | English Translation     | Reason                                                                             |
+|---------|-------------------------|------------------------------------------------------------------------------------|
+| kõmma   | to come (infinitive)    | More than 1 syllable, recognisable ending.                                         |
+| kómmer  | comes (present)         | Standard '-er' verb ending.                                                        |
+| kóm     | came (past)             | One syllable word.                                                                 |
+| kõmmit  | has/have come (supine)  | More than 1 syllable, recognisable ending.                                         |
+
+Using the root word 'kat' - 'Cat'. 
+
+| Swedish  | English Translation | Explanation                                         |
+|----------|---------------------|-----------------------------------------------------|
+| én katt  | a cat               | Monosyllabic word.                                  |
+| kátten   | the cat             | Monosyllabic word using definite article.           |
+| kãtter   | cats                | Standard plural ending in '-er'.                    |
+| kãtterna | the cats            | Standard plural definite article ending in '-erna'. |
 
 
 ## In Real Life - Accent Not Always Pronounced
@@ -315,9 +339,10 @@ Accent 2 anden (evil spirit) ˦˥˥˧ ˥˩
 These are generalisations of specific traits and each group has a lot of variation. 
 
 
+
 | Accent Type | Accent I | Accent II | Regional Variety of Swedish |
 |-------------|----------|-----------|-----------------------------|
-| 0           | ˦˧       | ˥˧        | Finland                     |
+| 0           | ˦˧       | ˦˧        | Finland                     |
 | 1A          | ˥˧       | ˧˥˧       | South                       |
 | 1B          | ˧˥˨      | ˧˧˥˨      | Gotland/Dala-Bergslagen     |
 | 2A          | ˧˧˥˨     | ˧˥˧       | North/Middle East (Svea)    |
@@ -353,7 +378,7 @@ West Finland now more like Sweden
 
 
 - The peaks in type 1a come earlier than in 1b, and that is the sole distinguishing factor. 
-- In type 1a, the peak on Accent 1 is immediate, where Accent 2 has a more gradual rise to it. 
+- In type 1a, the peak on Accent 1 is immediate, where Accent 2 has a more gradujjal rise to it. 
 - Rises in both accents, peaking on stressed vowel in Accent 1 and just after in in accent 2. 
 - Pitch keeps falling after reaching the peak, unlike 1a that eventually levels out. 
 
@@ -365,4 +390,49 @@ West Finland now more like Sweden
 | 2b          | 325 (˧˨˥)       | 525 (˥˩˥)       |
 
 This type has a single pitch in 1 and 2 distinguished by timing. 
+
+# Modern Shifts
+
+In old Stockholm Mälar type: 
+- Monosyllabic take Accent 1
+- Polysyllabic take Accent 2 
+
+This was a standard feature, but during 20th century disappeared - only a few have it now. 
+
+### Compound Words
+
+Compounds generally take accent 2 - However
+
+***Type 2a***
+
+Compound Stress is key - accent 2 syllable following stressed
+Compounds - 2nd peak syllable carrying secondary stress, in 2nd part of compound
+
+Type 2b 
+Always puts 2nd peak at end. 
+
+In many south Swedish dialects, compounds can shift. 
+
+For example in Scania:
+
+| Accent 1                  | Accent 2                     |
+|---------------------------|------------------------------|
+| vítlök (garlic)           | mãtsal (dining hall)         |
+| ljusblǻ (light blue)      | sõmmarlov (summer vacation)  |
+| cýkelnyckel (bicycle key) | fĩngervante (fabric glove) |
+
+### Foreign Words May Take Either
+
+- ananas
+- blåbär
+- morfar
+- persika
+- sallad
+- Arvid
+- Axel
+- Elin 
+- Martin 
+- Oskar
+- Simon 
+
 
