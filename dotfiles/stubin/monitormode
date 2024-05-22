@@ -1,0 +1,54 @@
+#!/bin/bash
+
+# Function to list wireless devices
+list_devices() {
+    echo "Available wireless devices:"
+    iwconfig 2>/dev/null | grep 'IEEE' | awk '{print $1}'
+}
+
+# Function to check if a device is unmanaged
+is_unmanaged() {
+    local device=$1
+    grep -q "interface-name:$device" /etc/NetworkManager/NetworkManager.conf
+}
+
+# Function to add a device to NetworkManager unmanaged list
+add_unmanaged_device() {
+    local device=$1
+    sudo sed -i "/^\[keyfile\]/a unmanaged-devices=interface-name:$device" /etc/NetworkManager/NetworkManager.conf
+}
+
+# List available devices
+list_devices
+
+# Ask user for the device to put in monitor mode
+read -p "Enter the device you want to put into monitor mode: " device
+
+# Check if the device is unmanaged
+if is_unmanaged $device; then
+    echo "$device is already unmanaged in NetworkManager."
+else
+    echo "$device is not unmanaged in NetworkManager. Using it might disconnect your main internet connection."
+    read -p "Would you like to add $device as an unmanaged device to maintain internet on your main WiFi? (yes/no): " response
+    if [[ $response == "yes" ]]; then
+        add_unmanaged_device $device
+        echo "$device has been added as an unmanaged device in NetworkManager."
+    else
+        echo "Proceeding without adding $device as unmanaged. Your internet connection may be lost."
+    fi
+fi
+
+# Restart NetworkManager to apply changes
+sudo systemctl restart NetworkManager
+
+# Kill interfering processes
+sudo airmon-ng check kill
+
+# Put the device into monitor mode
+sudo airmon-ng start $device
+
+# List the device status
+iwconfig
+
+echo "The device $device is now in monitor mode."
+
