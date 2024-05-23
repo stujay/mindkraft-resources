@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Check if URL is provided
+if [ -z "$1" ]; then
+  echo "Usage: $0 <YouTube Channel URL>"
+  exit 1
+fi
+
+CHANNEL_URL=$1
+
+# Fetch JSON data for all videos on the channel
+yt-dlp -j --flat-playlist "$CHANNEL_URL" > videos.json
+
+# Process JSON and output Markdown
+jq -r '
+  .id as $id |
+  .title as $title |
+  "* [\($title)](https://www.youtube.com/watch?v=\($id))"
+' videos.json
