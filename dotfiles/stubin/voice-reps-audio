@@ -266,11 +266,8 @@ process_lines() {
       voice_name=$(echo "${VOICE_SELECTIONS[$i]}" | awk '{print $1}')
       for ((r=1; r<=${REPETITIONS[$i]}; r++)); do
         echo -e "${ORANGE}Processing sentence $sentence_number, Language $((i+1)): $column_value, Repetition $r${NC}"
-        say -v "$voice_name" "[[slnc 1500]] $column_value [[slnc 1500]]" -o "${tempfolder}/${sentence_number}_lang${i}_rep${r}.aiff"
+        say -v "$voice_name" "[[slnc 1000]] $column_value [[slnc 1000]]" -o "${tempfolder}/${sentence_number}_lang${i}_rep${r}.aiff"
       done
-      # Add silence between different voices
-      echo -e "${YELLOW}Generating pause${NC}"
-      say -v "$voice_name" "[[slnc 3000]]" -o "${tempfolder}/pause_lang${i}.aiff"
     done
     ((sentence_count++))
     if ((sentence_count < ${#sentences[@]})); then
