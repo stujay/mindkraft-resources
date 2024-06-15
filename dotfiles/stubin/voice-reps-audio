@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Stuart Jay Raj's Voice Reps Generator
+# Licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+# You may use this script for free, but not for commercial gain. Please notify me if you use it.
+
 # Function to check if the script is running on a Mac
 check_mac() {
   if [[ "$OSTYPE" != "darwin"* ]]; then
@@ -90,7 +94,7 @@ if [[ "$2" == "-F"* ]]; then
     FIELD_SEPARATOR=${2:2}
 fi
 
-echo "voice-reps first-words.tsv"
+echo "STUJAYs-Voice-Reps: $INPUTFILE"
 echo "Column headers:"
 head -n 1 "$INPUTFILE" | gawk -F"$FIELD_SEPARATOR" '{for(i=1; i<=NF; i++) print i, $i}'
 
@@ -120,9 +124,50 @@ function filter_voices() {
   echo "$filtered_voices"
 }
 
+# Function to map language code to language name
+function get_language_name() {
+  local lang_code=$1
+  case "$lang_code" in
+    ar) echo "Arabic" ;;
+    bg) echo "Bulgarian" ;;
+    ca) echo "Catalan" ;;
+    cs) echo "Czech" ;;
+    da) echo "Danish" ;;
+    de) echo "German" ;;
+    el) echo "Greek" ;;
+    en) echo "English" ;;
+    es) echo "Spanish" ;;
+    fi) echo "Finnish" ;;
+    fr) echo "French" ;;
+    he) echo "Hebrew" ;;
+    hi) echo "Hindi" ;;
+    hr) echo "Croatian" ;;
+    hu) echo "Hungarian" ;;
+    id) echo "Indonesian" ;;
+    it) echo "Italian" ;;
+    ja) echo "Japanese" ;;
+    ko) echo "Korean" ;;
+    ms) echo "Malay" ;;
+    nb) echo "Norwegian" ;;
+    nl) echo "Dutch" ;;
+    pl) echo "Polish" ;;
+    pt) echo "Portuguese" ;;
+    ro) echo "Romanian" ;;
+    ru) echo "Russian" ;;
+    sk) echo "Slovak" ;;
+    sv) echo "Swedish" ;;
+    th) echo "Thai" ;;
+    tr) echo "Turkish" ;;
+    uk) echo "Ukrainian" ;;
+    vi) echo "Vietnamese" ;;
+    zh) echo "Chinese" ;;
+    *) echo "Unknown" ;;
+  esac
+}
+
 while true; do
-  echo "Voice-Reps-Generator: Adding Language $((${#LANGUAGE_SELECTIONS[@]} + 1)) (up to 5 languages)"
-  echo "Voice-Reps-Generator: Select the column number for Language $((${#LANGUAGE_SELECTIONS[@]} + 1)):"
+  echo "STUJAYs-Voice-Reps: Adding Language $((${#LANGUAGE_SELECTIONS[@]} + 1)) (up to 5 languages)"
+  echo "STUJAYs-Voice-Reps: Select the column number for Language $((${#LANGUAGE_SELECTIONS[@]} + 1)):"
   read -r column_number
 
   select_language
@@ -146,7 +191,7 @@ while true; do
   repetitions=${repetitions:-1}
 
   LANGUAGE_SELECTIONS+=("$lang_code")
-  VOICE_SELECTIONS+=("$voice_name ($voice_iso)")
+  VOICE_SELECTIONS+=("$voice_name $voice_iso")
   REPETITIONS+=("$repetitions")
   COLUMN_SELECTIONS+=("$column_number")
 
@@ -182,42 +227,7 @@ echo "Summary of selections:"
 echo "Languages and voices:"
 for i in "${!LANGUAGE_SELECTIONS[@]}"; do
   lang_code=${LANGUAGE_SELECTIONS[$i]}
-  case "$lang_code" in
-    ar) lang_name="Arabic" ;;
-    bg) lang_name="Bulgarian" ;;
-    ca) lang_name="Catalan" ;;
-    cs) lang_name="Czech" ;;
-    da) lang_name="Danish" ;;
-    de) lang_name="German" ;;
-    el) lang_name="Greek" ;;
-    en) lang_name="English" ;;
-    es) lang_name="Spanish" ;;
-    fi) lang_name="Finnish" ;;
-    fr) lang_name="French" ;;
-    he) lang_name="Hebrew" ;;
-    hi) lang_name="Hindi" ;;
-    hr) lang_name="Croatian" ;;
-    hu) lang_name="Hungarian" ;;
-    id) lang_name="Indonesian" ;;
-    it) lang_name="Italian" ;;
-    ja) lang_name="Japanese" ;;
-    ko) lang_name="Korean" ;;
-    ms) lang_name="Malay" ;;
-    nb) lang_name="Norwegian" ;;
-    nl) lang_name="Dutch" ;;
-    pl) lang_name="Polish" ;;
-    pt) lang_name="Portuguese" ;;
-    ro) lang_name="Romanian" ;;
-    ru) lang_name="Russian" ;;
-    sk) lang_name="Slovak" ;;
-    sv) lang_name="Swedish" ;;
-    th) lang_name="Thai" ;;
-    tr) lang_name="Turkish" ;;
-    uk) lang_name="Ukrainian" ;;
-    vi) lang_name="Vietnamese" ;;
-    zh) lang_name="Chinese" ;;
-    *) lang_name="Unknown" ;;
-  esac
+  lang_name=$(get_language_name "$lang_code")
   echo "Language $((i+1)):"
   echo "Language Name: $lang_name"
   echo "Language Code: ${LANGUAGE_SELECTIONS[$i]}"
@@ -253,22 +263,35 @@ process_lines() {
       column_value=$(echo "$sentence" | awk -F"$FIELD_SEPARATOR" -v col="$column_index" '{print $col}')
       voice_name=$(echo "${VOICE_SELECTIONS[$i]}" | awk '{print $1}')
       for ((r=1; r<=${REPETITIONS[$i]}; r++)); do
+        echo "Processing sentence $sentence_number, Language $((i+1)): $column_value, Repetition $r"
         say -v "$voice_name" "$column_value" -o "${tempfolder}/${sentence_number}_lang${i}_rep${r}.aiff"
-        sleep 1
+        sox "${tempfolder}/${sentence_number}_lang${i}_rep${r}.aiff" "${tempfolder}/${sentence_number}_lang${i}_rep${r}.wav" rate 16000
       done
+      echo "Generating pause"
+      sox -n -r 16000 -c 1 "${tempfolder}/pause_2000ms_${i}.wav" trim 0.0 2.0
     done
+    echo "Generating row pause"
+    sox -n -r 16000 -c 1 "${tempfolder}/pause_3000ms.wav" trim 0.0 3.0
     ((sentence_count++))
-    if ((sentence_count < ${#sentences[@]})); then
-      sleep 1.5
-    fi
   done
 
-  # Concatenate and convert to mp3
-  sox $(ls "${tempfolder}"/*.aiff | sort -n) "voice-reps-$(IFS=-; echo "${LANGUAGE_SELECTIONS[*]}")-$(IFS=-; echo "${VOICE_SELECTIONS[*]}").mp3"
+  # Concatenate all audio files
+  sox $(ls "${tempfolder}"/*.wav | sort -n) "${tempfolder}/final_audio.wav"
+
+  # Convert to MP3
+  local mp3_filename="voicereps_"
+  for i in "${!VOICE_SELECTIONS[@]}"; do
+    mp3_filename+="${VOICE_SELECTIONS[$i]//[() ]/_}_"
+  done
+  mp3_filename+="${#sentences[@]}sentences.mp3"
+
+  ffmpeg -i "${tempfolder}/final_audio.wav" -q:a 0 "$mp3_filename"
+
+  # Cleanup
   rm -rf "$tempfolder"
+
+  echo "Audio file generated: $mp3_filename"
 }
 
 process_lines
-
-echo "Audio file generated: voice-reps-$(IFS=-; echo "${LANGUAGE_SELECTIONS[*]}")-$(IFS=-; echo "${VOICE_SELECTIONS[*]}").mp3"
 
