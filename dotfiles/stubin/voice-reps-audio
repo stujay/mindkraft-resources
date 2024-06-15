@@ -1,13 +1,21 @@
 #!/bin/bash
 
-# Stuart Jay Raj's Voice Reps Generator
-# Licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
-# You may use this script for free, but not for commercial gain. Please notify me if you use it.
+# STUJAYs-Voice-Reps: Copyright Stuart Jay Raj
+# This software is licensed under a non-commercial use license.
+# Please contact the author for any commercial usage.
+# This script is used to generate audio files with repetitions
+# and pauses between sentences and languages.
+
+# Color definitions
+YELLOW='\033[1;33m'
+BLUE='\033[1;34m'
+ORANGE='\033[0;33m'
+NC='\033[0m' # No Color
 
 # Function to check if the script is running on a Mac
 check_mac() {
   if [[ "$OSTYPE" != "darwin"* ]]; then
-    echo "Sorry, this script can only run on a Mac."
+    echo -e "${ORANGE}Sorry, this script can only run on a Mac.${NC}"
     exit 1
   fi
 }
@@ -15,18 +23,18 @@ check_mac() {
 # Function to check if fzf is installed
 check_fzf() {
   if ! command -v fzf &> /dev/null; then
-    echo "fzf is not installed. Would you like to install it? (y/n)"
+    echo -e "${YELLOW}fzf is not installed. Would you like to install it? (y/n)${NC}"
     read -r response
     response=$(echo "$response" | tr '[:upper:]' '[:lower:]')
     if [[ "$response" == "y" || "$response" == "yes" ]]; then
       if ! command -v brew &> /dev/null; then
-        echo "Homebrew is not installed. Please install Homebrew first from https://brew.sh/"
+        echo -e "${ORANGE}Homebrew is not installed. Please install Homebrew first from https://brew.sh/${NC}"
         exit 1
       fi
-      echo "Installing fzf..."
+      echo -e "${YELLOW}Installing fzf...${NC}"
       brew install fzf
     else
-      echo "fzf is required for custom sentence selection. Exiting."
+      echo -e "${ORANGE}fzf is required for custom sentence selection. Exiting.${NC}"
       exit 1
     fi
   fi
@@ -35,18 +43,18 @@ check_fzf() {
 # Function to check if jq is installed
 check_jq() {
   if ! command -v jq &> /dev/null; then
-    echo "jq is not installed. Would you like to install it? (y/n)"
+    echo -e "${YELLOW}jq is not installed. Would you like to install it? (y/n)${NC}"
     read -r response
     response=$(echo "$response" | tr '[:upper:]' '[:lower:]')
     if [[ "$response" == "y" || "$response" == "yes" ]]; then
       if ! command -v brew &> /dev/null; then
-        echo "Homebrew is not installed. Please install Homebrew first from https://brew.sh/"
+        echo -e "${ORANGE}Homebrew is not installed. Please install Homebrew first from https://brew.sh/${NC}"
         exit 1
       fi
-      echo "Installing jq..."
+      echo -e "${YELLOW}Installing jq...${NC}"
       brew install jq
     else
-      echo "jq is required to run this script. Exiting."
+      echo -e "${ORANGE}jq is required to run this script. Exiting.${NC}"
       exit 1
     fi
   fi
@@ -55,18 +63,18 @@ check_jq() {
 # Function to check if gawk is installed
 check_gawk() {
   if ! command -v gawk &> /dev/null; then
-    echo "gawk is not installed. Would you like to install it? (y/n)"
+    echo -e "${YELLOW}gawk is not installed. Would you like to install it? (y/n)${NC}"
     read -r response
     response=$(echo "$response" | tr '[:upper:]' '[:lower:]')
     if [[ "$response" == "y" || "$response" == "yes" ]]; then
       if ! command -v brew &> /dev/null; then
-        echo "Homebrew is not installed. Please install Homebrew first from https://brew.sh/"
+        echo -e "${ORANGE}Homebrew is not installed. Please install Homebrew first from https://brew.sh/${NC}"
         exit 1
       fi
-      echo "Installing gawk..."
+      echo -e "${YELLOW}Installing gawk...${NC}"
       brew install gawk
     else
-      echo "gawk is required to run this script. Exiting."
+      echo -e "${ORANGE}gawk is required to run this script. Exiting.${NC}"
       exit 1
     fi
   fi
@@ -94,8 +102,8 @@ if [[ "$2" == "-F"* ]]; then
     FIELD_SEPARATOR=${2:2}
 fi
 
-echo "STUJAYs-Voice-Reps: $INPUTFILE"
-echo "Column headers:"
+echo -e "${BLUE}voice-reps first-words.tsv${NC}"
+echo -e "${ORANGE}Column headers:${NC}"
 head -n 1 "$INPUTFILE" | gawk -F"$FIELD_SEPARATOR" '{for(i=1; i<=NF; i++) print i, $i}'
 
 LANGUAGE_SELECTIONS=()
@@ -108,7 +116,7 @@ IFS=$'\n' read -r -d '' -a VOICES_ARRAY < <(say -v \? && printf '\0')
 
 # Function to display available languages and get user input
 function select_language() {
-  echo "Available languages: ar (Arabic), bg (Bulgarian), ca (Catalan), cs (Czech), da (Danish), de (German), el (Greek), en (English), es (Spanish), fi (Finnish), fr (French), he (Hebrew), hi (Hindi), hr (Croatian), hu (Hungarian), id (Indonesian), it (Italian), ja (Japanese), ko (Korean), ms (Malay), nb (Norwegian), nl (Dutch), pl (Polish), pt (Portuguese), ro (Romanian), ru (Russian), sk (Slovak), sv (Swedish), th (Thai), tr (Turkish), uk (Ukrainian), vi (Vietnamese), zh (Chinese)"
+  echo -e "${YELLOW}Available languages: ar (Arabic), bg (Bulgarian), ca (Catalan), cs (Czech), da (Danish), de (German), el (Greek), en (English), es (Spanish), fi (Finnish), fr (French), he (Hebrew), hi (Hindi), hr (Croatian), hu (Hungarian), id (Indonesian), it (Italian), ja (Japanese), ko (Korean), ms (Malay), nb (Norwegian), nl (Dutch), pl (Polish), pt (Portuguese), ro (Romanian), ru (Russian), sk (Slovak), sv (Swedish), th (Thai), tr (Turkish), uk (Ukrainian), vi (Vietnamese), zh (Chinese)${NC}"
   read -p "Enter a two-letter language code: " lang_code
 }
 
@@ -124,74 +132,33 @@ function filter_voices() {
   echo "$filtered_voices"
 }
 
-# Function to map language code to language name
-function get_language_name() {
-  local lang_code=$1
-  case "$lang_code" in
-    ar) echo "Arabic" ;;
-    bg) echo "Bulgarian" ;;
-    ca) echo "Catalan" ;;
-    cs) echo "Czech" ;;
-    da) echo "Danish" ;;
-    de) echo "German" ;;
-    el) echo "Greek" ;;
-    en) echo "English" ;;
-    es) echo "Spanish" ;;
-    fi) echo "Finnish" ;;
-    fr) echo "French" ;;
-    he) echo "Hebrew" ;;
-    hi) echo "Hindi" ;;
-    hr) echo "Croatian" ;;
-    hu) echo "Hungarian" ;;
-    id) echo "Indonesian" ;;
-    it) echo "Italian" ;;
-    ja) echo "Japanese" ;;
-    ko) echo "Korean" ;;
-    ms) echo "Malay" ;;
-    nb) echo "Norwegian" ;;
-    nl) echo "Dutch" ;;
-    pl) echo "Polish" ;;
-    pt) echo "Portuguese" ;;
-    ro) echo "Romanian" ;;
-    ru) echo "Russian" ;;
-    sk) echo "Slovak" ;;
-    sv) echo "Swedish" ;;
-    th) echo "Thai" ;;
-    tr) echo "Turkish" ;;
-    uk) echo "Ukrainian" ;;
-    vi) echo "Vietnamese" ;;
-    zh) echo "Chinese" ;;
-    *) echo "Unknown" ;;
-  esac
-}
-
 while true; do
-  echo "STUJAYs-Voice-Reps: Adding Language $((${#LANGUAGE_SELECTIONS[@]} + 1)) (up to 5 languages)"
-  echo "STUJAYs-Voice-Reps: Select the column number for Language $((${#LANGUAGE_SELECTIONS[@]} + 1)):"
+  echo -e "${BLUE}STUJAYs-Voice-Reps: Adding Language $((${#LANGUAGE_SELECTIONS[@]} + 1)) (up to 5 languages)${NC}"
+  echo -e "${ORANGE}STUJAYs-Voice-Reps: Select the column number for Language $((${#LANGUAGE_SELECTIONS[@]} + 1)):${NC}"
   read -r column_number
 
   select_language
 
   available_voices=$(filter_voices)
   if [[ -z "$available_voices" ]]; then
-    echo "No voices available for the selected language."
+    echo -e "${ORANGE}No voices available for the selected language.${NC}"
     exit 1
   fi
 
   echo "$available_voices"
-  echo "Pick a speaker by their adjacent number:"
+  echo -e "${YELLOW}Pick a speaker by their adjacent number:${NC}"
   read -r speaker_number
 
   chosen_voice=$(printf "%s\n" "${VOICES_ARRAY[@]}" | awk 'NR=='"$speaker_number"' {print $1 " " $2}')
   voice_name=$(echo "$chosen_voice" | awk '{print $1}')
   voice_iso=$(echo "$chosen_voice" | awk '{print $2}')
-  echo "You chose $voice_name ($voice_iso)"
-  echo "How many repetitions? (1-3, default 1):"
+  echo -e "${BLUE}You chose $voice_name ($voice_iso)${NC}"
+  echo -e "${YELLOW}How many repetitions? (1-3, default 1):${NC}"
   read -r repetitions
   repetitions=${repetitions:-1}
 
   LANGUAGE_SELECTIONS+=("$lang_code")
-  VOICE_SELECTIONS+=("$voice_name $voice_iso")
+  VOICE_SELECTIONS+=("$voice_name ($voice_iso)")
   REPETITIONS+=("$repetitions")
   COLUMN_SELECTIONS+=("$column_number")
 
@@ -199,54 +166,89 @@ while true; do
     break
   fi
 
-  echo "Would you like to add another Language? (y/n):"
+  echo -e "${YELLOW}Would you like to add another Language? (y/n):${NC}"
   read -r add_language
   if [[ "$add_language" != "y" && "$add_language" != "yes" ]]; then
     break
   fi
 done
 
-echo "Would you like to select a range, or use fuzzy finder (fzf) to customize selected sentences?"
-echo "1) Range"
-echo "2) Fuzzy Finder"
+echo -e "${YELLOW}Would you like to select a range, or use fuzzy finder (fzf) to customize selected sentences?${NC}"
+echo -e "${ORANGE}1) Range${NC}"
+echo -e "${ORANGE}2) Fuzzy Finder${NC}"
 read -r selection_method
 
 if [[ "$selection_method" == "1" ]]; then
-  echo "Enter the range of sentence numbers (e.g., 1-10):"
+  echo -e "${YELLOW}Enter the range of sentence numbers (e.g., 1-10):${NC}"
   read -r range
   sentences=$(awk -F"$FIELD_SEPARATOR" -v range="$range" 'NR==1 || NR>=range && NR<=range {print}' "$INPUTFILE")
 elif [[ "$selection_method" == "2" ]]; then
   sentences=$(cat "$INPUTFILE" | fzf --multi)
 else
-  echo "Invalid selection method. Exiting."
+  echo -e "${ORANGE}Invalid selection method. Exiting.${NC}"
   exit 1
 fi
 
 # Display a summary of the selected options and sentences
-echo "Summary of selections:"
-echo "Languages and voices:"
+echo -e "${BLUE}Summary of selections:${NC}"
+echo -e "${YELLOW}Languages and voices:${NC}"
 for i in "${!LANGUAGE_SELECTIONS[@]}"; do
   lang_code=${LANGUAGE_SELECTIONS[$i]}
-  lang_name=$(get_language_name "$lang_code")
-  echo "Language $((i+1)):"
-  echo "Language Name: $lang_name"
-  echo "Language Code: ${LANGUAGE_SELECTIONS[$i]}"
-  echo "Voice: ${VOICE_SELECTIONS[$i]}"
-  echo "Repetitions: ${REPETITIONS[$i]}"
-  echo "Column: ${COLUMN_SELECTIONS[$i]}"
-  echo "------------------------"
+  case "$lang_code" in
+    ar) lang_name="Arabic" ;;
+    bg) lang_name="Bulgarian" ;;
+    ca) lang_name="Catalan" ;;
+    cs) lang_name="Czech" ;;
+    da) lang_name="Danish" ;;
+    de) lang_name="German" ;;
+    el) lang_name="Greek" ;;
+    en) lang_name="English" ;;
+    es) lang_name="Spanish" ;;
+    fi) lang_name="Finnish" ;;
+    fr) lang_name="French" ;;
+    he) lang_name="Hebrew" ;;
+    hi) lang_name="Hindi" ;;
+    hr) lang_name="Croatian" ;;
+    hu) lang_name="Hungarian" ;;
+    id) lang_name="Indonesian" ;;
+    it) lang_name="Italian" ;;
+    ja) lang_name="Japanese" ;;
+    ko) lang_name="Korean" ;;
+    ms) lang_name="Malay" ;;
+    nb) lang_name="Norwegian" ;;
+    nl) lang_name="Dutch" ;;
+    pl) lang_name="Polish" ;;
+    pt) lang_name="Portuguese" ;;
+    ro) lang_name="Romanian" ;;
+    ru) lang_name="Russian" ;;
+    sk) lang_name="Slovak" ;;
+    sv) lang_name="Swedish" ;;
+    th) lang_name="Thai" ;;
+    tr) lang_name="Turkish" ;;
+    uk) lang_name="Ukrainian" ;;
+    vi) lang_name="Vietnamese" ;;
+    zh) lang_name="Chinese" ;;
+    *) lang_name="Unknown" ;;
+  esac
+  echo -e "${ORANGE}Language $((i+1)):${NC}"
+  echo -e "${YELLOW}Language Name: ${NC}${lang_name}"
+  echo -e "${YELLOW}Language Code: ${NC}${LANGUAGE_SELECTIONS[$i]}"
+  echo -e "${YELLOW}Voice: ${NC}${VOICE_SELECTIONS[$i]}"
+  echo -e "${YELLOW}Repetitions: ${NC}${REPETITIONS[$i]}"
+  echo -e "${YELLOW}Column: ${NC}${COLUMN_SELECTIONS[$i]}"
+  echo -e "${BLUE}------------------------${NC}"
 done
 
-echo "Selected sentences:"
+echo -e "${YELLOW}Selected sentences:${NC}"
 IFS=$'\n'
 for sentence in $sentences; do
-  echo "Sentence $(echo "$sentence" | awk -F"$FIELD_SEPARATOR" '{print $1}')"
+  echo -e "${ORANGE}Sentence $(echo "$sentence" | awk -F"$FIELD_SEPARATOR" '{print $1}')${NC}"
   for i in "${!COLUMN_SELECTIONS[@]}"; do
     column_index=${COLUMN_SELECTIONS[$i]}
     column_value=$(echo "$sentence" | awk -F"$FIELD_SEPARATOR" -v col="$column_index" '{print $col}')
-    echo "Language $((i+1)) (${LANGUAGE_SELECTIONS[$i]}): $column_value"
+    echo -e "${YELLOW}Language $((i+1)) (${LANGUAGE_SELECTIONS[$i]}): ${NC}$column_value"
   done
-  echo "------------------------"
+  echo -e "${BLUE}------------------------${NC}"
 done
 
 # Process lines and generate audio
@@ -263,35 +265,26 @@ process_lines() {
       column_value=$(echo "$sentence" | awk -F"$FIELD_SEPARATOR" -v col="$column_index" '{print $col}')
       voice_name=$(echo "${VOICE_SELECTIONS[$i]}" | awk '{print $1}')
       for ((r=1; r<=${REPETITIONS[$i]}; r++)); do
-        echo "Processing sentence $sentence_number, Language $((i+1)): $column_value, Repetition $r"
-        say -v "$voice_name" "$column_value" -o "${tempfolder}/${sentence_number}_lang${i}_rep${r}.aiff"
-        sox "${tempfolder}/${sentence_number}_lang${i}_rep${r}.aiff" "${tempfolder}/${sentence_number}_lang${i}_rep${r}.wav" rate 16000
+        echo -e "${ORANGE}Processing sentence $sentence_number, Language $((i+1)): $column_value, Repetition $r${NC}"
+        say -v "$voice_name" "[[slnc 1500]] $column_value [[slnc 1500]]" -o "${tempfolder}/${sentence_number}_lang${i}_rep${r}.aiff"
       done
-      echo "Generating pause"
-      sox -n -r 16000 -c 1 "${tempfolder}/pause_2000ms_${i}.wav" trim 0.0 2.0
+      # Add silence between different voices
+      echo -e "${YELLOW}Generating pause${NC}"
+      say -v "$voice_name" "[[slnc 3000]]" -o "${tempfolder}/pause_lang${i}.aiff"
     done
-    echo "Generating row pause"
-    sox -n -r 16000 -c 1 "${tempfolder}/pause_3000ms.wav" trim 0.0 3.0
     ((sentence_count++))
+    if ((sentence_count < ${#sentences[@]})); then
+      echo -e "${YELLOW}Generating row pause${NC}"
+      say -v "$voice_name" "[[slnc 3000]]" -o "${tempfolder}/pause_${sentence_count}.aiff"
+    fi
   done
 
-  # Concatenate all audio files
-  sox $(ls "${tempfolder}"/*.wav | sort -n) "${tempfolder}/final_audio.wav"
-
-  # Convert to MP3
-  local mp3_filename="voicereps_"
-  for i in "${!VOICE_SELECTIONS[@]}"; do
-    mp3_filename+="${VOICE_SELECTIONS[$i]//[() ]/_}_"
-  done
-  mp3_filename+="${#sentences[@]}sentences.mp3"
-
-  ffmpeg -i "${tempfolder}/final_audio.wav" -q:a 0 "$mp3_filename"
-
-  # Cleanup
+  # Concatenate and convert to mp3
+  sox $(ls "${tempfolder}"/*.aiff | sort -n) "voicereps_$(IFS=_; echo "${VOICE_SELECTIONS[*]}")_sentences.mp3"
   rm -rf "$tempfolder"
-
-  echo "Audio file generated: $mp3_filename"
 }
 
 process_lines
+
+echo -e "${BLUE}Audio file generated: voicereps_$(IFS=_; echo "${VOICE_SELECTIONS[*]}")_sentences.mp3${NC}"
 
