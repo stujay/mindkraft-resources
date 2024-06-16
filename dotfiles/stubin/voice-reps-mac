@@ -86,23 +86,46 @@ check_fzf
 check_jq
 check_gawk
 
-# Input Parameters
-INPUTFILE=$1
+# Function to get file path from user
+get_file_path() {
+  while true; do
+    echo -e "${YELLOW}Welcome to STUJAY's Voice-Reps Generator!${NC}"
+    echo -e "${BLUE}Please provide the path to your TSV or CSV file.${NC}"
+    read -p "Enter the file path: " INPUTFILE
+    if [[ -f "$INPUTFILE" ]]; then
+      EXTENSION="${INPUTFILE##*.}"
+      if [[ "$EXTENSION" == "tsv" ]]; then
+        FIELD_SEPARATOR=$'\t'
+        echo -e "${YELLOW}This is a TSV file. The default field separator is TAB.${NC}"
+      elif [[ "$EXTENSION" == "csv" ]]; then
+        FIELD_SEPARATOR=','
+        echo -e "${YELLOW}This is a CSV file. The default field separator is ',' (comma).${NC}"
+      else
+        echo -e "${ORANGE}This is neither a TSV nor a CSV file. Please provide a valid file.${NC}"
+        continue
+      fi
+      read -p "Would you like to change the field separator? (y/n): " change_sep
+      if [[ "$change_sep" == "y" || "$change_sep" == "yes" ]]; then
+        read -p "Enter the new field separator (use 'TAB' for tab character): " new_sep
+        if [[ "$new_sep" == "TAB" || "$new_sep" == "tab" ]]; then
+          FIELD_SEPARATOR=$'\t'
+        else
+          FIELD_SEPARATOR="$new_sep"
+        fi
+      fi
+      break
+    else
+      echo -e "${ORANGE}Invalid file path. Please provide a valid file or type 'quit' to exit.${NC}"
+      read -p "Enter the file path: " INPUTFILE
+      [[ "$INPUTFILE" == "quit" ]] && exit 1
+    fi
+  done
+}
 
-# Determine the default field separator based on file extension
-EXTENSION="${INPUTFILE##*.}"
-if [[ "$EXTENSION" == "tsv" ]]; then
-    FIELD_SEPARATOR=$'\t'
-else
-    FIELD_SEPARATOR=','
-fi
+# If no input file is provided, prompt the user to enter the file path
+[[ -z "$1" ]] && get_file_path || INPUTFILE="$1"
 
-# Override field separator if provided as a second argument
-if [[ "$2" == "-F"* ]]; then
-    FIELD_SEPARATOR=${2:2}
-fi
-
-echo -e "${BLUE}voice-reps first-words.tsv${NC}"
+echo -e "${BLUE}STUJAY's Voice-Reps Generator: Processing file $INPUTFILE${NC}"
 echo -e "${ORANGE}Column headers:${NC}"
 head -n 1 "$INPUTFILE" | gawk -F"$FIELD_SEPARATOR" '{for(i=1; i<=NF; i++) print i, $i}'
 
