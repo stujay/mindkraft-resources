@@ -63,3 +63,4 @@ lp() {
 alias launch="~/mindkraft-resources/dotfiles/stubin/launch_app -s"
 alias scim="sc-im" #spreadsheet vim ... need to install if not yet done
 alias scim=sc-im
+alias youtube-hd="yt-dlp -f 137+140 --merge-output-format mp4"

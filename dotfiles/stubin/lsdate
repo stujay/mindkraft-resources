@@ -1,0 +1,64 @@
+#!/bin/bash
+
+# Function to check the platform and set date commands accordingly
+set_date_commands() {
+  if [[ "$OSTYPE" == "darwin"* ]]; then
+    # macOS date commands
+    TODAY=$(date +"%Y-%m-%d")
+    TOMORROW=$(date -v +1d +"%Y-%m-%d")
+    YESTERDAY=$(date -v -1d +"%Y-%m-%d")
+    DATE_CMD="date -j -f %Y%m%d"
+  else
+    # Linux date commands
+    TODAY=$(date +"%Y-%m-%d")
+    TOMORROW=$(date -d 'tomorrow' +"%Y-%m-%d")
+    YESTERDAY=$(date -d 'yesterday' +"%Y-%m-%d")
+    DATE_CMD="date -d"
+  fi
+}
+
+# If no arguments are provided, default to the current directory and today's date
+if [ -z "$1" ]; then
+  DIR="."
+  TARGET_DATE=""
+else
+  DIR="$1"
+  TARGET_DATE="$2"
+fi
+
+# Set the date commands based on the platform
+set_date_commands
+
+# Function to list files with ls -la for a given date range
+list_files() {
+  local start_date="$1"
+  local end_date="$2"
+  find "$DIR" -type f -newermt "$start_date" ! -newermt "$end_date" -print0 | xargs -0 ls -la
+}
+
+# Determine the date range based on the input
+if [ -z "$TARGET_DATE" ]; then
+  # Default to today
+  list_files "$TODAY" "$TOMORROW"
+
+elif [[ "$TARGET_DATE" =~ ^[0-9]{8}$ ]]; then
+  # If a specific date (YYYYMMDD) is provided
+  START_DATE=$($DATE_CMD "$TARGET_DATE" +"%Y-%m-%d")
+  END_DATE=$($DATE_CMD "$TARGET_DATE" +"%Y-%m-%d" -v +1d)
+  list_files "$START_DATE" "$END_DATE"
+
+elif [[ "$TARGET_DATE" == "yesterday" ]]; then
+  # If 'yesterday' is provided
+  list_files "$YESTERDAY" "$TODAY"
+
+elif [[ "$TARGET_DATE" =~ ^[0-9]{8}-[0-9]{8}$ ]]; then
+  # If a date range (YYYYMMDD-YYYYMMDD) is provided
+  START_DATE=$($DATE_CMD "${TARGET_DATE%-*}" +"%Y-%m-%d")
+  END_DATE=$($DATE_CMD "${TARGET_DATE#*-}" +"%Y-%m-%d" -v +1d)
+  list_files "$START_DATE" "$END_DATE"
+
+else
+  echo "Invalid date format. Please use YYYYMMDD, 'yesterday', or YYYYMMDD-YYYYMMDD."
+  exit 1
+fi
+
