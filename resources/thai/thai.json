@@ -1,0 +1,1201 @@
+{
+  "script": {
+    "name": "Thai",
+    "iso": "Thai",
+    "brahmic_name": "ไทย",
+    "tonal": true,
+    "consonant_classes": [
+      "high",
+      "mid",
+      "low"
+    ],
+    "varga_mapping": {
+      "original_vargas": [
+        "guttural",
+        "palatal",
+        "cerebral",
+        "dental",
+        "labial"
+      ],
+      "current_vargas": [
+        "guttural",
+        "palatal",
+        "dental",
+        "dental",
+        "labial"
+      ]
+    },
+    "action_mapping": {
+      "original_actions": [
+        "stopped",
+        "aspirated",
+        "voiced",
+        "voiced-aspirated",
+        "nasal",
+        "semi-vowel",
+        "sibilant",
+        "H-aspirate",
+        "base-voice",
+        "others"
+      ],
+      "current_actions": [
+        "stopped",
+        "aspirated",
+        "aspirated",
+        "aspirated",
+        "nasal",
+        "semi-vowel",
+        "sibilant",
+        "H-aspirate",
+        "base-voice",
+        "others"
+      ]
+    }
+  },
+  "consonants": [
+    {
+      "symbol": "ก",
+      "brahmi_parent": "क",
+      "transliteration": "g",
+      "class": "mid",
+      "varga_original": "gutteral",
+      "varga_current": "gutteral",
+      "action_mapping": {
+        "original": "stopped",
+        "current": "stopped"
+      },
+      "name": {
+        "native": "ก ไก่",
+        "rtgs": "ko kai",
+        "meaning": "chicken"
+      },
+      "ipa": {
+        "initial": "[k]",
+        "final": "[k̚]"
+      },
+      "index": 0,
+      "additional_info": {
+        "rtgs_initial": "k",
+        "rtgs_final": "k"
+      }
+    },
+    {
+      "symbol": "ข",
+      "brahmi_parent": "ख",
+      "transliteration": "k",
+      "class": "high",
+      "varga_original": "gutteral",
+      "varga_current": "gutteral",
+      "action_mapping": {
+        "original": "aspirated",
+        "current": "aspirated"
+      },
+      "name": {
+        "native": "ข ไข่",
+        "rtgs": "kho khai",
+        "meaning": "egg"
+      },
+      "ipa": {
+        "initial": "[kʰ]",
+        "final": "[k̚]"
+      },
+      "index": 0,
+      "additional_info": {
+        "rtgs_initial": "kh",
+        "rtgs_final": "k"
+      }
+    },
+    {
+      "symbol": "ฃ",
+      "brahmi_parent": "ख",
+      "transliteration": "k",
+      "class": "high",
+      "varga_original": "gutteral",
+      "varga_current": "gutteral",
+      "action_mapping": {
+        "original": "aspirated",
+        "current": "aspirated"
+      },
+      "name": {
+        "native": "ฃ ขวด",
+        "rtgs": "kho khuat",
+        "meaning": "bottle (obsolete)"
+      },
+      "ipa": {
+        "initial": "[kʰ]",
+        "final": "[k̚]"
+      },
+      "index": 1,
+      "additional_info": {
+        "rtgs_initial": "kh",
+        "rtgs_final": "k"
+      }
+    },
+    {
+      "symbol": "ค",
+      "brahmi_parent": "ग",
+      "transliteration": "k",
+      "class": "low",
+      "varga_original": "gutteral",
+      "varga_current": "gutteral",
+      "action_mapping": {
+        "original": "voiced",
+        "current": "aspirated"
+      },
+      "name": {
+        "native": "ค ควาย",
+        "rtgs": "kho khwai",
+        "meaning": "buffalo"
+      },
+      "ipa": {
+        "initial": "[kʰ]",
+        "final": "[k̚]"
+      },
+      "index": 0,
+      "additional_info": {
+        "rtgs_initial": "kh",
+        "rtgs_final": "k"
+      }
+    },
+    {
+      "symbol": "ฅ",
+      "brahmi_parent": "ग",
+      "transliteration": "k",
+      "class": "low",
+      "varga_original": "gutteral",
+      "varga_current": "gutteral",
+      "action_mapping": {
+        "original": "voiced",
+        "current": "aspirated"
+      },
+      "name": {
+        "native": "ฅ คน",
+        "rtgs": "kho khon",
+        "meaning": "person (obsolete)"
+      },
+      "ipa": {
+        "initial": "[kʰ]",
+        "final": "[k̚]"
+      },
+      "index": 1,
+      "additional_info": {
+        "rtgs_initial": "kh",
+        "rtgs_final": "k"
+      }
+    },
+    {
+      "symbol": "ฆ",
+      "brahmi_parent": "घ",
+      "transliteration": "k",
+      "class": "low",
+      "varga_original": "gutteral",
+      "varga_current": "gutteral",
+      "action_mapping": {
+        "original": "voiced-aspirated",
+        "current": "aspirated"
+      },
+      "name": {
+        "native": "ฆ ระฆัง",
+        "rtgs": "kho ra-khang",
+        "meaning": "bell"
+      },
+      "ipa": {
+        "initial": "[kʰ]",
+        "final": "[k̚]"
+      },
+      "index": 0,
+      "additional_info": {
+        "rtgs_initial": "kh",
+        "rtgs_final": "k"
+      }
+    },
+    {
+      "symbol": "ง",
+      "brahmi_parent": "ङ",
+      "transliteration": "ng",
+      "class": "low",
+      "varga_original": "gutteral",
+      "varga_current": "gutteral",
+      "action_mapping": {
+        "original": "nasal",
+        "current": "nasal"
+      },
+      "name": {
+        "native": "ง งู",
+        "rtgs": "ngo ngu",
+        "meaning": "snake"
+      },
+      "ipa": {
+        "initial": "[ŋ]",
+        "final": "[ŋ]"
+      },
+      "index": 0,
+      "additional_info": {
+        "rtgs_initial": "ng",
+        "rtgs_final": "ng"
+      }
+    },
+    {
+      "symbol": "จ",
+      "brahmi_parent": "च",
+      "transliteration": "j",
+      "class": "mid",
+      "varga_original": "palatal",
+      "varga_current": "palatal",
+      "action_mapping": {
+        "original": "stopped",
+        "current": "stopped"
+      },
+      "name": {
+        "native": "จ จาน",
+        "rtgs": "cho chan",
+        "meaning": "plate"
+      },
+      "ipa": {
+        "initial": "[tɕ]",
+        "final": "[t̚]"
+      },
+      "index": 0,
+      "additional_info": {
+        "rtgs_initial": "ch",
+        "rtgs_final": "t"
+      }
+    },
+    {
+      "symbol": "ฉ",
+      "brahmi_parent": "छ",
+      "transliteration": "ch",
+      "class": "high",
+      "varga_original": "palatal",
+      "varga_current": "palatal",
+      "action_mapping": {
+        "original": "aspirated",
+        "current": "aspirated"
+      },
+      "name": {
+        "native": "ฉ ฉิ่ง",
+        "rtgs": "cho ching",
+        "meaning": "cymbals"
+      },
+      "ipa": {
+        "initial": "[tɕʰ]",
+        "final": "–"
+      },
+      "index": 0,
+      "additional_info": {
+        "rtgs_initial": "ch",
+        "rtgs_final": "–"
+      }
+    },
+    {
+      "symbol": "ช",
+      "brahmi_parent": "ज",
+      "transliteration": "ch",
+      "class": "low",
+      "varga_original": "palatal",
+      "varga_current": "palatal",
+      "action_mapping": {
+        "original": "voiced",
+        "current": "aspirated"
+      },
+      "name": {
+        "native": "ช ช้าง",
+        "rtgs": "cho chang",
+        "meaning": "elephant"
+      },
+      "ipa": {
+        "initial": "[tɕʰ]",
+        "final": "[t̚]"
+      },
+      "index": 0,
+      "additional_info": {
+        "rtgs_initial": "ch",
+        "rtgs_final": "t"
+      }
+    },
+    {
+      "symbol": "ซ",
+      "brahmi_parent": "ज",
+      "transliteration": "s",
+      "class": "low",
+      "varga_original": "palatal",
+      "varga_current": "palatal",
+      "action_mapping": {
+        "original": "voiced",
+        "current": "aspirated"
+      },
+      "name": {
+        "native": "ซ โซ่",
+        "rtgs": "so so",
+        "meaning": "chain"
+      },
+      "ipa": {
+        "initial": "[s]",
+        "final": "[t̚]"
+      },
+      "index": 1,
+      "additional_info": {
+        "rtgs_initial": "s",
+        "rtgs_final": "t"
+      }
+    },
+    {
+      "symbol": "ฌ",
+      "brahmi_parent": "झ",
+      "transliteration": "ch",
+      "class": "low",
+      "varga_original": "palatal",
+      "varga_current": "palatal",
+      "action_mapping": {
+        "original": "voiced-aspirated",
+        "current": "aspirated"
+      },
+      "name": {
+        "native": "ฌ เฌอ",
+        "rtgs": "cho choe",
+        "meaning": "tree"
+      },
+      "ipa": {
+        "initial": "[tɕʰ]",
+        "final": "–"
+      },
+      "index": 0,
+      "additional_info": {
+        "rtgs_initial": "ch",
+        "rtgs_final": "–"
+      }
+    },
+    {
+      "symbol": "ญ",
+      "brahmi_parent": "ञ",
+      "transliteration": "ny",
+      "class":"low",
+      "varga_original": "nasal",
+      "varga_current": "nasal",
+      "action_mapping": {
+        "original": "nasal",
+        "current": "nasal"
+      },
+      "name": {
+        "native": "ญอ หญิง",
+        "rtgs": "yo ying",
+        "meaning": "lady"
+      },
+      "ipa": {
+        "initial": "j",
+        "final": "n"
+      },
+      "index": 0,
+      "additional_info": {
+        "rtgs_initial": "y",
+        "rtgs_final": "n"
+      }
+    },
+    {
+      "symbol": "ฎ",
+      "brahmi_parent": "ट",
+      "transliteration": "d",
+      "class": "mid",
+      "varga_original": "cerebral",
+      "varga_current": "dental",
+      "action_mapping": {
+        "original": "stopped",
+        "current": "stopped"
+      },
+      "name": {
+        "native": "ฎ ชฎา",
+        "rtgs": "do cha-da",
+        "meaning": "headdress"
+      },
+      "ipa": {
+        "initial": "[d]",
+        "final": "[t̚]"
+      },
+      "index": 0,
+      "additional_info": {
+        "rtgs_initial": "d",
+        "rtgs_final": "t"
+      }
+    },
+    {
+      "symbol": "ฏ",
+      "brahmi_parent": "ट",
+      "transliteration": "dt",
+      "class": "mid",
+      "varga_original": "cerebral",
+      "varga_current": "dental",
+      "action_mapping": {
+        "original": "stopped",
+        "current": "stopped"
+      },
+      "name": {
+        "native": "ฏ ปฏัก",
+        "rtgs": "to pa-tak",
+        "meaning": "goad , javelin"
+      },
+      "ipa": {
+        "initial": "[t]",
+        "final": "[t̚]"
+      },
+      "index": 1,
+      "additional_info": {
+        "rtgs_initial": "t",
+        "rtgs_final": "t"
+      }
+    },
+    {
+      "symbol": "ฐ",
+      "brahmi_parent": "ठ",
+      "transliteration": "t",
+      "class": "high",
+      "varga_original": "cerebral",
+      "varga_current": "dental",
+      "action_mapping": {
+        "original": "aspirated",
+        "current": "aspirated"
+      },
+      "name": {
+        "native":"ฐอ ฐาน",
+        "rtgs": "tho thaan",
+        "meaning": "base"
+      },
+      "ipa": {
+        "initial": "th",
+        "final": "t"
+      },
+      "index": 0,
+      "additional_info": {
+        "rtgs_initial": "th",
+        "rtgs_final": "t"
+      }
+    },
+    {
+      "symbol": "ฑ",
+      "brahmi_parent": "ड",
+      "transliteration": "t",
+      "class": "low",
+      "varga_original": "cerebral",
+      "varga_current": "dental",
+      "action_mapping": {
+        "original": "voiced",
+        "current": "aspirated"
+      },
+      "name": {
+        "native": "ฑ มณโฑ",
+        "rtgs": "tho montho",
+        "meaning": "Montho , character from Ramayana"
+      },
+      "ipa": {
+        "initial": "[tʰ] or [d]",
+        "final": "[t̚]"
+      },
+      "index": 0,
+      "additional_info": {
+        "rtgs_initial": "th or d",
+        "rtgs_final": "t"
+      }
+    },
+    {
+      "symbol": "ฒ",
+      "brahmi_parent": "ढ",
+      "transliteration": "t",
+      "class": "low",
+      "varga_original": "cerebral",
+      "varga_current": "dental",
+      "action_mapping": {
+        "original": "voiced-aspirated",
+        "current": "aspirated"
+      },
+      "name": {
+        "native": "ฒ ผู้เฒ่า",
+        "rtgs": "tho phu-thao",
+        "meaning": "elder"
+      },
+      "ipa": {
+        "initial": "[tʰ]",
+        "final": "[t̚]"
+      },
+      "index": 0,
+      "additional_info": {
+        "rtgs_initial": "th",
+        "rtgs_final": "t"
+      }
+    },
+    {
+      "symbol": "ณ",
+      "brahmi_parent": "ण",
+      "transliteration": "n",
+      "class": "low",
+      "varga_original": "cerebral",
+      "varga_current": "dental",
+      "action_mapping": {
+        "original": "nasal",
+        "current": "nasal"
+      },
+      "name": {
+        "native": "ณ เณร",
+        "rtgs": "no nen",
+        "meaning": "samanera"
+      },
+      "ipa": {
+        "initial": "[n]",
+        "final": "[n]"
+      },
+      "index": 0,
+      "additional_info": {
+        "rtgs_initial": "n",
+        "rtgs_final": "n"
+      }
+    },
+    {
+      "symbol": "ด",
+      "brahmi_parent": "त",
+      "transliteration": "d",
+      "class": "mid",
+      "varga_original": "dental",
+      "varga_current": "dental",
+      "action_mapping": {
+        "original": "stopped",
+        "current": "stopped"
+      },
+      "name": {
+        "native": "ด เด็ก",
+        "rtgs": "do dek",
+        "meaning": "child"
+      },
+      "ipa": {
+        "initial": "[d]",
+        "final": "[t̚]"
+      },
+      "index": 0,
+      "additional_info": {
+        "rtgs_initial": "d",
+        "rtgs_final": "t"
+      }
+    },
+    {
+      "symbol": "ต",
+      "brahmi_parent": "त",
+      "transliteration": "dt",
+      "class": "mid",
+      "varga_original": "dental",
+      "varga_current": "dental",
+      "action_mapping": {
+        "original": "stopped",
+        "current": "stopped"
+      },
+      "name": {
+        "native": "ต เต่า",
+        "rtgs": "to tao",
+        "meaning": "turtle"
+      },
+      "ipa": {
+        "initial": "[t]",
+        "final": "[t̚]"
+      },
+      "index": 1,
+      "additional_info": {
+        "rtgs_initial": "t",
+        "rtgs_final": "t"
+      }
+    },
+    {
+      "symbol": "ถ",
+      "brahmi_parent": "थ",
+      "transliteration": "t",
+      "class": "high",
+      "varga_original": "dental",
+      "varga_current": "dental",
+      "action_mapping": {
+        "original": "aspirated",
+        "current": "aspirated"
+      },
+      "name": {
+        "native": "ถ ถุง",
+        "rtgs": "tho thung",
+        "meaning": "sack"
+      },
+      "ipa": {
+        "initial": "[tʰ]",
+        "final": "[t̚]"
+      },
+      "index": 0,
+      "additional_info": {
+        "rtgs_initial": "th",
+        "rtgs_final": "t"
+      }
+    },
+    {
+      "symbol": "ท",
+      "brahmi_parent": "द",
+      "transliteration": "t",
+      "class": "low",
+      "varga_original": "dental",
+      "varga_current": "dental",
+      "action_mapping": {
+        "original": "voiced",
+        "current": "aspirated"
+      },
+      "name": {
+        "native": "ท ทหาร",
+        "rtgs": "tho thahan",
+        "meaning": "soldier"
+      },
+      "ipa": {
+        "initial": "[tʰ]",
+        "final": "[t̚]"
+      },
+      "index": 0,
+      "additional_info": {
+        "rtgs_initial": "th",
+        "rtgs_final": "t"
+      }
+    },
+    {
+      "symbol": "ธ",
+      "brahmi_parent": "ध",
+      "transliteration": "t",
+      "class": "low",
+      "varga_original": "dental",
+      "varga_current": "dental",
+      "action_mapping": {
+        "original": "voiced-aspirated",
+        "current": "aspirated"
+      },
+      "name": {
+        "native": "ธ ธง",
+        "rtgs": "tho thong",
+        "meaning": "flag"
+      },
+      "ipa": {
+        "initial": "[tʰ]",
+        "final": "[t̚]"
+      },
+      "index": 0,
+      "additional_info": {
+        "rtgs_initial": "th",
+        "rtgs_final": "t"
+      }
+    },
+    {
+      "symbol": "น",
+      "brahmi_parent": "न",
+      "transliteration": "n",
+      "class": "low",
+      "varga_original": "dental",
+      "varga_current": "dental",
+      "action_mapping": {
+        "original": "nasal",
+        "current": "nasal"
+      },
+      "name": {
+        "native": "น หนู",
+        "rtgs": "no nu",
+        "meaning": "mouse"
+      },
+      "ipa": {
+        "initial": "[n]",
+        "final": "[n]"
+      },
+      "index": 0,
+      "additional_info": {
+        "rtgs_initial": "n",
+        "rtgs_final": "n"
+      }
+    },
+    {
+      "symbol": "บ",
+      "brahmi_parent": "प",
+      "transliteration": "b",
+      "class": "mid",
+      "varga_original": "labial",
+      "varga_current": "labial",
+      "action_mapping": {
+        "original": "stopped",
+        "current": "stopped"
+      },
+      "name": {
+        "native": "บ ใบไม้",
+        "rtgs": "bo baimai",
+        "meaning": "leaf"
+      },
+      "ipa": {
+        "initial": "[b]",
+        "final": "[p̚]"
+      },
+      "index": 0,
+      "additional_info": {
+        "rtgs_initial": "b",
+        "rtgs_final": "p"
+      }
+    },
+    {
+      "symbol": "ป",
+      "brahmi_parent": "प",
+      "transliteration": "bp",
+      "class": "mid",
+      "varga_original": "labial",
+      "varga_current": "labial",
+      "action_mapping": {
+        "original": "stopped",
+        "current": "stopped"
+      },
+      "name": {
+        "native": "ป ปลา",
+        "rtgs": "po pla",
+        "meaning": "fish"
+      },
+      "ipa": {
+        "initial": "[p]",
+        "final": "[p̚]"
+      },
+      "index": 1,
+      "additional_info": {
+        "rtgs_initial": "p",
+        "rtgs_final": "p"
+      }
+    },
+    {
+      "symbol": "ผ",
+      "brahmi_parent": "फ",
+      "transliteration": "p",
+      "class": "high",
+      "varga_original": "labial",
+      "varga_current": "labial",
+      "action_mapping": {
+        "original": "aspirated",
+        "current": "aspirated"
+      },
+      "name": {
+        "native": "ผ ผึ้ง",
+        "rtgs": "pho phueng",
+        "meaning": "bee"
+      },
+      "ipa": {
+        "initial": "[pʰ]",
+        "final": "–"
+      },
+      "index": 0,
+      "additional_info": {
+        "rtgs_initial": "ph",
+        "rtgs_final": "–"
+      }
+    },
+    {
+      "symbol": "ฝ",
+      "brahmi_parent": "फ",
+      "transliteration": "f",
+      "class": "high",
+      "varga_original": "labial",
+      "varga_current": "labial",
+      "action_mapping": {
+        "original": "aspirated",
+        "current": "aspirated"
+      },
+      "name": {
+        "native": "ฝ ฝา",
+        "rtgs": "fo fa",
+        "meaning": "lid"
+      },
+      "ipa": {
+        "initial": "[f]",
+        "final": "–"
+      },
+      "index": 1,
+      "additional_info": {
+        "rtgs_initial": "f",
+        "rtgs_final": "–"
+      }
+    },
+    {
+      "symbol": "พ",
+      "brahmi_parent": "ब",
+      "transliteration": "p",
+      "class": "low",
+      "varga_original": "labial",
+      "varga_current": "labial",
+      "action_mapping": {
+        "original": "voiced",
+        "current": "aspirated"
+      },
+      "name": {
+        "native": "พ พาน",
+        "rtgs": "pho phan",
+        "meaning": "phan"
+      },
+      "ipa": {
+        "initial": "[pʰ]",
+        "final": "[p̚]"
+      },
+      "index": 0,
+      "additional_info": {
+        "rtgs_initial": "ph",
+        "rtgs_final": "p"
+      }
+    },
+    {
+      "symbol": "ฟ",
+      "brahmi_parent": "ब",
+      "transliteration": "f",
+      "class": "low",
+      "varga_original": "labial",
+      "varga_current": "labial",
+      "action_mapping": {
+        "original": "voiced",
+        "current": "aspirated"
+      },
+      "name": {
+        "native": "ฟ ฟัน",
+        "rtgs": "fo fan",
+        "meaning": "teeth"
+      },
+      "ipa": {
+        "initial": "[f]",
+        "final": "[p̚]"
+      },
+      "index": 1,
+      "additional_info": {
+        "rtgs_initial": "f",
+        "rtgs_final": "p"
+      }
+    },
+    {
+      "symbol": "ภ",
+      "brahmi_parent": "भ",
+      "transliteration": "p",
+      "class": "low",
+      "varga_original": "labial",
+      "varga_current": "labial",
+      "action_mapping": {
+        "original": "voiced-aspirated",
+        "current": "aspirated"
+      },
+      "name": {
+        "native": "ภ สำเภา",
+        "rtgs": "pho sam-phao",
+        "meaning": "junk"
+      },
+      "ipa": {
+        "initial": "[pʰ]",
+        "final": "[p̚]"
+      },
+      "index": 0,
+      "additional_info": {
+        "rtgs_initial": "ph",
+        "rtgs_final": "p"
+      }
+    },
+    {
+      "symbol": "ม",
+      "brahmi_parent": "म",
+      "transliteration": "m",
+      "class": "low",
+      "varga_original": "labial",
+      "varga_current": "labial",
+      "action_mapping": {
+        "original": "voiced",
+        "current": "aspirated"
+      },
+      "name": {
+        "native": "ม ม้า",
+        "rtgs": "mo ma",
+        "meaning": "horse"
+      },
+      "ipa": {
+        "initial": "[m]",
+        "final": "[m]"
+      },
+      "index": 0,
+      "additional_info": {
+        "rtgs_initial": "m",
+        "rtgs_final": "m"
+      }
+    },
+    {
+      "symbol": "ย",
+      "brahmi_parent": "य",
+      "transliteration": "y",
+      "class": "low",
+      "varga_original": "palatal",
+      "varga_current": "palatal",
+      "action_mapping": {
+        "original": "voiced",
+        "current": "aspirated"
+      },
+      "name": {
+        "native": "ย ยักษ์",
+        "rtgs": "yo yak",
+        "meaning": "giant, yaksha"
+      },
+      "ipa": {
+        "initial": "[j]",
+        "final": "–  or [n]"
+      },
+      "index": 0,
+      "additional_info": {
+        "rtgs_initial": "y",
+        "rtgs_final": "–  or n [c]"
+      }
+    },
+    {
+      "symbol": "ร",
+      "brahmi_parent": "र",
+      "transliteration": "r",
+      "class": "low",
+      "varga_original": "cerebral",
+      "varga_current": "dental",
+      "action_mapping": {
+        "original": "voiced",
+        "current": "aspirated"
+      },
+      "name": {
+        "native": "ร เรือ",
+        "rtgs": "ro ruea",
+        "meaning": "boat"
+      },
+      "ipa": {
+        "initial": "[r]",
+        "final": "[n]"
+      },
+      "index": 0,
+      "additional_info": {
+        "rtgs_initial": "r",
+        "rtgs_final": "n"
+      }
+    },
+    {
+      "symbol": "ล",
+      "brahmi_parent": "ल",
+      "transliteration": "l",
+      "class": "low",
+      "varga_original": "dental",
+      "varga_current": "dental",
+      "action_mapping": {
+        "original": "voiced",
+        "current": "aspirated"
+      },
+      "name": {
+        "native": "ล ลิง",
+        "rtgs": "lo ling",
+        "meaning": "monkey"
+      },
+      "ipa": {
+        "initial": "[l]",
+        "final": "[n]"
+      },
+      "index": 0,
+      "additional_info": {
+        "rtgs_initial": "l",
+        "rtgs_final": "n"
+      }
+    },
+    {
+      "symbol": "ว",
+      "brahmi_parent": "व",
+      "transliteration": "w",
+      "class": "low",
+      "varga_original": "labial",
+      "varga_current": "labial",
+      "action_mapping": {
+        "original": "voiced",
+        "current": "aspirated"
+      },
+      "name": {
+        "native": "ว แหวน",
+        "rtgs": "wo waen",
+        "meaning": "ring"
+      },
+      "ipa": {
+        "initial": "[w]",
+        "final": "–"
+      },
+      "index": 0,
+      "additional_info": {
+        "rtgs_initial": "w",
+        "rtgs_final": "– [d]"
+      }
+    },
+    {
+      "symbol": "ศ",
+      "brahmi_parent": "श",
+      "transliteration": "s",
+      "class": "high",
+      "varga_original": "palatal",
+      "varga_current": "palatal",
+      "action_mapping": {
+        "original": "sibilant",
+        "current": "sibilant"
+      },
+      "name": {
+        "native": "ศ ศาลา",
+        "rtgs": "so sala",
+        "meaning": "pavilion, sala"
+      },
+      "ipa": {
+        "initial": "[s]",
+        "final": "[t̚]"
+      },
+      "index": 0,
+      "additional_info": {
+        "rtgs_initial": "s",
+        "rtgs_final": "t"
+      }
+    },
+    {
+      "symbol": "ษ",
+      "brahmi_parent": "ष",
+      "transliteration": "s",
+      "class": "high",
+      "varga_original": "cerebral",
+      "varga_current": "dental",
+      "action_mapping": {
+        "original": "sibilant",
+        "current": "sibilant"
+      },
+      "name": {
+        "native": "ษ ฤๅษี",
+        "rtgs": "so rue-si",
+        "meaning": "hermit"
+      },
+      "ipa": {
+        "initial": "[s]",
+        "final": "[t̚]"
+      },
+      "index": 0,
+      "additional_info": {
+        "rtgs_initial": "s",
+        "rtgs_final": "t"
+      }
+    },
+    {
+      "symbol": "ส",
+      "brahmi_parent": "स",
+      "transliteration": "s",
+      "class": "high",
+      "varga_original": "dental",
+      "varga_current": "dental",
+      "action_mapping": {
+        "original": "sibilant",
+        "current": "sibilant"
+      },
+      "name": {
+        "native": "ส เสือ",
+        "rtgs": "so suea",
+        "meaning": "tiger"
+      },
+      "ipa": {
+        "initial": "[s]",
+        "final": "[t̚]"
+      },
+      "index": 0,
+      "additional_info": {
+        "rtgs_initial": "s",
+        "rtgs_final": "t"
+      }
+    },
+    {
+      "symbol": "ห",
+      "brahmi_parent": "ह",
+      "transliteration": "h",
+      "class": "high",
+      "varga_original": "-",
+      "varga_current": "-",
+      "action_mapping": {
+        "original": "aspirated",
+        "current": "aspirated"
+      },
+      "name": {
+        "native": "ห หีบ",
+        "rtgs": "ho hip",
+        "meaning": "chest, box"
+      },
+      "ipa": {
+        "initial": "[h]",
+        "final": "–"
+      },
+      "index": 0,
+      "additional_info": {
+        "rtgs_initial": "h",
+        "rtgs_final": "–"
+      }
+    },
+    {
+      "symbol": "ฬ",
+      "brahmi_parent": "ळ",
+      "transliteration": "l",
+      "class": "low",
+      "varga_original": "cerebral",
+      "varga_current": "dental",
+      "action_mapping": {
+        "original": "-",
+        "current": "-"
+      },
+      "name": {
+        "native": "ฬ จุฬา",
+        "rtgs": "lo chu-la",
+        "meaning": "kite"
+      },
+      "ipa": {
+        "initial": "[l]",
+        "final": "[n]"
+      },
+      "index": 0,
+      "additional_info": {
+        "rtgs_initial": "l",
+        "rtgs_final": "n"
+      }
+    },
+    {
+      "symbol": "อ",
+      "brahmi_parent": "अ",
+      "transliteration": "ɔ",
+      "class": "mid",
+      "varga_original": "-",
+      "varga_current": "-",
+      "action_mapping": {
+        "original": "stopped",
+        "current": "stopped"
+      },
+      "name": {
+        "native": "อ อ่าง",
+        "rtgs": "o ang",
+        "meaning": "basin"
+      },
+      "ipa": {
+        "initial": "[ʔ]",
+        "final": "–"
+      },
+      "index": 0,
+      "additional_info": {
+        "rtgs_initial": "– [e]",
+        "rtgs_final": "–"
+      }
+    },
+    {
+      "symbol": "ฮ",
+      "brahmi_parent": "र",
+      "transliteration": "h",
+      "class": "low",
+      "varga_original": "-",
+      "varga_current": "-",
+      "action_mapping": {
+        "original": "aspirated",
+        "current": "aspirated"
+      },
+      "name": {
+        "native": "ฮ นกฮูก",
+        "rtgs": "ho nok-huk",
+        "meaning": "owl"
+      },
+      "ipa": {
+        "initial": "[h]",
+        "final": "–"
+      },
+      "index": 0,
+      "additional_info": {
+        "rtgs_initial": "h",
+        "rtgs_final": "–"
+      }
+    }
+  ]
+}

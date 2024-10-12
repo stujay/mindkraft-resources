@@ -1,0 +1,412 @@
+{
+  "script": {
+    "name": "Devanagari",
+    "iso": "Deva",
+    "tonal": false,
+    "varga_mapping": {
+      "original_vargas": [
+        "guttural",
+        "palatal",
+        "cerebral",
+        "dental",
+        "labial"
+      ],
+      "current_vargas": [
+        "guttural",
+        "palatal",
+        "cerebral",
+        "dental",
+        "labial"
+      ]
+    },
+    "action_mapping": {
+      "original_actions": [
+        "stopped",
+        "aspirated",
+        "voiced",
+        "voiced-aspirated",
+        "nasal",
+        "semi-vowel",
+        "sibilant",
+        "H-aspirate",
+        "base-voice"
+      ],
+      "current_actions": [
+        "stopped",
+        "aspirated",
+        "voiced",
+        "voiced-aspirated",
+        "nasal",
+        "semi-vowel",
+        "sibilant",
+        "H-aspirate",
+        "base-voice"
+      ]
+    }
+  },
+  "consonants": [
+    {
+      "symbol": "क",
+      "brahmi_parent": "ka",
+      "ipa": "[k]",
+      "varga_original": "guttural",
+      "varga_current": "guttural",
+      "action_mapping": {
+        "original": "stopped",
+        "current": "stopped"
+      }
+    },
+    {
+      "symbol": "ख",
+      "brahmi_parent": "kha",
+      "ipa": "[kʰ]",
+      "varga_original": "guttural",
+      "varga_current": "guttural",
+      "action_mapping": {
+        "original": "aspirated",
+        "current": "aspirated"
+      }
+    },
+    {
+      "symbol": "ग",
+      "brahmi_parent": "ga",
+      "ipa": "[ɡ]",
+      "varga_original": "guttural",
+      "varga_current": "guttural",
+      "action_mapping": {
+        "original": "voiced",
+        "current": "voiced"
+      }
+    },
+    {
+      "symbol": "घ",
+      "brahmi_parent": "gha",
+      "ipa": "[ɡʱ]",
+      "varga_original": "guttural",
+      "varga_current": "guttural",
+      "action_mapping": {
+        "original": "voiced-aspirated",
+        "current": "voiced-aspirated"
+      }
+    },
+    {
+      "symbol": "ङ",
+      "brahmi_parent": "nga",
+      "ipa": "[ŋ]",
+      "varga_original": "guttural",
+      "varga_current": "guttural",
+      "action_mapping": {
+        "original": "nasal",
+        "current": "nasal"
+      }
+    },
+    {
+      "symbol": "च",
+      "brahmi_parent": "ca",
+      "ipa": "[tʃ]",
+      "varga_original": "palatal",
+      "varga_current": "palatal",
+      "action_mapping": {
+        "original": "stopped",
+        "current": "stopped"
+      }
+    },
+    {
+      "symbol": "छ",
+      "brahmi_parent": "cha",
+      "ipa": "[tʃʰ]",
+      "varga_original": "palatal",
+      "varga_current": "palatal",
+      "action_mapping": {
+        "original": "aspirated",
+        "current": "aspirated"
+      }
+    },
+    {
+      "symbol": "ज",
+      "brahmi_parent": "ja",
+      "ipa": "[dʒ]",
+      "varga_original": "palatal",
+      "varga_current": "palatal",
+      "action_mapping": {
+        "original": "voiced",
+        "current": "voiced"
+      }
+    },
+    {
+      "symbol": "झ",
+      "brahmi_parent": "jha",
+      "ipa": "[dʒʱ]",
+      "varga_original": "palatal",
+      "varga_current": "palatal",
+      "action_mapping": {
+        "original": "voiced-aspirated",
+        "current": "voiced-aspirated"
+      }
+    },
+    {
+      "symbol": "ञ",
+      "brahmi_parent": "nya",
+      "ipa": "[ɲ]",
+      "varga_original": "palatal",
+      "varga_current": "palatal",
+      "action_mapping": {
+        "original": "nasal",
+        "current": "nasal"
+      }
+    },
+    {
+      "symbol": "ट",
+      "brahmi_parent": "tta",
+      "ipa": "[ʈ]",
+      "varga_original": "cerebral",
+      "varga_current": "cerebral",
+      "action_mapping": {
+        "original": "stopped",
+        "current": "stopped"
+      }
+    },
+    {
+      "symbol": "ठ",
+      "brahmi_parent": "ttha",
+      "ipa": "[ʈʰ]",
+      "varga_original": "cerebral",
+      "varga_current": "cerebral",
+      "action_mapping": {
+        "original": "aspirated",
+        "current": "aspirated"
+      }
+    },
+    {
+      "symbol": "ड",
+      "brahmi_parent": "dda",
+      "ipa": "[ɖ]",
+      "varga_original": "cerebral",
+      "varga_current": "cerebral",
+      "action_mapping": {
+        "original": "voiced",
+        "current": "voiced"
+      }
+    },
+    {
+      "symbol": "ढ",
+      "brahmi_parent": "ddha",
+      "ipa": "[ɖʱ]",
+      "varga_original": "cerebral",
+      "varga_current": "cerebral",
+      "action_mapping": {
+        "original": "voiced-aspirated",
+        "current": "voiced-aspirated"
+      }
+    },
+    {
+      "symbol": "ण",
+      "brahmi_parent": "nna",
+      "ipa": "[ɳ]",
+      "varga_original": "cerebral",
+      "varga_current": "cerebral",
+      "action_mapping": {
+        "original": "nasal",
+        "current": "nasal"
+      }
+    },
+    {
+      "symbol": "त",
+      "brahmi_parent": "ta",
+      "ipa": "[t̪]",
+      "varga_original": "dental",
+      "varga_current": "dental",
+      "action_mapping": {
+        "original": "stopped",
+        "current": "stopped"
+      }
+    },
+    {
+      "symbol": "थ",
+      "brahmi_parent": "tha",
+      "ipa": "[t̪ʰ]",
+      "varga_original": "dental",
+      "varga_current": "dental",
+      "action_mapping": {
+        "original": "aspirated",
+        "current": "aspirated"
+      }
+    },
+    {
+      "symbol": "द",
+      "brahmi_parent": "da",
+      "ipa": "[d̪]",
+      "varga_original": "dental",
+      "varga_current": "dental",
+      "action_mapping": {
+        "original": "voiced",
+        "current": "voiced"
+      }
+    },
+    {
+      "symbol": "ध",
+      "brahmi_parent": "dha",
+      "ipa": "[d̪ʱ]",
+      "varga_original": "dental",
+      "varga_current": "dental",
+      "action_mapping": {
+        "original": "voiced-aspirated",
+        "current": "voiced-aspirated"
+      }
+    },
+    {
+      "symbol": "न",
+      "brahmi_parent": "na",
+      "ipa": "[n]",
+      "varga_original": "dental",
+      "varga_current": "dental",
+      "action_mapping": {
+        "original": "nasal",
+        "current": "nasal"
+      }
+    },
+    {
+      "symbol": "प",
+      "brahmi_parent": "pa",
+      "ipa": "[p]",
+      "varga_original": "labial",
+      "varga_current": "labial",
+      "action_mapping": {
+        "original": "stopped",
+        "current": "stopped"
+      }
+    },
+    {
+      "symbol": "फ",
+      "brahmi_parent": "pha",
+      "ipa": "[pʰ]",
+      "varga_original": "labial",
+      "varga_current": "labial",
+      "action_mapping": {
+        "original": "aspirated",
+        "current": "aspirated"
+      }
+    },
+    {
+      "symbol": "ब",
+      "brahmi_parent": "ba",
+      "ipa": "[b]",
+      "varga_original": "labial",
+      "varga_current": "labial",
+      "action_mapping": {
+        "original": "voiced",
+        "current": "voiced"
+      }
+    },
+    {
+      "symbol": "भ",
+      "brahmi_parent": "bha",
+      "ipa": "[bʱ]",
+      "varga_original": "labial",
+      "varga_current": "labial",
+      "action_mapping": {
+        "original": "voiced-aspirated",
+        "current": "voiced-aspirated"
+      }
+    },
+    {
+      "symbol": "म",
+      "brahmi_parent": "ma",
+      "ipa": "[m]",
+      "varga_original": "labial",
+      "varga_current": "labial",
+      "action_mapping": {
+        "original": "nasal",
+        "current": "nasal"
+      }
+    },
+    {
+      "symbol": "य",
+      "brahmi_parent": "ya",
+      "ipa": "[j]",
+      "varga_original": "palatal",
+      "varga_current": "palatal",
+      "action_mapping": {
+        "original": "semi-vowel",
+        "current": "semi-vowel"
+      }
+    },
+    {
+      "symbol": "र",
+      "brahmi_parent": "ra",
+      "ipa": "[r]",
+      "varga_original": "cerebral",
+      "varga_current": "cerebral",
+      "action_mapping": {
+        "original": "semi-vowel",
+        "current": "semi-vowel"
+      }
+    },
+    {
+      "symbol": "ल",
+      "brahmi_parent": "la",
+      "ipa": "[l]",
+      "varga_original": "dental",
+      "varga_current": "dental",
+      "action_mapping": {
+        "original": "semi-vowel",
+        "current": "semi-vowel"
+      }
+    },
+    {
+      "symbol": "व",
+      "brahmi_parent": "va",
+      "ipa": "[ʋ]",
+      "varga_original": "labial",
+      "varga_current": "labial",
+      "action_mapping": {
+        "original": "semi-vowel",
+        "current": "semi-vowel"
+      }
+    },
+    {
+      "symbol": "श",
+      "brahmi_parent": "sha",
+      "ipa": "[ʃ]",
+      "varga_original": "palatal",
+      "varga_current": "palatal",
+      "action_mapping": {
+        "original": "sibilant",
+        "current": "sibilant"
+      }
+    },
+    {
+      "symbol": "ष",
+      "brahmi_parent": "ssha",
+      "ipa": "[ʂ]",
+      "varga_original": "cerebral",
+      "varga_current": "cerebral",
+      "action_mapping": {
+        "original": "sibilant",
+        "current": "sibilant"
+      }
+    },
+    {
+      "symbol": "स",
+      "brahmi_parent": "sa",
+      "ipa": "[s]",
+      "varga_original": "dental",
+      "varga_current": "dental",
+      "action_mapping": {
+        "original": "sibilant",
+        "current": "sibilant"
+      }
+    },
+    {
+      "symbol": "ह",
+      "brahmi_parent": "ha",
+      "ipa": "[ɦ]",
+      "varga_original": "-",
+      "varga_current": "-",
+      "action_mapping": {
+        "original": "H-aspirate",
+        "current": "H-aspirate"
+      }
+    }
+  ]
+}

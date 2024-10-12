@@ -1,0 +1,260 @@
+{
+  "consonants": [
+    {
+      "phonetic_category": "kaṇṭhya (Velar)",
+      "consonants": [
+        {
+          "symbol": "क",
+          "transliteration": "ka",
+          "ipa": "[k]",
+          "voicing": "aghoṣa",
+          "aspiration": "alpaprāṇa"
+        },
+        {
+          "symbol": "ख",
+          "transliteration": "kha",
+          "ipa": "[kʰ]",
+          "voicing": "aghoṣa",
+          "aspiration": "mahāprāṇa"
+        },
+        {
+          "symbol": "ग",
+          "transliteration": "ga",
+          "ipa": "[ɡ]",
+          "voicing": "saghoṣa",
+          "aspiration": "alpaprāṇa"
+        },
+        {
+          "symbol": "घ",
+          "transliteration": "gha",
+          "ipa": "[ɡʱ]",
+          "voicing": "saghoṣa",
+          "aspiration": "mahāprāṇa"
+        },
+        {
+          "symbol": "ङ",
+          "transliteration": "ṅa",
+          "ipa": "[ŋ]",
+          "voicing": "anunāsika",
+          "aspiration": "alpaprāṇa"
+        },
+        {
+          "symbol": "ह",
+          "transliteration": "ha",
+          "ipa": "[ɦ]",
+          "voicing": "ūṣman/saṃgharṣī",
+          "aspiration": "saghoṣa"
+        }
+      ]
+    },
+    {
+      "phonetic_category": "tālavya (Palatal)",
+      "consonants": [
+        {
+          "symbol": "च",
+          "transliteration": "ca",
+          "ipa": "[tʃ]",
+          "voicing": "aghoṣa",
+          "aspiration": "alpaprāṇa"
+        },
+        {
+          "symbol": "छ",
+          "transliteration": "cha",
+          "ipa": "[tʃʰ]",
+          "voicing": "aghoṣa",
+          "aspiration": "mahāprāṇa"
+        },
+        {
+          "symbol": "ज",
+          "transliteration": "ja",
+          "ipa": "[dʒ]",
+          "voicing": "saghoṣa",
+          "aspiration": "alpaprāṇa"
+        },
+        {
+          "symbol": "झ",
+          "transliteration": "jha",
+          "ipa": "[dʒʱ]",
+          "voicing": "saghoṣa",
+          "aspiration": "mahāprāṇa"
+        },
+        {
+          "symbol": "ञ",
+          "transliteration": "ña",
+          "ipa": "[ɲ]",
+          "voicing": "anunāsika",
+          "aspiration": "alpaprāṇa"
+        },
+        {
+          "symbol": "य",
+          "transliteration": "ya",
+          "ipa": "[j]",
+          "voicing": "antastha",
+          "aspiration": "alpaprāṇa"
+        },
+        {
+          "symbol": "श",
+          "transliteration": "śa",
+          "ipa": "[ʃ]",
+          "voicing": "ūṣman/saṃgharṣī",
+          "aspiration": "alpaprāṇa"
+        }
+      ]
+    },
+    {
+      "phonetic_category": "mūrdhanya (Retroflex)",
+      "consonants": [
+        {
+          "symbol": "ट",
+          "transliteration": "ṭa",
+          "ipa": "[ʈ]",
+          "voicing": "aghoṣa",
+          "aspiration": "alpaprāṇa"
+        },
+        {
+          "symbol": "ठ",
+          "transliteration": "ṭha",
+          "ipa": "[ʈʰ]",
+          "voicing": "aghoṣa",
+          "aspiration": "mahāprāṇa"
+        },
+        {
+          "symbol": "ड",
+          "transliteration": "ḍa",
+          "ipa": "[ɖ]",
+          "voicing": "saghoṣa",
+          "aspiration": "alpaprāṇa"
+        },
+        {
+          "symbol": "ढ",
+          "transliteration": "ḍha",
+          "ipa": "[ɖʱ]",
+          "voicing": "saghoṣa",
+          "aspiration": "mahāprāṇa"
+        },
+        {
+          "symbol": "ण",
+          "transliteration": "ṇa",
+          "ipa": "[ɳ]",
+          "voicing": "anunāsika",
+          "aspiration": "alpaprāṇa"
+        },
+        {
+          "symbol": "र",
+          "transliteration": "ra",
+          "ipa": "[r]",
+          "voicing": "antastha",
+          "aspiration": "alpaprāṇa"
+        },
+        {
+          "symbol": "ष",
+          "transliteration": "ṣa",
+          "ipa": "[ʂ]",
+          "voicing": "ūṣman/saṃgharṣī",
+          "aspiration": "alpaprāṇa"
+        }
+      ]
+    },
+    {
+      "phonetic_category": "dantya (Dental)",
+      "consonants": [
+        {
+          "symbol": "त",
+          "transliteration": "ta",
+          "ipa": "[t̪]",
+          "voicing": "aghoṣa",
+          "aspiration": "alpaprāṇa"
+        },
+        {
+          "symbol": "थ",
+          "transliteration": "tha",
+          "ipa": "[t̪ʰ]",
+          "voicing": "aghoṣa",
+          "aspiration": "mahāprāṇa"
+        },
+        {
+          "symbol": "द",
+          "transliteration": "da",
+          "ipa": "[d̪]",
+          "voicing": "saghoṣa",
+          "aspiration": "alpaprāṇa"
+        },
+        {
+          "symbol": "ध",
+          "transliteration": "dha",
+          "ipa": "[d̪ʱ]",
+          "voicing": "saghoṣa",
+          "aspiration": "mahāprāṇa"
+        },
+        {
+          "symbol": "न",
+          "transliteration": "na",
+          "ipa": "[n]",
+          "voicing": "anunāsika",
+          "aspiration": "alpaprāṇa"
+        },
+        {
+          "symbol": "ल",
+          "transliteration": "la",
+          "ipa": "[l]",
+          "voicing": "antastha",
+          "aspiration": "alpaprāṇa"
+        },
+        {
+          "symbol": "स",
+          "transliteration": "sa",
+          "ipa": "[s]",
+          "voicing": "ūṣman/saṃgharṣī",
+          "aspiration": "alpaprāṇa"
+        }
+      ]
+    },
+    {
+      "phonetic_category": "oṣṭhya (Labial)",
+      "consonants": [
+        {
+          "symbol": "प",
+          "transliteration": "pa",
+          "ipa": "[p]",
+          "voicing": "aghoṣa",
+          "aspiration": "alpaprāṇa"
+        },
+        {
+          "symbol": "फ",
+          "transliteration": "pha",
+          "ipa": "[pʰ]",
+          "voicing": "aghoṣa",
+          "aspiration": "mahāprāṇa"
+        },
+        {
+          "symbol": "ब",
+          "transliteration": "ba",
+          "ipa": "[b]",
+          "voicing": "saghoṣa",
+          "aspiration": "alpaprāṇa"
+        },
+        {
+          "symbol": "भ",
+          "transliteration": "bha",
+          "ipa": "[bʱ]",
+          "voicing": "saghoṣa",
+          "aspiration": "mahāprāṇa"
+        },
+        {
+          "symbol": "म",
+          "transliteration": "ma",
+          "ipa": "[m]",
+          "voicing": "anunāsika",
+          "aspiration": "alpaprāṇa"
+        },
+        {
+          "symbol": "व",
+          "transliteration": "va",
+          "ipa": "[ʋ]",
+          "voicing": "antastha",
+          "aspiration": "alpaprāṇa"
+        }
+      ]
+    }
+  ]
+}
