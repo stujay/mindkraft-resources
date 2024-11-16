@@ -1,0 +1,81 @@
+#!/bin/bash
+
+# Function to list available voices for a given language
+list_voices() {
+    local language=$1
+    say -v ? | awk -v lang="$language" '$2 ~ lang {printf"%s\n", $1}' | fzf --height 40% --header "Select a voice for $language"
+}
+
+# Function to detect file type and set delimiter
+detect_file_type() {
+    local file=$1
+    case "${file##*.}" in
+        csv) echo ',' ;;
+        tsv) echo $'\t' ;;
+        *) echo ',' ;; # default to CSV
+    esac
+}
+
+# Main function
+main() {
+    # Check for fzf installation
+    if ! command -v fzf &> /dev/null; then
+        echo "fzf is required but not installed. Please install fzf and try again."
+        exit 1
+    fi
+
+    # Handle file input
+    local inputfile=$1
+    if [[ -z $inputfile || ! -f $inputfile ]]; then
+        # List files in the current directory for selection
+        inputfile=$(ls | fzf --height 40% --header "Select a CSV/TSV file")
+    fi
+
+    local delimiter=$(detect_file_type "$inputfile")
+    local totallines=$(cat "$inputfile" | wc -l)
+    echo "Selected file: $inputfile (Total lines: $totallines)"
+
+    # Source language setup
+    local inputlanguage=$(echo "en\nda\nno\nsv\nis" | fzf --height 40% --header "Select source language (ISO 2 letter code)")
+    local inputcolumn=$(seq 1 $(awk -F"$delimiter" '{print NF; exit}' "$inputfile") | fzf --height 40% --header "Select column for source language ($inputlanguage)")
+    local speaker1=$(list_voices "$inputlanguage")
+    echo "You chose $speaker1 for source language"
+
+    # Output language setup
+    local outputlanguage=$(echo "en\nda\nno\nsv\nis" | fzf --height 40% --header "Select output language (ISO 2 letter code)")
+    local outputcolumn=$(seq 1 $(awk -F"$delimiter" '{print NF; exit}' "$inputfile") | fzf --height 40% --header "Select column for output language ($outputlanguage)")
+    local speaker2=$(list_voices "$outputlanguage")
+    echo "You chose $speaker2 for output language"
+
+    # Line range setup
+    read -p 'Start line for exporting audio: ' startline
+    read -p 'End line for exporting audio: ' endline
+
+    # Process and generate audio files
+    process_lines "$inputfile" "$startline" "$endline" "$inputcolumn" "$speaker1" "$outputcolumn" "$speaker2" "$delimiter"
+}
+
+# Function to process lines and generate audio
+process_lines() {
+    local inputfile=$1 start=$2 end=$3
+    local inputcolumn=$4 speaker1=$5 outputcolumn=$6 speaker2=$7 delimiter=${8}
+
+    local tempfolder="tmp-${start}-${end}"
+    rm -rf "${tempfolder}"
+    mkdir -p "${tempfolder}"
+
+    awk -v start=$start -v end=$end -v ic=$inputcolumn -v oc=$outputcolumn -F"$delimiter" \
+        'NR>=start && NR<=end {print $ic, $oc}' "$inputfile" | while IFS=' ' read -r lang1 lang2; do
+        # Generate audio for each sentence
+        say -v "$speaker1" "$lang1" -o "${tempfolder}/${start}.source.aiff"
+        say -v "$speaker2" "$lang2" -o "${tempfolder}/${start}.target.aiff"
+        ((start++))
+    done
+
+    # Concatenate and convert to WAV
+    sox $(ls "${tempfolder}"/*.aiff | sort -n) "${tempfolder}/lang-audio-${start}-${end}-${speaker1}-${speaker2}.wav"
+    rm -rf "${tempfolder}"
+}
+
+# Run the main function with optional file argument
+main "$@"

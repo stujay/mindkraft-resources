@@ -1,0 +1,45 @@
+#!/bin/bash
+
+# Default output field separator set to tab
+output_fs=$'\t'
+
+# Parse options
+while getopts "O:" opt; do
+  case ${opt} in
+    O )
+      output_fs="$OPTARG"
+      ;;
+    \? )
+      echo "Usage: cmd [-O output_field_separator] <input_file>"
+      exit 1
+      ;;
+  esac
+done
+shift $((OPTIND -1))
+
+# Check for input file argument
+if [ "$#" -lt 1 ]; then
+    echo "Usage: $0 [-O output_field_separator] <input.csv>"
+    exit 1
+fi
+
+input_file="$1"
+
+# Use awk to transpose the input file
+awk -v OFS="$output_fs" '
+BEGIN { FS="," }
+{
+    for (i=1; i<=NF; i++) {
+        a[NR,i] = $i
+    }
+}
+NF>p { p = NF }
+END {
+    for(j=1; j<=p; j++) {
+        str=a[1,j]
+        for(i=2; i<=NR; i++){
+            str=str OFS a[i,j]
+        }
+        print str
+    }
+}' "$input_file"

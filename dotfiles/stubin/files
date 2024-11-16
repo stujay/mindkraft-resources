@@ -1,0 +1,61 @@
+#!/bin/bash
+# This program can be called to:
+# 1. list all the files between a date range
+# 2. list all the files for today (default)
+# 3. just list files
+# Function to check if exa is installed
+#!/bin/bash
+
+# Check if exa is installed
+if command -v exa &> /dev/null; then
+    LIST_CMD="exa -l"
+else
+    LIST_CMD="ls -l"
+fi
+
+# Function to convert date to format: YYYY-MM-DD
+convert_date() {
+    if [[ $1 == "today" ]]; then
+        echo $(date +%Y-%m-%d)
+    else
+        echo $1
+    fi
+}
+
+# Check for the -h option to include hidden files
+INCLUDE_HIDDEN=false
+if [[ " $* " == *" -h "* ]]; then
+    INCLUDE_HIDDEN=true
+    # Remove the -h option from the arguments
+    set -- "${@/-h/}"
+fi
+
+FIND_CMD="find . -type f"
+# Exclude hidden files/directories if -h is not provided
+if [ "$INCLUDE_HIDDEN" = false ]; then
+    FIND_CMD="$FIND_CMD ! -path '*/.*'"
+fi
+
+# No parameters: list files modified today
+if [ $# -eq 0 ]; then
+    today=$(date +%Y-%m-%d)
+    eval $FIND_CMD -newermt "$today" ! -newermt "$(date -d "$today + 1 day" +%Y-%m-%d)" -exec $LIST_CMD {} +
+else
+    # Single date or 'today'
+    if [ $# -eq 1 ]; then
+        date=$(convert_date $1)
+        eval $FIND_CMD -newermt "$date" ! -newermt "$(date -d "$date + 1 day" +%Y-%m-%d)" -exec $LIST_CMD {} +
+    # Date range
+    elif [ $# -eq 2 ]; then
+        startDate=$(convert_date $1)
+        endDate=$(convert_date $2)
+        eval $FIND_CMD -newermt "$startDate" ! -newermt "$(date -d "$endDate + 1 day" +%Y-%m-%d)" -exec $LIST_CMD {} +
+    else
+        echo "Usage: $0 [-h] [start_date] [end_date]"
+        echo "       $0 [-h] [date]"
+        echo "       $0 [-h] today"
+        echo "       $0 [-h]"
+        exit 1
+    fi
+fi
+

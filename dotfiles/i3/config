@@ -314,3 +314,5 @@ bindsym $mod+Ctrl+Left move workspace to output left
 bindsym $mod+Ctrl+Up move workspace to output up
 bindsym $mod+Ctrl+Down move workspace to output down
 bindsym $mod+Ctrl+s move workspace to output HDMI-1
+bindsym $mod+Shift+d exec ~/mindkraft-resources/dotfiles/i3/rofi-apps.sh
+
