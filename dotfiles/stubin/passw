@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Navigate to password store
+cd ~/.password-store || exit 1
+
+# Use fzf to fuzzy-find an entry
+selected=$(find . -type f -name '*.gpg' \
+  | sed 's|^\./||' \
+  | sed 's|\.gpg$||' \
+  | fzf --prompt="🔍 Pass entry: " --preview 'pass show {}' --height=40% --layout=reverse --border)
+
+# If something was selected, show it
+[[ -n "$selected" ]] && pass show "$selected"
