@@ -1,0 +1,41 @@
+#!/bin/bash
+
+# Usage: ./copyenv .env > scrubbed.env
+# or:    ./copyenv .env | pbcopy
+
+input_file="$1"
+
+if [[ ! -f "$input_file" ]]; then
+  echo "File not found: $input_file" >&2
+  exit 1
+fi
+
+while IFS= read -r line; do
+  # Skip empty lines and comments
+  if [[ "$line" =~ ^[[:space:]]*$ || "$line" =~ ^[[:space:]]*# ]]; then
+    echo "$line"
+    continue
+  fi
+
+  # Parse KEY=VALUE
+  if [[ "$line" =~ ^([A-Za-z0-9_]+)=(.*)$ ]]; then
+    key="${BASH_REMATCH[1]}"
+    value="${BASH_REMATCH[2]}"
+
+    # Check for keys containing 'secret', 'token', or 'key' (case-insensitive)
+    if [[ "$key" =~ [Ss][Ee][Cc][Rr][Ee][Tt] || "$key" =~ [Tt][Oo][Kk][Ee][Nn] || "$key" =~ [Kk][Ee][Yy] ]]; then
+      val_len="${#value}"
+      if (( val_len > 10 )); then
+        redacted="${value:0:4}...[REDACTED]...${value: -4}"
+      else
+        redacted="...[REDACTED]..."
+      fi
+      echo "${key}=${redacted}"
+    else
+      echo "$line"
+    fi
+  else
+    # Not a KEY=VALUE line — output as-is
+    echo "$line"
+  fi
+done < "$input_file"
