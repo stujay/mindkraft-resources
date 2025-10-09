@@ -1,0 +1,76 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Defaults (override via env if you like)
+MODEL_NAME="${WHISPER_MODEL:-ggml-small.bin}"
+MODEL_DIR="${HOME}/.config/whisper-stream/models"
+MODEL_PATH="${MODEL_DIR}/${MODEL_NAME}"
+THREADS="${WHISPER_THREADS:-8}"
+CAPTURE_ID="0"               # 0 = current macOS default input
+LANG_CODE="auto"             # th / en / auto
+ARGS=()                      # extra flags passed through to whisper-stream
+
+# Parse our “known” flags and pass the rest through
+while [[ $# -gt 0 ]]; do
+  case "$1" in
+    -l|--language) LANG_CODE="${2:?}"; shift 2 ;;
+    -c|--capture)  CAPTURE_ID="${2:?}"; shift 2 ;;
+    -t|--threads)  THREADS="${2:?}"; shift 2 ;;
+    -m|--model)    MODEL_NAME="${2:?}"; MODEL_PATH="${MODEL_DIR}/${MODEL_NAME}"; shift 2 ;;
+    -h|--help)
+      cat <<EOF
+Usage: $(basename "$0") [flags]
+
+Common flags (forwarded to whisper-stream):
+  -l, --language   th|en|auto        (default: auto)
+  -c, --capture    DEVICE_ID         (default: 0 = macOS default input)
+  -t, --threads    N                 (default: 8)
+  -m, --model      ggml-*.bin        (default: ggml-small.bin)
+  -tr              translate to English
+  -sa              also save captured audio (WAV)
+Any other whisper-stream flags you add are passed through.
+
+Models live in: ${MODEL_DIR}
+EOF
+      exit 0
+      ;;
+    *)
+      ARGS+=("$1"); shift ;;
+  esac
+done
+
+# Ensure model exists (download if missing)
+mkdir -p "${MODEL_DIR}"
+if [[ ! -s "${MODEL_PATH}" ]]; then
+  echo "Model ${MODEL_NAME} not found. Downloading to ${MODEL_PATH} ..."
+  curl -L --retry 3 -C - -o "${MODEL_PATH}" \
+    "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/${MODEL_NAME}?download=true"
+fi
+# Guard against 404 HTML
+if head -c 15 "${MODEL_PATH}" | grep -qi '<html>'; then
+  echo "Downloaded file looks like HTML (404). Remove and re-run:"
+  echo "  rm -f '${MODEL_PATH}'"
+  exit 1
+fi
+
+STAMP="$(date +%Y%m%d-%H%M%S)"
+OUT_FILE="$(pwd)/${STAMP}_${LANG_CODE}_whisper-stream-dictation.txt"
+
+echo "Starting whisper-stream:"
+echo "  model     : ${MODEL_PATH}"
+echo "  capture id: ${CAPTURE_ID}"
+echo "  language  : ${LANG_CODE}"
+echo "  threads   : ${THREADS}"
+echo "  output    : ${OUT_FILE}"
+echo "  extra args: ${ARGS[*]-}"
+echo
+
+if ((${#ARGS[@]})); then
+  /opt/homebrew/bin/whisper-stream \
+    -m "${MODEL_PATH}" -c "${CAPTURE_ID}" -l "${LANG_CODE}" -t "${THREADS}" \
+    -f "${OUT_FILE}" "${ARGS[@]}"
+else
+  /opt/homebrew/bin/whisper-stream \
+    -m "${MODEL_PATH}" -c "${CAPTURE_ID}" -l "${LANG_CODE}" -t "${THREADS}" \
+    -f "${OUT_FILE}"
+fi
