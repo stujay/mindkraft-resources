@@ -1,0 +1,68 @@
+#!/usr/bin/env bash
+# /usr/local/bin/phonemonitor
+# CLF: Phone Monitor
+#!/usr/bin/env bash
+# /usr/local/bin/phonemonitor
+# CLF: Phone Monitor
+# Usage:
+#   phonemonitor [low|med|high] [ip:port]
+#   e.g. phonemonitor high 192.168.3.158:5555
+#   - Defaults to med quality, 192.168.3.2:5555
+#
+# Priority:
+#   1. Use USB if present
+#   2. Else try IP (arg or default)
+
+set -euo pipefail
+export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
+
+# --- Config ---
+DEFAULT_IP="192.168.3.2:5555"
+TITLE="AndroidCam"
+
+# Quality presets
+LOW_VB="8M";   LOW_MS="720"
+MED_VB="12M";  MED_MS="1080"
+HIGH_VB="32M"; HIGH_MS="2160"
+
+preset="${1:-med}"
+TARGET_IP="${2:-$DEFAULT_IP}"
+
+case "$preset" in
+  low)  VB="$LOW_VB";  MS="$LOW_MS" ;;
+  high) VB="$HIGH_VB"; MS="$HIGH_MS" ;;
+  *)    VB="$MED_VB";  MS="$MED_MS" ;;
+esac
+
+command -v adb >/dev/null || { echo "[ERROR] adb not found"; exit 1; }
+command -v scrcpy >/dev/null || { echo "[ERROR] scrcpy not found"; exit 1; }
+
+adb start-server >/dev/null 2>&1
+
+# --- Prefer USB if available ---
+USB_SERIAL="$(adb devices | awk '/device$/{print $1}' | grep -v ':' | head -n1 || true)"
+if [[ -n "$USB_SERIAL" ]]; then
+  echo "[OK] Using USB device ($USB_SERIAL)"
+  exec scrcpy -s "$USB_SERIAL" \
+    --video-bit-rate "$VB" \
+    --max-size "$MS" \
+    --stay-awake \
+    --turn-screen-off \
+    --window-title "$TITLE"
+fi
+
+# --- Otherwise, try Wi-Fi ---
+echo "[INFO] No USB detected; trying Wi-Fi (${TARGET_IP}) ..."
+adb connect "${TARGET_IP}" >/dev/null 2>&1 || true
+
+if adb devices | grep -E -q "${TARGET_IP}[[:space:]]+device"; then
+  echo "[OK] Connected via Wi-Fi (${TARGET_IP})"
+  exec scrcpy -s "${TARGET_IP}" \
+    --video-bit-rate "$VB" \
+    --max-size "$MS" \
+    --stay-awake \
+    --window-title "$TITLE"
+fi
+
+echo "[ERROR] No Android device detected over USB or Wi-Fi."
+exit 1

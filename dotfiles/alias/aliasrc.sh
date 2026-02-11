@@ -1,66 +1,47 @@
-alias ldir='ls -d */'
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+# aliasrc.sh
+# Shared aliases and functions for the mindkraft group
+# Source from .zshrc: source ~/mindkraft-resources/dotfiles/alias/aliasrc.sh
 
-alias yta='youtube-dl --extract-audio --audio-format mp3 '
-alias yti='youtube-dl --write-thumbnail --skip-download'
-function getvoice(){
-	[ -z "$1" ] && voicename='Karen' || voicename=$1
-	say -v ? | grep $voicename | awk 'BEGIN {FS="\#"}; {print $2}' | say -v $voicename
-}
-
-alias rfresh='exec zsh && source .zshrc'
-
-function csvcolumns(){
-awk 'BEGIN{ FS="," }
-       { for(fn=1;fn<=NF;fn++) {print fn" = "$fn;}; exit; }
-      ' $1 
-}
-#alias lines=find . -maxdepth 1 -exec sh -c '[ -f "$0" ] &&  printf "%6s\t\t%s\t%s\n" "$(wc -l<"$0")" "$0"' {} \;' 
-alias pg='pg_ctl -D /usr/local/var/postgres start'
-alias pgstop='pg_ctl -D /usr/local/var/postgres stop'
-export PATH="/usr/local/opt/icu4c/bin:$PATH"
-export PATH="/usr/local/opt/icu4c/sbin:$PATH"
-
+# ---------------------------------------------------------------------------
+# Generic Aliases
+# ---------------------------------------------------------------------------
 alias vim="nvim"
 alias vi="nvim"
-alias gpu="git push -u origin master"
-
-alias wififull='sudo iwlist wlan0 scanning | egrep "Cell |Encryption|Quality|Last beacon|ESSID"'
-alias swifi='sudo iwlist wlan0 scanning | egrep "ESSID"'
-alias zzz='xset dpms force off'
-set -o vi
-alias perms="ls -a | xargs stat --printf='Name: %n\nPermissions: %a\n%A\n\n'"
+alias ldir='ls -d */'
+alias rfresh='exec zsh'
 alias getlarge="du -ah ./ | sort -n -r | head -n 20"
 
-alias airtraffic="sudo dump1090-mutability --interactive --net"
+# YouTube (works with youtube-dl or yt-dlp aliased to youtube-dl)
+alias yta='youtube-dl --extract-audio --audio-format mp3'
+alias yti='youtube-dl --write-thumbnail --skip-download'
 
-# LastPass with fzf (multiple selections)
-lpp() {
-    local selected_ids
-    local selected_accounts
+# Postgres
+alias pg='pg_ctl -D /usr/local/var/postgres start'
+alias pgstop='pg_ctl -D /usr/local/var/postgres stop'
 
-    selected_ids=$(lpass ls | fzf --ansi --preview "lpass show --notes {+}" --multi | awk '{print $NF}' | tr -d '[]')
-    selected_accounts=$(lpass ls | grep -F "$selected_ids" | awk -F ' \\[id:' '{print $1}' | awk '{$NF=""; print $0}')
+# ---------------------------------------------------------------------------
+# Functions
+# ---------------------------------------------------------------------------
 
-    if [[ -n $selected_ids ]]; then
-        echo "$selected_ids" | xargs -I {} sh -c "lpass show {} && printf '%.0s-' {1..50} && echo"
-    fi
-}
-# LastPass with fzf
-lp() {
-    local selected_id
-    local selected_account
-
-    selected_id=$(lpass ls | fzf --ansi --preview "lpass show --notes {+}" | awk '{print $NF}' | tr -d '[]')
-    selected_account=$(lpass ls | grep "$selected_id" | awk -F ' \\[id:' '{print $1}' | awk '{$NF=""; print $0}')
-
-    if [[ -n $selected_id ]]; then
-        lpass show --password "$selected_id" | pbcopy
-        echo "Password for $selected_account copied to clipboard."
-    fi
+# List CSV column names with their index
+csvcolumns() {
+    awk 'BEGIN{ FS="," }
+         { for(fn=1;fn<=NF;fn++) {print fn" = "$fn;}; exit; }
+        ' $1
 }
 
-alias launch="~/mindkraft-resources/dotfiles/stubin/launch_app -s"
-alias scim="sc-im" #spreadsheet vim ... need to install if not yet done
-alias scim=sc-im
-alias youtube-hd="yt-dlp -f 137+140 --merge-output-format mp4"
+# Hear what a macOS voice sounds like
+getvoice() {
+    [ -z "$1" ] && voicename='Karen' || voicename=$1
+    say -v ? | grep $voicename | awk 'BEGIN {FS="\#"}; {print $2}' | say -v $voicename
+}
+
+# ---------------------------------------------------------------------------
+# Linux-only (uncomment on Linux machines)
+# ---------------------------------------------------------------------------
+# alias wififull='sudo iwlist wlan0 scanning | egrep "Cell |Encryption|Quality|Last beacon|ESSID"'
+# alias swifi='sudo iwlist wlan0 scanning | egrep "ESSID"'
+# alias zzz='xset dpms force off'
+# alias perms="ls -a | xargs stat --printf='Name: %n\nPermissions: %a\n%A\n\n'"
+# alias airtraffic="sudo dump1090-mutability --interactive --net"
+#alias lines='find . -maxdepth 1 -exec sh -c '\''[ -f "$0" ] && printf "%6s\t\t%s\t%s\n" "$(wc -l<"$0")" "$0"'\'' {} \;'
