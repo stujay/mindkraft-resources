@@ -1,0 +1,26 @@
+#!/bin/bash
+
+# =============================================
+# YouTube Downloader Script (Best for Premiere)
+# Usage: youtube <YouTube_URL>
+# =============================================
+
+if [ -z "$1" ]; then
+    echo "Usage: youtube <YouTube_URL>"
+    echo "Example: youtube https://www.youtube.com/watch?v=JYkvnRGHri4"
+    exit 1
+fi
+
+URL="$1"
+
+echo "🔽 Downloading best quality Premiere-compatible MP4 (AVC/AAC)..."
+
+yt-dlp \
+    -f "bestvideo[height<=1080][fps<=60][vcodec^=avc1]+bestaudio[ext=m4a]/best[vcodec^=avc1]" \
+    --merge-output-format mp4 \
+    --restrict-filenames \
+    --no-mtime \
+    -o "%(title)s.%(ext)s" \
+    "$URL"
+
+echo "✅ Done!"
