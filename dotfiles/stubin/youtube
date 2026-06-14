@@ -1,26 +1,49 @@
-#!/bin/bash
+# ~/bin/youtube
 
+#!/bin/bash
 # =============================================
-# YouTube Downloader Script (Best for Premiere)
-# Usage: youtube <YouTube_URL>
+# YouTube Downloader Script (Premiere & Audition Proxy)
+# Usage: youtube [--proxy] <YouTube_URL>
 # =============================================
+
+CREATE_PROXY=0
+
+# Parse arguments for the proxy flag
+if [[ "$1" == "--proxy" || "$1" == "--lowres" ]]; then
+    CREATE_PROXY=1
+    shift # Shift the arguments so $1 becomes the URL
+fi
 
 if [ -z "$1" ]; then
-    echo "Usage: youtube <YouTube_URL>"
-    echo "Example: youtube https://www.youtube.com/watch?v=JYkvnRGHri4"
+    echo "Usage: youtube [--proxy] <YouTube_URL>"
+    echo "Example: youtube --proxy https://www.youtube.com/watch?v=JYkvnRGHri4"
     exit 1
 fi
 
 URL="$1"
 
-echo "🔽 Downloading best quality Premiere-compatible MP4 (AVC/AAC)..."
+echo "[*] Downloading best quality Premiere-compatible MP4 (AVC/AAC)..."
 
-yt-dlp \
-    -f "bestvideo[height<=1080][fps<=60][vcodec^=avc1]+bestaudio[ext=m4a]/best[vcodec^=avc1]" \
-    --merge-output-format mp4 \
-    --restrict-filenames \
-    --no-mtime \
-    -o "%(title)s.%(ext)s" \
-    "$URL"
+if [ $CREATE_PROXY -eq 1 ]; then
+    echo "[*] Proxy Mode Enabled: ProRes conversion will begin after download."
+    # Use --exec to pass the exact downloaded filename '{}' directly to ffmpeg
+    yt-dlp \
+        -f "bestvideo[height<=1080][fps<=60][vcodec^=avc1]+bestaudio[ext=m4a]/best[vcodec^=avc1]" \
+        --merge-output-format mp4 \
+        --restrict-filenames \
+        --no-mtime \
+        -o "%(title)s.%(ext)s" \
+        --exec "echo '[*] Generating ProRes Proxy for Audition...'; ffmpeg -y -i {} -vf scale=1280:-1 -c:v prores_ks -profile:v 0 -c:a pcm_s16le {}.Proxy.mov" \
+        "$URL"
+else
+    # Standard download without proxy generation
+    yt-dlp \
+        -f "bestvideo[height<=1080][fps<=60][vcodec^=avc1]+bestaudio[ext=m4a]/best[vcodec^=avc1]" \
+        --merge-output-format mp4 \
+        --restrict-filenames \
+        --no-mtime \
+        -o "%(title)s.%(ext)s" \
+        "$URL"
+fi
 
-echo "✅ Done!"
+echo "[*] Done."
