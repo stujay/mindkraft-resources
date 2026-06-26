@@ -1,49 +1,59 @@
-# ~/bin/youtube
-
 #!/bin/bash
 # =============================================
 # YouTube Downloader Script (Premiere & Audition Proxy)
-# Usage: youtube [--proxy] <YouTube_URL>
+# Usage: youtube [--proxy] [--subs] <YouTube_URL>
 # =============================================
 
 CREATE_PROXY=0
+DOWNLOAD_SUBS=0
+URL=""
 
-# Parse arguments for the proxy flag
-if [[ "$1" == "--proxy" || "$1" == "--lowres" ]]; then
-    CREATE_PROXY=1
-    shift # Shift the arguments so $1 becomes the URL
-fi
+# Parse arguments
+while [[ "$#" -gt 0 ]]; do
+    case $1 in
+        --proxy|--lowres) CREATE_PROXY=1 ;;
+        --subs) DOWNLOAD_SUBS=1 ;;
+        *) URL="$1" ;;
+    esac
+    shift
+done
 
-if [ -z "$1" ]; then
-    echo "Usage: youtube [--proxy] <YouTube_URL>"
-    echo "Example: youtube --proxy https://www.youtube.com/watch?v=JYkvnRGHri4"
+if [ -z "$URL" ]; then
+    echo "Usage: youtube [--proxy] [--subs] <YouTube_URL>"
+    echo "Example: youtube --subs --proxy https://www.youtube.com/watch?v=JYkvnRGHri4"
     exit 1
 fi
 
-URL="$1"
-
 echo "[*] Downloading best quality Premiere-compatible MP4 (AVC/AAC)..."
 
+# Core flags for Premiere compatibility and anti-bot circumvention
+# Note: Change 'chrome' to your primary browser if different
+YT_FLAGS=(
+    -f "bestvideo[height<=1080][fps<=60][vcodec^=avc1]+bestaudio[ext=m4a]/best[vcodec^=avc1]"
+    --merge-output-format mp4
+    --restrict-filenames
+    --no-mtime
+    --cookies-from-browser chrome
+    -o "%(title)s.%(ext)s"
+)
+
+# Append subtitle flags if requested
+if [ $DOWNLOAD_SUBS -eq 1 ]; then
+    echo "[*] Subtitle extraction enabled (English & Thai to .srt)..."
+    YT_FLAGS+=(
+        --write-auto-sub
+        --write-sub
+        --sub-lang "en,th"
+        --convert-subs srt
+    )
+fi
+
+# Execute the download
 if [ $CREATE_PROXY -eq 1 ]; then
     echo "[*] Proxy Mode Enabled: ProRes conversion will begin after download."
-    # Use --exec to pass the exact downloaded filename '{}' directly to ffmpeg
-    yt-dlp \
-        -f "bestvideo[height<=1080][fps<=60][vcodec^=avc1]+bestaudio[ext=m4a]/best[vcodec^=avc1]" \
-        --merge-output-format mp4 \
-        --restrict-filenames \
-        --no-mtime \
-        -o "%(title)s.%(ext)s" \
-        --exec "echo '[*] Generating ProRes Proxy for Audition...'; ffmpeg -y -i {} -vf scale=1280:-1 -c:v prores_ks -profile:v 0 -c:a pcm_s16le {}.Proxy.mov" \
-        "$URL"
+    yt-dlp "${YT_FLAGS[@]}" --exec "echo '[*] Generating ProRes Proxy for Audition...'; ffmpeg -y -i {} -vf scale=1280:-1 -c:v prores_ks -profile:v 0 -c:a pcm_s16le {}.Proxy.mov" "$URL"
 else
-    # Standard download without proxy generation
-    yt-dlp \
-        -f "bestvideo[height<=1080][fps<=60][vcodec^=avc1]+bestaudio[ext=m4a]/best[vcodec^=avc1]" \
-        --merge-output-format mp4 \
-        --restrict-filenames \
-        --no-mtime \
-        -o "%(title)s.%(ext)s" \
-        "$URL"
+    yt-dlp "${YT_FLAGS[@]}" "$URL"
 fi
 
 echo "[*] Done."
